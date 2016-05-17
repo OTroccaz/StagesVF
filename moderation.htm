@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,7 +26,7 @@ session_start();
                if(isset($_SESSION['status'])) {
                   if($_SESSION['status']=="Administrateur")
                   { ?>
-                     <li><a href="moderation.php">Modération</a></li>
+                     <li class="active"><a href="moderation.php">Modération</a></li>
                      <?php
                   }
                }
@@ -39,15 +35,11 @@ session_start();
          </div><!--/.nav-collapse -->
       </div>
    </div>
-   <!-- Texte de présentation -->
-   <div style="text-align:justify; margin-left:20%; margin-right:20%">VegFrance est une plateforme nationale publique conçue de façon à pouvoir réunir toutes données disponibles pour décrire la végétation du territoire français (métropolitain et d’outre-mer). VegFrance est constitué de trois bases de données afin de couvrir la diversité de relevés de végétation :
-      <br>
-      <ol class="bbcode 1" style="list-style-type: 1">
-         <li class="bbcode 1"> la base de données « Relevé » recense des relevés stationnels ;<br></li>
-         <li class="bbcode 1">	la base « Syntaxon » compile des relevés synthétiques, à l’échelle des communautés végétales ;<br></li>
-         <li class="bbcode 1">	la base « Landscape » enfin regroupe des relevés à l’échelle du paysage.<br></li>
-      </ol>L’objectif principal est de répondre aux besoins de connaissances sur la végétation pour les acteurs de la recherche, de la protection et de la gestion des habitats et des espèces et de l’aménagement du territoire.<br>
-      </br><b>L'usage de ce site est consacré à l'accès à la base de données de VegFrance. Pour plus d'informations sur le projet en lui-même, consultez le site de <a href="https://vegfrance.univ-rennes1.fr/">VegFrance</a>.</b>
+   <div>
+      <button type="button" style="margin-left:5%" onclick="location.href='disconnect.php'" class="btn btn-secondary">Se déconnecter</button>
+      <center>
+         <h2>Modération des utilisateurs</h2>
+      </center>
    </div>
 </body>
 </html>

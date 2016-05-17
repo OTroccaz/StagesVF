@@ -37,8 +37,15 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       echo "Le fichier n'existe pas";
    }
 } else {
-   echo '<p>Vous n\'êtes pas autorisé(e) à acceder à cette zone</p>';
-   include('login.htm');
+   echo '<p style="text-align:center">Vous n\'êtes pas autorisé(e) à acceder à cette zone</p>';
+   ?>
+   <!DOCTYPE html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Connexion VegFrance</title>
+   </head>
+   <?php
+   include('sign_in.htm');
    exit;
 }
 ?>

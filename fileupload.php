@@ -16,6 +16,8 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    $bdd = connexionMySQL();
    /* CONNEXION FAITE */
 
+   include('blank_page.htm');
+
    function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE)
    {
       //Test1: fichier correctement uploadé
@@ -84,9 +86,14 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    } else {
       // Sinon génération HTML + php adéquat
       ?>
+      <!DOCTYPE html>
       <html>
+      <head>
+         <title> Upload </title>
+         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      </head>
       <div>
-         <a href="disconnect.php">Se déconnecter</a>
+         <button type="button" onclick="disconnect.php" class="btn btn-secondary">Se déconnecter</button>
          <center>
             <h2> Confirmation de l'upload </h2>
             <?php
@@ -95,10 +102,10 @@ if ($connect == "1") // Si le visiteur s'est identifié.
             // Attention à la dateTime, source d'erreurs
             $req = $bdd->prepare('INSERT INTO files(up_filename, up_type, up_filesize, up_finalname, up_filedate) VALUES(?,?,?,?,?)');
             $req->execute(array(
-               $_FILES['fichier_importe']['name'],
-               $_POST['type_de_donnees'],
-               $_FILES['fichier_importe']['size'],
-               $_POST['type_de_donnees']. '_'.$_FILES['fichier_importe']['name'],
+               htmlspecialchars($_FILES['fichier_importe']['name']),
+               htmlspecialchars($_POST['type_de_donnees']),
+               htmlspecialchars($_FILES['fichier_importe']['size']),
+               htmlspecialchars($_POST['type_de_donnees']). '_'.htmlspecialchars($_FILES['fichier_importe']['name']),
                date("Y-m-d H:i:s")
             ));
 
@@ -110,16 +117,16 @@ if ($connect == "1") // Si le visiteur s'est identifié.
             if (!is_dir("uploads/vegetation/")) mkdir('uploads/vegetation/', 0777, true);
 
             // Upload du fichier dans le bon répertoire
-            $directory = $_POST['type_de_donnees'];
+            $directory = htmlspecialchars($_POST['type_de_donnees']);
             // Renommage de la variable pour le bon dossier, français vers anglais
             if ($directory == 'Jeu de données') $directory = 'dataset';
             if ($directory == 'Relevé') $directory = 'survey';
             if ($directory == 'Végétation') $directory = 'vegetation';
 
             // On upload le fichier dans son répertoire
-            $upload = upload('fichier_importe','uploads/' . $directory . '/' . $_FILES['fichier_importe']['name'] , 10485760, FALSE );
+            $upload = upload('fichier_importe','uploads/' . $directory . '/' . htmlspecialchars($_FILES['fichier_importe']['name']) , 10485760, FALSE );
             // Confirmation
-            if ($upload) echo "</br>Upload du fichier " . $_FILES['fichier_importe']['name'] . " réussi!</br></br></br>";
+            if ($upload) echo "</br><b>Upload du fichier " . htmlspecialchars($_FILES['fichier_importe']['name']) . " réussi !</b></br></br></br>";
             ?>
 
             <form action="import.php">
@@ -132,8 +139,14 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       <?php
    }
 } else {
-   echo '<p>Vous n\'êtes pas autorisé(e) à acceder à cette zone</p>';
-   include('login.htm');
+   echo '<p style="text-align:center">Vous n\'êtes pas autorisé(e) à acceder à cette zone</p>';
+   ?>
+   <head>
+      <meta charset="utf-8" />
+      <title>Connexion VegFrance</title>
+   </head>
+   <?php
+   include('sign_in.htm');
    exit;
 }
 ?>

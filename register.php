@@ -4,38 +4,11 @@
 include ('connexion.php');
 $bdd = connexionMySQL();
 /* CONNEXION FAITE */
+session_start();
 
 if (empty($_POST['pseudo'])) // Si on la variable est vide, on peut considérer qu'on est sur la page de formulaire
 {
-   ?>
-   <html>
-   <body>
-      <div>
-         <h1>Inscription</h1>
-         <form method="post" action="register.php">
-            <fieldset><legend>Informations personnelles</legend>
-               <label for="lastname">* Nom :</label>  <input name="lastname" type="text" id="lastname" /><br />
-               <label for="firstname">* Prénom :</label><input name="firstname" type="text" id="firstname" /><br />
-            </fieldset>
-            <fieldset><legend>Identifiants</legend>
-               <label for="pseudo">* Pseudo :</label>  <input name="pseudo" type="text" id="pseudo" /> (le pseudo doit contenir entre 3 et 15 caractères)<br />
-               <label for="password">* Mot de Passe :</label><input type="password" name="password" id="password" /><br />
-               <label for="confirm">* Confirmer le mot de passe :</label><input type="password" name="confirm" id="confirm" />
-            </fieldset>
-            <fieldset><legend>Contacts</legend>
-               <label for="email">* Votre adresse Mail :</label><input type="text" name="email" id="email" /><br />
-            </fieldset>
-            <p>Les champs précédés d'un * sont obligatoires</p>
-            <p><input type="submit" value="S'inscrire" /></p>
-         </form>
-         <form action="index.php">
-            <input type="submit" value="Retour">
-         </form>
-      </div>
-   </body>
-   </html>
-
-   <?php
+   include('register.htm');
 } // Fin de la partie formulaire
 else // On est dans le cas traitement
 {
@@ -48,10 +21,10 @@ else // On est dans le cas traitement
    // On récupère les variables
    $i = 0;
    $temps = date("Y-m-d H:i:s");
-   $firstname = $_POST['firstname'];
-   $lastname = $_POST['lastname'];
-   $pseudo = $_POST['pseudo'];
-   $email = $_POST['email'];
+   $firstname = htmlspecialchars($_POST['firstname']);
+   $lastname = htmlspecialchars($_POST['lastname']);
+   $pseudo = htmlspecialchars($_POST['pseudo']);
+   $email = htmlspecialchars($_POST['email']);
    $pass = md5($_POST['password']);
    $confirm = md5($_POST['confirm']);
 
@@ -103,12 +76,13 @@ else // On est dans le cas traitement
 
    if ($i==0)
    {
-      echo'<h1>Inscription terminée</h1>';
+      include('blank_page.htm');
+      echo'<div  style="text-align:center;margin-top:10%"><h1>Inscription terminée</h1>';
       echo'<p>Bienvenue '.stripslashes(htmlspecialchars($_POST['pseudo'])).' vous êtes maintenant inscrit(e) sur le site VegFrance</p>
-      <p>Cliquez <a href="index.php">ici</a> pour revenir à la page de connexion</p>';
+      <p>Cliquez <a href="index.php">ici</a> pour revenir à la page de connexion</p></div>';
 
 
-      $requete=$bdd->prepare("INSERT INTO users(firstname, lastname, pseudo, password, email, sign_up, last_visit) VALUES(?,?,?,?,?,?,?)");
+      $requete=$bdd->prepare("INSERT INTO users(firstname, lastname, pseudo, password, email, sign_up, last_visit, id_status) VALUES(?,?,?,?,?,?,?,?)");
       $requete->execute(array(
          $firstname,
          $lastname,
@@ -116,35 +90,43 @@ else // On est dans le cas traitement
          $pass,
          $email,
          $temps,
-         $temps
+         $temps,
+         2
       ));
 
+      /* Garder ces commentaires pour le moment
       // Et on définit les variables de sessions
       $_SESSION['pseudo'] = $pseudo;
-      $_SESSION['id'] = $bdd->lastInsertId(); ;
       $_SESSION['connect'] = 1;
+
+      $reponse = $bdd->query("SELECT status FROM status WHERE id= (SELECT id_status FROM users WHERE pseudo='".$pseudo."')");
+      $donnees = $reponse->fetch();
+      $_SESSION['status'] = $donnees['status'];
+      */
+
       $requete->CloseCursor();
 
-      //Message
+      // Message
       $message = "Bienvenue sur le site de VegFrance " . $firstname . " " . $lastname ." !</BR>";
       $message .= "Pour rappel, </BR>";
       $message .= " - votre identifiant est : " . $pseudo . "</BR>";
       $message .= " et votre mot de passe est " . $_POST['password'];
-      //Titre
+      // Titre
       $titre = "Inscription à VegFrance";
 
-      mail($_POST['email'], $titre, $message);
+      //mail($_POST['email'], $titre, $message);
    }
    else
    {
-      echo'<h1>Inscription interrompue</h1>';
+      include('blank_page.htm');
+      echo'<div style="text-align:center;margin-top:10%"><h1>Inscription interrompue</h1>';
       echo"<p>Une ou plusieurs erreurs se sont produites pendant l'inscription</p>";
       echo'<p>'.$i.' erreur(s)</p>';
       echo'<p>'.$pseudo_erreur1.'</p>';
       echo'<p>'.$pseudo_erreur2.'</p>';
       echo'<p>'.$mdp_erreur.'</p>';
       echo'<p>'.$email_erreur1.'</p>';
-      echo'<p>'.$email_erreur2.'</p>';
+      echo'<p>'.$email_erreur2.'</p></div>';
 
       echo'<p>Cliquez <a href="register.php">ici</a> pour recommencer</p>';
    }

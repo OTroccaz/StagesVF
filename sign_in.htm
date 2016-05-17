@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +19,7 @@ session_start();
          </div>
          <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-               <li><a href="sign_in.php">Identification</a></li>
+               <li class="active"><a href="sign_in.php">Identification</a></li>
                <li><a href="import.php">Importation de données</a></li>
                <li><a href="export.php">Exportation de données</a></li>
                <?php
@@ -39,15 +35,26 @@ session_start();
          </div><!--/.nav-collapse -->
       </div>
    </div>
-   <!-- Texte de présentation -->
-   <div style="text-align:justify; margin-left:20%; margin-right:20%">VegFrance est une plateforme nationale publique conçue de façon à pouvoir réunir toutes données disponibles pour décrire la végétation du territoire français (métropolitain et d’outre-mer). VegFrance est constitué de trois bases de données afin de couvrir la diversité de relevés de végétation :
-      <br>
-      <ol class="bbcode 1" style="list-style-type: 1">
-         <li class="bbcode 1"> la base de données « Relevé » recense des relevés stationnels ;<br></li>
-         <li class="bbcode 1">	la base « Syntaxon » compile des relevés synthétiques, à l’échelle des communautés végétales ;<br></li>
-         <li class="bbcode 1">	la base « Landscape » enfin regroupe des relevés à l’échelle du paysage.<br></li>
-      </ol>L’objectif principal est de répondre aux besoins de connaissances sur la végétation pour les acteurs de la recherche, de la protection et de la gestion des habitats et des espèces et de l’aménagement du territoire.<br>
-      </br><b>L'usage de ce site est consacré à l'accès à la base de données de VegFrance. Pour plus d'informations sur le projet en lui-même, consultez le site de <a href="https://vegfrance.univ-rennes1.fr/">VegFrance</a>.</b>
+   <div>
+      <p style="text-align:center"> (Les logs : admin - admin) </p>
+      <form action="sign_in.php" method='post'>
+         <table style="margin-left:auto; margin-right:auto; text-align:justify; border-spacing:10px; border-collapse:separate;" cellspacing="1" cellpadding="1" align="center">
+            <tr>
+               <td>Identifiant : </td>
+               <td><input type="text" name="pseudo" maxlength="250"></td>
+            </tr>
+            <tr>
+               <td>Mot de passe : </td>
+               <td><input type="password" name="pass" maxlength="15"></td>
+            </tr>
+            <tr>
+               <td colspan="2" align="center"><input type="submit" value="Se connecter"></td>
+            </tr>
+            <tr>
+               <td colspan="2" align="center"><a href="register.php">Pas encore inscrit ?</a></td>
+            </tr>
+         </table>
+      </form>
    </div>
 </body>
 </html>

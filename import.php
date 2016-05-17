@@ -11,23 +11,18 @@ else
 
 if ($connect == "1") // Si le visiteur s'est identifié.
 {
-?>
 
-   <!DOCTYPE html>
-   <html>
+   include("import.htm");
+
+} else {
+   echo '<p style="text-align:center">Vous n\'êtes pas autorisé(e) à acceder à cette zone</p>';
+   ?>
    <head>
       <meta charset="utf-8" />
-      <title>Stage - Tests</title>
+      <title>Connexion VegFrance</title>
    </head>
-
-   <body>
-      <?php include("corps.htm"); ?>
-   </body>
-   </html>
-<?php
-} else {
-   echo '<p>Vous n\'êtes pas autorisé(e) à acceder à cette zone</p>';
-   include('login.htm');
+   <?php
+   include('sign_in.htm');
    exit;
 }
 ?>
