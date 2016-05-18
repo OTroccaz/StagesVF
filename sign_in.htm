@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <title>Connexion VegFrance</title>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,23 +38,16 @@
    </div>
    <div>
       <p style="text-align:center"> (Les logs : admin - admin) </p>
-      <form action="sign_in.php" method='post'>
-         <table style="margin-left:auto; margin-right:auto; text-align:justify; border-spacing:10px; border-collapse:separate;" cellspacing="1" cellpadding="1" align="center">
-            <tr>
-               <td>Identifiant : </td>
-               <td><input type="text" name="pseudo" maxlength="250"></td>
-            </tr>
-            <tr>
-               <td>Mot de passe : </td>
-               <td><input type="password" name="pass" maxlength="15"></td>
-            </tr>
-            <tr>
-               <td colspan="2" align="center"><input type="submit" value="Se connecter"></td>
-            </tr>
-            <tr>
-               <td colspan="2" align="center"><a href="register.php">Pas encore inscrit ?</a></td>
-            </tr>
-         </table>
+      <form action="sign_in.php" method="post" style="margin:auto; width:300px">
+         <form class="form-signin">
+            <h2 class="form-signin-heading">Connectez-vous</h2>
+            <label for="pseudo" class="sr-only">Pseudo</label>
+            <input type="text" id="pseudo" name="pseudo" class="form-control" placeholder="Pseudo" required="" autofocus="">
+            <label for="pass" class="sr-only">Mot de passe</label>
+            <input type="password" id="pass" name="pass"class="form-control" placeholder="Mot de passe" required=""><br>
+            <button id="login" class="btn btn-md btn-primary btn" type="submit">Connexion</button>
+            <label for="login"> <a href="register.php">Pas encore inscrit(e) ?</a></label>
+         </form>
       </form>
    </div>
 </body>

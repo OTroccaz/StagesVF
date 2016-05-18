@@ -17,6 +17,8 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    /* CONNEXION FAITE */
 
    include('blank_page.htm');
+   ?> <title>Importation</title>
+   <?php
 
    function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE)
    {
@@ -86,58 +88,51 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    } else {
       // Sinon génération HTML + php adéquat
       ?>
-      <!DOCTYPE html>
-      <html>
-      <head>
-         <title> Upload </title>
-         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      </head>
-      <div>
-         <button type="button" onclick="disconnect.php" class="btn btn-secondary">Se déconnecter</button>
-         <center>
-            <h2> Confirmation de l'upload </h2>
-            <?php
+      <button type="button" style="margin-left:5%" onclick="disconnect.php" class="btn btn-secondary">Se déconnecter</button>
+      <center>
+         <h2> Confirmation de l'upload </h2>
+         <?php
 
-            // Insertion dans la BDD des données du fichier importé
-            // Attention à la dateTime, source d'erreurs
-            $req = $bdd->prepare('INSERT INTO files(up_filename, up_type, up_filesize, up_finalname, up_filedate) VALUES(?,?,?,?,?)');
-            $req->execute(array(
-               htmlspecialchars($_FILES['fichier_importe']['name']),
-               htmlspecialchars($_POST['type_de_donnees']),
-               htmlspecialchars($_FILES['fichier_importe']['size']),
-               htmlspecialchars($_POST['type_de_donnees']). '_'.htmlspecialchars($_FILES['fichier_importe']['name']),
-               date("Y-m-d H:i:s")
-            ));
+         // Insertion dans la BDD des données du fichier importé
+         // Attention à la dateTime, source d'erreurs
+         $req = $bdd->prepare('INSERT INTO files(up_filename, up_type, up_filesize, up_finalname, up_filedate) VALUES(?,?,?,?,?)');
+         $req->execute(array(
+            htmlspecialchars($_FILES['fichier_importe']['name']),
+            htmlspecialchars($_POST['type_de_donnees']),
+            htmlspecialchars($_FILES['fichier_importe']['size']),
+            htmlspecialchars($_POST['type_de_donnees']). '_'.htmlspecialchars($_FILES['fichier_importe']['name']),
+            date("Y-m-d H:i:s")
+         ));
 
-            // Si le repertoire uploads/ n'est pas créé, on fait mkdir
-            if (!is_dir("uploads/")) mkdir('uploads/', 0777, true);
-            // De même pour les 3 sous-dossiers correspondants aux types de données présents
-            if (!is_dir("uploads/dataset/")) mkdir('uploads/dataset/', 0777, true);
-            if (!is_dir("uploads/survey/")) mkdir('uploads/survey/', 0777, true);
-            if (!is_dir("uploads/vegetation/")) mkdir('uploads/vegetation/', 0777, true);
+         // Si le repertoire uploads/ n'est pas créé, on fait mkdir
+         if (!is_dir("uploads/")) mkdir('uploads/', 0777, true);
+         // De même pour les 3 sous-dossiers correspondants aux types de données présents
+         if (!is_dir("uploads/dataset/")) mkdir('uploads/dataset/', 0777, true);
+         if (!is_dir("uploads/survey/")) mkdir('uploads/survey/', 0777, true);
+         if (!is_dir("uploads/vegetation/")) mkdir('uploads/vegetation/', 0777, true);
 
-            // Upload du fichier dans le bon répertoire
-            $directory = htmlspecialchars($_POST['type_de_donnees']);
-            // Renommage de la variable pour le bon dossier, français vers anglais
-            if ($directory == 'Jeu de données') $directory = 'dataset';
-            if ($directory == 'Relevé') $directory = 'survey';
-            if ($directory == 'Végétation') $directory = 'vegetation';
+         // Upload du fichier dans le bon répertoire
+         $directory = htmlspecialchars($_POST['type_de_donnees']);
+         // Renommage de la variable pour le bon dossier, français vers anglais
+         if ($directory == 'Jeu de données') $directory = 'dataset';
+         if ($directory == 'Relevé') $directory = 'survey';
+         if ($directory == 'Végétation') $directory = 'vegetation';
 
-            // On upload le fichier dans son répertoire
-            $upload = upload('fichier_importe','uploads/' . $directory . '/' . htmlspecialchars($_FILES['fichier_importe']['name']) , 10485760, FALSE );
-            // Confirmation
-            if ($upload) echo "</br><b>Upload du fichier " . htmlspecialchars($_FILES['fichier_importe']['name']) . " réussi !</b></br></br></br>";
-            ?>
+         // On upload le fichier dans son répertoire
+         $upload = upload('fichier_importe','uploads/' . $directory . '/' . htmlspecialchars($_FILES['fichier_importe']['name']) , 10485760, FALSE );
+         // Confirmation
+         if ($upload) echo "</br><b>Upload du fichier " . htmlspecialchars($_FILES['fichier_importe']['name']) . " réussi !</b></br></br></br>";
+         ?>
 
-            <form action="import.php">
-               <input type="submit" value="Retour">
-            </form>
+         <form action="import.php">
+            <input type="submit" class="btn btn-secondary" value="Retour">
+         </form>
 
-         </center>
-      </div>
-      </html>
-      <?php
-   }
+      </center>
+   </div>
+   </html>
+   <?php
+}
 } else {
    echo '<p style="text-align:center">Vous n\'êtes pas autorisé(e) à acceder à cette zone</p>';
    ?>

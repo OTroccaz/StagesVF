@@ -15,66 +15,85 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    include ('connexion.php');
    $bdd = connexionMySQL();
    /* CONNEXION FAITE */
-   ?>
-   <!DOCTYPE html>
-   <html>
-   <head>
-      <meta charset="utf-8" />
-      <title>Téléchargements</title>
-      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-   </head>
-   <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            </button>
-            <a class="navbar-brand" href="index.php">Accueil</a>
-         </div>
-         <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-               <li><a href="sign_in.php">Identification</a></li>
-               <li><a href="import.php">Importation de données</a></li>
-               <li class="active"><a href="export.php">Exportation de données</a></li>
-               <?php
-               if(isset($_SESSION['status'])) {
-                  if($_SESSION['status']=="Administrateur")
-                  { ?>
-                     <li><a href="moderation.php">Modération</a></li>
-                     <?php
-                  }
-               }
-               ?>
-            </ul>
-         </div><!--/.nav-collapse -->
-      </div>
-   </div>
-   <button type="button" style="margin-left:5%" onclick="location.href='disconnect.php'" class="btn btn-secondary">Se déconnecter</button>
-   <div style="text-align:justify; margin-left:20%; margin-right:20%">
-      <center>
-         <h2> Téléchargement des fichiers importés </h2>
-         <h5> Cliquez sur les boutons numérotés afin de récupérer le fichier correspondant </h5>
-      </center>
-   <?php
-   // On récupère toute la base de données dans un tableau
-   $reponse = $bdd->query('SELECT * FROM files');
+   include ('export.htm');
 
-   // On parcourt chaque ligne de ce tableau, ligne = $donnees
-   while ($donnees = $reponse->fetch())
+
+
+   $retour_total = $bdd->query('SELECT COUNT(*) AS total FROM files'); //Nous récupérons le contenu de la requête dans $retour_total
+   $donnees_total = $retour_total->fetch(); //On range retour sous la forme d'un tableau.
+   $total = $donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
+
+   $messagesParPage = 5; //Nous allons afficher 5 messages par page.
+
+   //Nous allons maintenant compter le nombre de pages.
+   $nombreDePages = ceil($total / $messagesParPage);
+
+   if(isset($_GET['page'])) // Si la variable $_GET['page'] existe...
    {
-   ?>
-      <ul>
-         <?php echo "Description : TYPE DE DONNEES = ".htmlspecialchars($donnees['up_type']) ." || NOM = ".htmlspecialchars($donnees['up_filename'])." || DATE = ".$donnees['up_filedate']; ?>
-   		<form method="get" action="filedownload.php">
-   			<i>Télécharger le fichier n°</i>
-            <input type="submit" value="<?php echo $donnees['up_id']?>" name="file">
-         </form>
-      </ul>
-   <?php
+      $pageActuelle = intval($_GET['page']);
+      if($pageActuelle > $nombreDePages) // Si la valeur de $pageActuelle (le numéro de la page) est plus grande que $nombreDePages...
+      {
+         $pageActuelle = $nombreDePages;
+      }
    }
+   else // Sinon
+   {
+      $pageActuelle = 1; // La page actuelle est la n°1
+   }
+
+   $premiereEntree=($pageActuelle-1)*$messagesParPage; // On calcul la première entrée à lire
+
+   // La requête sql pour récupérer les messages de la page actuelle.
+   $reponse = $bdd->query('SELECT * FROM files ORDER BY up_id DESC LIMIT '.$premiereEntree.', '.$messagesParPage.'');
+
    ?>
-   </div>
-   </html>
+   <table class="table table-striped" style="margin:auto; width:600px">
+      <thead>
+         <tr>
+            <th class="col-md-1 col-xs-1">ID</th>
+            <th class="col-md-1 col-xs-1">Type de données</th>
+            <th class="col-md-1 col-xs-1">Nom fichier</th>
+            <th class="col-md-1 col-xs-1">Date upload</th>
+            <th class="col-md-1 col-xs-1">Action</th>
+         </tr>
+      </thead>
+      <tbody class="searchable">
+         <?php
+         while ($donnees = $reponse->fetch())
+         {
+            ?>
+            <tr>
+               <td> <?php echo "<b>".$donnees['up_id']."</b>"; ?> </td>
+               <td> <?php echo $donnees['up_type']; ?> </td>
+               <td> <?php echo "<b>".$donnees['up_filename']."</b>"; ?> </td>
+               <td> <?php echo "<b>".$donnees['up_filedate']."</b>"; ?> </td>
+               <td>
+                  <form method="post" action="filedownload.php">
+                     <input type="hidden" name="id" value="<?php echo $donnees['up_id']; ?>" />
+                     <input type="submit" class="btn btn-primary" value="Télécharger">
+                  </form>
+               </td>
+            </tr>
+            <?php
+         }
+         ?>
+      </tbody>
+   </table>
    <?php
+   echo '<p align="center" >Page : '; //Pour l'affichage, on centre la liste des pages
+   for ($i = 1; $i <= $nombreDePages; $i++) //On fait notre boucle
+   {
+      //On va faire notre condition
+      if($i == $pageActuelle) //S'il s'agit de la page actuelle...
+      {
+         echo ' [ '.$i.' ] ';
+      }
+      else //Sinon...
+      {
+         echo ' <a href="export.php?page='.$i.'">'.$i.'</a> ';
+      }
+   }
+   echo '</p>';
 } else {
    echo '<p style="text-align:center">Vous n\'êtes pas autorisé(e) à acceder à cette zone</p>';
    ?>

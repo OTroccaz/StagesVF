@@ -79,7 +79,7 @@ else // On est dans le cas traitement
       include('blank_page.htm');
       echo'<div  style="text-align:center;margin-top:10%"><h1>Inscription terminée</h1>';
       echo'<p>Bienvenue '.stripslashes(htmlspecialchars($_POST['pseudo'])).' vous êtes maintenant inscrit(e) sur le site VegFrance</p>
-      <p>Cliquez <a href="index.php">ici</a> pour revenir à la page de connexion</p></div>';
+      <p>Cliquez <a href="sign_in.php">ici</a> pour revenir à la page de connexion</p></div>';
 
 
       $requete=$bdd->prepare("INSERT INTO users(firstname, lastname, pseudo, password, email, sign_up, last_visit, id_status) VALUES(?,?,?,?,?,?,?,?)");
@@ -93,17 +93,6 @@ else // On est dans le cas traitement
          $temps,
          2
       ));
-
-      /* Garder ces commentaires pour le moment
-      // Et on définit les variables de sessions
-      $_SESSION['pseudo'] = $pseudo;
-      $_SESSION['connect'] = 1;
-
-      $reponse = $bdd->query("SELECT status FROM status WHERE id= (SELECT id_status FROM users WHERE pseudo='".$pseudo."')");
-      $donnees = $reponse->fetch();
-      $_SESSION['status'] = $donnees['status'];
-      */
-
       $requete->CloseCursor();
 
       // Message
@@ -132,6 +121,3 @@ else // On est dans le cas traitement
    }
 }
 ?>
-</div>
-</body>
-</html>

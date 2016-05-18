@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Modération</title>
+   <title>Exportation</title>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,12 +22,12 @@
             <ul class="nav navbar-nav">
                <li><a href="sign_in.php">Identification</a></li>
                <li><a href="import.php">Importation de données</a></li>
-               <li><a href="export.php">Exportation de données</a></li>
+               <li class="active"><a href="export.php">Exportation de données</a></li>
                <?php
                if(isset($_SESSION['status'])) {
                   if($_SESSION['status']=="Administrateur")
                   { ?>
-                     <li class="active"><a href="moderation.php">Modération</a></li>
+                     <li><a href="moderation.php">Modération</a></li>
                      <?php
                   }
                }
@@ -39,7 +39,7 @@
    <div>
       <button type="button" style="margin-left:5%" onclick="location.href='disconnect.php'" class="btn btn-secondary">Se déconnecter</button>
       <div style="margin:auto; width:500px">
-         <h2 style="text-align:center">Modération des utilisateurs</h2>
+         <h2 style="text-align:center">Exportation des fichiers</h2>
          <input type="text" id ="filter" class="search form-control" placeholder="Que cherchez-vous ?">
          <span class="counter pull-right"></span>
       </div>

@@ -25,7 +25,7 @@ if(isset($_POST) && !empty($_POST['pseudo']) && !empty($_POST['pass'])) {
    $donnees = $reponse->fetch();
 
    if($donnees['password'] != $pass) {
-      echo '<p>Mauvais identifiant / password. Merci de recommencer</p>';
+      echo '<p style="text-align:center;color:red">Mauvais identifiant / password. Merci de recommencer</p>';
       include('sign_in.htm'); // On inclut le formulaire d'identification
       exit;
    }
@@ -50,7 +50,7 @@ if(isset($_POST) && !empty($_POST['pseudo']) && !empty($_POST['pass'])) {
    }
 }
 else {
-   echo '<p style="text-align:center">Vous avez oublié de remplir un champ.</p>';
+   echo '<p style="text-align:center;color:red">Vous avez oublié de remplir un champ.</p>';
    include('sign_in.htm'); // On inclut le formulaire d'identification
    exit;
 }

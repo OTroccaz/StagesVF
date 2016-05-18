@@ -5,6 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
+   <title>Accueil VegFrance</title>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,7 +41,9 @@ session_start();
       </div>
    </div>
    <!-- Texte de présentation -->
-   <div style="text-align:justify; margin-left:20%; margin-right:20%">VegFrance est une plateforme nationale publique conçue de façon à pouvoir réunir toutes données disponibles pour décrire la végétation du territoire français (métropolitain et d’outre-mer). VegFrance est constitué de trois bases de données afin de couvrir la diversité de relevés de végétation :
+   <img src="http://www.imbe.fr/docrestreint.api/1929/81574d7e0509c6cb6177bb6c6d98eb2b8265089b/jpg/vegfrance.jpg" alt="Mountain View" style="display:block;margin:0 auto;width:600px">
+   <br>
+   <div style="text-align:justify;margin:auto;width:600px">VegFrance est une plateforme nationale publique conçue de façon à pouvoir réunir toutes données disponibles pour décrire la végétation du territoire français (métropolitain et d’outre-mer). VegFrance est constitué de trois bases de données afin de couvrir la diversité de relevés de végétation :
       <br>
       <ol class="bbcode 1" style="list-style-type: 1">
          <li class="bbcode 1"> la base de données « Relevé » recense des relevés stationnels ;<br></li>

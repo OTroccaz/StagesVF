@@ -38,26 +38,9 @@
    </div>
    <div>
       <button type="button" style="margin-left:5%" onclick="location.href='disconnect.php'" class="btn btn-secondary">Se déconnecter</button>
-      <div style="margin:auto; width:500px">
-         <h2 style="text-align:center">Modération des utilisateurs</h2>
-         <input type="text" id ="filter" class="search form-control" placeholder="Que cherchez-vous ?">
-         <span class="counter pull-right"></span>
-      </div>
+      <center>
+         <h2>Modération de l'utilisateur <?php echo $_POST['pseudo'];?></h2>
+      </center>
    </div>
 </body>
 </html>
-
-<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
-<script>
-$(document).ready(function () {
-   (function ($) {
-      $('#filter').keyup(function () {
-         var rex = new RegExp($(this).val(), 'i');
-         $('.searchable tr').hide();
-         $('.searchable tr').filter(function () {
-            return rex.test($(this).text());
-         }).show();
-      })
-   }(jQuery));
-});
-</script>

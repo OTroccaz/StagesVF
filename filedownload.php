@@ -17,7 +17,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    /* CONNEXION FAITE */
 
    // On récupère les infos du fichier correspondant à l'id indiqué dans l'url
-   $reponse = $bdd->query("SELECT up_filename, up_type, up_filesize, up_finalname FROM files WHERE up_id = " . $_GET['file']);
+   $reponse = $bdd->query("SELECT up_filename, up_type, up_filesize, up_finalname FROM files WHERE up_id = " . $_POST['id']);
 
    // Si le fichier est trouvé, alors
    if ($donnees = $reponse->fetch()) {
