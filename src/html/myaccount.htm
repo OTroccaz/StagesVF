@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Mon compte</title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="../../favicon.ico">
+   <link href="../../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.php">Accueil</a>
+         </div>
+         <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+               <li><a href="../php/sign_in.php">Identification</a></li>
+               <li><a href="../php/import.php">Importation de données</a></li>
+               <li><a href="../php/export.php">Exportation de données</a></li>
+               <?php
+               if(isset($_SESSION['pseudo']))
+               { ?>
+                  <li class="active"><a href="../php/myaccount.php">Mon compte</a></li>
+                  <?php
+               }
+               if(isset($_SESSION['status']))
+               {
+                  if($_SESSION['status']=="Administrateur" || $_SESSION['status']=="Gestionnaire")
+                  {
+                     ?>
+                     <li><a href="../php/authorizations_management.php">Autorisations</a></li>
+                     <?php
+                  }
+                  if($_SESSION['status']=="Administrateur")
+                  { ?>
+                     <li><a href="../php/moderation.php">Modération</a></li>
+                     <?php
+                  } else if($_SESSION['status']!="Gestionnaire")
+                  {?>
+                     <li><a href="../php/requests.php">Mes demandes d'exportation</a></li>
+                     <?php
+                  }
+               }
+               ?>
+            </ul>
+            <?php
+            if (isset($_SESSION['status']))
+            {?>
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="../php/disconnect.php"><span class="glyphicon glyphicon-off"></span> Se déconnecter</a></li>
+               </ul>
+               <?php
+            }?>
+         </div><!--/.nav-collapse -->
+      </div>
+   </div>
+   <center>
+      <h2>Mon compte</h2>
+      <form method="post" action="myaccount.php" class="form-horizontal">
+         <div class="form-group">
+            <label for="firstname" class="col-sm-5 control-label">Votre prénom :</label>
+            <div class="col-sm-3">
+               <input name="firstname" class="form-control" type="text" id="firstname" value="<?php echo $firstname ?>" ><br />
+            </div>
+         </div>
+         <div class="form-group">
+            <label for="lastname" class="col-sm-5 control-label">Votre nom :</label>
+            <div class="col-sm-3">
+               <input name="lastname" class="form-control" type="text" id="lastname" value="<?php echo $lastname ?>" ><br />
+            </div>
+         </div>
+         <div class="form-group">
+            <label for="email" class="col-sm-5 control-label">Votre email :</label>
+            <div class="col-sm-3">
+               <input name="email" class="form-control" type="email" id="email" value="<?php echo $email ?>" ><br />
+            </div>
+         </div>
+
+         <button type="button" class="btn btn-info" onclick="toggle_div(this,'div_toggle');">Changer de mot de passe</button>
+
+         <br>
+         <br>
+         <br>
+
+         <div id="div_toggle" style="display:none">
+            <div class="form-group">
+               <label for="old_password" class="col-sm-5 control-label">Mot de passe actuel :</label>
+               <div class="col-sm-3">
+                  <input name="old_password" class="form-control" type="password"><br />
+               </div>
+            </div>
+            <div class="form-group">
+               <label for="new_password_1" class="col-sm-5 control-label">Nouveau mot de passe :</label>
+               <div class="col-sm-3">
+                  <input name="new_password_1" class="form-control" type="password"><br />
+               </div>
+            </div>
+            <div class="form-group">
+               <label for="new_password_2" class="col-sm-5 control-label">Confirmation :</label>
+               <div class="col-sm-3">
+                  <input name="new_password_2" class="form-control" type="password"><br />
+               </div>
+            </div>
+         </div>
+         <input type="submit" value="Enregistrer" class="btn btn-primary" name="Enregistrer"></br></br>
+      </form>
+   </center>
+</body>
+</html>
+<script type="text/javascript">
+function toggle_div(bouton, id) { // On déclare la fonction toggle_div qui prend en param le bouton et un id
+   var div = document.getElementById(id);
+   if(div.style.display=="none") { // Si le div est masqué...
+      div.style.display = "block"; // ... on l'affiche...
+      bouton.innerHTML = "Ne pas changer de mot de passe"; // ... et on change le contenu du bouton.
+   } else { // S'il est visible...
+   div.style.display = "none";
+   bouton.innerHTML = "Changer de mot de passe";
+}
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>

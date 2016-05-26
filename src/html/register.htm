@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Inscription VegFrance</title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="../../favicon.ico">
+   <link href="../../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.php">Accueil</a>
+         </div>
+         <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+               <li><a href="../php/sign_in.php">Identification</a></li>
+               <li><a href="../php/import.php">Importation de données</a></li>
+               <li><a href="../php/export.php">Exportation de données</a></li>
+               <?php
+               if(isset($_SESSION['status']))
+               {
+                  if($_SESSION['status']=="Administrateur")
+                  { ?>
+                     <li><a href="../php/moderation.php">Modération</a></li>
+                     <?php
+                  } else if($_SESSION['status']!="Gestionnaire")
+                  {?>
+                     <li><a href="../php/requests.php">Mes demandes d'exportation</a></li>
+                     <?php
+                  }
+               }
+               ?>
+            </ul>
+            <?php
+            if (isset($_SESSION['status']))
+            {?>
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="../php/disconnect.php"><span class="glyphicon glyphicon-off"></span> Se déconnecter</a></li>
+               </ul>
+               <?php
+            }?>
+         </div><!--/.nav-collapse -->
+      </div>
+   </div>
+   <center>
+      <h1>Inscription</h1>
+      <form method="post" action="../php/register.php" class="form-horizontal">
+         <div class="form-group">
+            <label for="lastname" class="col-sm-4 control-label">* Nom :</label>
+            <div class="col-sm-5">
+               <input name="lastname" class="form-control" type="text" id="lastname" /><br />
+            </div>
+         </div>
+         <div class="form-group">
+            <label for="firstname" class="col-sm-4 control-label">* Prénom :</label>
+            <div class="col-sm-5">
+               <input name="firstname" class="form-control" type="text" id="firstname" /><br />
+            </div>
+         </div>
+         <div class="form-group">
+            <label for="pseudo" class="col-sm-4 control-label">* Pseudo :</label>
+            <div class="col-sm-5">
+               <input name="pseudo" class="form-control" type="text" id="pseudo" placeholder="(Entre 3 et 15 caractères)" /><br />
+            </div>
+         </div>
+         <div class="form-group">
+            <label for="password" class="col-sm-4 control-label">* Mot de Passe :</label>
+            <div class="col-sm-5">
+               <input type="password" class="form-control" name="password" id="password" /><br />
+            </div>
+         </div>
+         <div class="form-group">
+            <label for="confirm" class="col-sm-4 control-label">* Confirmer mot de passe :</label>
+            <div class="col-sm-5">
+               <input type="password" class="form-control" name="confirm" id="confirm" /><br />
+            </div>
+         </div>
+         <div class="form-group">
+            <label for="email" class="col-sm-4 control-label">* Email :</label>
+            <div class="col-sm-5">
+               <input type="text" class="form-control" name="email" id="email" /><br />
+            </div>
+         </div>
+         <p>Les champs précédés d'un * sont obligatoires</p>
+         <p><input type="submit" class="btn btn-primary" value="S'inscrire" /></p>
+      </form>
+      <form action="../php/sign_in.php">
+         <input type="submit" class="btn btn-secondary" value="Retour">
+      </form>
+   </center>
+</body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
