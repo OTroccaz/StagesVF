@@ -22,7 +22,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       {
          if(!isset($_SESSION['messagesParPage']))
          {
-            $_SESSION['messagesParPage'] = 5;
+            $_SESSION['messagesParPage'] = 10;
          }
 
          if(isset($_POST['nb_elem']))
@@ -30,7 +30,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
             $_SESSION['messagesParPage'] = htmlspecialchars($_POST['select_nb_elem']);
          }
 
-         $retour_total = $bdd->query('SELECT COUNT(*) AS total FROM request'); //Nous récupérons le contenu de la requête dans $retour_total
+         $retour_total = $bdd->query("SELECT COUNT(*) AS total FROM request WHERE requester='" . $_SESSION['pseudo'] . "'"); //Nous récupérons le contenu de la requête dans $retour_total
          $donnees_total = $retour_total->fetch(); //On range retour sous la forme d'un tableau.
          $total = $donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
          //Nous allons maintenant compter le nombre de pages.
@@ -52,7 +52,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          $reponse = $bdd->query("SELECT * FROM request WHERE requester = '" . $_SESSION['pseudo'] . "' ORDER BY id_request DESC LIMIT ".$premiereEntree.",".$_SESSION['messagesParPage']);
          ?>
          <center>
-            <table class="table table-striped" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">
+            <table class="table table-striped sortable" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">
                <thead>
                   <tr>
                      <th class="col-md-1 col-xs-1">ID</th>
@@ -72,12 +72,17 @@ if ($connect == "1") // Si le visiteur s'est identifié.
                         <td> <?php echo "<b>".$donnees['date_request']."</b>"; ?> </td>
                         <td>
                            <?php
-                           if ($donnees['allowed'])
+                           if ($donnees['allowed'] == 'oui')
                            {?>
                               <form method="post" action="filedownload_from_request.php">
                                  <input type="hidden" name="id" value="<?php echo htmlspecialchars($donnees['id_file']); ?>" />
                                  <input type="submit" class="btn btn-primary" value="Télécharger">
                               </form>
+                              <?php
+                           } else if ($donnees['allowed'] == 'non')
+                           {
+                              ?>
+                              <input type="submit" disabled="disabled" class="btn btn-danger" value="Refusé">
                               <?php
                            } else {
                               ?>
@@ -179,28 +184,41 @@ if ($connect == "1") // Si le visiteur s'est identifié.
 
 if (isset($_POST{'no_export'})) // Si on a cliqué sur NON lors de la demande d'exportation
 {
-   header('Location:export.php'); // On est renvoyé sur la page d'exportation
+   header('Location:management.php'); // On est renvoyé sur la page d'exportation
 }
 else if (isset($_POST['yes_export'])) // Si on a cliqué sur OUI lors de la demande d'exportation
 {
    include('../html/requests.htm');
    // On insert la demande dans la BDD pour l'afficher avec les autres
-   $requete = $bdd->exec("INSERT INTO request(requester, filename, date_request, id_file, allowed) VALUES ('".$_SESSION['pseudo']."','".$_POST['filename']."','".date("Y-m-d")."','".$_POST['id_file']."',FALSE)");
+   $requete = $bdd->exec("INSERT INTO request(requester, filename, date_request, id_file, allowed) VALUES ('".$_SESSION['pseudo']."','".$_POST['filename']."','".date("Y-m-d")."','".$_POST['id_file']."','attente')");
    ?>
    <center>
       <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
          Demande d'exportation ajoutée.
       </div> <br>
       <?php
+
+      // Supprimez toute la partie ---email--- si vous ne souhaitez pas avoir d'email à chaque demande d'import
+      // ---email---
       $requete = $bdd->query("SELECT firstname, lastname, email FROM users WHERE pseudo ='". $_SESSION['pseudo'] ."'");
       $donnees = $requete->fetch();
-
       $subject = "Demande d'exportation";
       $message = "Demande d'exportation de la part de " . $_SESSION['pseudo'] . " ( " . $donnees['firstname'] . " " . $donnees['lastname'] . " ), le " . date("Y-m-d") . " \n";
       $message .= "Pour le fichier : " . $_POST['filename'];
       $expeditor = "From:noreply@VegFrance.fr";
 
-      $success = mail("adrienleblanc53@gmail.com", $subject, $message, $expeditor);
+      // enlever les commentaires sur la ligne de requete et la boucle while (les 5 suivantes) lorsque le ligne sera opérationnel
+      // $requete = $bdd->query("SELECT email FROM users WHERE id_status = 4 OR id_status = 5");
+      // while ($donnees = $requete->fetch())
+      // {
+      //    $success = mail($donnees['email'], $subject, $message, $expeditor);
+      // }
+
+      // garder cette ligne pour éviter le spam d'emails pour le moment
+      // email envoyé sur mon adresse perso pour ne pas gêner alexia par exemple lors des tests
+      mail("adrienleblanc53@gmail.com", $subject, $message, $expeditor);
+
+      // ---email---
       afficherPage($bdd);
       ?>
    </center>

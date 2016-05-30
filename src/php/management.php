@@ -18,7 +18,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
 
    if(!isset($_SESSION['messagesParPage']))
    {
-      $_SESSION['messagesParPage'] = 5;
+      $_SESSION['messagesParPage'] = 10;
    }
 
    if(isset($_POST['nb_elem']))
@@ -26,14 +26,11 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       $_SESSION['messagesParPage'] = htmlspecialchars($_POST['select_nb_elem']);
    }
 
-   include ('../html/export.htm');
+   include ('../html/management.htm');
 
    $retour_total = $bdd->query('SELECT COUNT(*) AS total FROM files'); //Nous récupérons le contenu de la requête dans $retour_total
    $donnees_total = $retour_total->fetch(); //On range retour sous la forme d'un tableau.
    $total = $donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
-
-
-
    //Nous allons maintenant compter le nombre de pages.
    $nombreDePages = ceil($total / $_SESSION['messagesParPage']);
 
@@ -56,7 +53,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    $reponse = $bdd->query('SELECT * FROM files ORDER BY up_id DESC LIMIT '.$premiereEntree.', '.$_SESSION['messagesParPage'].'');
 
    ?>
-   <table class="table table-striped" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">
+   <table class="table table-striped sortable" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">
       <thead>
          <tr>
             <th class="col-md-1 col-xs-1">ID</th>
@@ -99,12 +96,12 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          <li>
             <?php
             if ($pageActuelle - 1 < 1) { ?>
-               <a href="export.php?page=<?php echo $pageActuelle ?>" aria-label="Previous">
+               <a href="management.php?page=<?php echo $pageActuelle ?>" aria-label="Previous">
                   <span aria-hidden="true">&laquo;</span>
                </a>
                <?php
             } else { ?>
-               <a href="export.php?page=<?php echo $pageActuelle - 1?>" aria-label="Previous">
+               <a href="management.php?page=<?php echo $pageActuelle - 1?>" aria-label="Previous">
                   <span aria-hidden="true">&laquo;</span>
                </a>
                <?php
@@ -121,32 +118,32 @@ if ($connect == "1") // Si le visiteur s'est identifié.
             }
             else if($i <= 2)
             {
-               echo '<li><a href="export.php?page='.$i.'">'.$i.'</a></li>';
+               echo '<li><a href="management.php?page='.$i.'">'.$i.'</a></li>';
             }
             else if($i == ($pageActuelle - 1) OR $i == ($pageActuelle + 1))
             {
-               echo '<li><a href="export.php?page='.$i.'">'.$i.'</a></li>';
+               echo '<li><a href="management.php?page='.$i.'">'.$i.'</a></li>';
                $points = FALSE;
             }
             else if($i >= ($nombreDePages - 1))
             {
-               echo '<li><a href="export.php?page='.$i.'">'.$i.'</a></li>';
+               echo '<li><a href="management.php?page='.$i.'">'.$i.'</a></li>';
             }
             else if(!$points)
             {
-               echo '<li><a href="export.php?page='.$i.'">'.'...'.'</a></li>';
+               echo '<li><a href="management.php?page='.$i.'">'.'...'.'</a></li>';
                $points = TRUE;
             }
          }
          ?>
          <li>
             <?php if ($pageActuelle + 1 > $nombreDePages) { ?>
-               <a href="export.php?page=<?php echo $pageActuelle ?>" aria-label="Next">
+               <a href="management.php?page=<?php echo $pageActuelle ?>" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
                </a>
                <?php
             } else { ?>
-               <a href="export.php?page=<?php echo $pageActuelle + 1 ?>" aria-label="Next">
+               <a href="management.php?page=<?php echo $pageActuelle + 1 ?>" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
                </a>
                <?php

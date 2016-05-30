@@ -13,18 +13,19 @@
       <div class="container">
          <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="../../index.php">Accueil</a>
          </div>
          <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                <li><a href="../php/sign_in.php">Identification</a></li>
-               <li><a href="../php/import.php">Importation de données</a></li>
-               <li><a href="../php/export.php">Exportation de données</a></li>
+               <li><a href="../php/import.php">Importation</a></li>
+               <li><a href="../php/management.php">Gestion</a></li>
+               <li><a href="../php/exit_mapVF.php">Consultation</a></li>
                <?php
                if(isset($_SESSION['pseudo']))
                { ?>
@@ -62,57 +63,59 @@
          </div><!--/.nav-collapse -->
       </div>
    </div>
-   <center>
-      <h2>Mon compte</h2>
-      <form method="post" action="myaccount.php" class="form-horizontal">
-         <div class="form-group">
-            <label for="firstname" class="col-sm-5 control-label">Votre prénom :</label>
-            <div class="col-sm-3">
-               <input name="firstname" class="form-control" type="text" id="firstname" value="<?php echo $firstname ?>" ><br />
-            </div>
-         </div>
-         <div class="form-group">
-            <label for="lastname" class="col-sm-5 control-label">Votre nom :</label>
-            <div class="col-sm-3">
-               <input name="lastname" class="form-control" type="text" id="lastname" value="<?php echo $lastname ?>" ><br />
-            </div>
-         </div>
-         <div class="form-group">
-            <label for="email" class="col-sm-5 control-label">Votre email :</label>
-            <div class="col-sm-3">
-               <input name="email" class="form-control" type="email" id="email" value="<?php echo $email ?>" ><br />
-            </div>
-         </div>
-
-         <button type="button" class="btn btn-info" onclick="toggle_div(this,'div_toggle');">Changer de mot de passe</button>
-
-         <br>
-         <br>
-         <br>
-
-         <div id="div_toggle" style="display:none">
+   <div>
+      <center>
+         <h2>Mon compte</h2>
+         <form method="post" action="myaccount.php" class="form-horizontal">
             <div class="form-group">
-               <label for="old_password" class="col-sm-5 control-label">Mot de passe actuel :</label>
+               <label for="firstname" class="col-sm-5 control-label">Votre prénom :</label>
                <div class="col-sm-3">
-                  <input name="old_password" class="form-control" type="password"><br />
+                  <input name="firstname" class="form-control" type="text" id="firstname" value="<?php echo $firstname ?>" ><br />
                </div>
             </div>
             <div class="form-group">
-               <label for="new_password_1" class="col-sm-5 control-label">Nouveau mot de passe :</label>
+               <label for="lastname" class="col-sm-5 control-label">Votre nom :</label>
                <div class="col-sm-3">
-                  <input name="new_password_1" class="form-control" type="password"><br />
+                  <input name="lastname" class="form-control" type="text" id="lastname" value="<?php echo $lastname ?>" ><br />
                </div>
             </div>
             <div class="form-group">
-               <label for="new_password_2" class="col-sm-5 control-label">Confirmation :</label>
+               <label for="email" class="col-sm-5 control-label">Votre email :</label>
                <div class="col-sm-3">
-                  <input name="new_password_2" class="form-control" type="password"><br />
+                  <input name="email" class="form-control" type="email" id="email" value="<?php echo $email ?>" ><br />
                </div>
             </div>
-         </div>
-         <input type="submit" value="Enregistrer" class="btn btn-primary" name="Enregistrer"></br></br>
-      </form>
-   </center>
+
+            <button type="button" class="btn btn-info" onclick="toggle_div(this,'div_toggle');">Changer de mot de passe</button>
+
+            <br>
+            <br>
+            <br>
+
+            <div id="div_toggle" style="display:none">
+               <div class="form-group">
+                  <label for="old_password" class="col-sm-5 control-label">Mot de passe actuel :</label>
+                  <div class="col-sm-3">
+                     <input name="old_password" class="form-control" type="password"><br />
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label for="new_password_1" class="col-sm-5 control-label">Nouveau mot de passe :</label>
+                  <div class="col-sm-3">
+                     <input name="new_password_1" class="form-control" type="password"><br />
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label for="new_password_2" class="col-sm-5 control-label">Confirmation :</label>
+                  <div class="col-sm-3">
+                     <input name="new_password_2" class="form-control" type="password"><br />
+                  </div>
+               </div>
+            </div>
+            <input type="submit" value="Enregistrer" class="btn btn-primary" name="Enregistrer"></br></br>
+         </form>
+      </center>
+   </div>
 </body>
 </html>
 <script type="text/javascript">

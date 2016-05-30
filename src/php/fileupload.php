@@ -20,7 +20,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    ?> <title>Importation</title>
    <?php
 
-   function check_upload($index,$destination,$maxsize=FALSE,$extensions=FALSE)
+   function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier)
    {
       $check = TRUE;
       //Test1: fichier correctement uploadé
@@ -53,23 +53,33 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          <?php
          $check = FALSE;
       }
-      // Faire ici la VERIFICATION (algorithme de Mikael)
 
-      // if verification_mikael() + $bool
-      if ($check)
+      $success = move_uploaded_file($_FILES[$index]['tmp_name'], '../../check/'.$nomFichier);
+      if ($success)
       {
-         ?>
-         <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
-            Fichier accepté par la vérification !
-         </div> <br>
-         <?php
+         // Faire ici la VERIFICATION (algorithme de Mikael)
+
+         // if verification_mikael() + $bool
+         if ($check)
+         {
+            rename('../../check/'.$nomFichier, $destination); // on déplace le fichier vérifé au bon endroit
+            ?>
+            <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
+               Fichier accepté par la vérification !
+            </div> <br>
+            <?php
+         }
+      } else {
+         $check = FALSE;
       }
+
       return $check;
 
       // } else {
+      //    $taille = filesize('log.txt'):
       //    header('Content-Transfer-Encoding: binary'); // Transfert en binaire (fichier)
       //    header('Content-Disposition: attachment; filename="log.txt"'); // Nom du fichier
-      //    header('Content-Length: '.$donnees["up_filesize"]); // Taille du fichier
+      //    header('Content-Length: '.$taille); // Taille du fichier
       //    readfile("errors/log.txt"); // Envoi du fichier dont le chemin est passé en paramètre
       //    echo 'Erreurs survenues (checkez le fichier log.txt)';
       //    # code...
@@ -94,6 +104,8 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       $fichier = preg_replace('/([^.a-z0-9_]+)/i', '-', $fichier);
 
       // Si le repertoire uploads/ n'est pas créé, on fait mkdir
+      if (!is_dir("../../check/")) mkdir('../../check/', 0777, true);
+      // Si le repertoire uploads/ n'est pas créé, on fait mkdir
       if (!is_dir("../../uploads/")) mkdir('../../uploads/', 0777, true);
       // De même pour les 3 sous-dossiers correspondants aux types de données
       if (!is_dir("../../uploads/dataset/")) mkdir('../../uploads/dataset/', 0777, true);
@@ -109,11 +121,10 @@ if ($connect == "1") // Si le visiteur s'est identifié.
 
       if(isset($true_directory))
       {
-         // On upload le fichier dans son répertoire
-         $upload_possible = check_upload('fichier_importe','../../uploads/' . $true_directory . '/' . $fichier , 524288000, array('png','csv','jpg','jpeg') );
+         // On test si l'upload est ok
+         $upload_possible = upload('fichier_importe','../../uploads/' . $true_directory . '/' . $fichier , 524288000, array('png','csv','jpg','jpeg'), $fichier );
          // Confirmation
          if ($upload_possible) {
-            move_uploaded_file($_FILES['fichier_importe']['tmp_name'],'../../uploads/' . $true_directory . '/' . $fichier);
             ?>
             <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
                Upload du fichier <?php echo htmlspecialchars($fichier); ?> réussi !

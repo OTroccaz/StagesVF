@@ -20,7 +20,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
 
       if(!isset($_SESSION['messagesParPage']))
       {
-         $_SESSION['messagesParPage'] = 5;
+         $_SESSION['messagesParPage'] = 10;
       }
 
       if(isset($_POST['nb_elem']))
@@ -63,7 +63,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       $reponse = $bdd->query($sql);
 
       ?>
-      <table class="table table-striped" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">
+      <table class="table table-striped sortable" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">
          <?php
          $i = 1;
          ?>
@@ -133,20 +133,20 @@ if ($connect == "1") // Si le visiteur s'est identifié.
                }
                else if($i <= 2)
                {
-                  echo '<li><a href="export.php?page='.$i.'">'.$i.'</a></li>';
+                  echo '<li><a href="management.php?page='.$i.'">'.$i.'</a></li>';
                }
                else if($i == ($pageActuelle - 1) OR $i == ($pageActuelle + 1))
                {
-                  echo '<li><a href="export.php?page='.$i.'">'.$i.'</a></li>';
+                  echo '<li><a href="management.php?page='.$i.'">'.$i.'</a></li>';
                   $points = FALSE;
                }
                else if($i >= ($nombreDePages - 1))
                {
-                  echo '<li><a href="export.php?page='.$i.'">'.$i.'</a></li>';
+                  echo '<li><a href="management.php?page='.$i.'">'.$i.'</a></li>';
                }
                else if(!$points)
                {
-                  echo '<li><a href="export.php?page='.$i.'">'.'...'.'</a></li>';
+                  echo '<li><a href="management.php?page='.$i.'">'.'...'.'</a></li>';
                   $points = TRUE;
                }
             }

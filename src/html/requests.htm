@@ -7,6 +7,7 @@
    <title>Mes demandes d'exportation</title>
    <link rel="icon" href="../../favicon.ico">
    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+   <script src="../../js/sorttable.js"></script>
 </head>
 <body>
    <div class="navbar navbar-default navbar-fixed-top">
@@ -23,8 +24,9 @@
          <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                <li><a href="sign_in.php">Identification</a></li>
-               <li><a href="../php/import.php">Importation de données</a></li>
-               <li><a href="../php/export.php">Exportation de données</a></li>
+               <li><a href="../php/import.php">Importation</a></li>
+               <li><a href="../php/management.php">Gestion</a></li>
+               <li><a href="../php/exit_mapVF.php">Consultation</a></li>
                <?php
                if(isset($_SESSION['pseudo']))
                { ?>
@@ -68,7 +70,7 @@
             <h2>Vos demandes d'exportation</h2>
             <input type="text" id ="filter" class="search form-control" placeholder="Que cherchez-vous ?">
          </div>
-         <form method="post" action="../php/export.php" class="form-horizontal">
+         <form method="post" action="../php/management.php" class="form-horizontal">
             <div class="form-group">
                <label for="select_nb_elem" class="col-sm-6 control-label"> Nombre d'éléments par page ? </label>
                <select class="form-control col-sm-5" style="width:70px" id="select_nb_elem" name="select_nb_elem" size="1">

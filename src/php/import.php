@@ -11,9 +11,7 @@ else
 
 if ($connect == "1") // Si le visiteur s'est identifié.
 {
-
    include("../html/import.htm");
-
 } else {
    ?>
    <head>

@@ -26,8 +26,9 @@ session_start();
          <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                <li><a href="src/php/sign_in.php">Identification</a></li>
-               <li><a href="src/php/import.php">Importation de données</a></li>
-               <li><a href="src/php/export.php">Exportation de données</a></li>
+               <li><a href="src/php/import.php">Importation</a></li>
+               <li><a href="src/php/management.php">Exportation</a></li>
+               <li><a href="src/php/exit_mapVF.php">Consultation</a></li>
                <?php
                if(isset($_SESSION['pseudo']))
                { ?>
@@ -66,7 +67,7 @@ session_start();
       </div><!-- /.container-fluid -->
    </nav>
    <!-- Texte de présentation -->
-   <img src="images/vegfrance.png" alt="vegFrance" style="display:block;margin:0 auto;width:600px">
+   <img src="images/vegfrance.png" class="img-responsive" alt="vegFrance" style="display:block;margin:0 auto;width:600px">
    <br>
    <div style="text-align:justify;margin:auto;width:600px">VegFrance est une plateforme nationale publique conçue de façon à pouvoir réunir toutes données disponibles pour décrire la végétation du territoire français (métropolitain et d’outre-mer). VegFrance est constitué de trois bases de données afin de couvrir la diversité de relevés de végétation :
       <br>
@@ -79,5 +80,5 @@ session_start();
 </div>
 </body>
 </html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

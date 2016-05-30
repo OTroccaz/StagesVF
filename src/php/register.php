@@ -25,6 +25,7 @@ else // On est dans le cas traitement
    $lastname = htmlspecialchars($_POST['lastname']);
    $pseudo = htmlspecialchars($_POST['pseudo']);
    $email = htmlspecialchars($_POST['email']);
+   $domain = htmlspecialchars($_POST['domain']);
    $pass = sha1($_POST['password']);
    $confirm = sha1($_POST['confirm']);
 
@@ -77,18 +78,23 @@ else // On est dans le cas traitement
    if ($i==0)
    {
       include('../html/blank_page.htm');
-      echo'<div  style="text-align:center;margin-top:10%"><h1>Inscription terminée</h1>';
-      echo'<p>Bienvenue '.stripslashes(htmlspecialchars($_POST['pseudo'])).' vous êtes maintenant inscrit(e) sur le site VegFrance</p>
-      <p>Cliquez <a href="sign_in.php">ici</a> pour revenir à la page de connexion</p></div>';
+      ?>
+      <head>
+         <title>Inscription VegFrance</title>
+      </head>
+      <div  style="text-align:center;margin-top:10%"><h1>Inscription terminée</h1>
+      <p>Bienvenue <?php stripslashes(htmlspecialchars($_POST['pseudo']))?> vous êtes maintenant inscrit(e) sur le site VegFrance</p>
+      <p>Cliquez <a href="sign_in.php">ici</a> pour revenir à la page de connexion</p></div>
 
-
-      $requete=$bdd->prepare("INSERT INTO users(firstname, lastname, pseudo, password, email, sign_up, last_visit, id_status) VALUES(?,?,?,?,?,?,?,?)");
+      <?php
+      $requete=$bdd->prepare("INSERT INTO users(firstname, lastname, pseudo, password, email, domain, sign_up, last_visit, id_status) VALUES(?,?,?,?,?,?,?,?)");
       $requete->execute(array(
          $firstname,
          $lastname,
          $pseudo,
          $pass,
          $email,
+         $domain,
          $temps,
          $temps,
          2
@@ -130,16 +136,21 @@ else // On est dans le cas traitement
    else
    {
       include('../html/blank_page.htm');
-      echo'<div style="text-align:center;margin-top:10%"><h1>Inscription interrompue</h1>';
-      echo"<label>Une ou plusieurs erreurs se sont produites pendant l'inscription</label><br>";
-      echo'<label>'.$i.' erreur(s)</label><br>';
-      echo'<label>'.$pseudo_erreur1.'</label><br>';
-      echo'<label>'.$pseudo_erreur2.'</label><br>';
-      echo'<label>'.$mdp_erreur.'</label><br>';
-      echo'<label>'.$email_erreur1.'</label><br>';
-      echo'<label>'.$email_erreur2.'</label><br>';
-      echo'<label>Cliquez <a href="register.php">ici</a> pour recommencer</label>';
-      echo '</div>';
+      ?>
+      <head>
+         <title>Inscription VegFrance</title>
+      </head>
+      <div style="text-align:center;margin-top:10%"><h1>Inscription interrompue</h1>
+      <label>Une ou plusieurs erreurs se sont produites pendant l'inscription :</label><br>
+      <label><b><?php $i ?> erreur(s)</b></label><br>
+      <label><?php $pseudo_erreur1 ?></label><br>
+      <label><?php $pseudo_erreur2 ?></label><br>
+      <label><?php $mdp_erreur ?></label><br>
+      <label><?php $email_erreur1 ?></label><br>
+      <label><?php $email_erreur2 ?></label><br>
+      <label>Cliquez <a href="register.php">ici</a> pour recommencer</label>
+      </div>
+      <?php
    }
 }
 ?>

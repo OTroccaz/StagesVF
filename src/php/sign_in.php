@@ -48,7 +48,7 @@ if(!isset($_SESSION['pseudo']))
          $donnees = $reponse->fetch();
 
          echo ' | Dernière visite : ' . $donnees['last_visit'] . '</p>';
-         header("refresh:3; url=import.php");
+         header("refresh:3; url=../../index.php");
       }
    }
    else {

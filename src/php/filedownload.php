@@ -17,10 +17,10 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    /* CONNEXION FAITE */
 
    // On récupère les infos du fichier correspondant à l'id indiqué dans l'url
-   $reponse = $bdd->query("SELECT up_filename, up_type, up_filesize, up_finalname, up_id FROM files WHERE up_id = " . htmlspecialchars($_POST['id']));
-   $donnees = $reponse->fetch();
+   $requete = $bdd->query("SELECT up_filename, up_type, up_filesize, up_finalname, up_id FROM files WHERE up_id = " . htmlspecialchars($_POST['id']));
    if($_SESSION['status'] == 'Utilisateur' || $_SESSION['status'] == 'Fournisseur')
-   {
+   { // Si on est Utilisateur ou Fournisseur
+      $donnees = $requete->fetch();
       include ('../html/blank_page.htm');
       ?>
       <head>
@@ -46,8 +46,8 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       </body>
       <?php
    } else {
-      // Si le fichier est trouvé, alors
-      if ($donnees = $reponse->fetch()) {
+      // Si on est Administrateur ou Gestionnaire
+      if ($donnees = $requete->fetch()) { // Si le fichier est trouvé, alors
          // On renomme la variable des sous-dossiers en anglais
          $directory = $donnees['up_type'];
          if ($directory == 'Jeu de données') $directory = 'dataset';
@@ -60,8 +60,12 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          // Envoi du fichier dont le chemin est passé en paramètre
          readfile("../../uploads/".$directory.'/'.$donnees["up_filename"].'"');
       } else {
-         // Sinon on ne fait rien
-         echo "Le fichier n'existe pas";
+         include('../html/blank_page.htm');
+         ?>
+         <center>
+            <label style="margin-top:10%">Le fichier n'existe pas</label>
+         </center>
+         <?php
       }
    }
 } else {

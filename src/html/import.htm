@@ -13,18 +13,19 @@
       <div class="container">
          <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="../../index.php">Accueil</a>
          </div>
          <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                <li><a href="../php/sign_in.php">Identification</a></li>
-               <li class="active"><a href="../php/import.php">Importation de données</a></li>
-               <li><a href="../php/export.php">Exportation de données</a></li>
+               <li class="active"><a href="../php/import.php">Importation</a></li>
+               <li><a href="../php/management.php">Gestion</a></li>
+               <li><a href="../php/exit_mapVF.php">Consultation</a></li>
                <?php
                if(isset($_SESSION['pseudo']))
                { ?>
@@ -64,10 +65,17 @@
    </div>
    <div>
       <center>
-         <div style="margin:auto; width:500px">
+         <div style="margin:auto; width:600px">
             <h2>Importation de fichier</h2>
             <form method="post" action="../php/fileupload.php" enctype="multipart/form-data" >
                <input type="hidden" name="MAX_FILE_SIZE" value="524288000" />
+               <label>[Obligatoire]</label>
+               <p>Téléchargez le <a href="download_example.php">fichier excel</a> pour ranger vos données.</p>
+
+               <p>
+                  Munissez-vous de vos fichiers de type dataset, survey puis vegetation sous format .csv<br>
+                  Déposez en premier le fichier <b>dataset</b> puis tous les fichiers <b>survey</b> qui lui correspondent. <br> Enfin, déposez le fichier de type <b>vegetation</b>
+               </p>
 
                <label class="control-label">Selectionnez le fichier</label>
                <input type="file" class="filestyle" data-icon="true" data-placeholder="Aucun fichier sélectionné" data-buttonText=" Choisir fichier" data-buttonName="btn-primary" style="position:relative;overflow:hidden" name="fichier_importe" id="fichier_importe" ></BR></BR>
@@ -80,21 +88,21 @@
                      <option>Végétation</option>
                   </select>
                </div>
-            <br>
-            <br>
-            <label>
-               Votre fichier subira une vérification automatique avant d'être uploadé vers notre serveur.
-               Vérifiez que votre fichier suit les normes du fichier excel que nous avons mis en place. </br>
-               Si une erreur apparaît, c'est que votre fichier comporte une ou des erreurs.
-               Sinon, tout s'est passé sans problème.
-            </label>
-            <br>
-            <br>
-            <input type="submit" value="Importer" class="btn btn-primary" id="submit" disabled="true" name="import" />
-         </br></br></br>
-      </form>
-   </div>
-</center>
+               <br>
+               <br>
+               <label>
+                  Votre fichier subira une vérification automatique avant d'être uploadé vers notre serveur.
+                  Vérifiez que votre fichier suit les normes du fichier excel que nous avons mis en place. </br>
+                  Si une erreur apparaît, c'est que votre fichier comporte une ou des erreurs.
+                  Sinon, tout s'est passé sans problème.
+               </label>
+               <br>
+               <br>
+               <input type="submit" value="Importer" class="btn btn-primary" id="submit" disabled="true" name="import" />
+            </br></br></br>
+         </form>
+      </div>
+   </center>
 </div>
 </body>
 </html>
