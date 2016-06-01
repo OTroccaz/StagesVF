@@ -1,0 +1,2595 @@
+CD_CB;CD_CB_SUP;NIVEAU;LB_NIVEAU;FRANCE;LB_CB97_FR
+1;;1;Niveau 1;TRUE;Habitats littoraux et halophiles
+11;1;2;Niveau 2;TRUE;Mers et océans
+11.1;11;3;Niveau 3;TRUE;Eaux marines
+11.11;11.1;4;Niveau 4;TRUE;Eaux océaniques
+11.12;11.1;4;Niveau 4;TRUE;Eaux du talus et du plateau continental (= eaux néritiques)
+11.121;11.12;5;Niveau 5;TRUE;Eaux littorales
+11.122;11.12;5;Niveau 5;TRUE;Eaux néritiques lointaines (du large)
+11.123;11.12;5;Niveau 5;TRUE;Talus continental
+11.124;11.12;5;Niveau 5;TRUE;Upwellings
+11.125;11.12;5;Niveau 5;TRUE;Hauts-fonds
+11.2;11;3;Niveau 3;TRUE;Benthos (Fonds marins)
+11.21;11.2;4;Niveau 4;TRUE;Fonds sous-marins profonds
+11.22;11.2;4;Niveau 4;TRUE;Zones benthiques sublittorales sur sédiments meubles
+11.23;11.2;4;Niveau 4;TRUE;Zones benthiques sublittorales sur cailloutis
+11.24;11.2;4;Niveau 4;TRUE;Zones benthiques sublittorales sur fonds rocheux
+11.25;11.2;4;Niveau 4;TRUE;Formations sublittorales de concrétions organogéniques
+11.251;11.25;5;Niveau 5;TRUE;Concrétions coralligènes
+11.252;11.25;5;Niveau 5;TRUE;Trottoirs d'algues encroûtantes
+11.253;11.25;5;Niveau 5;TRUE;Trottoirs de Gastéropodes et Polychètes
+11.254;11.25;5;Niveau 5;TRUE;Trottoirs de moules (moulières)
+11.26;11.2;4;Niveau 4;TRUE;Grottes sous-marines
+11.3;11;3;Niveau 3;TRUE;Herbiers marins à plantes vasculaires
+11.31;11.3;4;Niveau 4;TRUE;Herbiers atlantiques à Zostères
+11.32;11.3;4;Niveau 4;TRUE;Herbiers atlantiques à Zostères naines
+11.321;11.32;5;Niveau 5;TRUE;Herbiers à Zostères naines de l'Atlantique continental
+11.322;11.32;5;Niveau 5;FALSE;
+11.33;11.3;4;Niveau 4;TRUE;Herbiers méditerranéens à Cymodocea et Zostera
+11.331;11.33;5;Niveau 5;TRUE;Herbiers méditerranéens à Cymodocea
+11.332;11.33;5;Niveau 5;TRUE;Herbiers méditerranéens à Zostera
+11.34;11.3;4;Niveau 4;TRUE;Herbiers de Posidonia
+11.35;11.3;4;Niveau 4;FALSE;
+11.36;11.3;4;Niveau 4;FALSE;
+11.361;11.36;5;Niveau 5;FALSE;
+11.362;11.36;5;Niveau 5;FALSE;
+11.4;11;3;Niveau 3;TRUE;Herbiers des eaux saumâtres
+11.41;11.4;4;Niveau 4;TRUE;Groupements marins à Ruppia maritima
+11.42;11.4;4;Niveau 4;FALSE;
+12;1;2;Niveau 2;TRUE;Bras de mer
+13;1;2;Niveau 2;TRUE;Estuaires et rivières tidales (soumises à marées)
+13.1;13;3;Niveau 3;TRUE;Fleuves et rivières soumis à marées
+13.11;13.1;4;Niveau 4;TRUE;Eau saumâtre des cours d'eau soumis à marées
+13.12;13.1;4;Niveau 4;TRUE;Eau douce des cours d'eau soumis à marées
+13.2;13;3;Niveau 3;TRUE;Estuaires
+13.3;13;3;Niveau 3;TRUE;Herbiers marins submergés
+13.4;13;3;Niveau 3;TRUE;Herbiers saumâtres submergés
+14;1;2;Niveau 2;TRUE;Vasières et bancs de sable sans végétations
+15;1;2;Niveau 2;TRUE;Marais salés, prés salés (schorres), steppes salées et fourrés sur gypse
+15.1;15;3;Niveau 3;TRUE;Gazons pionniers salés
+15.11;15.1;4;Niveau 4;TRUE;Gazons à Salicorne et Suaeda
+15.111;15.11;5;Niveau 5;TRUE;Gazons atlantiques à Salicorne (Slikkes)
+15.1111;15.111;6;Niveau 6;TRUE;Gazons à salicorne des côtes basses
+15.1112;15.111;6;Niveau 6;TRUE;Groupements à Suaeda et salicorne
+15.112;15.11;5;Niveau 5;TRUE;Gazons continentaux à salicorne
+15.1121;15.112;6;Niveau 6;TRUE;Suintements continentaux à salicorne
+15.1122;15.112;6;Niveau 6;TRUE;Gazons continentaux secs à salicorne
+15.113;15.11;5;Niveau 5;TRUE;Gazons méditerranéens à salicorne
+15.1131;15.113;6;Niveau 6;TRUE;Gazons à salicorne des basses côtes méditerranéennes
+15.1132;15.113;6;Niveau 6;FALSE;
+15.1133;15.113;6;Niveau 6;TRUE;Gazons à salicorne des hautes côtes méditerranéennes
+15.114;15.11;5;Niveau 5;FALSE;
+15.1141;15.114;6;Niveau 6;FALSE;
+15.1142;15.114;6;Niveau 6;FALSE;
+15.12;15.1;4;Niveau 4;TRUE;Groupements halonitrophiles à Frankenia
+15.13;15.1;4;Niveau 4;TRUE;Groupements à Sagina et Cochlearia
+15.2;15;3;Niveau 3;TRUE;Prairies à Spartine
+15.21;15.2;4;Niveau 4;TRUE;Prairies à Spartine à feuilles plates
+15.22;15.2;4;Niveau 4;FALSE;
+15.3;15;3;Niveau 3;TRUE;Prés salés atlantiques
+15.31;15.3;4;Niveau 4;TRUE;Prés salés avec Puccinellia maritima
+15.32;15.3;4;Niveau 4;TRUE;Groupements à Puccinellia maritima des prés salés
+15.321;15.32;5;Niveau 5;TRUE;Prés salés avec graminées et Pourpier marin
+15.322;15.32;5;Niveau 5;TRUE;Prés salés avec graminées et Aster marin
+15.323;15.32;5;Niveau 5;TRUE;Prés salés avec graminées et Salicorne
+15.324;15.32;5;Niveau 5;TRUE;Végétations à Halimione pedunculata
+15.33;15.3;4;Niveau 4;TRUE;Communautés du schorre supérieur
+15.331;15.33;5;Niveau 5;TRUE;Formations dominées par, ou riches en, Juncus gerardii
+15.332;15.33;5;Niveau 5;TRUE;Formations dominées par Plantago maritima
+15.333;15.33;5;Niveau 5;TRUE;Gazons à Festuca rubra ou Agrostis stolonifera
+15.334;15.33;5;Niveau 5;TRUE;Gazons à Statice (Armeria maritima)
+15.335;15.33;5;Niveau 5;TRUE;Zones à Carex distans
+15.336;15.33;5;Niveau 5;TRUE;Formations riches en Carex extensa
+15.337;15.33;5;Niveau 5;TRUE;Prairies à lavandes de mer (Limonium vulgare)
+15.338;15.33;5;Niveau 5;TRUE;Formations riches en Blysmus rufus
+15.339;15.33;5;Niveau 5;TRUE;Zones à Eleocharis uniglumis ou E. palustris
+15.33A;15.33;5;Niveau 5;TRUE;Zones à Juncus maritimus
+15.33B;15.33;5;Niveau 5;TRUE;Champs à armoise marine (Artemisia maritima)
+15.33C;15.33;5;Niveau 5;TRUE;Tapis de Potentilla anserina
+15.33D;15.33;5;Niveau 5;TRUE;Tapis de Frankenia laevis
+15.33E;15.33;5;Niveau 5;TRUE;Zones à Aster (Aster tripolium) du schorre supérieur
+15.34;15.3;4;Niveau 4;TRUE;Prés salés à Puccinellia et Spergularia marina
+15.35;15.3;4;Niveau 4;TRUE;Végétation à Elymus pycnanthus
+15.36;15.3;4;Niveau 4;TRUE;Laisses de mer des prés salés atlantiques
+15.4;15;3;Niveau 3;TRUE;Prés salés continentaux
+15.41;15.4;4;Niveau 4;TRUE;Prés salés continentaux avec Puccinellia distans
+15.42;15.4;4;Niveau 4;TRUE;Prés salés continentaux à jonc et Elymus
+15.43;15.4;4;Niveau 4;FALSE;
+15.5;15;3;Niveau 3;TRUE;Prés salés méditerranéens
+15.51;15.5;4;Niveau 4;TRUE;Prés salés méditerranéens à Juncus maritimus et J. acutus
+15.52;15.5;4;Niveau 4;TRUE;Prés salés à Juncus gerardii et Carex divisa
+15.53;15.5;4;Niveau 4;TRUE;Prés méditerranéens halo-psammophiles
+15.54;15.5;4;Niveau 4;FALSE;
+15.55;15.5;4;Niveau 4;TRUE;Prés salés méditerranéens à Puccinellia
+15.56;15.5;4;Niveau 4;TRUE;Formations à annuelles sur laisses
+15.57;15.5;4;Niveau 4;TRUE;Prés salés à chiendent et armoise
+15.58;15.5;4;Niveau 4;TRUE;Formations à Juncus subulatus
+15.6;15;3;Niveau 3;TRUE;Fourrés des prés salés (hygro-halophiles)
+15.61;15.6;4;Niveau 4;TRUE;Fourrés des marais salés méditerranéens
+15.611;15.61;5;Niveau 5;TRUE;Tapis d'Arthrocnemum perennis
+15.612;15.61;5;Niveau 5;TRUE;Bosquets d'arbrisseaux à Arthrocnemum (enganes)
+15.613;15.61;5;Niveau 5;TRUE;Bosquets à Arthrocnemum glaucum (enganes)
+15.614;15.61;5;Niveau 5;TRUE;Bosquets d'arbrisseaux à Suaeda
+15.615;15.61;5;Niveau 5;FALSE;
+15.6151;15.615;6;Niveau 6;FALSE;
+15.6152;15.615;6;Niveau 6;FALSE;
+15.6153;15.615;6;Niveau 6;FALSE;
+15.616;15.61;5;Niveau 5;TRUE;Fourrés méditerranéens à pourpier marin et Arthrocnemum fruticosi
+15.617;15.61;5;Niveau 5;FALSE;
+15.62;15.6;4;Niveau 4;TRUE;Fourrés des marais salés atlantiques
+15.621;15.62;5;Niveau 5;TRUE;Fourrés argentés à Halimione portulacoides
+15.622;15.62;5;Niveau 5;TRUE;Fruticées atlantiques d'Arthrocnemum perennis
+15.623;15.62;5;Niveau 5;TRUE;Fourrés atlantiques d'arbrisseaux à Suaeda
+15.624;15.62;5;Niveau 5;TRUE;Fourrés atlantiques d'arbustes à Arthrocnemum
+15.63;15.6;4;Niveau 4;TRUE;Fourrés à Limoniastrum
+15.64;15.6;4;Niveau 4;FALSE;
+15.641;15.64;5;Niveau 5;FALSE;
+15.642;15.64;5;Niveau 5;FALSE;
+15.643;15.64;5;Niveau 5;FALSE;
+15.7;15;3;Niveau 3;TRUE;Fourrés halophiles semi-désertiques
+15.71;15.7;4;Niveau 4;FALSE;
+15.711;15.71;5;Niveau 5;FALSE;
+15.712;15.71;5;Niveau 5;FALSE;
+15.713;15.71;5;Niveau 5;FALSE;
+15.72;15.7;4;Niveau 4;TRUE;Fourrés halonitrophiles méditerranéens
+15.721;15.72;5;Niveau 5;FALSE;
+15.722;15.72;5;Niveau 5;FALSE;
+15.723;15.72;5;Niveau 5;FALSE;
+15.724;15.72;5;Niveau 5;FALSE;
+15.725;15.72;5;Niveau 5;FALSE;
+15.8;15;3;Niveau 3;TRUE;Steppes salées méditerranéennes
+15.81;15.8;4;Niveau 4;TRUE;Steppes à Lavande de mer
+15.811;15.81;5;Niveau 5;TRUE;Steppes à Lavande de mer ibériques
+15.8114;15.811;6;Niveau 6;TRUE;Steppes à Lavande de mer catalano-provençales
+15.82;15.8;4;Niveau 4;FALSE;
+15.9;15;3;Niveau 3;FALSE;
+15.91;15.9;4;Niveau 4;FALSE;
+15.911;15.91;5;Niveau 5;FALSE;
+15.912;15.91;5;Niveau 5;FALSE;
+15.913;15.91;5;Niveau 5;FALSE;
+15.92;15.9;4;Niveau 4;FALSE;
+15.921;15.92;5;Niveau 5;FALSE;
+15.922;15.92;5;Niveau 5;FALSE;
+15.923;15.92;5;Niveau 5;FALSE;
+15.93;15.9;4;Niveau 4;FALSE;
+16;1;2;Niveau 2;TRUE;Dunes côtières et plages de sable
+16.1;16;3;Niveau 3;TRUE;Plages de sable
+16.11;16.1;4;Niveau 4;TRUE;Plages de sable sans végétation
+16.12;16.1;4;Niveau 4;TRUE;Groupements annuels des plages de sable
+16.13;16.1;4;Niveau 4;TRUE;Groupements vivaces des plages de sable
+16.2;16;3;Niveau 3;TRUE;Dunes
+16.21;16.2;4;Niveau 4;TRUE;Dunes mobiles
+16.211;16.21;5;Niveau 5;TRUE;Dunes embryonnaires
+16.2111;16.211;6;Niveau 6;TRUE;Dunes embryonnaires atlantiques
+16.2112;16.211;6;Niveau 6;TRUE;Dunes embryonnaires méditerranéennes
+16.212;16.21;5;Niveau 5;TRUE;Dunes blanches
+16.2121;16.212;6;Niveau 6;TRUE;Dunes blanches de l'Atlantique
+16.2122;16.212;6;Niveau 6;TRUE;Dunes blanches de la Méditerranée
+16.2123;16.212;6;Niveau 6;FALSE;
+16.22;16.2;4;Niveau 4;TRUE;Dunes grises
+16.221;16.22;5;Niveau 5;TRUE;Dunes grises septentrionales
+16.2211;16.221;6;Niveau 6;TRUE;Groupements dunaires à Tortula
+16.2212;16.221;6;Niveau 6;TRUE;Groupements dunaires à Corynephorus canescens
+16.2213;16.221;6;Niveau 6;TRUE;Groupements dunaires à Myosoton
+16.222;16.22;5;Niveau 5;TRUE;Dunes grises de Gascogne
+16.223;16.22;5;Niveau 5;TRUE;Dunes grises ibéro-méditerranéennes
+16.224;16.22;5;Niveau 5;FALSE;
+16.225;16.22;5;Niveau 5;TRUE;Pelouses dunaires du Mesobromion
+16.226;16.22;5;Niveau 5;TRUE;Lisières des dunes thermophiles
+16.227;16.22;5;Niveau 5;TRUE;Groupements dunaires à plantes annuelles
+16.228;16.22;5;Niveau 5;TRUE;Groupements dunaires à Malcolmia
+16.229;16.22;5;Niveau 5;TRUE;Pelouses dunaires méditerranéennes xériques
+16.22A;16.22;5;Niveau 5;FALSE;
+16.23;16.2;4;Niveau 4;FALSE;
+16.24;16.2;4;Niveau 4;TRUE;Dunes brunes à bruyère
+16.241;16.24;5;Niveau 5;FALSE;
+16.242;16.24;5;Niveau 5;TRUE;Dunes françaises à bruyère
+16.243;16.24;5;Niveau 5;FALSE;
+16.244;16.24;5;Niveau 5;TRUE;Dunes françaises à bruyère cendrée
+16.245;16.24;5;Niveau 5;TRUE;Dunes françaises à bruyère ciliée
+16.246;16.24;5;Niveau 5;FALSE;
+16.247;16.24;5;Niveau 5;FALSE;
+16.25;16.2;4;Niveau 4;TRUE;Dunes avec fourrés, bosquets
+16.251;16.25;5;Niveau 5;TRUE;Fourrés dunaires à Argousier
+16.252;16.25;5;Niveau 5;TRUE;Fourrés dunaires mixtes
+16.26;16.2;4;Niveau 4;TRUE;Dunes à Salix arenaria
+16.27;16.2;4;Niveau 4;TRUE;Dunes à genévrier
+16.271;16.27;5;Niveau 5;TRUE;Fourrés dunaires à genévrier oxycèdre
+16.272;16.27;5;Niveau 5;TRUE;Bois à Juniperetum lyciae
+16.273;16.27;5;Niveau 5;FALSE;
+16.274;16.27;5;Niveau 5;FALSE;
+16.28;16.2;4;Niveau 4;TRUE;Fourrés dunaires à sclérophylles
+16.29;16.2;4;Niveau 4;TRUE;Dunes boisées
+16.3;16;3;Niveau 3;TRUE;Lettes dunaires humides (= Pannes humides, = Dépressions humides intradunales)
+16.31;16.3;4;Niveau 4;TRUE;Mares des lettes dunaires
+16.32;16.3;4;Niveau 4;TRUE;Gazons pionniers des lettes ou pannes humides
+16.33;16.3;4;Niveau 4;TRUE;Bas-marais des pannes humides
+16.34;16.3;4;Niveau 4;TRUE;Prairies des lettes ou pannes humides
+16.35;16.3;4;Niveau 4;TRUE;Roselières et cariçaies des lettes dunaires
+17;1;2;Niveau 2;TRUE;Plages de galets
+17.1;17;3;Niveau 3;TRUE;Plages de galets sans végétation
+17.2;17;3;Niveau 3;TRUE;Végétation annuelle des laisses de mer sur plages de galets
+17.3;17;3;Niveau 3;TRUE;Végétation vivace des bancs de galets à Crambe
+17.31;17.3;4;Niveau 4;FALSE;
+17.32;17.3;4;Niveau 4;TRUE;Groupements à Crambe de la Manche
+17.33;17.3;4;Niveau 4;TRUE;Groupements à Crambe de l'Atlantique
+17.4;17;3;Niveau 3;TRUE;Prairies et landes des bancs de galets
+17.41;17.4;4;Niveau 4;TRUE;Pelouses à Avoine élevée sur bancs de galets
+17.42;17.4;4;Niveau 4;TRUE;Landes à Genêt à balais sur bancs de galets
+18;1;2;Niveau 2;TRUE;Côtes rocheuses et falaises maritimes
+18.1;18;3;Niveau 3;TRUE;Falaises maritimes nues
+18.11;18.1;4;Niveau 4;TRUE;Rochers et falaises de la frange médiolittorale
+18.12;18.1;4;Niveau 4;TRUE;Rochers de l'étage médiolittoral inférieur
+18.13;18.1;4;Niveau 4;TRUE;Rochers de l'étage médiolittoral supérieur
+18.14;18.1;4;Niveau 4;TRUE;Surplombs, crevasses et grottes de l'étage médiolittoral
+18.15;18.1;4;Niveau 4;TRUE;Mares permanentes des rochers de l'étage médiolittoral
+18.16;18.1;4;Niveau 4;TRUE;Rochers de l'étage supralittoral
+18.17;18.1;4;Niveau 4;TRUE;Flaques des rochers de l'étage supralittoral
+18.2;18;3;Niveau 3;TRUE;Côtes rocheuses et falaises avec végétation
+18.21;18.2;4;Niveau 4;TRUE;Groupements des falaises atlantiques
+18.22;18.2;4;Niveau 4;TRUE;Groupements des falaises méditerranéennes
+18.23;18.2;4;Niveau 4;FALSE;
+18.24;18.2;4;Niveau 4;FALSE;
+18.3;18;3;Niveau 3;FALSE;
+19;1;2;Niveau 2;TRUE;Ilots, bancs rocheux et récifs
+1A;1;2;Niveau 2;FALSE;
+2;;1;Niveau 1;TRUE;Milieux aquatiques non marins
+21;2;2;Niveau 2;TRUE;Lagunes
+22;2;2;Niveau 2;TRUE;Eaux douces stagnantes
+22.1;22;3;Niveau 3;TRUE;Eaux douces
+22.11;22.1;4;Niveau 4;TRUE;Eaux oligotrophes pauvres en calcaire
+22.12;22.1;4;Niveau 4;TRUE;Eaux mésotrophes
+22.13;22.1;4;Niveau 4;TRUE;Eaux eutrophes
+22.14;22.1;4;Niveau 4;TRUE;Eaux dystrophes
+22.15;22.1;4;Niveau 4;TRUE;Eaux oligo-mésotrophes riches en calcaire
+22.2;22;3;Niveau 3;TRUE;Galets ou vasières non végétalisés
+22.3;22;3;Niveau 3;TRUE;Communautés amphibies
+22.31;22.3;4;Niveau 4;TRUE;Communautés amphibies pérennes septentrionales
+22.311;22.31;5;Niveau 5;TRUE;Gazons de Littorelles, étangs à Lobélies, gazons d'Isoètes
+22.3111;22.311;6;Niveau 6;TRUE;Gazons de Littorelles
+22.3112;22.311;6;Niveau 6;TRUE;Etangs à Lobélies
+22.3113;22.311;6;Niveau 6;TRUE;Gazons d'Isoètes euro-sibériens
+22.3114;22.311;6;Niveau 6;TRUE;Communautés flottantes de Sparganium
+22.312;22.31;5;Niveau 5;TRUE;Gazons à Eleocharis en eaux peu profondes
+22.313;22.31;5;Niveau 5;TRUE;Gazons des bordures d'étangs acides en eaux peu profondes
+22.314;22.31;5;Niveau 5;TRUE;Gazons des berges tourbeuses en eaux peu profondes
+22.315;22.31;5;Niveau 5;TRUE;Gazons à Canche des rivages
+22.3151;22.315;6;Niveau 6;TRUE;Gazons péri-alpins à Canche des rivages
+22.3152;22.315;6;Niveau 6;FALSE;
+22.32;22.3;4;Niveau 4;TRUE;Gazons amphibies annuels septentrionaux
+22.321;22.32;5;Niveau 5;TRUE;Communautés à Eleocharis
+22.322;22.32;5;Niveau 5;TRUE;Gazons de plantes pionnières des lettes dunaires
+22.323;22.32;5;Niveau 5;TRUE;Communautés naines à Juncus bufonius
+22.3231;22.323;6;Niveau 6;TRUE;Gazons à Juncus bufonius
+22.3232;22.323;6;Niveau 6;TRUE;Gazons à petits Souchets
+22.3233;22.323;6;Niveau 6;TRUE;Communautés d'herbes naines des substrats humides
+22.33;22.3;4;Niveau 4;TRUE;Groupements à Bidens tripartitus
+22.34;22.3;4;Niveau 4;TRUE;Groupements amphibies méridionaux
+22.341;22.34;5;Niveau 5;TRUE;Petits gazons amphibies méditerranéens
+22.3411;22.341;6;Niveau 6;TRUE;Groupements terrestres à Isoètes
+22.3412;22.341;6;Niveau 6;TRUE;Gazons méditerranéens aquatiques à Isoètes
+22.3413;22.341;6;Niveau 6;FALSE;
+22.3414;22.341;6;Niveau 6;TRUE;Gazons méditerranéens à Cyperus
+22.3415;22.341;6;Niveau 6;TRUE;Gazons méditerranéens à Fimbristylis
+22.3416;22.341;6;Niveau 6;FALSE;
+22.3417;22.341;6;Niveau 6;TRUE;Groupements à Spiranthes et Anagallis
+22.3418;22.341;6;Niveau 6;TRUE;Groupements méditerranéens amphibies à plantes de taille réduite
+22.342;22.34;5;Niveau 5;TRUE;Grands gazons méditerranéens amphibies
+22.343;22.34;5;Niveau 5;TRUE;Gazons méditerranéens amphibies halo-nitrophiles
+22.344;22.34;5;Niveau 5;TRUE;Prairies à Serapias
+22.4;22;3;Niveau 3;TRUE;Végétations aquatiques
+22.41;22.4;4;Niveau 4;TRUE;Végétations flottant librement
+22.411;22.41;5;Niveau 5;TRUE;Couvertures de Lemnacées
+22.412;22.41;5;Niveau 5;TRUE;Radeaux d'Hydrocharis
+22.413;22.41;5;Niveau 5;TRUE;Radeaux de Stratiotes
+22.414;22.41;5;Niveau 5;TRUE;Colonies d'Utriculaires
+22.415;22.41;5;Niveau 5;TRUE;Couvertures de Salvinia
+22.416;22.41;5;Niveau 5;TRUE;Groupements à Aldrovanda
+22.42;22.4;4;Niveau 4;TRUE;Végétations enracinées immergées
+22.421;22.42;5;Niveau 5;TRUE;Groupements de grands Potamots
+22.422;22.42;5;Niveau 5;TRUE;Groupements de petits Potamots
+22.43;22.4;4;Niveau 4;TRUE;Végétations enracinées flottantes
+22.431;22.43;5;Niveau 5;TRUE;Tapis flottant de végétaux à grandes feuilles
+22.4311;22.431;6;Niveau 6;TRUE;Tapis de Nénuphars
+22.4312;22.431;6;Niveau 6;TRUE;Tapis de chataîgnes d'eau
+22.4313;22.431;6;Niveau 6;TRUE;Tapis de Nymphoides
+22.4314;22.431;6;Niveau 6;TRUE;Tapis de Potamot flottant
+22.4315;22.431;6;Niveau 6;TRUE;Tapis de Renouées
+22.432;22.43;5;Niveau 5;TRUE;Communautés flottantes des eaux peu profondes
+22.433;22.43;5;Niveau 5;TRUE;Groupements oligotrophes de Potamots
+22.44;22.4;4;Niveau 4;TRUE;Tapis immergés de Characées
+22.441;22.44;5;Niveau 5;TRUE;Tapis de Chara
+22.442;22.44;5;Niveau 5;TRUE;Tapis de Nitella
+22.45;22.4;4;Niveau 4;TRUE;Mares de tourbières à Sphaignes et Utriculaires
+22.5;22;3;Niveau 3;TRUE;Masses d'eau temporaires
+23;2;2;Niveau 2;TRUE;Eaux stagnantes, saumâtres et salées
+23.1;23;3;Niveau 3;TRUE;Eaux saumâtres ou salées sans végétation
+23.11;23.1;4;Niveau 4;TRUE;Eau libre sans tapis de Charophytes
+23.12;23.1;4;Niveau 4;TRUE;Tapis algual de Charophyte
+23.2;23;3;Niveau 3;TRUE;Eaux saumâtres ou salées végétalisées
+23.21;23.2;4;Niveau 4;TRUE;Formations immergées des eaux saumâtres ou salées
+23.211;23.21;5;Niveau 5;TRUE;Groupements à Ruppia
+23.212;23.21;5;Niveau 5;TRUE;Communautés lagunaires de végétation marine
+23.22;23.2;4;Niveau 4;TRUE;Scirpaies naines lagunaires
+24;2;2;Niveau 2;TRUE;Eaux courantes
+24.1;24;3;Niveau 3;TRUE;Lits des rivières
+24.11;24.1;4;Niveau 4;TRUE;Ruisselets
+24.12;24.1;4;Niveau 4;TRUE;Zone à Truites
+24.13;24.1;4;Niveau 4;TRUE;Zone à Ombres
+24.14;24.1;4;Niveau 4;TRUE;Zone à Barbeaux
+24.15;24.1;4;Niveau 4;TRUE;Zone à Brèmes
+24.16;24.1;4;Niveau 4;TRUE;Cours d'eau intermittents
+24.2;24;3;Niveau 3;TRUE;Bancs de graviers des cours d'eau
+24.21;24.2;4;Niveau 4;TRUE;Bancs de graviers sans végétation
+24.22;24.2;4;Niveau 4;TRUE;Bancs de graviers végétalisés
+24.221;24.22;5;Niveau 5;TRUE;Groupements d'Epilobes des rivières subalpines
+24.222;24.22;5;Niveau 5;TRUE;Groupements alpins des bancs de graviers
+24.223;24.22;5;Niveau 5;TRUE;Broussailles de Saules et de Myricaire germanique
+24.224;24.22;5;Niveau 5;TRUE;Fourrés et bois des bancs de graviers
+24.225;24.22;5;Niveau 5;TRUE;Lits de graviers méditerranéens
+24.226;24.22;5;Niveau 5;TRUE;Graviers des rivières de plaine
+24.3;24;3;Niveau 3;TRUE;Bancs de sable des rivières
+24.31;24.3;4;Niveau 4;TRUE;Bancs de sable des rivières sans végétation
+24.32;24.3;4;Niveau 4;TRUE;Bancs de sable riverains pourvus de végétation
+24.4;24;3;Niveau 3;TRUE;Végétation immergée des rivières
+24.41;24.4;4;Niveau 4;TRUE;Végétation des rivières oligotrophes acidiphiles
+24.42;24.4;4;Niveau 4;TRUE;Végétation des rivières oligotrophes riches en calcaire
+24.43;24.4;4;Niveau 4;TRUE;Végétation des rivières mésotrophes
+24.44;24.4;4;Niveau 4;TRUE;Végétation des rivières eutrophes
+24.5;24;3;Niveau 3;TRUE;Dépôts d'alluvions fluviatiles limoneuses
+24.51;24.5;4;Niveau 4;TRUE;Dépôts nus d'alluvions fluviatiles limoneuses
+24.52;24.5;4;Niveau 4;TRUE;Groupements euro-sibériens annuels des vases fluviatiles
+24.53;24.5;4;Niveau 4;TRUE;Groupements méditerranéens des limons riverains
+3;;1;Niveau 1;TRUE;Landes, fruticées, pelouses et prairies
+31;3;2;Niveau 2;TRUE;Landes et fruticées
+31.1;31;3;Niveau 3;TRUE;Landes humides
+31.11;31.1;4;Niveau 4;TRUE;Landes humides atlantiques septentrionales
+31.12;31.1;4;Niveau 4;TRUE;Landes humides atlantiques méridionales
+31.13;31.1;4;Niveau 4;TRUE;Landes humides à Molinia caerulea
+31.2;31;3;Niveau 3;TRUE;Landes sèches
+31.21;31.2;4;Niveau 4;TRUE;Landes submontagnardes à Vaccinium
+31.211;31.21;5;Niveau 5;FALSE;
+31.212;31.21;5;Niveau 5;FALSE;
+31.2121;31.212;6;Niveau 6;FALSE;
+31.2122;31.212;6;Niveau 6;FALSE;
+31.2123;31.212;6;Niveau 6;FALSE;
+31.2124;31.212;6;Niveau 6;FALSE;
+31.2125;31.212;6;Niveau 6;FALSE;
+31.2126;31.212;6;Niveau 6;FALSE;
+31.2127;31.212;6;Niveau 6;FALSE;
+31.2128;31.212;6;Niveau 6;FALSE;
+31.213;31.21;5;Niveau 5;TRUE;Landes hercyniennes à Vaccinium
+31.214;31.21;5;Niveau 5;TRUE;Landes submontagnardes alpiennes à Vaccinium
+31.215;31.21;5;Niveau 5;TRUE;Landes sub-montagnardes pyrénéo-cantabriques à Vaccinium
+31.22;31.2;4;Niveau 4;TRUE;Landes sub-atlantiques à Genêt et Callune
+31.221;31.22;5;Niveau 5;FALSE;
+31.222;31.22;5;Niveau 5;FALSE;
+31.223;31.22;5;Niveau 5;TRUE;Landes campino-flandriennes à Callune et Genêt
+31.224;31.22;5;Niveau 5;TRUE;Landes campino-flandriennes à Erica cinerea
+31.225;31.22;5;Niveau 5;FALSE;
+31.2251;31.225;6;Niveau 6;FALSE;
+31.2252;31.225;6;Niveau 6;FALSE;
+31.2253;31.225;6;Niveau 6;FALSE;
+31.2254;31.225;6;Niveau 6;FALSE;
+31.2255;31.225;6;Niveau 6;FALSE;
+31.2256;31.225;6;Niveau 6;FALSE;
+31.2257;31.225;6;Niveau 6;FALSE;
+31.2258;31.225;6;Niveau 6;FALSE;
+31.226;31.22;5;Niveau 5;TRUE;Landes montagnardes à Calluna et Genista
+31.227;31.22;5;Niveau 5;TRUE;Landes à Empetrum nigrum
+31.228;31.22;5;Niveau 5;FALSE;
+31.229;31.22;5;Niveau 5;FALSE;
+31.22A;31.22;5;Niveau 5;TRUE;Landes à Genista sagittalis
+31.23;31.2;4;Niveau 4;TRUE;Landes atlantiques à Erica et Ulex
+31.231;31.23;5;Niveau 5;TRUE;Landes à Ulex maritimus
+31.232;31.23;5;Niveau 5;FALSE;
+31.233;31.23;5;Niveau 5;FALSE;
+31.234;31.23;5;Niveau 5;TRUE;Landes septentrionales à Erica vagans
+31.2341;31.234;6;Niveau 6;TRUE;Landes armoricaines à Erica vagans
+31.2342;31.234;6;Niveau 6;FALSE;
+31.23421;31.2342;7;Niveau 7;FALSE;
+31.23422;31.2342;7;Niveau 7;FALSE;
+31.235;31.23;5;Niveau 5;TRUE;Landes anglo-armoricaines occidentales à Ajoncs
+31.2351;31.235;6;Niveau 6;TRUE;Landes anglo-armoricaines à Ulex gallii et Erica cinerea
+31.2352;31.235;6;Niveau 6;TRUE;Landes anglo-armoricaines à Ulex gallii et Erica ciliaris
+31.2353;31.235;6;Niveau 6;TRUE;Landes anglo-armoricaines à Ulex gallii et Calluna
+31.2354;31.235;6;Niveau 6;FALSE;
+31.236;31.23;5;Niveau 5;TRUE;Landes pyrénéo-cantabriques à Erica mackaiana et E. ciliaris
+31.237;31.23;5;Niveau 5;TRUE;Landes pyrénéo-cantabriques à Erica vagans et Erica cinerea
+31.238;31.23;5;Niveau 5;TRUE;Landes anglo-normandes à Ajoncs nains
+31.2381;31.238;6;Niveau 6;TRUE;Landes anglo-normandes à Ulex minor et Erica cinerea
+31.2382;31.238;6;Niveau 6;TRUE;Landes anglo-normandes à Ulex minor et Erica ciliaris
+31.2383;31.238;6;Niveau 6;TRUE;Landes anglo-normandes à Ulex minor et Calluna
+31.239;31.23;5;Niveau 5;TRUE;Landes aquitano-ligériennes à Ajoncs nains
+31.2391;31.239;6;Niveau 6;TRUE;Landes aquitano-ligériennes à Ulex minor et Erica cinerea
+31.2392;31.239;6;Niveau 6;TRUE;Landes aquitano-ligériennes à Ulex minor et Erica ciliaris
+31.2393;31.239;6;Niveau 6;TRUE;Landes aquitano-ligériennes à Ulex minor et Erica scoparia
+31.24;31.2;4;Niveau 4;TRUE;Landes ibéro-atlantiques à Erica, Ulex et Cistus
+31.241;31.24;5;Niveau 5;TRUE;Landes gasconnes
+31.2411;31.241;6;Niveau 6;TRUE;Landes aquitaniennes à Erica et Cistus
+31.2412;31.241;6;Niveau 6;TRUE;Landes arides de Gascogne et de Sologne
+31.2413;31.241;6;Niveau 6;FALSE;
+31.242;31.24;5;Niveau 5;FALSE;
+31.2421;31.242;6;Niveau 6;FALSE;
+31.2422;31.242;6;Niveau 6;FALSE;
+31.243;31.24;5;Niveau 5;FALSE;
+31.2431;31.243;6;Niveau 6;FALSE;
+31.2432;31.243;6;Niveau 6;FALSE;
+31.244;31.24;5;Niveau 5;FALSE;
+31.2441;31.244;6;Niveau 6;FALSE;
+31.2442;31.244;6;Niveau 6;FALSE;
+31.2443;31.244;6;Niveau 6;FALSE;
+31.245;31.24;5;Niveau 5;FALSE;
+31.2451;31.245;6;Niveau 6;FALSE;
+31.2452;31.245;6;Niveau 6;FALSE;
+31.2453;31.245;6;Niveau 6;FALSE;
+31.246;31.24;5;Niveau 5;FALSE;
+31.2461;31.246;6;Niveau 6;FALSE;
+31.2462;31.246;6;Niveau 6;FALSE;
+31.2463;31.246;6;Niveau 6;FALSE;
+31.2464;31.246;6;Niveau 6;FALSE;
+31.247;31.24;5;Niveau 5;FALSE;
+31.248;31.24;5;Niveau 5;FALSE;
+31.249;31.24;5;Niveau 5;FALSE;
+31.3;31;3;Niveau 3;FALSE;
+31.31;31.3;4;Niveau 4;FALSE;
+31.311;31.31;5;Niveau 5;FALSE;
+31.312;31.31;5;Niveau 5;FALSE;
+31.32;31.3;4;Niveau 4;FALSE;
+31.33;31.3;4;Niveau 4;FALSE;
+31.34;31.3;4;Niveau 4;FALSE;
+31.35;31.3;4;Niveau 4;FALSE;
+31.36;31.3;4;Niveau 4;FALSE;
+31.4;31;3;Niveau 3;TRUE;Landes alpines et boréales
+31.41;31.4;4;Niveau 4;TRUE;Landes naines à Azalée et à Vaccinium
+31.411;31.41;5;Niveau 5;TRUE;Landes à Loiseleuria
+31.412;31.41;5;Niveau 5;TRUE;Landes alpines à Vaccinium
+31.42;31.4;4;Niveau 4;TRUE;Landes à Rhododendron
+31.43;31.4;4;Niveau 4;TRUE;Fourrés à Genévriers nains
+31.431;31.43;5;Niveau 5;TRUE;Fourrés à Juniperus communis subsp. nana
+31.432;31.43;5;Niveau 5;TRUE;Fourrés à Juniperus sabina
+31.433;31.43;5;Niveau 5;TRUE;Fourrés à Juniperus communis subsp. hemisphaerica
+31.434;31.43;5;Niveau 5;FALSE;
+31.44;31.4;4;Niveau 4;TRUE;Landes à Empetrum et Vaccinium
+31.45;31.4;4;Niveau 4;FALSE;
+31.451;31.45;5;Niveau 5;FALSE;
+31.452;31.45;5;Niveau 5;FALSE;
+31.453;31.45;5;Niveau 5;FALSE;
+31.46;31.4;4;Niveau 4;FALSE;
+31.47;31.4;4;Niveau 4;TRUE;Landes à Arctostaphylos uva-ursi
+31.48;31.4;4;Niveau 4;TRUE;Landes à Rhododendron hirsutum
+31.49;31.4;4;Niveau 4;TRUE;Tapis à Dryade
+31.491;31.49;5;Niveau 5;TRUE;Tapis de Dryas de haute montagne
+31.492;31.49;5;Niveau 5;FALSE;
+31.493;31.49;5;Niveau 5;FALSE;
+31.494;31.49;5;Niveau 5;FALSE;
+31.495;31.49;5;Niveau 5;FALSE;
+31.4A;31.4;4;Niveau 4;FALSE;
+31.5;31;3;Niveau 3;TRUE;Fourré bas de Pins mugo
+31.51;31.5;4;Niveau 4;TRUE;Fourrés bas de Pins mugo des Alpes internes
+31.52;31.5;4;Niveau 4;FALSE;
+31.53;31.5;4;Niveau 4;TRUE;Fourrés bas de Pins mugo des Alpes sud-occidentales
+31.54;31.5;4;Niveau 4;FALSE;
+31.6;31;3;Niveau 3;TRUE;Fourrés subalpins et communautés de hautes herbes (mégaphorbiaies)
+31.61;31.6;4;Niveau 4;TRUE;Broussailles d'Aulnes verts
+31.611;31.61;5;Niveau 5;TRUE;Fourrés d'Aulnes verts des Alpes
+31.612;31.61;5;Niveau 5;TRUE;Broussailles corses d'Alnus viridis subsp. suaveolens
+31.62;31.6;4;Niveau 4;TRUE;Fourrés de Saules
+31.621;31.62;5;Niveau 5;TRUE;Fourrés de Saules pyrénéo-alpiens
+31.6211;31.621;6;Niveau 6;TRUE;Brousses à Saules bas des Alpes
+31.6212;31.621;6;Niveau 6;TRUE;Brousses alpiennes à Saules prostrés
+31.6213;31.621;6;Niveau 6;TRUE;Brousses alpiennes de Saules élevés
+31.6214;31.621;6;Niveau 6;TRUE;Broussailles de Saules pyrénéens
+31.622;31.62;5;Niveau 5;FALSE;
+31.623;31.62;5;Niveau 5;FALSE;
+31.63;31.6;4;Niveau 4;TRUE;Mégaphorbiaies subalpines avec buissons
+31.64;31.6;4;Niveau 4;FALSE;
+31.7;31;3;Niveau 3;TRUE;Landes épineuses (= Landes hérisson)
+31.71;31.7;4;Niveau 4;TRUE;Landes épineuses pyrénéennes
+31.72;31.7;4;Niveau 4;FALSE;
+31.721;31.72;5;Niveau 5;FALSE;
+31.722;31.72;5;Niveau 5;FALSE;
+31.723;31.72;5;Niveau 5;FALSE;
+31.724;31.72;5;Niveau 5;FALSE;
+31.73;31.7;4;Niveau 4;FALSE;
+31.731;31.73;5;Niveau 5;FALSE;
+31.732;31.73;5;Niveau 5;FALSE;
+31.733;31.73;5;Niveau 5;FALSE;
+31.734;31.73;5;Niveau 5;FALSE;
+31.7341;31.734;6;Niveau 6;FALSE;
+31.7342;31.734;6;Niveau 6;FALSE;
+31.735;31.73;5;Niveau 5;FALSE;
+31.74;31.7;4;Niveau 4;TRUE;Landes épineuses franco-ibériques
+31.741;31.74;5;Niveau 5;TRUE;Landes épineuses à Erinacea
+31.7411;31.741;6;Niveau 6;FALSE;
+31.7412;31.741;6;Niveau 6;FALSE;
+31.7413;31.741;6;Niveau 6;FALSE;
+31.7414;31.741;6;Niveau 6;FALSE;
+31.7415;31.741;6;Niveau 6;FALSE;
+31.742;31.74;5;Niveau 5;FALSE;
+31.7421;31.742;6;Niveau 6;FALSE;
+31.7422;31.742;6;Niveau 6;FALSE;
+31.7423;31.742;6;Niveau 6;FALSE;
+31.7424;31.742;6;Niveau 6;FALSE;
+31.743;31.74;5;Niveau 5;FALSE;
+31.7431;31.743;6;Niveau 6;FALSE;
+31.7432;31.743;6;Niveau 6;FALSE;
+31.7433;31.743;6;Niveau 6;FALSE;
+31.744;31.74;5;Niveau 5;FALSE;
+31.745;31.74;5;Niveau 5;TRUE;Landes en coussinets de Genista
+31.7451;31.745;6;Niveau 6;TRUE;Landes en coussinets pyrénéo-cantabriennes
+31.7452;31.745;6;Niveau 6;FALSE;
+31.7453;31.745;6;Niveau 6;FALSE;
+31.7454;31.745;6;Niveau 6;FALSE;
+31.7455;31.745;6;Niveau 6;FALSE;
+31.7456;31.745;6;Niveau 6;TRUE;Landes en coussinets à Genista lobelii et G. pulchella
+31.746;31.74;5;Niveau 5;FALSE;
+31.7461;31.746;6;Niveau 6;FALSE;
+31.7462;31.746;6;Niveau 6;FALSE;
+31.747;31.74;5;Niveau 5;FALSE;
+31.7471;31.747;6;Niveau 6;FALSE;
+31.7472;31.747;6;Niveau 6;FALSE;
+31.75;31.7;4;Niveau 4;TRUE;Landes épineuses cyrno-sardes
+31.751;31.75;5;Niveau 5;TRUE;Landes épineuses à Astragalus gennargenteus
+31.752;31.75;5;Niveau 5;TRUE;Landes épineuses cyrno-sardes à Euphorbia
+31.753;31.75;5;Niveau 5;TRUE;Landes en coussinets cyrno-sardes à Thymus
+31.754;31.75;5;Niveau 5;TRUE;Landes épineuses cyrno-sardes à Genista
+31.755;31.75;5;Niveau 5;TRUE;Landes épineuses cyrno-sardes à Berberis
+31.756;31.75;5;Niveau 5;TRUE;Landes épineuses cyrno-sardes à Anthyllis
+31.76;31.7;4;Niveau 4;FALSE;
+31.77;31.7;4;Niveau 4;FALSE;
+31.771;31.77;5;Niveau 5;FALSE;
+31.772;31.77;5;Niveau 5;FALSE;
+31.773;31.77;5;Niveau 5;FALSE;
+31.774;31.77;5;Niveau 5;FALSE;
+31.775;31.77;5;Niveau 5;FALSE;
+31.78;31.7;4;Niveau 4;FALSE;
+31.79;31.7;4;Niveau 4;FALSE;
+31.791;31.79;5;Niveau 5;FALSE;
+31.7911;31.791;6;Niveau 6;FALSE;
+31.7912;31.791;6;Niveau 6;FALSE;
+31.7913;31.791;6;Niveau 6;FALSE;
+31.792;31.79;5;Niveau 5;FALSE;
+31.7921;31.792;6;Niveau 6;FALSE;
+31.7922;31.792;6;Niveau 6;FALSE;
+31.793;31.79;5;Niveau 5;FALSE;
+31.7931;31.793;6;Niveau 6;FALSE;
+31.7932;31.793;6;Niveau 6;FALSE;
+31.7A;31.7;4;Niveau 4;FALSE;
+31.7A1;31.7A;5;Niveau 5;FALSE;
+31.7A2;31.7A;5;Niveau 5;FALSE;
+31.7A3;31.7A;5;Niveau 5;FALSE;
+31.7A4;31.7A;5;Niveau 5;FALSE;
+31.7B;31.7;4;Niveau 4;FALSE;
+31.7B1;31.7B;5;Niveau 5;FALSE;
+31.7B2;31.7B;5;Niveau 5;FALSE;
+31.7B3;31.7B;5;Niveau 5;FALSE;
+31.7B4;31.7B;5;Niveau 5;FALSE;
+31.7C;31.7;4;Niveau 4;FALSE;
+31.7C1;31.7C;5;Niveau 5;FALSE;
+31.7C11;31.7C1;6;Niveau 6;FALSE;
+31.7C12;31.7C1;6;Niveau 6;FALSE;
+31.7C13;31.7C1;6;Niveau 6;FALSE;
+31.7C14;31.7C1;6;Niveau 6;FALSE;
+31.7C15;31.7C1;6;Niveau 6;FALSE;
+31.7C16;31.7C1;6;Niveau 6;FALSE;
+31.7C17;31.7C1;6;Niveau 6;FALSE;
+31.7C2;31.7C;5;Niveau 5;FALSE;
+31.7C21;31.7C2;6;Niveau 6;FALSE;
+31.7C22;31.7C2;6;Niveau 6;FALSE;
+31.7D;31.7;4;Niveau 4;FALSE;
+31.7E;31.7;4;Niveau 4;TRUE;Landes épineuses à Astragalus sempervirens
+31.7F;31.7;4;Niveau 4;FALSE;
+31.7F1;31.7F;5;Niveau 5;FALSE;
+31.7F2;31.7F;5;Niveau 5;FALSE;
+31.8;31;3;Niveau 3;TRUE;Fourrés
+31.81;31.8;4;Niveau 4;TRUE;Fourrés médio-européens sur sol fertile
+31.811;31.81;5;Niveau 5;TRUE;Fruticées à Prunus spinosa et halliers à Rubus fruticosus
+31.8111;31.811;6;Niveau 6;TRUE;Fruticées subatlantiques Prunus spinosa et Rubus fruticosus
+31.8112;31.811;6;Niveau 6;TRUE;Fruticées atlantiques Prunus spinosa et Rubus fruticosus
+31.812;31.81;5;Niveau 5;TRUE;Fruticées à Prunelliers et Troènes
+31.8121;31.812;6;Niveau 6;TRUE;Fruticées atlantiques et médio-européennes à Prunelliers et Troènes
+31.81211;31.8121;7;Niveau 7;TRUE;Fruticées médio-européennes à Prunelliers et Troènes
+31.81212;31.8121;7;Niveau 7;TRUE;Fruticées atlantiques à Crataegus et Hedera
+31.812121;31.81212;8;Niveau 8;TRUE;Fruticées atlantiques calciclines
+31.812122;31.81212;8;Niveau 8;TRUE;Fruticées calcicoles de bord de route, sur craie
+31.8122;31.812;6;Niveau 6;TRUE;Fruticées subméditerranéennes de Prunelliers et de Troènes
+31.8123;31.812;6;Niveau 6;TRUE;Fruticées de stations rocailleuses à Cotoneaster et Amélanchier
+31.8124;31.812;6;Niveau 6;TRUE;Fruticées d'Argousiers
+31.8125;31.812;6;Niveau 6;TRUE;Fruticées intra-alpines à Epine vinette
+31.81251;31.8125;7;Niveau 7;TRUE;Fruticées à Prunus brigantiaca
+31.81252;31.8125;7;Niveau 7;TRUE;Autres fruticées intra-alpines à Epine vinette
+31.8126;31.812;6;Niveau 6;FALSE;
+31.82;31.8;4;Niveau 4;TRUE;Fruticées à Buis
+31.83;31.8;4;Niveau 4;TRUE;Fruticées atlantiques des sols pauvres
+31.831;31.83;5;Niveau 5;TRUE;Ronciers
+31.832;31.83;5;Niveau 5;TRUE;Fourrés à Bourdaine, Sorbiers, Chèvrefeuilles
+31.84;31.8;4;Niveau 4;TRUE;Landes à Genêts
+31.841;31.84;5;Niveau 5;TRUE;Landes médio-européennes à Cytisus scoparius
+31.8411;31.841;6;Niveau 6;TRUE;Landes à Genêts des plaines et des collines
+31.8412;31.841;6;Niveau 6;TRUE;Landes à Genêts des Alpes
+31.8413;31.841;6;Niveau 6;TRUE;Landes du Massif central à Cytisus scoparius
+31.8414;31.841;6;Niveau 6;TRUE;Landes à Cytisus scoparius des Pyrénées
+31.842;31.84;5;Niveau 5;TRUE;Landes à Cytisus purgans
+31.8421;31.842;6;Niveau 6;TRUE;Landes à Cytisus purgans des Cévennes
+31.8422;31.842;6;Niveau 6;TRUE;Landes à Cytisus purgans pyrénéennes
+31.8423;31.842;6;Niveau 6;FALSE;
+31.8424;31.842;6;Niveau 6;FALSE;
+31.8425;31.842;6;Niveau 6;FALSE;
+31.8426;31.842;6;Niveau 6;FALSE;
+31.8427;31.842;6;Niveau 6;FALSE;
+31.843;31.84;5;Niveau 5;FALSE;
+31.8431;31.843;6;Niveau 6;FALSE;
+31.8432;31.843;6;Niveau 6;FALSE;
+31.8433;31.843;6;Niveau 6;FALSE;
+31.8434;31.843;6;Niveau 6;FALSE;
+31.8435;31.843;6;Niveau 6;FALSE;
+31.8436;31.843;6;Niveau 6;FALSE;
+31.8437;31.843;6;Niveau 6;FALSE;
+31.844;31.84;5;Niveau 5;FALSE;
+31.8441;31.844;6;Niveau 6;FALSE;
+31.8442;31.844;6;Niveau 6;FALSE;
+31.845;31.84;5;Niveau 5;FALSE;
+31.8451;31.845;6;Niveau 6;FALSE;
+31.8452;31.845;6;Niveau 6;FALSE;
+31.846;31.84;5;Niveau 5;FALSE;
+31.85;31.8;4;Niveau 4;TRUE;Landes à Ajoncs
+31.86;31.8;4;Niveau 4;TRUE;Landes à Fougères
+31.861;31.86;5;Niveau 5;TRUE;Landes subatlantiques à Fougères
+31.862;31.86;5;Niveau 5;FALSE;
+31.863;31.86;5;Niveau 5;TRUE;Landes supra-méditerranéennes à Fougères
+31.87;31.8;4;Niveau 4;TRUE;Clairières forestières
+31.871;31.87;5;Niveau 5;TRUE;Clairières herbacées forestières
+31.8711;31.871;6;Niveau 6;TRUE;Clairières à Epilobes et Digitales
+31.8712;31.871;6;Niveau 6;TRUE;Clairières à Bardane et Belladonne
+31.872;31.87;5;Niveau 5;TRUE;Clairières à couvert arbustif
+31.88;31.8;4;Niveau 4;TRUE;Fruticées à Genévriers communs
+31.881;31.88;5;Niveau 5;TRUE;Landes à Genévriers
+31.882;31.88;5;Niveau 5;TRUE;Landes à Genévriers
+31.883;31.88;5;Niveau 5;FALSE;
+31.89;31.8;4;Niveau 4;TRUE;Fourrés caducifoliés sub-méditerranéens sud-occidentaux
+31.891;31.89;5;Niveau 5;TRUE;Fourrés caducifoliés sub-méditerranéens franco-ibériques
+31.892;31.89;5;Niveau 5;FALSE;
+31.893;31.89;5;Niveau 5;FALSE;
+31.894;31.89;5;Niveau 5;FALSE;
+31.8A;31.8;4;Niveau 4;TRUE;Fourrés tyrrhéniens subméditerranéens caducifoliés
+31.8A1;31.8A;5;Niveau 5;TRUE;Fourrés cyrno-sardes subméditerranéens caducifoliés
+31.8A2;31.8A;5;Niveau 5;FALSE;
+31.8B;31.8;4;Niveau 4;TRUE;Fourrés caducifoliés sub-méditerranéens sud-orientaux
+31.8B1;31.8B;5;Niveau 5;FALSE;
+31.8B2;31.8B;5;Niveau 5;FALSE;
+31.8B3;31.8B;5;Niveau 5;FALSE;
+31.8B4;31.8B;5;Niveau 5;FALSE;
+31.8C;31.8;4;Niveau 4;TRUE;Fourrés de Noisetiers
+31.8D;31.8;4;Niveau 4;TRUE;Recrûs forestiers caducifoliés
+31.8E;31.8;4;Niveau 4;TRUE;Taillis
+31.8F;31.8;4;Niveau 4;TRUE;Fourrés mixtes
+31.8G;31.8;4;Niveau 4;TRUE;Prébois de résineux
+32;3;2;Niveau 2;TRUE;Fruticées sclérophylles
+32.1;32;3;Niveau 3;TRUE;Matorral arborescent
+32.11;32.1;4;Niveau 4;TRUE;Matorral à Chênes sempervirents
+32.111;32.11;5;Niveau 5;TRUE;Matorral de Quercus suber
+32.112;32.11;5;Niveau 5;TRUE;Matorral acidiphile de Quercus ilex
+32.113;32.11;5;Niveau 5;TRUE;Matorral calciphile à Quercus ilex, Q. coccifera
+32.114;32.11;5;Niveau 5;FALSE;
+32.1141;32.114;6;Niveau 6;FALSE;
+32.1142;32.114;6;Niveau 6;FALSE;
+32.1143;32.114;6;Niveau 6;FALSE;
+32.115;32.11;5;Niveau 5;FALSE;
+32.116;32.11;5;Niveau 5;FALSE;
+32.1161;32.116;6;Niveau 6;FALSE;
+32.1162;32.116;6;Niveau 6;FALSE;
+32.12;32.1;4;Niveau 4;TRUE;Matorral à Oliviers et Lentisques
+32.121;32.12;5;Niveau 5;TRUE;Matorral arborescent à Olivier sauvage
+32.122;32.12;5;Niveau 5;TRUE;Matorral arborescent à Caroubier
+32.123;32.12;5;Niveau 5;TRUE;Matorral arborescent à Lentisque
+32.124;32.12;5;Niveau 5;TRUE;Matorral arborescent à Myrte
+32.125;32.12;5;Niveau 5;FALSE;
+32.13;32.1;4;Niveau 4;TRUE;Matorral à Genévriers
+32.131;32.13;5;Niveau 5;TRUE;Matorral arborescent à Juniperus oxycedrus
+32.1311;32.131;6;Niveau 6;TRUE;Matorral arborescent interne à Juniperus oxycedrus
+32.1312;32.131;6;Niveau 6;TRUE;Matorral arborescent à Juniperus macrocarpa
+32.1313;32.131;6;Niveau 6;FALSE;
+32.132;32.13;5;Niveau 5;TRUE;Matorral arborescent à Juniperus phoenicea
+32.1321;32.132;6;Niveau 6;TRUE;Matorral arborescent, intérieur, à Juniperus phoenicea
+32.1322;32.132;6;Niveau 6;TRUE;Matorral arborescent à Juniperus lycia
+32.133;32.13;5;Niveau 5;FALSE;
+32.1331;32.133;6;Niveau 6;FALSE;
+32.1332;32.133;6;Niveau 6;FALSE;
+32.134;32.13;5;Niveau 5;TRUE;Matorral arborescent à Juniperus communis
+32.135;32.13;5;Niveau 5;FALSE;
+32.136;32.13;5;Niveau 5;TRUE;Matorral arborescent à Juniperus thurifera
+32.14;32.1;4;Niveau 4;TRUE;Matorral à Pins
+32.141;32.14;5;Niveau 5;TRUE;Matorral arborescent à Pin mésogéen (Pinus pinaster)
+32.142;32.14;5;Niveau 5;TRUE;Matorral arborescent à Pin pignon (Pinus pinea)
+32.143;32.14;5;Niveau 5;TRUE;Matorral arborescent à Pin d'Alep (Pinus halepensis)
+32.144;32.14;5;Niveau 5;FALSE;
+32.145;32.14;5;Niveau 5;TRUE;Matorral arborescent à Pin noir ou à Pin sylvestre
+32.15;32.1;4;Niveau 4;FALSE;
+32.16;32.1;4;Niveau 4;TRUE;Matorral arborescent à chênes caducifoliés
+32.161;32.16;5;Niveau 5;FALSE;
+32.162;32.16;5;Niveau 5;TRUE;Matorral occidental à Chênes caducifoliés
+32.17;32.1;4;Niveau 4;FALSE;
+32.18;32.1;4;Niveau 4;TRUE;Matorral à Lauriers
+32.19;32.1;4;Niveau 4;FALSE;
+32.1A;32.1;4;Niveau 4;FALSE;
+32.2;32;3;Niveau 3;TRUE;Formations arbustives thermo-méditerranéennes
+32.21;32.2;4;Niveau 4;TRUE;Fruticées, fourrés et landes-garrigues thermo-méditerranéennes
+32.211;32.21;5;Niveau 5;TRUE;Fruticées à Oliviers et Lentisques
+32.212;32.21;5;Niveau 5;TRUE;Landes-garrigues thermo-méditerranéennes
+32.2121;32.212;6;Niveau 6;TRUE;Landes-garrigues occidentales à Erica multiflora
+32.2122;32.212;6;Niveau 6;FALSE;
+32.2123;32.212;6;Niveau 6;FALSE;
+32.213;32.21;5;Niveau 5;FALSE;
+32.214;32.21;5;Niveau 5;TRUE;Fruticée à Lentisques
+32.215;32.21;5;Niveau 5;TRUE;Fruticée à Calicotome
+32.216;32.21;5;Niveau 5;TRUE;Fourrés à Lauriers
+32.217;32.21;5;Niveau 5;TRUE;Garrigues côtières à Helichrysum
+32.218;32.21;5;Niveau 5;TRUE;Fourrés à Myrtes
+32.219;32.21;5;Niveau 5;TRUE;Buissons thermo-méditerranéens à Chênes kermès
+32.2191;32.219;6;Niveau 6;FALSE;
+32.2192;32.219;6;Niveau 6;TRUE;Fruticées thermo-méditerranéennes tyrrhéniennes à chêne kermès
+32.2193;32.219;6;Niveau 6;FALSE;
+32.21A;32.21;5;Niveau 5;FALSE;
+32.21A1;32.21A;6;Niveau 6;FALSE;
+32.21A2;32.21A;6;Niveau 6;FALSE;
+32.21A3;32.21A;6;Niveau 6;TRUE;Fourrés occidentaux à Phillyrea
+32.21A4;32.21A;6;Niveau 6;FALSE;
+32.21B;32.21;5;Niveau 5;TRUE;Fruticées à Nerprun et asperges
+32.21C;32.21;5;Niveau 5;TRUE;Buissons à Osyris
+32.21D;32.21;5;Niveau 5;TRUE;Fourrés à Aliboufier
+32.21E;32.21;5;Niveau 5;FALSE;
+32.21F;32.21;5;Niveau 5;FALSE;
+32.21G;32.21;5;Niveau 5;FALSE;
+32.21G1;32.21G;6;Niveau 6;FALSE;
+32.21G2;32.21G;6;Niveau 6;FALSE;
+32.21H;32.21;5;Niveau 5;FALSE;
+32.21I;32.21;5;Niveau 5;TRUE;Brousses thermo-méditerranéennes à Genévriers
+32.22;32.2;4;Niveau 4;TRUE;Formations à Euphorbes
+32.23;32.2;4;Niveau 4;TRUE;Garrigues à Ampelodesmos mauritanica
+32.24;32.2;4;Niveau 4;TRUE;Fruticée à Palmier nain
+32.25;32.2;4;Niveau 4;FALSE;
+32.251;32.25;5;Niveau 5;FALSE;
+32.252;32.25;5;Niveau 5;FALSE;
+32.253;32.25;5;Niveau 5;FALSE;
+32.254;32.25;5;Niveau 5;FALSE;
+32.255;32.25;5;Niveau 5;FALSE;
+32.256;32.25;5;Niveau 5;FALSE;
+32.2561;32.256;6;Niveau 6;FALSE;
+32.2562;32.256;6;Niveau 6;FALSE;
+32.2563;32.256;6;Niveau 6;FALSE;
+32.2564;32.256;6;Niveau 6;FALSE;
+32.257;32.25;5;Niveau 5;FALSE;
+32.2571;32.257;6;Niveau 6;FALSE;
+32.2572;32.257;6;Niveau 6;FALSE;
+32.25721;32.2572;7;Niveau 7;FALSE;
+32.25722;32.2572;7;Niveau 7;FALSE;
+32.25723;32.2572;7;Niveau 7;FALSE;
+32.25724;32.2572;7;Niveau 7;FALSE;
+32.26;32.2;4;Niveau 4;TRUE;Rétamaies thermoméditerranéennes
+32.261;32.26;5;Niveau 5;FALSE;
+32.262;32.26;5;Niveau 5;FALSE;
+32.263;32.26;5;Niveau 5;FALSE;
+32.264;32.26;5;Niveau 5;FALSE;
+32.265;32.26;5;Niveau 5;FALSE;
+32.266;32.26;5;Niveau 5;FALSE;
+32.267;32.26;5;Niveau 5;FALSE;
+32.268;32.26;5;Niveau 5;FALSE;
+32.269;32.26;5;Niveau 5;FALSE;
+32.26A;32.26;5;Niveau 5;FALSE;
+32.26B;32.26;5;Niveau 5;FALSE;
+32.27;32.2;4;Niveau 4;TRUE;Landes à ajoncs méditerranéens
+32.271;32.27;5;Niveau 5;FALSE;
+32.272;32.27;5;Niveau 5;FALSE;
+32.273;32.27;5;Niveau 5;FALSE;
+32.274;32.27;5;Niveau 5;TRUE;Landes à Ulex parviflorus franco-ibériennes
+32.275;32.27;5;Niveau 5;FALSE;
+32.276;32.27;5;Niveau 5;FALSE;
+32.28;32.2;4;Niveau 4;FALSE;
+32.281;32.28;5;Niveau 5;FALSE;
+32.282;32.28;5;Niveau 5;FALSE;
+32.283;32.28;5;Niveau 5;FALSE;
+32.284;32.28;5;Niveau 5;FALSE;
+32.285;32.28;5;Niveau 5;FALSE;
+32.2851;32.285;6;Niveau 6;FALSE;
+32.2852;32.285;6;Niveau 6;FALSE;
+32.2853;32.285;6;Niveau 6;FALSE;
+32.286;32.28;5;Niveau 5;FALSE;
+32.29;32.2;4;Niveau 4;FALSE;
+32.291;32.29;5;Niveau 5;FALSE;
+32.292;32.29;5;Niveau 5;FALSE;
+32.2A;32.2;4;Niveau 4;FALSE;
+32.2A1;32.2A;5;Niveau 5;FALSE;
+32.2A2;32.2A;5;Niveau 5;FALSE;
+32.2A3;32.2A;5;Niveau 5;FALSE;
+32.2A4;32.2A;5;Niveau 5;FALSE;
+32.2B;32.2;4;Niveau 4;FALSE;
+32.2B1;32.2B;5;Niveau 5;FALSE;
+32.2B2;32.2B;5;Niveau 5;FALSE;
+32.2B3;32.2B;5;Niveau 5;FALSE;
+32.2B4;32.2B;5;Niveau 5;FALSE;
+32.2B5;32.2B;5;Niveau 5;FALSE;
+32.2C;32.2;4;Niveau 4;FALSE;
+32.2C1;32.2C;5;Niveau 5;FALSE;
+32.2C2;32.2C;5;Niveau 5;FALSE;
+32.3;32;3;Niveau 3;TRUE;Maquis silicicoles méso-méditerranéens
+32.31;32.3;4;Niveau 4;TRUE;Maquis hauts
+32.311;32.31;5;Niveau 5;TRUE;Maquis hauts de Méditerranée occidentale
+32.312;32.31;5;Niveau 5;FALSE;
+32.313;32.31;5;Niveau 5;FALSE;
+32.32;32.3;4;Niveau 4;TRUE;Maquis bas à Ericacées
+32.33;32.3;4;Niveau 4;TRUE;Maquis hauts à Cistus
+32.331;32.33;5;Niveau 5;FALSE;
+32.332;32.33;5;Niveau 5;FALSE;Maquis ibérien central à grand Ciste
+32.333;32.33;5;Niveau 5;FALSE;
+32.334;32.33;5;Niveau 5;TRUE;Maquis tyrrhénéens hauts à Cistus
+32.34;32.3;4;Niveau 4;TRUE;Maquis bas à Cistes (Cistus sp. pl.)
+32.341;32.34;5;Niveau 5;TRUE;Maquis à Cistus monspeliensis
+32.342;32.34;5;Niveau 5;TRUE;Maquis à Cistus salviifolius
+32.343;32.34;5;Niveau 5;TRUE;Maquis à Cistus populifolius
+32.344;32.34;5;Niveau 5;TRUE;Maquis à Cistus laurifolius
+32.345;32.34;5;Niveau 5;FALSE;
+32.346;32.34;5;Niveau 5;TRUE;Maquis à Cistus crispus
+32.347;32.34;5;Niveau 5;TRUE;Maquis à Cistus creticus
+32.348;32.34;5;Niveau 5;TRUE;Maquis à Cistus albidus
+32.35;32.3;4;Niveau 4;TRUE;Maquis bas à Cistus-Lavandula stoechas
+32.351;32.35;5;Niveau 5;TRUE;Maquis centraux méditerranéens à lavande
+32.352;32.35;5;Niveau 5;FALSE;
+32.353;32.35;5;Niveau 5;FALSE;
+32.36;32.3;4;Niveau 4;TRUE;Maquis bas épars
+32.37;32.3;4;Niveau 4;TRUE;Maquis dominés par des genêts
+32.371;32.37;5;Niveau 5;FALSE;
+32.372;32.37;5;Niveau 5;FALSE;
+32.4;32;3;Niveau 3;TRUE;Garrigues calcicoles de l'étage méso-méditerranéen occidental
+32.41;32.4;4;Niveau 4;TRUE;Garrigues à chênes kermès
+32.42;32.4;4;Niveau 4;TRUE;Garrigues à romarin
+32.43;32.4;4;Niveau 4;TRUE;Garrigues à cistes
+32.431;32.43;5;Niveau 5;TRUE;Garrigues à Cistus albidus
+32.432;32.43;5;Niveau 5;FALSE;
+32.433;32.43;5;Niveau 5;TRUE;Garrigues à C. monspeliensis, C. salviifolius, C. incanus
+32.44;32.4;4;Niveau 4;TRUE;Garrigues à euphorbes
+32.441;32.44;5;Niveau 5;TRUE;Garrigues à euphorbe épineuse
+32.442;32.44;5;Niveau 5;FALSE;
+32.45;32.4;4;Niveau 4;TRUE;Garrigues à genévrier oxycèdre
+32.46;32.4;4;Niveau 4;TRUE;Garrigues à lavande
+32.461;32.46;5;Niveau 5;TRUE;Stations à lavande
+32.462;32.46;5;Niveau 5;TRUE;Garrigues mixtes à lavande
+32.47;32.4;4;Niveau 4;TRUE;Garrigues à thym, sauge, germandrée et autres labiées
+32.48;32.4;4;Niveau 4;TRUE;Garrigues à Genista
+32.481;32.48;5;Niveau 5;TRUE;Garrigues à Genista scorpius, G. hispanica
+32.482;32.48;5;Niveau 5;TRUE;Garrigues à Genista corsica
+32.483;32.48;5;Niveau 5;FALSE;
+32.49;32.4;4;Niveau 4;TRUE;Garrigues à Calicotome
+32.4A;32.4;4;Niveau 4;TRUE;Garrigues à Composées
+32.4A1;32.4A;5;Niveau 5;TRUE;Garrigues à Helichrysum, Santolina, Phagnalon
+32.4A2;32.4A;5;Niveau 5;TRUE;Garrigues à Artemisia
+32.4A3;32.4A;5;Niveau 5;TRUE;Garrigues à Inule visqueuse
+32.4A4;32.4A;5;Niveau 5;TRUE;Garrigues à Composées moyennes à grandes
+32.4B;32.4;4;Niveau 4;TRUE;Garrigues à Erica
+32.4C;32.4;4;Niveau 4;TRUE;Garrigues à Globularia
+32.4D;32.4;4;Niveau 4;TRUE;Garrigues à Helianthemum et Fumana
+32.4E;32.4;4;Niveau 4;TRUE;Garrigues à grémil
+32.4F;32.4;4;Niveau 4;TRUE;Garrigues à Thymelaea
+32.4G;32.4;4;Niveau 4;TRUE;Garrigues à Bupleurum
+32.4H;32.4;4;Niveau 4;TRUE;Garrigues à Ajonc
+32.4I;32.4;4;Niveau 4;TRUE;Garrigues à Ononis fruticosa
+32.4J;32.4;4;Niveau 4;FALSE;
+32.4K;32.4;4;Niveau 4;FALSE;
+32.5;32;3;Niveau 3;TRUE;Garrigues orientales
+32.51;32.5;4;Niveau 4;FALSE;
+32.52;32.5;4;Niveau 4;FALSE;
+32.53;32.5;4;Niveau 4;FALSE;
+32.531;32.53;5;Niveau 5;FALSE;
+32.532;32.53;5;Niveau 5;FALSE;
+32.533;32.53;5;Niveau 5;FALSE;
+32.534;32.53;5;Niveau 5;FALSE;
+32.54;32.5;4;Niveau 4;FALSE;
+32.541;32.54;5;Niveau 5;FALSE;
+32.542;32.54;5;Niveau 5;FALSE;
+32.55;32.5;4;Niveau 4;FALSE;
+32.56;32.5;4;Niveau 4;FALSE;
+32.57;32.5;4;Niveau 4;FALSE;
+32.571;32.57;5;Niveau 5;FALSE;
+32.572;32.57;5;Niveau 5;FALSE;
+32.573;32.57;5;Niveau 5;FALSE;
+32.574;32.57;5;Niveau 5;FALSE;
+32.58;32.5;4;Niveau 4;TRUE;Garrigues à épine du Christ
+32.59;32.5;4;Niveau 4;FALSE;
+32.5A;32.5;4;Niveau 4;FALSE;
+32.5B;32.5;4;Niveau 4;FALSE;
+32.5C;32.5;4;Niveau 4;FALSE;
+32.5D;32.5;4;Niveau 4;FALSE;
+32.5E;32.5;4;Niveau 4;FALSE;
+32.5F;32.5;4;Niveau 4;FALSE;
+32.5G;32.5;4;Niveau 4;FALSE;
+32.5H;32.5;4;Niveau 4;FALSE;
+32.6;32;3;Niveau 3;TRUE;Garrigues supra-méditerranéennes
+32.61;32.6;4;Niveau 4;TRUE;Garrigues à Lavande vraie
+32.62;32.6;4;Niveau 4;TRUE;Garrigues à Genista cinerea
+32.63;32.6;4;Niveau 4;TRUE;Garrigues montagnardes à Thyms
+32.64;32.6;4;Niveau 4;TRUE;Broussailles supra-méditerranéennes à Buis
+32.65;32.6;4;Niveau 4;FALSE;
+32.7;32;3;Niveau 3;FALSE;
+32.8;32;3;Niveau 3;FALSE;
+32.81;32.8;4;Niveau 4;FALSE;
+32.811;32.81;5;Niveau 5;FALSE;
+32.812;32.81;5;Niveau 5;FALSE;
+32.813;32.81;5;Niveau 5;FALSE;
+32.814;32.81;5;Niveau 5;FALSE;
+32.815;32.81;5;Niveau 5;FALSE;
+32.816;32.81;5;Niveau 5;FALSE;
+32.82;32.8;4;Niveau 4;FALSE;
+32.821;32.82;5;Niveau 5;FALSE;
+32.822;32.82;5;Niveau 5;FALSE;
+32.823;32.82;5;Niveau 5;FALSE;
+32.83;32.8;4;Niveau 4;FALSE;
+32.84;32.8;4;Niveau 4;FALSE;
+32.85;32.8;4;Niveau 4;FALSE;
+32.86;32.8;4;Niveau 4;FALSE;
+32.87;32.8;4;Niveau 4;FALSE;
+32.9;32;3;Niveau 3;TRUE;Champs d'Asphodèles, de Phlomis, de Chardons, de Ferula
+32.A;32;3;Niveau 3;TRUE;Champs de Spartium junceum
+33;3;2;Niveau 2;TRUE;Phryganes
+33.1;33;3;Niveau 3;TRUE;Phryganes ouest méditerranéennes des sommets de falaises
+33.11;33.1;4;Niveau 4;TRUE;Phryganes de la Provence calcaire
+33.12;33.1;4;Niveau 4;TRUE;Phryganes de la Provence cristalline
+33.13;33.1;4;Niveau 4;TRUE;Phryganes du Cap Corse
+33.14;33.1;4;Niveau 4;TRUE;Phryganes du détroit de Bonifacio
+33.15;33.1;4;Niveau 4;FALSE;
+33.16;33.1;4;Niveau 4;FALSE;
+33.2;33;3;Niveau 3;FALSE;
+33.3;33;3;Niveau 3;FALSE;
+33.31;33.3;4;Niveau 4;FALSE;
+33.32;33.3;4;Niveau 4;FALSE;
+33.33;33.3;4;Niveau 4;FALSE;
+33.331;33.33;5;Niveau 5;FALSE;
+33.332;33.33;5;Niveau 5;FALSE;
+33.333;33.33;5;Niveau 5;FALSE;
+33.34;33.3;4;Niveau 4;FALSE;
+33.35;33.3;4;Niveau 4;FALSE;
+33.36;33.3;4;Niveau 4;FALSE;
+33.37;33.3;4;Niveau 4;FALSE;
+33.38;33.3;4;Niveau 4;FALSE;
+33.39;33.3;4;Niveau 4;FALSE;
+33.3A;33.3;4;Niveau 4;FALSE;
+33.3B;33.3;4;Niveau 4;FALSE;
+33.4;33;3;Niveau 3;FALSE;
+33.5;33;3;Niveau 3;FALSE;
+33.6;33;3;Niveau 3;FALSE;
+33.7;33;3;Niveau 3;FALSE;
+33.8;33;3;Niveau 3;FALSE;
+33.9;33;3;Niveau 3;TRUE;Phryganes cyrno-sardes à Genista
+33.A;33;3;Niveau 3;FALSE;
+34;3;2;Niveau 2;TRUE;Pelouses calcicoles sèches et steppes
+34.1;34;3;Niveau 3;TRUE;Pelouses pionnières médio-européennes
+34.11;34.1;4;Niveau 4;TRUE;Pelouses médio-européennes sur débris rocheux
+34.111;34.11;5;Niveau 5;TRUE;Pelouses à orpins
+34.112;34.11;5;Niveau 5;TRUE;Formations à Joubarbes
+34.1121;34.112;6;Niveau 6;TRUE;Communautés à Sempervivum tectorum
+34.1122;34.112;6;Niveau 6;FALSE;
+34.1123;34.112;6;Niveau 6;FALSE;
+34.113;34.11;5;Niveau 5;TRUE;Formations herbeuses sur débris rocheux
+34.114;34.11;5;Niveau 5;TRUE;Communautés thérophytiques médio-européennes sur débris rocheux
+34.12;34.1;4;Niveau 4;TRUE;Pelouses des sables calcaires
+34.2;34;3;Niveau 3;TRUE;Pelouses métallifères de basse altitude
+34.21;34.2;4;Niveau 4;FALSE;
+34.22;34.2;4;Niveau 4;FALSE;
+34.221;34.22;5;Niveau 5;FALSE;
+34.222;34.22;5;Niveau 5;FALSE;
+34.223;34.22;5;Niveau 5;FALSE;
+34.23;34.2;4;Niveau 4;TRUE;Pelouses métallifères d'Europe centrale
+34.3;34;3;Niveau 3;TRUE;Pelouses pérennes denses et steppes médio-européennes
+34.31;34.3;4;Niveau 4;TRUE;Pelouses steppiques sub-continentales
+34.311;34.31;5;Niveau 5;FALSE;
+34.312;34.31;5;Niveau 5;TRUE;Pelouses steppiques de l'Europe centrale
+34.3121;34.312;6;Niveau 6;TRUE;Pelouses steppiques xérophiles de l'Europe centrale
+34.3122;34.312;6;Niveau 6;TRUE;Pelouses steppiques mésophiles de l'Europe centrale
+34.3123;34.312;6;Niveau 6;TRUE;Pelouses steppiques à brachypode penné de l'Europe centrale
+34.313;34.31;5;Niveau 5;FALSE;
+34.314;34.31;5;Niveau 5;TRUE;Pelouses arides des Alpes occidentales internes
+34.32;34.3;4;Niveau 4;TRUE;Pelouses calcaires sub-atlantiques semi-arides
+34.321;34.32;5;Niveau 5;TRUE;Pelouses calcicoles semi-sèches nord-occidentales
+34.3211;34.321;6;Niveau 6;FALSE;
+34.3212;34.321;6;Niveau 6;FALSE;
+34.3213;34.321;6;Niveau 6;FALSE;
+34.3214;34.321;6;Niveau 6;FALSE;
+34.3215;34.321;6;Niveau 6;FALSE;
+34.3216;34.321;6;Niveau 6;FALSE;
+34.32161;34.3216;7;Niveau 7;FALSE;
+34.32162;34.3216;7;Niveau 7;FALSE;
+34.32163;34.3216;7;Niveau 7;FALSE;
+34.322;34.32;5;Niveau 5;TRUE;Pelouses semi-sèches médio-européennes à Bromus erectus
+34.3221;34.322;6;Niveau 6;TRUE;Mesobromion mosan
+34.3222;34.322;6;Niveau 6;TRUE;Mesobromion de la basse Meuse
+34.3223;34.322;6;Niveau 6;FALSE;
+34.3224;34.322;6;Niveau 6;FALSE;
+34.3225;34.322;6;Niveau 6;TRUE;Mesobromion crétacé du Bassin parisien
+34.3226;34.322;6;Niveau 6;TRUE;Mesobromion parisien tertiaire
+34.3227;34.322;6;Niveau 6;TRUE;Mesobromion du Bassin parisien jurassique
+34.3228;34.322;6;Niveau 6;TRUE;Mesobromion du Rhin moyen
+34.3229;34.322;6;Niveau 6;TRUE;Mesobromion du Rhin supérieur
+34.322A;34.322;6;Niveau 6;FALSE;
+34.322B;34.322;6;Niveau 6;TRUE;Mesobromion du Jura français
+34.322C;34.322;6;Niveau 6;FALSE;
+34.322D;34.322;6;Niveau 6;FALSE;
+34.322E;34.322;6;Niveau 6;TRUE;Mesobromion des pré-Alpes nord-occidentales
+34.322F;34.322;6;Niveau 6;FALSE;
+34.322G;34.322;6;Niveau 6;TRUE;Mesobromion ligérien
+34.322H;34.322;6;Niveau 6;TRUE;Mesobromion aquitain
+34.322I;34.322;6;Niveau 6;TRUE;Mesobromion du Quercy
+34.322J;34.322;6;Niveau 6;TRUE;Mesobromion des Pyrénées occidentales
+34.322K;34.322;6;Niveau 6;FALSE;
+34.323;34.32;5;Niveau 5;TRUE;Pelouses semi-arides médio-européennes dominées par Brachypodium
+34.324;34.32;5;Niveau 5;TRUE;Pelouses alluviales et humides du Mesobromion
+34.325;34.32;5;Niveau 5;TRUE;Pelouses semi-sèches médio-européennes dominées par Sesleria
+34.326;34.32;5;Niveau 5;TRUE;Mesobromion subméditerranéens
+34.3261;34.326;6;Niveau 6;TRUE;Mesobromion pyrénéo-catalan
+34.3262;34.326;6;Niveau 6;TRUE;Mesobromion des Corbières
+34.3263;34.326;6;Niveau 6;TRUE;Mesobromion des Causses
+34.3264;34.326;6;Niveau 6;TRUE;Mesobromion provençal
+34.3265;34.326;6;Niveau 6;TRUE;Mesobromion des Alpes sud-occidentales
+34.3266;34.326;6;Niveau 6;FALSE;
+34.327;34.32;5;Niveau 5;FALSE;
+34.328;34.32;5;Niveau 5;FALSE;
+34.33;34.3;4;Niveau 4;TRUE;Prairies calcaires subatlantiques très sèches
+34.331;34.33;5;Niveau 5;FALSE;
+34.332;34.33;5;Niveau 5;TRUE;Pelouses médio-européennes du Xerobromion
+34.3321;34.332;6;Niveau 6;TRUE;Xerobromion mosan
+34.3322;34.332;6;Niveau 6;FALSE;
+34.3323;34.332;6;Niveau 6;TRUE;Xerobromion du Bassin parisien crétacé
+34.3324;34.332;6;Niveau 6;TRUE;Xerobromion du Tertiaire parisien
+34.3325;34.332;6;Niveau 6;TRUE;Xerobromion du Bassin parisien jurassique
+34.3326;34.332;6;Niveau 6;TRUE;Xerobromion du Rhin moyen
+34.3327;34.332;6;Niveau 6;TRUE;Xerobromion du Rhin supérieur
+34.3328;34.332;6;Niveau 6;TRUE;Xerobromion du Jura français
+34.3329;34.332;6;Niveau 6;FALSE;
+34.332A;34.332;6;Niveau 6;FALSE;
+34.332B;34.332;6;Niveau 6;TRUE;Xerobromion des Préalpes du nord-ouest
+34.332C;34.332;6;Niveau 6;FALSE;
+34.332D;34.332;6;Niveau 6;TRUE;Xerobromion ligérien
+34.332E;34.332;6;Niveau 6;TRUE;Xerobromion aquitanien
+34.332F;34.332;6;Niveau 6;TRUE;Xerobromion du Quercy
+34.332G;34.332;6;Niveau 6;TRUE;Xerobromion pyrénéen
+34.332H;34.332;6;Niveau 6;TRUE;Xerobromion des Alpes sud-occidentales
+34.332I;34.332;6;Niveau 6;FALSE;
+34.34;34.3;4;Niveau 4;TRUE;Pelouses calcaréo-siliceuses de l'Europe centrale
+34.341;34.34;5;Niveau 5;TRUE;Pelouses sur rochers calcaréo-siliceux
+34.342;34.34;5;Niveau 5;TRUE;Pelouses sur sables légèrement calcaires
+34.35;34.3;4;Niveau 4;TRUE;Pelouses à fétuque pâle
+34.36;34.3;4;Niveau 4;TRUE;gazons à Brachypode de Phénicie
+34.4;34;3;Niveau 3;TRUE;Lisières (ou ourlets) forestières thermophiles
+34.41;34.4;4;Niveau 4;TRUE;Lisières xéro-thermophiles
+34.42;34.4;4;Niveau 4;TRUE;Lisières mésophiles
+34.5;34;3;Niveau 3;TRUE;Pelouses méditerranéennes xériques
+34.51;34.5;4;Niveau 4;TRUE;Pelouses xériques de la Méditerranée occidentale
+34.511;34.51;5;Niveau 5;TRUE;Pelouses du Brachypodietum retusi
+34.512;34.51;5;Niveau 5;TRUE;Steppe de la Crau
+34.513;34.51;5;Niveau 5;TRUE;Communautés méditerranéennes annuelles sur sols superficiels
+34.5131;34.513;6;Niveau 6;TRUE;Communautés annuelles calciphiles de l'ouest méditerranéen
+34.5132;34.513;6;Niveau 6;FALSE;
+34.5133;34.513;6;Niveau 6;FALSE;
+34.5134;34.513;6;Niveau 6;FALSE;
+34.5135;34.513;6;Niveau 6;FALSE;
+34.5136;34.513;6;Niveau 6;FALSE;
+34.5137;34.513;6;Niveau 6;FALSE;
+34.514;34.51;5;Niveau 5;TRUE;Arènes dolomitiques des Causses
+34.52;34.5;4;Niveau 4;TRUE;Pâtures pérennes du sud-ouest méditerranéen
+34.53;34.5;4;Niveau 4;FALSE;
+34.531;34.53;5;Niveau 5;FALSE;
+34.532;34.53;5;Niveau 5;FALSE;
+34.6;34;3;Niveau 3;TRUE;Steppes méditerranéennes à Graminées
+34.61;34.6;4;Niveau 4;FALSE;
+34.62;34.6;4;Niveau 4;FALSE;
+34.621;34.62;5;Niveau 5;FALSE;
+34.622;34.62;5;Niveau 5;FALSE;
+34.623;34.62;5;Niveau 5;FALSE;
+34.63;34.6;4;Niveau 4;TRUE;Steppes à Stipa, Ampelodesmos, Andropogon, fétuque
+34.631;34.63;5;Niveau 5;FALSE;
+34.632;34.63;5;Niveau 5;TRUE;Steppes méditerranéennes à Stipa
+34.633;34.63;5;Niveau 5;FALSE;
+34.634;34.63;5;Niveau 5;TRUE;Steppes à Andropogon
+34.635;34.63;5;Niveau 5;FALSE;
+34.6351;34.635;6;Niveau 6;FALSE;
+34.6352;34.635;6;Niveau 6;FALSE;
+34.6353;34.635;6;Niveau 6;FALSE;
+34.7;34;3;Niveau 3;TRUE;Pelouses méditerranéo-montagnardes
+34.71;34.7;4;Niveau 4;TRUE;Steppes méditerranéo-montagnardes
+34.711;34.71;5;Niveau 5;TRUE;Steppes méditerranéo-montagnardes à Stipa
+34.7111;34.711;6;Niveau 6;TRUE;Steppes à Stipa des Causses
+34.7112;34.711;6;Niveau 6;TRUE;Steppes à Stipa de haute-Provence
+34.712;34.71;5;Niveau 5;TRUE;Pelouses méditerranéo-montagnardes à Sesleria
+34.713;34.71;5;Niveau 5;TRUE;Steppes méditerranéo-montagnardes à Festuca-Koeleria
+34.7131;34.713;6;Niveau 6;TRUE;Pelouses rases des Causses à Festuca
+34.7132;34.713;6;Niveau 6;TRUE;Pelouses rases des Causses à Carex-Anthyllis
+34.7133;34.713;6;Niveau 6;TRUE;Steppes méditerranéo-montagnardes franco-ibériennes
+34.714;34.71;5;Niveau 5;TRUE;Steppes méditerranéo-montagnardes à Artemisia
+34.72;34.7;4;Niveau 4;TRUE;Steppes supra-méditerranéennes et prairies à Aphyllanthes
+34.721;34.72;5;Niveau 5;TRUE;Pelouses à Aphyllanthes
+34.722;34.72;5;Niveau 5;FALSE;
+34.73;34.7;4;Niveau 4;FALSE;
+34.74;34.7;4;Niveau 4;FALSE;
+34.741;34.74;5;Niveau 5;FALSE;
+34.742;34.74;5;Niveau 5;FALSE;
+34.743;34.74;5;Niveau 5;FALSE;
+34.744;34.74;5;Niveau 5;FALSE;
+34.75;34.7;4;Niveau 4;FALSE;
+34.8;34;3;Niveau 3;TRUE;Pelouses méditerranéennes subnitrophiles
+34.81;34.8;4;Niveau 4;TRUE;Groupements méditerranéens subnitrophiles de graminées
+34.82;34.8;4;Niveau 4;FALSE;
+34.83;34.8;4;Niveau 4;FALSE;
+34.84;34.8;4;Niveau 4;FALSE;
+35;3;2;Niveau 2;TRUE;Pelouses silicicoles sèches
+35.1;35;3;Niveau 3;TRUE;Pelouses atlantiques à Nard raide et groupements apparentés
+35.11;35.1;4;Niveau 4;TRUE;Gazons à Nard raide
+35.12;35.1;4;Niveau 4;TRUE;Pelouses à Agrostis-Festuca
+35.13;35.1;4;Niveau 4;TRUE;Pelouses à canche flexueuse
+35.14;35.1;4;Niveau 4;TRUE;Pelouses intraforestières à Calamagrostis epigejos
+35.15;35.1;4;Niveau 4;TRUE;Pelouses à laîche des sables
+35.2;35;3;Niveau 3;TRUE;Pelouses siliceuses ouvertes médio-européennes
+35.21;35.2;4;Niveau 4;TRUE;Prairies siliceuses à annuelles naines
+35.22;35.2;4;Niveau 4;TRUE;Pelouses siliceuses ouvertes pérennes
+35.23;35.2;4;Niveau 4;TRUE;Pelouses à Corynephorus
+35.3;35;3;Niveau 3;TRUE;Pelouses siliceuses méditerranéennes
+35.4;35;3;Niveau 3;TRUE;Communautés annuelles méditerranéennes des sables profonds
+35.5;35;3;Niveau 3;FALSE;
+35.6;35;3;Niveau 3;FALSE;
+35.7;35;3;Niveau 3;TRUE;Pelouses méditerranéo-montagnardes
+35.71;35.7;4;Niveau 4;FALSE;
+35.72;35.7;4;Niveau 4;FALSE;
+35.73;35.7;4;Niveau 4;FALSE;
+36;3;2;Niveau 2;TRUE;Pelouses alpines et subalpines
+36.1;36;3;Niveau 3;TRUE;Communautés des combes à neige
+36.11;36.1;4;Niveau 4;TRUE;Communautés des combes à neige acidiphiles
+36.111;36.11;5;Niveau 5;TRUE;Communautés acidiphiles des combes à neige alpines
+36.1111;36.111;6;Niveau 6;TRUE;Communautés acidiphiles des combes à neige alpines à mousses
+36.1112;36.111;6;Niveau 6;TRUE;Communautés acidiphiles des combes à neige alpines à Saule nain
+36.1113;36.111;6;Niveau 6;TRUE;Communautés acidiphiles de combes à neige alpines à Carex-Gnaphalium
+36.112;36.11;5;Niveau 5;FALSE;
+36.1121;36.112;6;Niveau 6;FALSE;
+36.1122;36.112;6;Niveau 6;FALSE;
+36.1123;36.112;6;Niveau 6;FALSE;
+36.1124;36.112;6;Niveau 6;FALSE;
+36.1125;36.112;6;Niveau 6;FALSE;
+36.12;36.1;4;Niveau 4;TRUE;Communautés de combes à neige sur substrats calcaires
+36.121;36.12;5;Niveau 5;TRUE;Communautés des combes à neige sur calcaires à Arabis-Gnaphalium
+36.122;36.12;5;Niveau 5;TRUE;Communautés des combes à neige sur calcaires, à Saules en espaliers
+36.2;36;3;Niveau 3;TRUE;Communautés des affleurements et rochers désagrégés alpins
+36.3;36;3;Niveau 3;TRUE;Pelouses acidiphiles alpines et subalpines
+36.31;36.3;4;Niveau 4;TRUE;Gazons à Nard raide et groupements apparentés
+36.311;36.31;5;Niveau 5;TRUE;Nardaies mésophiles pyrénéo-alpines
+36.312;36.31;5;Niveau 5;TRUE;Nardaies pyrénéo-alpines hygrophiles
+36.313;36.31;5;Niveau 5;TRUE;Pelouses pyrénéo-alpines hygrophiles à Vulpins
+36.314;36.31;5;Niveau 5;TRUE;Pelouses pyrénéennes fermées à Festuca eskia
+36.315;36.31;5;Niveau 5;TRUE;Pelouses pyrénéennes à Poa violacea
+36.316;36.31;5;Niveau 5;TRUE;Nardaies sommitales hercyniennes
+36.3161;36.316;6;Niveau 6;TRUE;Nardaies sommitales des Hautes-Chaumes
+36.3162;36.316;6;Niveau 6;TRUE;Gazons sommitaux de la Forêt noire à Nard raide
+36.3163;36.316;6;Niveau 6;FALSE;
+36.3164;36.316;6;Niveau 6;FALSE;
+36.32;36.3;4;Niveau 4;FALSE;
+36.321;36.32;5;Niveau 5;FALSE;
+36.322;36.32;5;Niveau 5;FALSE;
+36.3221;36.322;6;Niveau 6;FALSE;
+36.3222;36.322;6;Niveau 6;FALSE;
+36.3223;36.322;6;Niveau 6;FALSE;
+36.323;36.32;5;Niveau 5;FALSE;
+36.324;36.32;5;Niveau 5;FALSE;
+36.33;36.3;4;Niveau 4;TRUE;Pelouses siliceuses thermophiles subalpines
+36.331;36.33;5;Niveau 5;TRUE;Pelouses à Festuca paniculata
+36.3311;36.331;6;Niveau 6;TRUE;Pelouses xérophiles des versants rocailleux à Festuca paniculata
+36.3312;36.331;6;Niveau 6;TRUE;Pelouses mésophiles des sols profonds à Festuca paniculata
+36.332;36.33;5;Niveau 5;TRUE;Pelouses en gradins à Festuca eskia
+36.333;36.33;5;Niveau 5;TRUE;Pelouses en gradins à Festuca varia
+36.34;36.3;4;Niveau 4;TRUE;Pelouses à laîche courbée et communautés apparentées
+36.341;36.34;5;Niveau 5;TRUE;Pelouses à Carex curvula
+36.342;36.34;5;Niveau 5;TRUE;Pelouses à Festuca halleri
+36.343;36.34;5;Niveau 5;TRUE;Pelouses à Festuca airoides
+36.344;36.34;5;Niveau 5;TRUE;Pelouses à Festuca borderei
+36.345;36.34;5;Niveau 5;TRUE;Pelouses à Oreochloa disticha de l'Allgau
+36.346;36.34;5;Niveau 5;FALSE;
+36.347;36.34;5;Niveau 5;FALSE;
+36.35;36.3;4;Niveau 4;FALSE;
+36.351;36.35;5;Niveau 5;FALSE;
+36.352;36.35;5;Niveau 5;FALSE;
+36.353;36.35;5;Niveau 5;FALSE;
+36.354;36.35;5;Niveau 5;FALSE;
+36.36;36.3;4;Niveau 4;FALSE;
+36.361;36.36;5;Niveau 5;FALSE;
+36.3611;36.361;6;Niveau 6;FALSE;
+36.3612;36.361;6;Niveau 6;FALSE;
+36.3613;36.361;6;Niveau 6;FALSE;
+36.3614;36.361;6;Niveau 6;FALSE;
+36.3615;36.361;6;Niveau 6;FALSE;
+36.3616;36.361;6;Niveau 6;FALSE;
+36.3617;36.361;6;Niveau 6;FALSE;
+36.3618;36.361;6;Niveau 6;FALSE;
+36.3619;36.361;6;Niveau 6;FALSE;
+36.362;36.36;5;Niveau 5;FALSE;
+36.3621;36.362;6;Niveau 6;FALSE;
+36.3622;36.362;6;Niveau 6;FALSE;
+36.37;36.3;4;Niveau 4;TRUE;Pelouses des hautes montagnes corses
+36.371;36.37;5;Niveau 5;TRUE;Pelouses écorchées en gradins, oro-méditerranéennes de Corse
+36.372;36.37;5;Niveau 5;TRUE;Nardaies des pozzines corses
+36.373;36.37;5;Niveau 5;TRUE;Pelouses alpines corses des adrets
+36.374;36.37;5;Niveau 5;TRUE;Pelouses alpines des ubacs corses
+36.38;36.3;4;Niveau 4;FALSE;
+36.381;36.38;5;Niveau 5;FALSE;
+36.382;36.38;5;Niveau 5;FALSE;
+36.4;36;3;Niveau 3;TRUE;Pelouses calcicoles alpines et subalpines
+36.41;36.4;4;Niveau 4;TRUE;Pelouses à laîche ferrugineuse et communautés apparentées
+36.411;36.41;5;Niveau 5;TRUE;Pelouses mésophiles à laîche sempervirente
+36.4111;36.411;6;Niveau 6;TRUE;Pelouses à laîche sempervirente des Alpes
+36.4112;36.411;6;Niveau 6;TRUE;Pelouses pyrénéennes à laîche sempervirente
+36.412;36.41;5;Niveau 5;TRUE;Pelouses à laîche ferrugineuse septentrionales
+36.413;36.41;5;Niveau 5;FALSE;
+36.414;36.41;5;Niveau 5;TRUE;Pelouses à fétuque violette et communautés apparentées
+36.4141;36.414;6;Niveau 6;TRUE;Pelouses alpines à fétuque violette
+36.4142;36.414;6;Niveau 6;TRUE;Pelouses pyrénéennes à fétuque noircissante
+36.4143;36.414;6;Niveau 6;FALSE;
+36.415;36.41;5;Niveau 5;FALSE;
+36.416;36.41;5;Niveau 5;TRUE;Pelouses sommitales du Jura
+36.42;36.4;4;Niveau 4;TRUE;Pelouses des crêtes à Elyna
+36.421;36.42;5;Niveau 5;TRUE;Pelouses alpines à Elyna
+36.422;36.42;5;Niveau 5;TRUE;Pelouses pyrénéennes à Elyna
+36.423;36.42;5;Niveau 5;FALSE;
+36.424;36.42;5;Niveau 5;FALSE;
+36.43;36.4;4;Niveau 4;TRUE;Pelouses en gradins et en guirlandes
+36.431;36.43;5;Niveau 5;TRUE;Versants à Seslérie et Laîches sempervirentes
+36.4311;36.431;6;Niveau 6;TRUE;Pelouses alpines à Seslérie et Laîche sempervirente
+36.4312;36.431;6;Niveau 6;TRUE;Pelouses à Seslérie et Laîche sempervirente du Jura
+36.432;36.43;5;Niveau 5;TRUE;Pelouses à Avoine et Seslérie des Alpes méridionales
+36.433;36.43;5;Niveau 5;TRUE;Tapis de laîches en coussinets
+36.434;36.43;5;Niveau 5;TRUE;Pelouses pyrénéennes à Festuca gautieri
+36.435;36.43;5;Niveau 5;FALSE;
+36.436;36.43;5;Niveau 5;FALSE;
+36.437;36.43;5;Niveau 5;FALSE;
+36.44;36.4;4;Niveau 4;TRUE;Communautés alpines métallifères
+36.5;36;3;Niveau 3;TRUE;Prairies alpines et subalpines fertilisées
+36.51;36.5;4;Niveau 4;TRUE;Prairies subalpines à Trisetum flavescens
+36.52;36.5;4;Niveau 4;TRUE;Pâturages à Liondent hispide
+37;3;2;Niveau 2;TRUE;Prairies humides et mégaphorbiaies
+37.1;37;3;Niveau 3;TRUE;Communautés à Reine des prés et communautés associées
+37.2;37;3;Niveau 3;TRUE;Prairies humides eutrophes
+37.21;37.2;4;Niveau 4;TRUE;Prairies humides atlantiques et subatlantiques
+37.211;37.21;5;Niveau 5;TRUE;Prairies humides à cirse des maraîchers
+37.212;37.21;5;Niveau 5;TRUE;Prairies humides à Trolle et Cirse des ruisseaux
+37.213;37.21;5;Niveau 5;TRUE;Prairies à Canche cespiteuse
+37.214;37.21;5;Niveau 5;TRUE;Prairies à Séneçon aquatique
+37.215;37.21;5;Niveau 5;TRUE;Prairies à Renouée bistorte
+37.216;37.21;5;Niveau 5;TRUE;Prairies à Jonc filiforme
+37.217;37.21;5;Niveau 5;TRUE;Prairies à Jonc diffus
+37.218;37.21;5;Niveau 5;TRUE;Prairies à Jonc subnoduleux
+37.219;37.21;5;Niveau 5;TRUE;Prairies à Scirpe des bois
+37.22;37.2;4;Niveau 4;TRUE;Prairies à Jonc acutiflore
+37.23;37.2;4;Niveau 4;TRUE;Prairies subcontinentales à Cnidium
+37.24;37.2;4;Niveau 4;TRUE;Prairies à Agropyre et Rumex
+37.241;37.24;5;Niveau 5;TRUE;Pâtures à grand jonc
+37.242;37.24;5;Niveau 5;TRUE;Pelouses à Agrostide stolonifère et Fétuque faux roseau
+37.25;37.2;4;Niveau 4;TRUE;Prairies humides de transition à hautes herbes
+37.3;37;3;Niveau 3;TRUE;Prairies humides oligotrophes
+37.31;37.3;4;Niveau 4;TRUE;Prairies à Molinie et communautés associées
+37.311;37.31;5;Niveau 5;TRUE;Prairies à Molinie sur calcaires
+37.312;37.31;5;Niveau 5;TRUE;Prairies à Molinie acidiphiles
+37.32;37.3;4;Niveau 4;TRUE;Prairies à Jonc rude et pelouses humides à Nard
+37.4;37;3;Niveau 3;TRUE;Prairies humides méditerranéennes à grandes herbes
+37.5;37;3;Niveau 3;TRUE;Prairies humides méditerranéennes rases
+37.6;37;3;Niveau 3;FALSE;
+37.61;37.6;4;Niveau 4;FALSE;
+37.62;37.6;4;Niveau 4;FALSE;
+37.7;37;3;Niveau 3;TRUE;Lisières humides à grandes herbes
+37.71;37.7;4;Niveau 4;TRUE;Voiles des cours d'eau
+37.711;37.71;5;Niveau 5;TRUE;Communautés fluviales à Angelica archangelica
+37.712;37.71;5;Niveau 5;TRUE;Communautés fluviales à Angelica heterocarpa
+37.713;37.71;5;Niveau 5;TRUE;Ourlets à Althaea officinalis
+37.714;37.71;5;Niveau 5;TRUE;Communautés riveraines à Pétasites
+37.715;37.71;5;Niveau 5;TRUE;Ourlets riverains mixtes
+37.72;37.7;4;Niveau 4;TRUE;Franges des bords boisés ombragés
+37.8;37;3;Niveau 3;TRUE;Mégaphorbiaies alpines et subalpines
+37.81;37.8;4;Niveau 4;TRUE;Mégaphorbiaies des montagnes hercyniennes, du Jura et des Alpes
+37.82;37.8;4;Niveau 4;TRUE;Prairies subalpines à Calamagrostis arundinacea
+37.83;37.8;4;Niveau 4;TRUE;Mégaphorbiaies pyrénéo-ibériques
+37.84;37.8;4;Niveau 4;FALSE;
+37.85;37.8;4;Niveau 4;TRUE;Mégaphorbiaies corses à Cymbalaria
+37.86;37.8;4;Niveau 4;TRUE;Mégaphorbiaies corses à Doronicum
+37.87;37.8;4;Niveau 4;FALSE;
+37.88;37.8;4;Niveau 4;TRUE;Communautés alpines à Patience alpine
+38;3;2;Niveau 2;TRUE;Prairies mésophiles
+38.1;38;3;Niveau 3;TRUE;Pâtures mésophiles
+38.11;38.1;4;Niveau 4;TRUE;Pâturages continus
+38.111;38.11;5;Niveau 5;TRUE;Pâturages à Ray-grass
+38.112;38.11;5;Niveau 5;TRUE;Pâturages à Cynosurus-Centaurea
+38.12;38.1;4;Niveau 4;TRUE;Pâturages interrompus par des fossés
+38.13;38.1;4;Niveau 4;TRUE;Pâturages abandonnés
+38.2;38;3;Niveau 3;TRUE;Prairies de fauche de basse altitude
+38.21;38.2;4;Niveau 4;TRUE;Prairies de fauche atlantiques
+38.22;38.2;4;Niveau 4;TRUE;Prairies de fauche des plaines médio-européennes
+38.23;38.2;4;Niveau 4;TRUE;Prairies de fauche submontagnardes médio-européennes
+38.3;38;3;Niveau 3;TRUE;Prairies de fauche de montagne
+38.4;38;3;Niveau 3;FALSE;
+38.41;38.4;4;Niveau 4;FALSE;
+38.42;38.4;4;Niveau 4;FALSE;
+38.43;38.4;4;Niveau 4;FALSE;
+38.5;38;3;Niveau 3;FALSE;
+4;;1;Niveau 1;TRUE;FORETS
+41;4;2;Niveau 2;TRUE;Forêts caducifoliées
+41.1;41;3;Niveau 3;TRUE;Hêtraies
+41.11;41.1;4;Niveau 4;TRUE;Hêtraies acidiphiles médio-européennes à Luzule blanchâtre du Luzulo-Fagenion
+41.111;41.11;5;Niveau 5;TRUE;Hêtraies collinéennes à Luzule
+41.112;41.11;5;Niveau 5;TRUE;Hêtraies montagnardes à Luzule
+41.1121;41.112;6;Niveau 6;FALSE;
+41.1122;41.112;6;Niveau 6;TRUE;Hêtraies montagnardes semi-naturelles à Luzule françaises
+41.12;41.1;4;Niveau 4;TRUE;Hêtraies atlantiques acidiphiles
+41.121;41.12;5;Niveau 5;TRUE;Hêtraies acidiphiles de la mer du Nord
+41.122;41.12;5;Niveau 5;TRUE;Hêtraies acidiphiles sub-atlantiques
+41.123;41.12;5;Niveau 5;TRUE;Hêtraies acidiphiles armoricaines
+41.124;41.12;5;Niveau 5;TRUE;Hêtraies acidiphiles pyrénéo-cantabriques
+41.125;41.12;5;Niveau 5;FALSE;
+41.126;41.12;5;Niveau 5;FALSE;
+41.127;41.12;5;Niveau 5;TRUE;Hêtraies acidiphiles ibériques humides
+41.128;41.12;5;Niveau 5;TRUE;Hêtraies acidiphiles ibériques hyper-humides
+41.129;41.12;5;Niveau 5;FALSE;
+41.13;41.1;4;Niveau 4;TRUE;Hêtraies neutrophiles
+41.131;41.13;5;Niveau 5;TRUE;Hêtraies à Mélique
+41.1311;41.131;6;Niveau 6;TRUE;Hêtraies calciclines à Mélique
+41.1312;41.131;6;Niveau 6;TRUE;Hêtraies neutroclines à Mélique
+41.132;41.13;5;Niveau 5;TRUE;Hêtraies à Jacinthe des bois
+41.1321;41.132;6;Niveau 6;TRUE;Hêtraies calciclines à Jacinthe des bois
+41.1322;41.132;6;Niveau 6;TRUE;Hêtraies neutroclines à Jacinthe des bois
+41.133;41.13;5;Niveau 5;TRUE;Hêtraies à Dentaires
+41.14;41.1;4;Niveau 4;TRUE;Hêtraies neutrophiles pyrénéo-cantabriques
+41.141;41.14;5;Niveau 5;TRUE;Hêtraies pyrénéennes hygrophiles
+41.142;41.14;5;Niveau 5;TRUE;Hêtraies pyrénéennes mésophiles
+41.143;41.14;5;Niveau 5;TRUE;Hêtraies oro-cantabriques sub-humides
+41.144;41.14;5;Niveau 5;TRUE;Hêtraies-sapinières humides du Massif central
+41.15;41.1;4;Niveau 4;TRUE;Hêtraies subalpines
+41.16;41.1;4;Niveau 4;TRUE;Hêtraies sur calcaire
+41.161;41.16;5;Niveau 5;TRUE;Hêtraie à laîches
+41.162;41.16;5;Niveau 5;TRUE;Hêtraies xérophiles nord-ouest ibériques
+41.17;41.1;4;Niveau 4;TRUE;Hêtraies médio-européennes méridionales
+41.171;41.17;5;Niveau 5;TRUE;Hêtraies acidiphiles des Alpes méridionales et des Apennins
+41.172;41.17;5;Niveau 5;TRUE;Hêtraies acidiphiles des Pyrénées orientales et des Cévennes
+41.173;41.17;5;Niveau 5;TRUE;Hêtraies corses
+41.174;41.17;5;Niveau 5;TRUE;Hêtraies neutrophiles des Alpes méridionales et des Apennins
+41.1741;41.174;6;Niveau 6;TRUE;Hêtraies neutrophiles des Alpes sud-occidentales
+41.1742;41.174;6;Niveau 6;TRUE;Hêtraies neutrophiles des Alpes maritimes
+41.1743;41.174;6;Niveau 6;FALSE;
+41.1744;41.174;6;Niveau 6;FALSE;
+41.175;41.17;5;Niveau 5;TRUE;Hêtraies calcicoles sub-méditerranéennes
+41.1751;41.175;6;Niveau 6;TRUE;Hêtraies à Buis
+41.1752;41.175;6;Niveau 6;TRUE;Hêtraies à Androsace
+41.1753;41.175;6;Niveau 6;TRUE;Hêtraies à Lavande
+41.1754;41.175;6;Niveau 6;TRUE;Hêtraies de la Sainte-Baume
+41.176;41.17;5;Niveau 5;FALSE;
+41.18;41.1;4;Niveau 4;FALSE;
+41.181;41.18;5;Niveau 5;FALSE;
+41.182;41.18;5;Niveau 5;FALSE;
+41.183;41.18;5;Niveau 5;FALSE;
+41.184;41.18;5;Niveau 5;FALSE;
+41.185;41.18;5;Niveau 5;FALSE;
+41.186;41.18;5;Niveau 5;FALSE;
+41.187;41.18;5;Niveau 5;FALSE;
+41.19;41.1;4;Niveau 4;FALSE;
+41.1A;41.1;4;Niveau 4;FALSE;
+41.1B;41.1;4;Niveau 4;FALSE;
+41.2;41;3;Niveau 3;TRUE;Chênaies-charmaies
+41.21;41.2;4;Niveau 4;TRUE;Chênaies atlantiques mixtes à Jacinthes des bois
+41.22;41.2;4;Niveau 4;TRUE;Frênaies-chênaies et chênaies-charmaies aquitaniennes
+41.23;41.2;4;Niveau 4;TRUE;Frênaies-chênaies sub-atlantiques à primevère
+41.231;41.23;5;Niveau 5;TRUE;Frênaies-chênaies à Arum
+41.232;41.23;5;Niveau 5;TRUE;Frênaies-chênaies à Corydale
+41.233;41.23;5;Niveau 5;TRUE;Frênaies-chênaies à Ail
+41.24;41.2;4;Niveau 4;TRUE;Chênaies-charmaies à Stellaire sub-atlantiques
+41.241;41.24;5;Niveau 5;TRUE;Chênaies-charmaies du Nord-Ouest
+41.242;41.24;5;Niveau 5;TRUE;Chênaies-charmaies de Lorraine sur marnes
+41.243;41.24;5;Niveau 5;TRUE;Chênaies-charmaies collinéennes du Bourgogne
+41.244;41.24;5;Niveau 5;TRUE;Chênaies-charmaies des plaines du Bourgogne
+41.25;41.2;4;Niveau 4;TRUE;Chênaies-charmaies faméniennes
+41.26;41.2;4;Niveau 4;TRUE;Chênaies-charmaies orientales
+41.261;41.26;5;Niveau 5;TRUE;Chênaies-charmaies à Gaillet des bois
+41.262;41.26;5;Niveau 5;TRUE;Forêts mixtes de Tilleuls de Chênes et de Charmes
+41.27;41.2;4;Niveau 4;TRUE;Chênaies-charmaies et frênaies-charmaies calciphiles
+41.271;41.27;5;Niveau 5;TRUE;Chênaies-charmaies xérophiles sur calcaire
+41.272;41.27;5;Niveau 5;TRUE;Chênaies-charmaies xérophiles sur schistes
+41.273;41.27;5;Niveau 5;TRUE;Chênaies-charmaies calciphiles
+41.28;41.2;4;Niveau 4;TRUE;Chênaies-charmaies sud-alpines
+41.29;41.2;4;Niveau 4;TRUE;Chênaies-frênaies pyrénéo-cantabriques
+41.3;41;3;Niveau 3;TRUE;Frênaies
+41.31;41.3;4;Niveau 4;FALSE;
+41.32;41.3;4;Niveau 4;FALSE;
+41.33;41.3;4;Niveau 4;TRUE;Forêt de frênes pyrénéo-cantabriques
+41.34;41.3;4;Niveau 4;FALSE;
+41.35;41.3;4;Niveau 4;TRUE;Frênaies mixtes atlantiques à jacinthe
+41.36;41.3;4;Niveau 4;TRUE;Frênaies d'Aquitaine
+41.37;41.3;4;Niveau 4;TRUE;Frênaies sub-atlantiques
+41.38;41.3;4;Niveau 4;TRUE;Frênaies calciphiles lutétiennes
+41.39;41.3;4;Niveau 4;TRUE;Bois de frênes post-culturaux
+41.4;41;3;Niveau 3;TRUE;Forêts mixtes de pentes et ravins
+41.41;41.4;4;Niveau 4;TRUE;Forêts de ravin à Frêne et Sycomore
+41.42;41.4;4;Niveau 4;TRUE;Forêts de pente hercyniennes
+41.43;41.4;4;Niveau 4;TRUE;Forêts de pente alpiennes et péri-alpiennes
+41.44;41.4;4;Niveau 4;TRUE;Forêts mixtes pyrénéo-cantabriques de Chênes et d'Ormes
+41.45;41.4;4;Niveau 4;TRUE;Forêts thermophiles alpiennes et péri-alpiennes mixtes de Tilleuls
+41.46;41.4;4;Niveau 4;FALSE;
+41.5;41;3;Niveau 3;TRUE;Chênaies acidiphiles
+41.51;41.5;4;Niveau 4;TRUE;Bois de Chênes pédonculés et de Bouleaux
+41.52;41.5;4;Niveau 4;TRUE;Chênaies acidiphiles atlantiques à Hêtres
+41.521;41.52;5;Niveau 5;TRUE;Forêts de Chênes sessiles du nord-ouest
+41.522;41.52;5;Niveau 5;TRUE;Forêts armoricaine de Chênes sessiles
+41.523;41.52;5;Niveau 5;TRUE;Forêts sur dune
+41.524;41.52;5;Niveau 5;FALSE;
+41.525;41.52;5;Niveau 5;FALSE;
+41.53;41.5;4;Niveau 4;TRUE;Forêts de Chênes sessiles britanniques et irlandaises
+41.531;41.53;5;Niveau 5;FALSE;
+41.532;41.53;5;Niveau 5;FALSE;
+41.5321;41.532;6;Niveau 6;FALSE;
+41.5322;41.532;6;Niveau 6;FALSE;
+41.54;41.5;4;Niveau 4;TRUE;Chênaies aquitano-ligériennes sur podzols
+41.55;41.5;4;Niveau 4;TRUE;Chênaies aquitano-ligériennes sur sols lessivés ou acides
+41.56;41.5;4;Niveau 4;TRUE;Chênaies acidiphiles ibéro-atlantiques
+41.561;41.56;5;Niveau 5;TRUE;Chênaies acidiphiles pyrénéennes
+41.5611;41.561;6;Niveau 6;TRUE;Chênaies acidiphiles pyrénéennes mésophiles
+41.5612;41.561;6;Niveau 6;TRUE;Chênaies acidiphiles pyrénéennes hygrophiles
+41.562;41.56;5;Niveau 5;FALSE;
+41.5621;41.562;6;Niveau 6;FALSE;
+41.5622;41.562;6;Niveau 6;FALSE;
+41.5623;41.562;6;Niveau 6;FALSE;
+41.563;41.56;5;Niveau 5;FALSE;
+41.5631;41.563;6;Niveau 6;FALSE;
+41.5632;41.563;6;Niveau 6;FALSE;
+41.564;41.56;5;Niveau 5;FALSE;
+41.57;41.5;4;Niveau 4;TRUE;Chênaies acidiphiles médio-européennes
+41.571;41.57;5;Niveau 5;TRUE;Chênaies à Luzule des bois
+41.572;41.57;5;Niveau 5;TRUE;Chênaies acidiphiles xéro-thermophiles
+41.58;41.5;4;Niveau 4;FALSE;
+41.59;41.5;4;Niveau 4;FALSE;
+41.5A;41.5;4;Niveau 4;FALSE;
+41.6;41;3;Niveau 3;TRUE;Forêts de Chêne tauzin
+41.61;41.6;4;Niveau 4;FALSE;
+41.611;41.61;5;Niveau 5;FALSE;
+41.6111;41.611;6;Niveau 6;FALSE;
+41.6112;41.611;6;Niveau 6;FALSE;
+41.612;41.61;5;Niveau 5;FALSE;
+41.6121;41.612;6;Niveau 6;FALSE;
+41.6122;41.612;6;Niveau 6;FALSE;
+41.613;41.61;5;Niveau 5;FALSE;
+41.6131;41.613;6;Niveau 6;FALSE;
+41.6132;41.613;6;Niveau 6;FALSE;
+41.62;41.6;4;Niveau 4;FALSE;
+41.63;41.6;4;Niveau 4;FALSE;
+41.64;41.6;4;Niveau 4;FALSE;
+41.65;41.6;4;Niveau 4;TRUE;Forêts françaises de Quercus pyrenaica
+41.7;41;3;Niveau 3;TRUE;Chênaies thermophiles et supra-méditerranéennes
+41.71;41.7;4;Niveau 4;TRUE;Chênaies blanches occidentales et communautés apparentées
+41.711;41.71;5;Niveau 5;TRUE;Bois occidentaux de Quercus pubescens
+41.712;41.71;5;Niveau 5;TRUE;Bois sub-méditerranéens de Quercus petraea-Q. robur
+41.713;41.71;5;Niveau 5;TRUE;Bois de Quercus palensis
+41.714;41.71;5;Niveau 5;TRUE;Bois de Chênes blancs eu-méditerranéens
+41.72;41.7;4;Niveau 4;TRUE;Chênaies pubescentes cyrno-sardes
+41.73;41.7;4;Niveau 4;TRUE;Chênaies pubescentes orientales
+41.731;41.73;5;Niveau 5;TRUE;Chênaies pubescentes d'Italie septentrionale
+41.732;41.73;5;Niveau 5;FALSE;
+41.733;41.73;5;Niveau 5;FALSE;
+41.734;41.73;5;Niveau 5;FALSE;
+41.735;41.73;5;Niveau 5;FALSE;
+41.74;41.7;4;Niveau 4;FALSE;
+41.75;41.7;4;Niveau 4;FALSE;
+41.751;41.75;5;Niveau 5;FALSE;
+41.7511;41.751;6;Niveau 6;FALSE;
+41.7512;41.751;6;Niveau 6;FALSE;
+41.7513;41.751;6;Niveau 6;FALSE;
+41.752;41.75;5;Niveau 5;FALSE;
+41.7521;41.752;6;Niveau 6;FALSE;
+41.7522;41.752;6;Niveau 6;FALSE;
+41.76;41.7;4;Niveau 4;FALSE;
+41.761;41.76;5;Niveau 5;FALSE;
+41.762;41.76;5;Niveau 5;FALSE;
+41.763;41.76;5;Niveau 5;FALSE;
+41.764;41.76;5;Niveau 5;FALSE;
+41.765;41.76;5;Niveau 5;FALSE;
+41.766;41.76;5;Niveau 5;FALSE;
+41.767;41.76;5;Niveau 5;FALSE;
+41.77;41.7;4;Niveau 4;FALSE;
+41.771;41.77;5;Niveau 5;FALSE;
+41.7711;41.771;6;Niveau 6;FALSE;
+41.7712;41.771;6;Niveau 6;FALSE;
+41.7713;41.771;6;Niveau 6;FALSE;
+41.7714;41.771;6;Niveau 6;FALSE;
+41.7715;41.771;6;Niveau 6;FALSE;
+41.772;41.77;5;Niveau 5;FALSE;
+41.773;41.77;5;Niveau 5;FALSE;
+41.774;41.77;5;Niveau 5;FALSE;
+41.775;41.77;5;Niveau 5;FALSE;
+41.78;41.7;4;Niveau 4;FALSE;
+41.781;41.78;5;Niveau 5;FALSE;
+41.782;41.78;5;Niveau 5;FALSE;
+41.79;41.7;4;Niveau 4;FALSE;
+41.791;41.79;5;Niveau 5;FALSE;
+41.792;41.79;5;Niveau 5;FALSE;
+41.8;41;3;Niveau 3;TRUE;Forêts de Charmes houblon, de Charmes orientaux et thermophiles mixtes
+41.81;41.8;4;Niveau 4;TRUE;Bois de Charmes houblon
+41.811;41.81;5;Niveau 5;TRUE;Bois de Charmes houblon méso-méditerranéens
+41.812;41.81;5;Niveau 5;TRUE;Bois de Charmes houblon supra-méditerranéens
+41.813;41.81;5;Niveau 5;TRUE;Bois de Charmes houblon montagnards
+41.82;41.8;4;Niveau 4;FALSE;
+41.83;41.8;4;Niveau 4;FALSE;
+41.831;41.83;5;Niveau 5;FALSE;
+41.832;41.83;5;Niveau 5;FALSE;
+41.84;41.8;4;Niveau 4;TRUE;Bois de Tilleuls méditerranéens
+41.85;41.8;4;Niveau 4;TRUE;Micocoulaies
+41.86;41.8;4;Niveau 4;TRUE;Bois de Frênes thermophiles
+41.861;41.86;5;Niveau 5;FALSE;
+41.862;41.86;5;Niveau 5;FALSE;
+41.863;41.86;5;Niveau 5;FALSE;
+41.87;41.8;4;Niveau 4;FALSE;
+41.9;41;3;Niveau 3;TRUE;Bois de Châtaigniers
+41.A;41;3;Niveau 3;TRUE;Bois de Charmes
+41.B;41;3;Niveau 3;TRUE;Bois de Bouleaux
+41.B1;41.B;4;Niveau 4;TRUE;Bois de bouleaux de plaine et colline
+41.B11;41.B1;5;Niveau 5;TRUE;Bois de Bouleaux humides
+41.B111;41.B11;6;Niveau 6;TRUE;Bois de Bouleaux humides septentrionaux
+41.B112;41.B11;6;Niveau 6;TRUE;Bois de Bouleaux humides aquitano-ligériens
+41.B12;41.B1;5;Niveau 5;TRUE;Bois de Bouleaux secs acidiphiles médio-européens
+41.B13;41.B1;5;Niveau 5;FALSE;
+41.B14;41.B1;5;Niveau 5;FALSE;
+41.B15;41.B1;5;Niveau 5;FALSE;
+41.B16;41.B1;5;Niveau 5;TRUE;Bois de Bouleaux de dunes
+41.B2;41.B;4;Niveau 4;FALSE;
+41.B3;41.B;4;Niveau 4;TRUE;Bois de Bouleaux montagnards et subalpins
+41.B31;41.B3;5;Niveau 5;TRUE;Bois de Bouleaux en limite forestière dans les Alpes
+41.B32;41.B3;5;Niveau 5;TRUE;Massifs forestiers de Bouleaux
+41.B33;41.B3;5;Niveau 5;TRUE;Bois de Bouleaux pyrénéens
+41.B34;41.B3;5;Niveau 5;FALSE;
+41.B35;41.B3;5;Niveau 5;FALSE;
+41.B4;41.B;4;Niveau 4;TRUE;Bois de Bouleaux corses
+41.B5;41.B;4;Niveau 4;FALSE;
+41.B51;41.B5;5;Niveau 5;FALSE;
+41.B52;41.B5;5;Niveau 5;FALSE;
+41.B53;41.B5;5;Niveau 5;FALSE;
+41.B6;41.B;4;Niveau 4;FALSE;
+41.C;41;3;Niveau 3;TRUE;Aulnaies
+41.C1;41.C;4;Niveau 4;TRUE;Bois d' Alnus cordata
+41.C2;41.C;4;Niveau 4;TRUE;Bois d'Alnus glutinosa
+41.D;41;3;Niveau 3;TRUE;Bois de Trembles
+41.D1;41.D;4;Niveau 4;TRUE;Bois de Trembles intra-alpins
+41.D2;41.D;4;Niveau 4;TRUE;Bois de Trembles de plaine
+41.D3;41.D;4;Niveau 4;TRUE;Stations de Trembles montagnardes
+41.D4;41.D;4;Niveau 4;TRUE;Stations de Trembles supra-méditerranéennes
+41.E;41;3;Niveau 3;TRUE;Bois de Sorbiers sauvages
+41.F;41;3;Niveau 3;TRUE;Bois d'Ormes
+41.F1;41.F;4;Niveau 4;TRUE;Bois d'Ormes à petites feuilles
+41.F11;41.F1;5;Niveau 5;TRUE;Bois d'Ormes à Violette odorante
+41.F12;41.F1;5;Niveau 5;TRUE;Bois d'Ormes thermo-atlantiques
+41.F13;41.F1;5;Niveau 5;FALSE;
+41.F2;41.F;4;Niveau 4;TRUE;Bois d'Ormes blancs et d'Ormes diffus
+41.G;41;3;Niveau 3;TRUE;Bois de Tilleuls
+41.H;41;3;Niveau 3;TRUE;Autres bois caducifoliés
+42;4;2;Niveau 2;TRUE;Forêts de conifères
+42.1;42;3;Niveau 3;TRUE;Sapinières
+42.11;42.1;4;Niveau 4;TRUE;Sapinières neutrophiles
+42.111;42.11;5;Niveau 5;TRUE;Sapinières neutrophiles intra-alpines
+42.1111;42.111;6;Niveau 6;TRUE;Sapinières à Oxalis
+42.1112;42.111;6;Niveau 6;TRUE;Sapinières à hautes herbes
+42.1113;42.111;6;Niveau 6;TRUE;Sapinières à Trochiscanthes
+42.112;42.11;5;Niveau 5;TRUE;Sapinières neutrophiles de la zone du Hêtre
+42.113;42.11;5;Niveau 5;TRUE;Sapinières intra-pyrénéennes
+42.12;42.1;4;Niveau 4;TRUE;Sapinières calciphiles
+42.121;42.12;5;Niveau 5;TRUE;Sapinières calcicoles intra-alpines
+42.122;42.12;5;Niveau 5;TRUE;Sapinières calcicoles de la zone du Hêtre
+42.123;42.12;5;Niveau 5;FALSE;
+42.13;42.1;4;Niveau 4;TRUE;Sapinières acidiphiles
+42.131;42.13;5;Niveau 5;TRUE;Sapinières acidiphiles intra-alpines
+42.132;42.13;5;Niveau 5;TRUE;Sapinières acidiphiles de la zone du Hêtre
+42.133;42.13;5;Niveau 5;TRUE;Sapinières à Rhododendron
+42.1331;42.133;6;Niveau 6;TRUE;Sapinières pyrénéennes à Rhododendron
+42.1332;42.133;6;Niveau 6;TRUE;Sapinières alpiennes à Rhododendron
+42.1333;42.133;6;Niveau 6;TRUE;Sapinières à Rhododendron sur rocailles
+42.14;42.1;4;Niveau 4;TRUE;Sapinières corses
+42.15;42.1;4;Niveau 4;FALSE;
+42.16;42.1;4;Niveau 4;FALSE;
+42.17;42.1;4;Niveau 4;FALSE;
+42.18;42.1;4;Niveau 4;FALSE;
+42.19;42.1;4;Niveau 4;FALSE;
+42.191;42.19;5;Niveau 5;FALSE;
+42.192;42.19;5;Niveau 5;FALSE;
+42.1A;42.1;4;Niveau 4;FALSE;
+42.1B;42.1;4;Niveau 4;TRUE;Reboisement en Sapins
+42.1B1;42.1B;5;Niveau 5;TRUE;Reboisement en Abies alba
+42.1B2;42.1B;5;Niveau 5;FALSE;
+42.1B3;42.1B;5;Niveau 5;TRUE;Reboisement en Abies cephalonica
+42.1B4;42.1B;5;Niveau 5;FALSE;
+42.1B5;42.1B;5;Niveau 5;FALSE;
+42.2;42;3;Niveau 3;TRUE;Pessières
+42.21;42.2;4;Niveau 4;TRUE;Pessières sub-alpines des Alpes
+42.211;42.21;5;Niveau 5;TRUE;Pessières à Airelle
+42.212;42.21;5;Niveau 5;TRUE;Pessières subalpines à hautes herbes
+42.2121;42.212;6;Niveau 6;TRUE;Pessières subalpines calcicoles à hautes herbes
+42.2122;42.212;6;Niveau 6;TRUE;Pessières subalpines silicicoles à hautes herbes
+42.213;42.21;5;Niveau 5;TRUE;Pessières subalpines à sphaignes
+42.214;42.21;5;Niveau 5;TRUE;Pessières subalpines xérophiles
+42.215;42.21;5;Niveau 5;TRUE;Pessières de stations froides
+42.22;42.2;4;Niveau 4;TRUE;Pessières montagnardes des Alpes internes
+42.221;42.22;5;Niveau 5;TRUE;Pessières montagnardes intra-alpines acidiphiles
+42.222;42.22;5;Niveau 5;TRUE;Pessières montagnardes intra-alpines calciphiles
+42.223;42.22;5;Niveau 5;TRUE;Pessières montagnardes intra-alpines xérophiles
+42.224;42.22;5;Niveau 5;TRUE;Pessières montagnardes intra-alpines à hautes herbes
+42.225;42.22;5;Niveau 5;TRUE;Pessières montagnardes intra-alpines à Sphaignes
+42.23;42.2;4;Niveau 4;TRUE;Forêts subalpines hercyniennes
+42.231;42.23;5;Niveau 5;FALSE;
+42.232;42.23;5;Niveau 5;TRUE;Pessières subalpines du Harz et de l'Erzgebirge
+42.24;42.2;4;Niveau 4;FALSE;
+42.241;42.24;5;Niveau 5;FALSE;
+42.242;42.24;5;Niveau 5;FALSE;
+42.25;42.2;4;Niveau 4;TRUE;Pessières extrazonales
+42.251;42.25;5;Niveau 5;TRUE;Pessières subalpines du Jura
+42.252;42.25;5;Niveau 5;FALSE;
+42.253;42.25;5;Niveau 5;TRUE;Pessières montagnardes à déterminisme édaphique
+42.254;42.25;5;Niveau 5;TRUE;Pessières de la zone montagnarde du Hêtre
+42.26;42.2;4;Niveau 4;TRUE;Reboisement d'Epicéas
+42.3;42;3;Niveau 3;TRUE;Forêts de Mélèzes et d'Arolles
+42.31;42.3;4;Niveau 4;TRUE;Forêts siliceuses orientales à Mélèze et Arolle
+42.311;42.31;5;Niveau 5;TRUE;Forêts d'Arolles à Myrtille
+42.312;42.31;5;Niveau 5;TRUE;Forêts d'Arolles à Luzules
+42.313;42.31;5;Niveau 5;TRUE;Forêts de Mélèzes et d'Arolles à Rhododendron ferrugineux
+42.314;42.31;5;Niveau 5;TRUE;Forêts de Mélèzes et d'Arolles à Calamagrostis
+42.315;42.31;5;Niveau 5;TRUE;Forêts de Mélèze et d'Arolles à Pin mugo
+42.316;42.31;5;Niveau 5;TRUE;Forêts de Mélèzes et d'Arolles avec Genévriers nains
+42.317;42.31;5;Niveau 5;TRUE;Forêts de Mélèzes et d'Arolles à Aulnes verts et hautes herbes
+42.318;42.31;5;Niveau 5;TRUE;Forêts de Mélèzes et d'Arolles à Lichens
+42.319;42.31;5;Niveau 5;TRUE;Forêts d'Arolles à Sphaignes
+42.32;42.3;4;Niveau 4;TRUE;Forêts orientales, calcicoles de Mélèzes et d'Arolles
+42.321;42.32;5;Niveau 5;TRUE;Forêts d'Arolles et de Mélèzes et d'Arolles à Rhododendron cilié
+42.3211;42.321;6;Niveau 6;TRUE;Forêts de Mélèzes et d'Arolles à Rhododendron cilié
+42.32111;42.3211;7;Niveau 7;TRUE;Forêts de Mélèzes et d'Arolles à Pin mugo et Rhododendron cilié
+42.32112;42.3211;7;Niveau 7;TRUE;Forêts de Mélèzes et d'Arolles à Aulne vert et Rhododendron cilié
+42.32113;42.3211;7;Niveau 7;TRUE;Autres forêts de Mélèzes et d'Arolles à Rhododendron cilié
+42.3212;42.321;6;Niveau 6;TRUE;Forêts d'Arolles à Rhododendron cilié
+42.322;42.32;5;Niveau 5;TRUE;Forêts de Mélèzes sur calcaires
+42.3221;42.322;6;Niveau 6;TRUE;Forêts calcicoles de Mélèzes à Rhododendron
+42.3222;42.322;6;Niveau 6;TRUE;Forêts de Mélèzes calcicoles sur prairies
+42.3223;42.322;6;Niveau 6;TRUE;Forêts de Mélèzes calcicoles sur éboulis
+42.3224;42.322;6;Niveau 6;TRUE;Forêts calcicoles de Mélèzes et d'Epicéas sur pente abrupte
+42.33;42.3;4;Niveau 4;TRUE;Forêts occidentales de Mélèzes, de Pins de montagne et d'Arolles
+42.331;42.33;5;Niveau 5;TRUE;Forêts occidentales de Mélèzes et de Mélèzes et de Pins de montagne
+42.3311;42.331;6;Niveau 6;TRUE;Forêts occidentales de Mélèzes et de Mélèzes et de Pins de montagne sur landes
+42.3312;42.331;6;Niveau 6;TRUE;Forêts occidentales de Mélèzes et de Mélèzes et de Pins de montagne sur prairies
+42.3313;42.331;6;Niveau 6;TRUE;Forêts occidentales de Mélèzes et de Mélèzes et de Pins de montagne sur hautes herbes
+42.332;42.33;5;Niveau 5;TRUE;Forêts occidentales d'Arolles
+42.3321;42.332;6;Niveau 6;TRUE;Forêts occidentales d'Arolles sur silice
+42.3322;42.332;6;Niveau 6;TRUE;Forêts occidentales d'Arolles à Genévriers nains
+42.3323;42.332;6;Niveau 6;TRUE;Forêts occidentales calcicoles d'Arolles
+42.34;42.3;4;Niveau 4;TRUE;Formations secondaire de Mélèzes
+42.4;42;3;Niveau 3;TRUE;Forêts de Pins de montagne
+42.41;42.4;4;Niveau 4;TRUE;Forêts de Pins de montagne à Rhododendron ferrugineux
+42.411;42.41;5;Niveau 5;TRUE;Forêts de Pins de montagne à Rhododendron des Alpes externes
+42.412;42.41;5;Niveau 5;TRUE;Forêts de Pins de montagne à Rhododendron du Jura
+42.413;42.41;5;Niveau 5;TRUE;Forêts pyrénéennes de Pins de montagne à Rhododendron
+42.42;42.4;4;Niveau 4;TRUE;Forêts de Pins de montagne xéroclines
+42.421;42.42;5;Niveau 5;TRUE;Forêts de Pins de montagne des Alpes internes
+42.4211;42.421;6;Niveau 6;TRUE;Forêts de Pins de montagne à laîche humble
+42.4212;42.421;6;Niveau 6;TRUE;Forêts de Pins de montagne à Erica herbacea
+42.4213;42.421;6;Niveau 6;TRUE;Forêts de Pins de montagne à Silène rupestre
+42.4214;42.421;6;Niveau 6;TRUE;Forêts de Pins de montagne sur amphilobites
+42.4215;42.421;6;Niveau 6;TRUE;Forêts de Pins de montagne à Ononis
+42.42151;42.4215;7;Niveau 7;TRUE;Forêts de Pins de montagne à Ononis d'adret
+42.42152;42.4215;7;Niveau 7;TRUE;Forêts de Pins de montagne à Ononis d'ubac
+42.422;42.42;5;Niveau 5;TRUE;Forêts externes de Pins de montagne à Raisin d'Ours et Genévriers
+42.4221;42.422;6;Niveau 6;TRUE;Forêts externes xérophiles de Pins de montagne
+42.4222;42.422;6;Niveau 6;TRUE;Forêts de Pins de montagne à Vaccinium
+42.4223;42.422;6;Niveau 6;TRUE;Forêts abyssales de Pins de montagne
+42.423;42.42;5;Niveau 5;TRUE;Forêts de Pins de montagne du Ventoux
+42.424;42.42;5;Niveau 5;TRUE;Forêts de Pins de montagne des soulanes pyrénéennes
+42.4241;42.424;6;Niveau 6;TRUE;Forêts de Pins de montagne à Véronique
+42.4242;42.424;6;Niveau 6;TRUE;Forêts pyrénéennes de Pins de montagne à Raisin d'Ours
+42.425;42.42;5;Niveau 5;TRUE;Forêts de Pins de montagne à Pulsatille
+42.426;42.42;5;Niveau 5;FALSE;
+42.4261;42.426;6;Niveau 6;FALSE;
+42.4262;42.426;6;Niveau 6;FALSE;
+42.43;42.4;4;Niveau 4;TRUE;Reboisement de Pins de montagne
+42.5;42;3;Niveau 3;TRUE;Forêts de Pins sylvestres
+42.51;42.5;4;Niveau 4;FALSE;
+42.511;42.51;5;Niveau 5;FALSE;
+42.512;42.51;5;Niveau 5;FALSE;
+42.513;42.51;5;Niveau 5;FALSE;
+42.514;42.51;5;Niveau 5;FALSE;
+42.515;42.51;5;Niveau 5;FALSE;
+42.52;42.5;4;Niveau 4;TRUE;Forêts de Pins sylvestres médio-européennes
+42.521;42.52;5;Niveau 5;TRUE;Forêts subcontinentales de Pins sylvestres
+42.5211;42.521;6;Niveau 6;FALSE;
+42.5212;42.521;6;Niveau 6;TRUE;Forêts de Pins sylvestres des plaines occidentales
+42.522;42.52;5;Niveau 5;TRUE;Forêts hercyniennes de Pins sylvestres
+42.5221;42.522;6;Niveau 6;FALSE;
+42.5222;42.522;6;Niveau 6;FALSE;
+42.5223;42.522;6;Niveau 6;TRUE;Forêts de Pins sylvestres des Vosges
+42.5224;42.522;6;Niveau 6;TRUE;Pinèdes de pin sylvestre des grès de Luxembourg
+42.523;42.52;5;Niveau 5;FALSE;
+42.53;42.5;4;Niveau 4;TRUE;Forêts steppiques intra-alpines à Ononis
+42.54;42.5;4;Niveau 4;TRUE;Forêts de Pins sylvestre à Erica herbacea
+42.55;42.5;4;Niveau 4;TRUE;Forêts steppiques intra-alpines à Minuartia
+42.56;42.5;4;Niveau 4;TRUE;Forêts mésophiles pyrénéennes de Pins sylvestres
+42.561;42.56;5;Niveau 5;TRUE;Forêts mésophiles calcicoles pyrénéennes de Pins sylvestres
+42.562;42.56;5;Niveau 5;TRUE;Forêts mésophiles acidiphiles pyrénéennes de Pins sylvestres
+42.57;42.5;4;Niveau 4;TRUE;Forêts de Pins sylvestres du Massif central
+42.58;42.5;4;Niveau 4;TRUE;Forêts mésophiles de Pins sylvestres des Alpes sud-occidentales
+42.59;42.5;4;Niveau 4;TRUE;Forêts supra-méditerranéennes de Pins sylvestres
+42.591;42.59;5;Niveau 5;TRUE;Forêts péri-alpines à Buis de Pins sylvestres
+42.592;42.59;5;Niveau 5;TRUE;Forêts pré-pyrénéennes à Buis de Pins sylvestres
+42.593;42.59;5;Niveau 5;FALSE;
+42.5A;42.5;4;Niveau 4;TRUE;Forêts ibériques de Pins sylvestres sur calcaires
+42.5A1;42.5A;5;Niveau 5;TRUE;Forêts pyrénéennes de Pins sylvestres à sous-bois de lande-hérisson
+42.5A2;42.5A;5;Niveau 5;FALSE;
+42.5A21;42.5A2;6;Niveau 6;FALSE;
+42.5A22;42.5A2;6;Niveau 6;FALSE;
+42.5B;42.5;4;Niveau 4;TRUE;Forêts ibériques silicoles de Pins sylvestres
+42.5B1;42.5B;5;Niveau 5;TRUE;Forêts pyrénéennes xérophiles de Pins sylvestres
+42.5B2;42.5B;5;Niveau 5;FALSE;
+42.5B21;42.5B2;6;Niveau 6;FALSE;
+42.5B22;42.5B2;6;Niveau 6;FALSE;
+42.5B3;42.5B;5;Niveau 5;FALSE;
+42.5B31;42.5B3;6;Niveau 6;FALSE;
+42.5B32;42.5B3;6;Niveau 6;FALSE;
+42.5B4;42.5B;5;Niveau 5;FALSE;
+42.5C;42.5;4;Niveau 4;FALSE;
+42.5D;42.5;4;Niveau 4;FALSE;
+42.5E;42.5;4;Niveau 4;TRUE;Reboisement de Pins sylvestres
+42.6;42;3;Niveau 3;TRUE;Forêts de Pins noirs
+42.61;42.6;4;Niveau 4;FALSE;
+42.611;42.61;5;Niveau 5;FALSE;
+42.612;42.61;5;Niveau 5;FALSE;
+42.62;42.6;4;Niveau 4;FALSE;
+42.63;42.6;4;Niveau 4;TRUE;Forêts de Pins de Salzmann
+42.631;42.63;5;Niveau 5;TRUE;Forêts de Pins de Salzmann des Causses
+42.632;42.63;5;Niveau 5;TRUE;Forêts pré-pyrénéennes de Pins de Salzmann
+42.633;42.63;5;Niveau 5;FALSE;
+42.634;42.63;5;Niveau 5;FALSE;
+42.635;42.63;5;Niveau 5;FALSE;
+42.636;42.63;5;Niveau 5;FALSE;
+42.6361;42.636;6;Niveau 6;FALSE;
+42.6362;42.636;6;Niveau 6;FALSE;
+42.64;42.6;4;Niveau 4;TRUE;Forêts corses de Pins laricio
+42.641;42.64;5;Niveau 5;TRUE;Forêts denses montagnardes de Pin laricio
+42.642;42.64;5;Niveau 5;TRUE;Forêts ouvertes montagnardes de Pins laricio
+42.643;42.64;5;Niveau 5;TRUE;Forêts de Pins laricio supra-méditerranéennes
+42.65;42.6;4;Niveau 4;FALSE;
+42.651;42.65;5;Niveau 5;FALSE;
+42.652;42.65;5;Niveau 5;FALSE;
+42.66;42.6;4;Niveau 4;FALSE;
+42.67;42.6;4;Niveau 4;TRUE;Reboisement en Pins noirs
+42.7;42;3;Niveau 3;FALSE;
+42.71;42.7;4;Niveau 4;FALSE;
+42.711;42.71;5;Niveau 5;FALSE;
+42.712;42.71;5;Niveau 5;FALSE;
+42.713;42.71;5;Niveau 5;FALSE;
+42.72;42.7;4;Niveau 4;FALSE;
+42.8;42;3;Niveau 3;TRUE;Bois de Pins méditerranéens
+42.81;42.8;4;Niveau 4;TRUE;Forêts de Pins maritimes
+42.811;42.81;5;Niveau 5;TRUE;Forêts de Pins et de Chênes verts des Charentes
+42.812;42.81;5;Niveau 5;TRUE;Forêts de Pins et de Chênes lièges aquitaniennes
+42.813;42.81;5;Niveau 5;TRUE;Plantations de Pins maritimes des Landes
+42.814;42.81;5;Niveau 5;FALSE;
+42.82;42.8;4;Niveau 4;TRUE;Forêts de Pins mésogéens
+42.821;42.82;5;Niveau 5;FALSE;
+42.8211;42.821;6;Niveau 6;FALSE;
+42.8212;42.821;6;Niveau 6;FALSE;
+42.8213;42.821;6;Niveau 6;FALSE;
+42.82131;42.8213;7;Niveau 7;FALSE;
+42.82132;42.8213;7;Niveau 7;FALSE;
+42.8214;42.821;6;Niveau 6;FALSE;
+42.8215;42.821;6;Niveau 6;FALSE;
+42.82151;42.8215;7;Niveau 7;FALSE;
+42.82152;42.8215;7;Niveau 7;FALSE;
+42.82153;42.8215;7;Niveau 7;FALSE;
+42.82154;42.8215;7;Niveau 7;FALSE;
+42.82155;42.8215;7;Niveau 7;FALSE;
+42.8216;42.821;6;Niveau 6;FALSE;
+42.8217;42.821;6;Niveau 6;FALSE;
+42.822;42.82;5;Niveau 5;TRUE;Pinèdes de Pin mésogéen des Corbières
+42.823;42.82;5;Niveau 5;TRUE;Forêts de Pins mésogéens franco-italiennes
+42.824;42.82;5;Niveau 5;TRUE;Forêts corses de Pins mésogéens
+42.825;42.82;5;Niveau 5;FALSE;
+42.826;42.82;5;Niveau 5;FALSE;
+42.8261;42.826;6;Niveau 6;FALSE;
+42.8262;42.826;6;Niveau 6;FALSE;
+42.83;42.8;4;Niveau 4;TRUE;Forêts de Pins parasols
+42.831;42.83;5;Niveau 5;FALSE;
+42.8311;42.831;6;Niveau 6;FALSE;
+42.8312;42.831;6;Niveau 6;FALSE;
+42.8313;42.831;6;Niveau 6;FALSE;
+42.8314;42.831;6;Niveau 6;FALSE;
+42.8315;42.831;6;Niveau 6;FALSE;
+42.8316;42.831;6;Niveau 6;FALSE;
+42.8317;42.831;6;Niveau 6;FALSE;
+42.832;42.83;5;Niveau 5;FALSE;
+42.833;42.83;5;Niveau 5;TRUE;Bois provençaux de Pins parasols
+42.8331;42.833;6;Niveau 6;TRUE;Forêts provençales côtières de Pins parasols
+42.8332;42.833;6;Niveau 6;TRUE;Forêts provençales permiennes de Pins parasols
+42.834;42.83;5;Niveau 5;TRUE;Bois de Pins parasols corses
+42.835;42.83;5;Niveau 5;FALSE;
+42.8351;42.835;6;Niveau 6;FALSE;
+42.8352;42.835;6;Niveau 6;FALSE;
+42.836;42.83;5;Niveau 5;FALSE;
+42.837;42.83;5;Niveau 5;FALSE;
+42.838;42.83;5;Niveau 5;FALSE;
+42.84;42.8;4;Niveau 4;TRUE;Forêts de Pins d'Alep
+42.841;42.84;5;Niveau 5;FALSE;
+42.842;42.84;5;Niveau 5;FALSE;
+42.843;42.84;5;Niveau 5;TRUE;Forêts de Pins d'Alep provenço-liguriennes
+42.844;42.84;5;Niveau 5;TRUE;Bois de Pins d'Alep corses
+42.845;42.84;5;Niveau 5;FALSE;
+42.846;42.84;5;Niveau 5;FALSE;
+42.8461;42.846;6;Niveau 6;FALSE;
+42.8462;42.846;6;Niveau 6;FALSE;
+42.8463;42.846;6;Niveau 6;FALSE;
+42.8464;42.846;6;Niveau 6;FALSE;
+42.847;42.84;5;Niveau 5;FALSE;
+42.8471;42.847;6;Niveau 6;FALSE;
+42.8472;42.847;6;Niveau 6;FALSE;
+42.8473;42.847;6;Niveau 6;FALSE;
+42.8474;42.847;6;Niveau 6;FALSE;
+42.848;42.84;5;Niveau 5;FALSE;
+42.85;42.8;4;Niveau 4;FALSE;
+42.851;42.85;5;Niveau 5;FALSE;
+42.8511;42.851;6;Niveau 6;FALSE;
+42.8512;42.851;6;Niveau 6;FALSE;
+42.8513;42.851;6;Niveau 6;FALSE;
+42.852;42.85;5;Niveau 5;FALSE;
+42.8521;42.852;6;Niveau 6;FALSE;
+42.8522;42.852;6;Niveau 6;FALSE;
+42.8523;42.852;6;Niveau 6;FALSE;
+42.853;42.85;5;Niveau 5;FALSE;
+42.8531;42.853;6;Niveau 6;FALSE;
+42.8532;42.853;6;Niveau 6;FALSE;
+42.854;42.85;5;Niveau 5;FALSE;
+42.855;42.85;5;Niveau 5;FALSE;
+42.8551;42.855;6;Niveau 6;FALSE;
+42.8552;42.855;6;Niveau 6;FALSE;
+42.8553;42.855;6;Niveau 6;FALSE;
+42.856;42.85;5;Niveau 5;FALSE;
+42.857;42.85;5;Niveau 5;FALSE;
+42.858;42.85;5;Niveau 5;FALSE;
+42.859;42.85;5;Niveau 5;FALSE;
+42.9;42;3;Niveau 3;FALSE;
+42.91;42.9;4;Niveau 4;FALSE;
+42.911;42.91;5;Niveau 5;FALSE;
+42.912;42.91;5;Niveau 5;FALSE;
+42.913;42.91;5;Niveau 5;FALSE;
+42.914;42.91;5;Niveau 5;FALSE;
+42.92;42.9;4;Niveau 4;FALSE;
+42.921;42.92;5;Niveau 5;FALSE;
+42.922;42.92;5;Niveau 5;FALSE;
+42.923;42.92;5;Niveau 5;FALSE;
+42.924;42.92;5;Niveau 5;FALSE;
+42.93;42.9;4;Niveau 4;FALSE;
+42.931;42.93;5;Niveau 5;FALSE;
+42.932;42.93;5;Niveau 5;FALSE;
+42.933;42.93;5;Niveau 5;FALSE;
+42.934;42.93;5;Niveau 5;FALSE;
+42.94;42.9;4;Niveau 4;FALSE;
+42.941;42.94;5;Niveau 5;FALSE;
+42.942;42.94;5;Niveau 5;FALSE;
+42.95;42.9;4;Niveau 4;FALSE;
+42.951;42.95;5;Niveau 5;FALSE;
+42.952;42.95;5;Niveau 5;FALSE;
+42.A;42;3;Niveau 3;TRUE;Forêts dominées par les Cyprès, les Genévriers et les Ifs
+42.A1;42.A;4;Niveau 4;FALSE;
+42.A11;42.A1;5;Niveau 5;FALSE;
+42.A12;42.A1;5;Niveau 5;FALSE;
+42.A13;42.A1;5;Niveau 5;FALSE;
+42.A14;42.A1;5;Niveau 5;FALSE;
+42.A15;42.A1;5;Niveau 5;FALSE;
+42.A2;42.A;4;Niveau 4;TRUE;Forêts de Juniperus thurifera
+42.A21;42.A2;5;Niveau 5;FALSE;
+42.A22;42.A2;5;Niveau 5;FALSE;
+42.A221;42.A22;6;Niveau 6;FALSE;
+42.A222;42.A22;6;Niveau 6;FALSE;
+42.A23;42.A2;5;Niveau 5;FALSE;
+42.A24;42.A2;5;Niveau 5;FALSE;
+42.A25;42.A2;5;Niveau 5;FALSE;
+42.A26;42.A2;5;Niveau 5;FALSE;
+42.A27;42.A2;5;Niveau 5;TRUE;Bois pyrénéens de Genévriers thurifères
+42.A28;42.A2;5;Niveau 5;TRUE;Bois sud-alpiens de Genévriers thurifères
+42.A29;42.A2;5;Niveau 5;TRUE;Bois de Genévriers thurifères de l'Isère
+42.A2A;42.A2;5;Niveau 5;TRUE;Bois de Génevriers thurifères corses
+42.A3;42.A;4;Niveau 4;FALSE;
+42.A4;42.A;4;Niveau 4;FALSE;
+42.A5;42.A;4;Niveau 4;FALSE;
+42.A6;42.A;4;Niveau 4;FALSE;
+42.A7;42.A;4;Niveau 4;TRUE;Forêts d'Ifs
+42.A71;42.A7;5;Niveau 5;FALSE;
+42.A72;42.A7;5;Niveau 5;TRUE;Forêts d'Ifs corses
+42.A73;42.A7;5;Niveau 5;FALSE;
+42.A74;42.A7;5;Niveau 5;FALSE;
+42.A75;42.A7;5;Niveau 5;FALSE;
+42.A76;42.A7;5;Niveau 5;TRUE;Forêts d'Ifs provençales
+42.A8;42.A;4;Niveau 4;FALSE;
+42.A81;42.A8;5;Niveau 5;FALSE;
+42.A82;42.A8;5;Niveau 5;FALSE;
+42.A83;42.A8;5;Niveau 5;FALSE;
+42.A9;42.A;4;Niveau 4;TRUE;Bois de Genévriers oxycèdres
+42.AA;42.A;4;Niveau 4;TRUE;Bois de Genévriers de Phénicie
+43;4;2;Niveau 2;TRUE;Forêts mixtes
+43.1;43;3;Niveau 3;TRUE;Hêtraies mixtes
+43.2;43;3;Niveau 3;TRUE;Chênaies-charmaies mixtes
+43.5;43;3;Niveau 3;TRUE;Chênaies acidiphiles mixtes
+43.7;43;3;Niveau 3;TRUE;Chênaies mixtes thermophiles et supra-méditerranéennes
+43.9;43;3;Niveau 3;TRUE;Forêts mixtes de châtaigniers
+43.A;43;3;Niveau 3;TRUE;Charmaies mixtes
+43.B;43;3;Niveau 3;TRUE;Boulaies mixtes
+43.H;43;3;Niveau 3;TRUE;Autres forêts mixtes
+44;4;2;Niveau 2;TRUE;Forêts riveraines, forêts et fourrés très humides
+44.1;44;3;Niveau 3;TRUE;Formations riveraines de Saules
+44.11;44.1;4;Niveau 4;TRUE;Saussaies pré-alpines
+44.111;44.11;5;Niveau 5;TRUE;Saussaies à Myricaria
+44.112;44.11;5;Niveau 5;TRUE;Saussaies à Argousier
+44.12;44.1;4;Niveau 4;TRUE;Saussaies de plaine, collinéennes et méditerranéo-montagnardes
+44.121;44.12;5;Niveau 5;TRUE;Saussaies à Osier et Salix triandra
+44.122;44.12;5;Niveau 5;TRUE;Saussaies à Saule pourpre méditerranéennes
+44.123;44.12;5;Niveau 5;FALSE;
+44.124;44.12;5;Niveau 5;FALSE;
+44.125;44.12;5;Niveau 5;FALSE;
+44.126;44.12;5;Niveau 5;FALSE;
+44.127;44.12;5;Niveau 5;FALSE;
+44.1271;44.127;6;Niveau 6;FALSE;
+44.1272;44.127;6;Niveau 6;FALSE;
+44.1273;44.127;6;Niveau 6;FALSE;
+44.1274;44.127;6;Niveau 6;FALSE;
+44.13;44.1;4;Niveau 4;TRUE;Forêts galeries de Saules blancs
+44.14;44.1;4;Niveau 4;TRUE;Galeries méditerranéennes de grands Saules
+44.141;44.14;5;Niveau 5;TRUE;Galeries méditerranéennes de Saules blancs
+44.1411;44.141;6;Niveau 6;TRUE;Galeries ibériques de grands Saules
+44.1412;44.141;6;Niveau 6;TRUE;Galeries de Salix alba méditerranéennes
+44.142;44.14;5;Niveau 5;TRUE;Bois riverains de Saules à feuilles d'Olivier et de Saules cendrés
+44.1421;44.142;6;Niveau 6;FALSE;
+44.1422;44.142;6;Niveau 6;FALSE;
+44.1423;44.142;6;Niveau 6;FALSE;
+44.1424;44.142;6;Niveau 6;FALSE;
+44.15;44.1;4;Niveau 4;FALSE;
+44.2;44;3;Niveau 3;TRUE;Galeries d'Aulnes blancs
+44.21;44.2;4;Niveau 4;TRUE;Galeries montagnardes d'Aulnes blancs
+44.22;44.2;4;Niveau 4;TRUE;Galeries sub-montagnardes d'Aulnes blancs
+44.3;44;3;Niveau 3;TRUE;Forêt de Frênes et d'Aulnes des fleuves médio-européens
+44.31;44.3;4;Niveau 4;TRUE;Forêts de Frênes et d'Aulnes des ruisselets et des sources (rivulaires)
+44.311;44.31;5;Niveau 5;TRUE;Forêts de Frênes et d'Aulnes à Laîches
+44.312;44.31;5;Niveau 5;TRUE;Forêts de Frênes et d'Aulnes fontinales
+44.313;44.31;5;Niveau 5;TRUE;Forêts de Frênes et d'Aulnes à Cirse des maraîchers
+44.314;44.31;5;Niveau 5;TRUE;Forêts de Frênes et d'Aulnes des bords de sources à groseillers
+44.315;44.31;5;Niveau 5;TRUE;Forêts de Frênes et d'Aulnes à grande Prêle
+44.32;44.3;4;Niveau 4;TRUE;Bois de Frênes et d'Aulnes des rivières à débit rapide
+44.33;44.3;4;Niveau 4;TRUE;Bois de Frênes et d'Aulnes des rivières à eaux lentes
+44.331;44.33;5;Niveau 5;TRUE;Bois de Frênes et d'Aulnes des rivières médio-européennes à eaux lentes à cerisiers à grappes
+44.332;44.33;5;Niveau 5;TRUE;Bois de Frênes et d'Aulnes à hautes herbes
+44.34;44.3;4;Niveau 4;TRUE;Galeries d'Aulnes nord-ibériques
+44.341;44.34;5;Niveau 5;FALSE;
+44.3411;44.341;6;Niveau 6;FALSE;
+44.3412;44.341;6;Niveau 6;FALSE;
+44.342;44.34;5;Niveau 5;TRUE;Galeries d'Aulnes pyrénéo-cantabriques
+44.343;44.34;5;Niveau 5;TRUE;Galeries d'Aulnes pyrénéo-catalanes
+44.4;44;3;Niveau 3;TRUE;Forêts mixtes de Chênes, d'Ormes et de Frênes des grands fleuves
+44.41;44.4;4;Niveau 4;TRUE;Grandes forêts fluviales médio-européennes
+44.42;44.4;4;Niveau 4;TRUE;Forêts fluviales médio-européennes résiduelles
+44.43;44.4;4;Niveau 4;FALSE;
+44.431;44.43;5;Niveau 5;FALSE;
+44.432;44.43;5;Niveau 5;FALSE;
+44.44;44.4;4;Niveau 4;FALSE;
+44.5;44;3;Niveau 3;TRUE;Galeries méridionales d'Aulnes et de Bouleaux
+44.51;44.5;4;Niveau 4;TRUE;Galeries méridionales d'Aulnes glutineux
+44.511;44.51;5;Niveau 5;FALSE;
+44.512;44.51;5;Niveau 5;FALSE;
+44.513;44.51;5;Niveau 5;TRUE;Galeries d'Aulnes méditerranéennes occidentales
+44.514;44.51;5;Niveau 5;FALSE;
+44.52;44.5;4;Niveau 4;FALSE;
+44.53;44.5;4;Niveau 4;TRUE;Galeries corses d'Aulnes glutineux et d'Aulnes à feuilles cordées
+44.531;44.53;5;Niveau 5;TRUE;Galeries d'Aulnes collinéennes corses
+44.532;44.53;5;Niveau 5;TRUE;Galeries d'Aulnes montagnardes corses
+44.54;44.5;4;Niveau 4;FALSE;
+44.6;44;3;Niveau 3;TRUE;Forêts méditerranéennes de Peupliers, d'Ormes et de Frênes
+44.61;44.6;4;Niveau 4;TRUE;Forêts de Peupliers riveraines et méditerranéennes
+44.611;44.61;5;Niveau 5;FALSE;
+44.612;44.61;5;Niveau 5;TRUE;Galeries de Peupliers provenço-languedociennes
+44.613;44.61;5;Niveau 5;TRUE;Galeries de Peupliers cyrno-sardes
+44.614;44.61;5;Niveau 5;FALSE;
+44.615;44.61;5;Niveau 5;FALSE;
+44.6151;44.615;6;Niveau 6;FALSE;
+44.6152;44.615;6;Niveau 6;FALSE;
+44.6153;44.615;6;Niveau 6;FALSE;
+44.6154;44.615;6;Niveau 6;FALSE;
+44.62;44.6;4;Niveau 4;TRUE;Forêts d'Ormes riveraines et méditerranéennes
+44.63;44.6;4;Niveau 4;TRUE;Bois de Frênes riverains et méditerranéens
+44.631;44.63;5;Niveau 5;FALSE;
+44.632;44.63;5;Niveau 5;FALSE;
+44.633;44.63;5;Niveau 5;FALSE;
+44.634;44.63;5;Niveau 5;TRUE;Galeries de Frênes et d'Aulnes tyrrhéniennes
+44.635;44.63;5;Niveau 5;FALSE;
+44.636;44.63;5;Niveau 5;FALSE;
+44.64;44.6;4;Niveau 4;TRUE;Galeries de Charmes Houblon
+44.7;44;3;Niveau 3;FALSE;
+44.71;44.7;4;Niveau 4;FALSE;
+44.711;44.71;5;Niveau 5;FALSE;
+44.712;44.71;5;Niveau 5;FALSE;
+44.713;44.71;5;Niveau 5;FALSE;
+44.72;44.7;4;Niveau 4;FALSE;
+44.8;44;3;Niveau 3;TRUE;Galeries et fourrés riverains méridionaux
+44.81;44.8;4;Niveau 4;TRUE;Galeries de Laurier-roses, de Gattiliers et de Tamaris
+44.811;44.81;5;Niveau 5;TRUE;Galeries de Laurier-rose
+44.812;44.81;5;Niveau 5;TRUE;Fourrés de Gattiliers
+44.813;44.81;5;Niveau 5;TRUE;Fourrés de Tamaris
+44.8131;44.813;6;Niveau 6;TRUE;Fourrés de Tamaris ouest-méditerranéens
+44.8132;44.813;6;Niveau 6;FALSE;
+44.81321;44.8132;7;Niveau 7;FALSE;
+44.81322;44.8132;7;Niveau 7;FALSE;
+44.8133;44.813;6;Niveau 6;FALSE;
+44.8134;44.813;6;Niveau 6;FALSE;
+44.81341;44.8134;7;Niveau 7;FALSE;
+44.81342;44.8134;7;Niveau 7;FALSE;
+44.81343;44.8134;7;Niveau 7;FALSE;
+44.82;44.8;4;Niveau 4;FALSE;
+44.83;44.8;4;Niveau 4;FALSE;
+44.84;44.8;4;Niveau 4;FALSE;
+44.9;44;3;Niveau 3;TRUE;Bois marécageux d'Aulne, de Saule et de Myrte des marais
+44.91;44.9;4;Niveau 4;TRUE;Bois marécageux d'Aulnes
+44.911;44.91;5;Niveau 5;TRUE;Bois d'Aulnes marécageux méso-eutrophes
+44.9111;44.911;6;Niveau 6;TRUE;Bois d'Aulnes marécageux atlantiques à grandes touffes de laîches
+44.9112;44.911;6;Niveau 6;TRUE;Bois d'Aulnes marécageux à laîche allongée
+44.912;44.91;5;Niveau 5;TRUE;Bois d'Aulnes marécageux oligotrophes
+44.913;44.91;5;Niveau 5;FALSE;
+44.92;44.9;4;Niveau 4;TRUE;Saussaies marécageuses
+44.921;44.92;5;Niveau 5;TRUE;Saussaies marécageuses à Saule cendré
+44.922;44.92;5;Niveau 5;TRUE;Saussaies à sphaigne
+44.923;44.92;5;Niveau 5;TRUE;Saussaies marécageuses à Saule laurier
+44.924;44.92;5;Niveau 5;TRUE;Saussaies naines marécageuses
+44.93;44.9;4;Niveau 4;TRUE;Bois marécageux de Bouleaux et de piment royal
+44.A;44;3;Niveau 3;TRUE;Forêts marécageuses de Bouleaux et de Conifères
+44.A1;44.A;4;Niveau 4;TRUE;Bois de Bouleaux à Sphaignes
+44.A11;44.A1;5;Niveau 5;TRUE;Forêts de Bouleaux à Sphaignes et Linaigrettes
+44.A12;44.A1;5;Niveau 5;TRUE;Bois de Bouleaux à Sphaignes et à Laîches
+44.A13;44.A1;5;Niveau 5;TRUE;Bois de Bouleaux à Sphaignes méso-acidiphiles
+44.A2;44.A;4;Niveau 4;TRUE;Bois tourbeux de Pins sylvestres
+44.A3;44.A;4;Niveau 4;TRUE;Bois tourbeux de Pins de montagne
+44.A4;44.A;4;Niveau 4;TRUE;Bois d'Epicéas à Sphaignes
+44.A41;44.A4;5;Niveau 5;TRUE;Pessières à Sphaignes montagnardes
+44.A42;44.A4;5;Niveau 5;TRUE;Tourbières boisées à Epicéas
+45;4;2;Niveau 2;TRUE;Forêts sempervirentes non résineuses
+45.1;45;3;Niveau 3;TRUE;Forêts d'Oliviers et de Caroubiers
+45.11;45.1;4;Niveau 4;TRUE;Bois d'Oliviers sauvages (oléastres)
+45.12;45.1;4;Niveau 4;TRUE;Bois de Caroubiers
+45.13;45.1;4;Niveau 4;FALSE;
+45.2;45;3;Niveau 3;TRUE;Forêts de Chênes lièges (suberaies)
+45.21;45.2;4;Niveau 4;TRUE;Forêts thyrrhéniennes de Chênes lièges
+45.211;45.21;5;Niveau 5;TRUE;Forêts provençales de Chênes lièges
+45.212;45.21;5;Niveau 5;TRUE;Forêts corses de Chênes lièges
+45.213;45.21;5;Niveau 5;FALSE;
+45.214;45.21;5;Niveau 5;FALSE;
+45.215;45.21;5;Niveau 5;FALSE;
+45.216;45.21;5;Niveau 5;TRUE;Suberaies catalano-pyrénéennes
+45.217;45.21;5;Niveau 5;FALSE;
+45.218;45.21;5;Niveau 5;FALSE;
+45.22;45.2;4;Niveau 4;FALSE;
+45.221;45.22;5;Niveau 5;FALSE;
+45.222;45.22;5;Niveau 5;FALSE;
+45.223;45.22;5;Niveau 5;FALSE;
+45.224;45.22;5;Niveau 5;FALSE;
+45.23;45.2;4;Niveau 4;FALSE;
+45.24;45.2;4;Niveau 4;TRUE;Forêts aquitaniennes de Chênes lièges
+45.3;45;3;Niveau 3;TRUE;Forêts de Chênes verts méso- et supra méditerranéennes
+45.31;45.3;4;Niveau 4;TRUE;Forêts de Chêne verts
+45.311;45.31;5;Niveau 5;TRUE;Forêts de Chênes verts ibériques nord-occidentales
+45.312;45.31;5;Niveau 5;TRUE;Forêts de Chênes verts de la plaine catalo-provençale
+45.313;45.31;5;Niveau 5;TRUE;Forêts de Chênes vert des collines catalo-provençales
+45.314;45.31;5;Niveau 5;FALSE;
+45.315;45.31;5;Niveau 5;TRUE;Yeuseraies des plaines corses
+45.316;45.31;5;Niveau 5;TRUE;Forêts de Chênes verts des collines corses
+45.317;45.31;5;Niveau 5;FALSE;
+45.318;45.31;5;Niveau 5;FALSE;
+45.319;45.31;5;Niveau 5;TRUE;Forêts de Chênes verts Illyriennes
+45.31A;45.31;5;Niveau 5;FALSE;
+45.31B;45.31;5;Niveau 5;FALSE;
+45.31C;45.31;5;Niveau 5;FALSE;
+45.31D;45.31;5;Niveau 5;FALSE;
+45.32;45.3;4;Niveau 4;TRUE;Forêts de Chênes verts supra-méditerranéennes
+45.321;45.32;5;Niveau 5;TRUE;Forêts de Chênes verts supra-méditerranéennes françaises
+45.322;45.32;5;Niveau 5;TRUE;Forêts supra-méditerranéennes corses de Chênes verts
+45.323;45.32;5;Niveau 5;FALSE;
+45.324;45.32;5;Niveau 5;FALSE;
+45.33;45.3;4;Niveau 4;TRUE;Forêts aquitaniennes de Chênes verts
+45.34;45.3;4;Niveau 4;FALSE;
+45.341;45.34;5;Niveau 5;FALSE;
+45.3411;45.341;6;Niveau 6;FALSE;
+45.3412;45.341;6;Niveau 6;FALSE;
+45.3413;45.341;6;Niveau 6;FALSE;
+45.3414;45.341;6;Niveau 6;FALSE;
+45.342;45.34;5;Niveau 5;FALSE;
+45.3421;45.342;6;Niveau 6;FALSE;
+45.3422;45.342;6;Niveau 6;FALSE;
+45.3423;45.342;6;Niveau 6;FALSE;
+45.3424;45.342;6;Niveau 6;FALSE;
+45.343;45.34;5;Niveau 5;FALSE;
+45.3431;45.343;6;Niveau 6;FALSE;
+45.3432;45.343;6;Niveau 6;FALSE;
+45.3433;45.343;6;Niveau 6;FALSE;
+45.344;45.34;5;Niveau 5;FALSE;
+45.3441;45.344;6;Niveau 6;FALSE;
+45.3442;45.344;6;Niveau 6;FALSE;
+45.345;45.34;5;Niveau 5;FALSE;
+45.346;45.34;5;Niveau 5;FALSE;
+45.4;45;3;Niveau 3;FALSE;
+45.41;45.4;4;Niveau 4;FALSE;
+45.42;45.4;4;Niveau 4;FALSE;
+45.43;45.4;4;Niveau 4;FALSE;
+45.5;45;3;Niveau 3;TRUE;Forêts de Chênes et Lauriers
+45.6;45;3;Niveau 3;FALSE;
+45.61;45.6;4;Niveau 4;FALSE;
+45.62;45.6;4;Niveau 4;FALSE;
+45.63;45.6;4;Niveau 4;FALSE;
+45.631;45.63;5;Niveau 5;FALSE;
+45.632;45.63;5;Niveau 5;FALSE;
+45.633;45.63;5;Niveau 5;FALSE;
+45.634;45.63;5;Niveau 5;FALSE;
+45.635;45.63;5;Niveau 5;FALSE;
+45.7;45;3;Niveau 3;FALSE;
+45.71;45.7;4;Niveau 4;FALSE;
+45.72;45.7;4;Niveau 4;FALSE;
+45.8;45;3;Niveau 3;TRUE;Bois de Houx
+45.9;45;3;Niveau 3;FALSE;
+45.91;45.9;4;Niveau 4;FALSE;
+45.92;45.9;4;Niveau 4;FALSE;
+45.93;45.9;4;Niveau 4;FALSE;
+5;;1;Niveau 1;TRUE;TOURBIERES ET MARAIS
+51;5;2;Niveau 2;TRUE;Tourbières hautes
+51.1;51;3;Niveau 3;TRUE;Tourbières hautes à peu près naturelles
+51.11;51.1;4;Niveau 4;TRUE;Buttes, bourrelets et pelouses tourbeuses
+51.111;51.11;5;Niveau 5;TRUE;Buttes de Sphaignes colorées (bulten)
+51.1111;51.111;6;Niveau 6;TRUE;Buttes de Sphagnum magellanicum
+51.1112;51.111;6;Niveau 6;TRUE;Buttes de Sphagnum fuscum
+51.1113;51.111;6;Niveau 6;TRUE;Couronnes de buttes à Sphagnum rubellum
+51.1114;51.111;6;Niveau 6;TRUE;Buttes de Sphagnum rubellum
+51.1115;51.111;6;Niveau 6;TRUE;Buttes de Sphagnum imbricatum
+51.1116;51.111;6;Niveau 6;TRUE;Buttes de Sphagnum papillosum
+51.1117;51.111;6;Niveau 6;TRUE;Buttes de Sphagnum capillifolium
+51.112;51.11;5;Niveau 5;TRUE;Bases des buttes et pelouses de Sphaignes vertes
+51.113;51.11;5;Niveau 5;TRUE;Buttes à buissons nains
+51.1131;51.113;6;Niveau 6;TRUE;Buttes à buissons de Callune prostrée
+51.1132;51.113;6;Niveau 6;TRUE;Buttes à buissons de Bruyère tétragone
+51.1133;51.113;6;Niveau 6;TRUE;Buttes à buissons de Camarine
+51.1134;51.113;6;Niveau 6;TRUE;Buttes à buissons de Vaccinium
+51.1135;51.113;6;Niveau 6;FALSE;
+51.1136;51.113;6;Niveau 6;TRUE;Buttes à buissons de Myrte des marais (ou piment royal)
+51.114;51.11;5;Niveau 5;TRUE;Communautés de tourbières bombées à Trichophorum cespitosum
+51.115;51.11;5;Niveau 5;TRUE;Tourbières bombées à Erica et Sphagnum
+51.12;51.1;4;Niveau 4;TRUE;Tourbières basses (Schlenken)
+51.121;51.12;5;Niveau 5;TRUE;Chenaux, cuvettes profondes
+51.122;51.12;5;Niveau 5;TRUE;Chenaux superficiels, cuvettes peu profondes
+51.13;51.1;4;Niveau 4;TRUE;Mares de tourbières
+51.131;51.13;5;Niveau 5;TRUE;Dépressions tourbeuses (Kolk)
+51.132;51.13;5;Niveau 5;TRUE;Autres mares de tourbières
+51.14;51.1;4;Niveau 4;TRUE;Suintements et rigoles de tourbières
+51.141;51.14;5;Niveau 5;TRUE;Tourbières à Narthecium
+51.142;51.14;5;Niveau 5;TRUE;Rigoles à Myrte des marais
+51.143;51.14;5;Niveau 5;TRUE;Autres communautés des rigoles et chenaux de tourbières
+51.15;51.1;4;Niveau 4;TRUE;Garnitures de bordure (lagg)
+51.16;51.1;4;Niveau 4;TRUE;Pré-bois tourbeux
+51.2;51;3;Niveau 3;TRUE;Tourbières à Molinie bleue
+52;5;2;Niveau 2;TRUE;Tourbières de couverture
+52.1;52;3;Niveau 3;FALSE;
+52.11;52.1;4;Niveau 4;FALSE;
+52.12;52.1;4;Niveau 4;FALSE;
+52.13;52.1;4;Niveau 4;FALSE;
+52.14;52.1;4;Niveau 4;FALSE;
+52.15;52.1;4;Niveau 4;FALSE;
+52.16;52.1;4;Niveau 4;FALSE;
+52.2;52;3;Niveau 3;FALSE;
+52.21;52.2;4;Niveau 4;FALSE;
+52.22;52.2;4;Niveau 4;FALSE;
+52.23;52.2;4;Niveau 4;FALSE;
+52.24;52.2;4;Niveau 4;FALSE;
+52.25;52.2;4;Niveau 4;FALSE;
+52.26;52.2;4;Niveau 4;FALSE;
+52.27;52.2;4;Niveau 4;FALSE;
+53;5;2;Niveau 2;TRUE;Végétation de ceinture des bords des eaux
+53.1;53;3;Niveau 3;TRUE;Roselières
+53.11;53.1;4;Niveau 4;TRUE;Phragmitaies
+53.111;53.11;5;Niveau 5;TRUE;Phragmitaies inondées
+53.112;53.11;5;Niveau 5;TRUE;Phragmitaies sèches
+53.113;53.11;5;Niveau 5;TRUE;Phagmitaies géantes
+53.12;53.1;4;Niveau 4;TRUE;Scirpaies lacustres
+53.13;53.1;4;Niveau 4;TRUE;Typhaies
+53.14;53.1;4;Niveau 4;TRUE;Roselières basses
+53.141;53.14;5;Niveau 5;TRUE;Communautés de Sagittaires
+53.142;53.14;5;Niveau 5;TRUE;Communautés à Rubanier négligé
+53.143;53.14;5;Niveau 5;TRUE;Communautés à Rubanier rameux
+53.144;53.14;5;Niveau 5;TRUE;Communautés avec Acore vrai
+53.145;53.14;5;Niveau 5;TRUE;Communautés à Jonc fleuri
+53.146;53.14;5;Niveau 5;TRUE;Communautés d'Oenanthe aquatica et de Rorippa amphibia
+53.147;53.14;5;Niveau 5;TRUE;Communautés de Prêles d'eau
+53.148;53.14;5;Niveau 5;TRUE;Communautés de Grande Berle
+53.149;53.14;5;Niveau 5;TRUE;Végétation à Hippuris vulgaris
+53.14A;53.14;5;Niveau 5;TRUE;Végétation à Eleocharis palustris
+53.15;53.1;4;Niveau 4;TRUE;Végétation à Glyceria maxima
+53.16;53.1;4;Niveau 4;TRUE;Végétation à Phalaris arundinacea
+53.17;53.1;4;Niveau 4;TRUE;Végétation à Scirpes halophiles
+53.2;53;3;Niveau 3;TRUE;Communautés à grandes Laîches
+53.21;53.2;4;Niveau 4;TRUE;Peuplements de grandes Laîches (Magnocariçaies)
+53.211;53.21;5;Niveau 5;TRUE;Cariçaies à laîche distique
+53.212;53.21;5;Niveau 5;TRUE;Cariçaies à laîche aiguë et communautés s'y rapportant
+53.2121;53.212;6;Niveau 6;TRUE;Cariçaies à laîche aiguë
+53.2122;53.212;6;Niveau 6;TRUE;Cariçaies à laîche des marais
+53.2123;53.212;6;Niveau 6;FALSE;
+53.2124;53.212;6;Niveau 6;FALSE;
+53.2125;53.212;6;Niveau 6;FALSE;
+53.2126;53.212;6;Niveau 6;FALSE;
+53.213;53.21;5;Niveau 5;TRUE;Cariçaies à Carex riparia
+53.214;53.21;5;Niveau 5;TRUE;Cariçaies à Carex rostrata et à Carex vesicaria
+53.2141;53.214;6;Niveau 6;TRUE;Cariçaies à Carex rostrata
+53.2142;53.214;6;Niveau 6;TRUE;Cariçaies à Carex vesicaria
+53.215;53.21;5;Niveau 5;TRUE;Cariçaies à Carex elata et de Carex cespitosa
+53.2151;53.215;6;Niveau 6;TRUE;Cariçaies à Carex elata
+53.2152;53.215;6;Niveau 6;TRUE;Cariçaies à Carex cespitosa
+53.216;53.21;5;Niveau 5;TRUE;Cariçaies à Carex paniculata
+53.217;53.21;5;Niveau 5;TRUE;Cariçaies à Carex appropinquata
+53.218;53.21;5;Niveau 5;TRUE;Cariçaies à Carex pseudocyperus
+53.219;53.21;5;Niveau 5;TRUE;Cariçaies à Carex vulpina
+53.2191;53.219;6;Niveau 6;TRUE;Cariçaies à Carex vulpina
+53.2192;53.219;6;Niveau 6;TRUE;Cariçaies à Carex cuprina
+53.21A;53.21;5;Niveau 5;TRUE;Végétation à Carex buxbaumii
+53.22;53.2;4;Niveau 4;FALSE;
+53.221;53.22;5;Niveau 5;FALSE;
+53.222;53.22;5;Niveau 5;FALSE;
+53.23;53.2;4;Niveau 4;FALSE;
+53.3;53;3;Niveau 3;TRUE;Végétation à Cladium mariscus
+53.31;53.3;4;Niveau 4;TRUE;Cladiaies des bas-marais
+53.32;53.3;4;Niveau 4;FALSE;
+53.33;53.3;4;Niveau 4;TRUE;Cladiaies riveraines
+53.4;53;3;Niveau 3;TRUE;Bordures à Calamagrostis des eaux courantes
+53.5;53;3;Niveau 3;TRUE;Jonchaies hautes
+53.6;53;3;Niveau 3;TRUE;Formations riveraines de Cannes
+53.61;53.6;4;Niveau 4;TRUE;Communautés avec les Cannes de Ravenne
+53.62;53.6;4;Niveau 4;TRUE;Peuplements de Cannes de Provence
+54;5;2;Niveau 2;TRUE;Bas-marais, tourbières de transition et sources
+54.1;54;3;Niveau 3;TRUE;Sources
+54.11;54.1;4;Niveau 4;TRUE;Sources d'eaux douces pauvres en bases
+54.111;54.11;5;Niveau 5;TRUE;Sources d'eaux douces à Bryophytes
+54.112;54.11;5;Niveau 5;TRUE;Sources à Cardamines
+54.113;54.11;5;Niveau 5;FALSE;
+54.12;54.1;4;Niveau 4;TRUE;Sources d'eaux dures
+54.121;54.12;5;Niveau 5;TRUE;Cônes de tufs
+54.122;54.12;5;Niveau 5;TRUE;Sources calcaires
+54.2;54;3;Niveau 3;TRUE;Bas-marais alcalins (tourbières basses alcalines)
+54.21;54.2;4;Niveau 4;TRUE;Bas-marais à Schoenus nigricans (choin noir)
+54.22;54.2;4;Niveau 4;TRUE;Bas-marais à Schoenus ferrugineus
+54.221;54.22;5;Niveau 5;TRUE;Bas-marais péri-alpins à Schoenus ferrugineus (choin ferrugineux)
+54.222;54.22;5;Niveau 5;FALSE;
+54.223;54.22;5;Niveau 5;FALSE;
+54.23;54.2;4;Niveau 4;TRUE;Tourbières basses à Carex davalliana
+54.231;54.23;5;Niveau 5;TRUE;Bas-marais à Carex davalliana floristiquement riches
+54.232;54.23;5;Niveau 5;TRUE;Bas-marais à Carex davalliana et Trichophorum cespitosum
+54.24;54.2;4;Niveau 4;TRUE;Bas-marais alcalins pyrénéens
+54.25;54.2;4;Niveau 4;TRUE;Bas-marais à Carex dioica, C. pulicaris, C. flava
+54.251;54.25;5;Niveau 5;FALSE;
+54.252;54.25;5;Niveau 5;FALSE;
+54.253;54.25;5;Niveau 5;TRUE;Bas-marais à Carex flava médio-européens
+54.254;54.25;5;Niveau 5;FALSE;
+54.255;54.25;5;Niveau 5;FALSE;
+54.256;54.25;5;Niveau 5;FALSE;
+54.26;54.2;4;Niveau 4;TRUE;Bas-marais à Carex nigra
+54.27;54.2;4;Niveau 4;FALSE;
+54.28;54.2;4;Niveau 4;TRUE;Bas-marais à Carex frigida
+54.29;54.2;4;Niveau 4;FALSE;
+54.2A;54.2;4;Niveau 4;TRUE;Bas-marais à Eleocharis quinqueflora
+54.2B;54.2;4;Niveau 4;FALSE;
+54.2C;54.2;4;Niveau 4;TRUE;Bas-marais alcalins à Carex rostrata
+54.2D;54.2;4;Niveau 4;TRUE;Tourbières basses alcalines à Scirpus hudsonianus
+54.2E;54.2;4;Niveau 4;TRUE;Bas-marais alcalins à Trichophorum cespitosum
+54.2F;54.2;4;Niveau 4;TRUE;Bas-marais médio-européens à Blysmus compressus
+54.2G;54.2;4;Niveau 4;TRUE;Bas-marais alcalins à petites herbes
+54.2H;54.2;4;Niveau 4;TRUE;Bas-marais alcalins dunaires à Carex trinervis
+54.2I;54.2;4;Niveau 4;TRUE;Bas-marais à hautes herbes
+54.3;54;3;Niveau 3;TRUE;Gazons riverains arctico-alpins
+54.31;54.3;4;Niveau 4;TRUE;Gazons riverains arctico-alpins à élyne fausse Laîche
+54.32;54.3;4;Niveau 4;TRUE;Gazons riverains arctico-alpins à Carex maritima
+54.33;54.3;4;Niveau 4;TRUE;Gazons riverains arctico-alpins à Typha
+54.34;54.3;4;Niveau 4;FALSE;
+54.4;54;3;Niveau 3;TRUE;Bas-marais acides
+54.41;54.4;4;Niveau 4;TRUE;Ceintures lacustres à Eriophorum scheuchzeri
+54.42;54.4;4;Niveau 4;TRUE;Tourbières basses à Carex nigra, C. canescens et C. echinata
+54.421;54.42;5;Niveau 5;TRUE;Bas-marais alpins à Carex fusca
+54.422;54.42;5;Niveau 5;TRUE;Bas-marais sub-atlantiques à Carex nigra, C. canescens et C. echinata
+54.4221;54.422;6;Niveau 6;TRUE;Bas-marais acides sub-atlantiques à Carex
+54.4222;54.422;6;Niveau 6;TRUE;Bas-marais acides subatlantiques à Carex et Juncus
+54.4223;54.422;6;Niveau 6;TRUE;Bas-marais sub-atlantiques à Carex et Sphagnum
+54.4224;54.422;6;Niveau 6;TRUE;Bas-marais sub-atlantiques à Carex, Juncus et Sphagnum
+54.423;54.42;5;Niveau 5;FALSE;
+54.4231;54.423;6;Niveau 6;FALSE;
+54.4232;54.423;6;Niveau 6;FALSE;
+54.4233;54.423;6;Niveau 6;FALSE;
+54.424;54.42;5;Niveau 5;TRUE;Bas-marais acides pyrénéens à Laîche noire
+54.425;54.42;5;Niveau 5;FALSE;
+54.43;54.4;4;Niveau 4;FALSE;
+54.44;54.4;4;Niveau 4;TRUE;Pozzines complexes à Carex intricata
+54.441;54.44;5;Niveau 5;FALSE;
+54.442;54.44;5;Niveau 5;TRUE;Pozzines complexes corses à Carex intricata
+54.443;54.44;5;Niveau 5;FALSE;
+54.45;54.4;4;Niveau 4;TRUE;Bas-marais acides à Trichophorum cespitosum
+54.451;54.45;5;Niveau 5;TRUE;Bas-marais acides alpiens à Trichophorum cespitosum
+54.452;54.45;5;Niveau 5;TRUE;Bas-marais acides pyrénéens à Trichophorum cespitosum
+54.453;54.45;5;Niveau 5;FALSE;
+54.454;54.45;5;Niveau 5;TRUE;Bas-marais acides sub-atlantiques à Trichophorum cespitosum
+54.455;54.45;5;Niveau 5;TRUE;Bas-marais acides corses à Trichophorum cespitosum
+54.46;54.4;4;Niveau 4;TRUE;Bas-marais à Eriophorum angustifolium
+54.47;54.4;4;Niveau 4;FALSE;Bas-marais acides dunaires à Laîches
+54.5;54;3;Niveau 3;TRUE;Tourbières de transition
+54.51;54.5;4;Niveau 4;TRUE;Pelouses à Carex lasiocarpa
+54.511;54.51;5;Niveau 5;TRUE;Pelouses de Carex lasiocarpa et Mousses brunes
+54.512;54.51;5;Niveau 5;TRUE;Pelouses à Carex lasiocarpa et Sphaignes
+54.52;54.5;4;Niveau 4;TRUE;Tourbières tremblantes à Carex diandra
+54.53;54.5;4;Niveau 4;TRUE;Tourbières tremblantes à Carex rostrata
+54.531;54.53;5;Niveau 5;TRUE;Tourbières tremblantes acidiclines à Carex rostrata
+54.532;54.53;5;Niveau 5;TRUE;Tourbières tremblantes basiclines à Carex rostrata
+54.5321;54.532;6;Niveau 6;TRUE;Tourbières tremblantes basiclines à Carex rostrata et Sphaignes
+54.5322;54.532;6;Niveau 6;TRUE;Tourbières tremblantes basiclines à Carex rostrata et Mousses brunes
+54.54;54.5;4;Niveau 4;TRUE;Pelouses à Carex limosa
+54.541;54.54;5;Niveau 5;TRUE;Pelouses à Carex limosa des bourbiers et Mousses brunes
+54.542;54.54;5;Niveau 5;TRUE;Pelouses à Carex limosa et Sphaignes
+54.55;54.5;4;Niveau 4;TRUE;Pelouses à Carex chordorrhiza
+54.56;54.5;4;Niveau 4;TRUE;Pelouses à Carex heleonastes
+54.57;54.5;4;Niveau 4;TRUE;Tourbières tremblantes à Rhynchospora
+54.58;54.5;4;Niveau 4;TRUE;Radeaux de Sphaignes et de Linaigrettes
+54.59;54.5;4;Niveau 4;TRUE;Radeaux à Menyanthes trifoliata et Potentilla palustris
+54.5A;54.5;4;Niveau 4;TRUE;Tourbières à Calla
+54.5B;54.5;4;Niveau 4;TRUE;Tapis de Mousses brunes
+54.5C;54.5;4;Niveau 4;TRUE;Tourbières tremblantes à Eriophorum vaginatum
+54.5D;54.5;4;Niveau 4;TRUE;Tourbières tremblantes à Molinia caerulea
+54.5E;54.5;4;Niveau 4;TRUE;Tourbières tremblantes à Calamagrostis stricta
+54.5F;54.5;4;Niveau 4;TRUE;Tourbières tremblantes à Scirpus hudsonianus
+54.5G;54.5;4;Niveau 4;FALSE;
+54.6;54;3;Niveau 3;TRUE;Communautés à Rhynchospora alba
+6;;1;Niveau 1;TRUE;ROCHERS CONTINENTAUX, EBOULIS ET SABLES
+61;6;2;Niveau 2;TRUE;Eboulis
+61.1;61;3;Niveau 3;TRUE;Eboulis siliceux alpins et nordiques
+61.11;61.1;4;Niveau 4;TRUE;Eboulis siliceux alpins
+61.111;61.11;5;Niveau 5;TRUE;Eboulis à Oxyria digyna
+61.1111;61.111;6;Niveau 6;TRUE;Eboulis à Oxyria digyna des Alpes
+61.1112;61.111;6;Niveau 6;TRUE;Eboulis du sud-ouest des Alpes à Oxyria digyna
+61.1113;61.111;6;Niveau 6;TRUE;Eboulis pyrénéens à Oxyria
+61.112;61.11;5;Niveau 5;TRUE;Eboulis à Androsace alpina
+61.113;61.11;5;Niveau 5;TRUE;Eboulis à Luzule alpine
+61.114;61.11;5;Niveau 5;TRUE;Eboulis siliceux et froids de blocailles
+61.12;61.1;4;Niveau 4;TRUE;Eboulis siliceux des montagnes nordiques
+61.2;61;3;Niveau 3;TRUE;Eboulis calcaires alpiens
+61.21;61.2;4;Niveau 4;TRUE;Eboulis alpiens sur calcschistes
+61.22;61.2;4;Niveau 4;TRUE;Eboulis alpiens à Tabouret à feuilles rondes
+61.23;61.2;4;Niveau 4;TRUE;Eboulis calcaires fins
+61.231;61.23;5;Niveau 5;TRUE;Eboulis à Petasites
+61.232;61.23;5;Niveau 5;TRUE;Eboulis à Liondent des montagnes
+61.2321;61.232;6;Niveau 6;TRUE;Eboulis à Liondent des montagnes des Alpes centrales
+61.2322;61.232;6;Niveau 6;TRUE;Eboulis à Berardia
+61.3;61;3;Niveau 3;TRUE;Eboulis ouest-méditerranéens et éboulis thermophiles
+61.31;61.3;4;Niveau 4;TRUE;Eboulis thermophiles péri-alpins
+61.311;61.31;5;Niveau 5;TRUE;Eboulis à Stipa calamagrostis
+61.312;61.31;5;Niveau 5;TRUE;Eboulis calcaires sub-montagnards
+61.3121;61.312;6;Niveau 6;TRUE;Eboulis à Galeopsis angustifolia
+61.3122;61.312;6;Niveau 6;TRUE;Eboulis à Rumex scutatus
+61.3123;61.312;6;Niveau 6;TRUE;Eboulis calcaires à Fougères
+61.313;61.31;5;Niveau 5;TRUE;Eboulis à Leontodon hyoseroides
+61.32;61.3;4;Niveau 4;TRUE;Eboulis provençaux
+61.33;61.3;4;Niveau 4;TRUE;Eboulis pyrénéo-alpiens siliceux thermophiles
+61.34;61.3;4;Niveau 4;TRUE;Eboulis calcaires pyrénéens
+61.341;61.34;5;Niveau 5;TRUE;Eboulis calcaires fins pyrénéens
+61.342;61.34;5;Niveau 5;TRUE;Eboulis calcaires grossiers pyrénéens
+61.343;61.34;5;Niveau 5;TRUE;Eboulis calcaires des Pyrénées de haute altitude
+61.344;61.34;5;Niveau 5;TRUE;Eboulis calcaires humides pyrénéens
+61.345;61.34;5;Niveau 5;TRUE;Eboulis calcaires subalpins pyrénéens
+61.35;61.3;4;Niveau 4;TRUE;Eboulis calcaires oro-cantabriques
+61.351;61.35;5;Niveau 5;FALSE;
+61.352;61.35;5;Niveau 5;FALSE;
+61.353;61.35;5;Niveau 5;FALSE;
+61.354;61.35;5;Niveau 5;FALSE;
+61.355;61.35;5;Niveau 5;FALSE;
+61.36;61.3;4;Niveau 4;FALSE;
+61.37;61.3;4;Niveau 4;TRUE;Eboulis ibériques à fougères
+61.38;61.3;4;Niveau 4;FALSE;
+61.39;61.3;4;Niveau 4;FALSE;
+61.391;61.39;5;Niveau 5;FALSE;
+61.392;61.39;5;Niveau 5;FALSE;
+61.3A;61.3;4;Niveau 4;FALSE;
+61.3B;61.3;4;Niveau 4;FALSE;
+61.4;61;3;Niveau 3;FALSE;
+61.41;61.4;4;Niveau 4;FALSE;
+61.411;61.41;5;Niveau 5;FALSE;
+61.412;61.41;5;Niveau 5;FALSE;
+61.413;61.41;5;Niveau 5;FALSE;
+61.414;61.41;5;Niveau 5;FALSE;
+61.415;61.41;5;Niveau 5;FALSE;
+61.42;61.4;4;Niveau 4;FALSE;
+62;6;2;Niveau 2;TRUE;Falaises continentales et rochers exposés
+62.1;62;3;Niveau 3;TRUE;Végétation des falaises continentales calcaires
+62.11;62.1;4;Niveau 4;TRUE;Falaises calcaires eu-méditerranéennes occidentales et oro-ibériques
+62.111;62.11;5;Niveau 5;TRUE;Falaises calcaires eu-méditerranéennes occidentales
+62.1111;62.111;6;Niveau 6;TRUE;Falaises calcaires ibéro-méditerranéennes
+62.1112;62.111;6;Niveau 6;FALSE;
+62.1113;62.111;6;Niveau 6;FALSE;
+62.1114;62.111;6;Niveau 6;FALSE;
+62.1115;62.111;6;Niveau 6;TRUE;Falaises méditerranéennes à Fougères
+62.112;62.11;5;Niveau 5;FALSE;
+62.1121;62.112;6;Niveau 6;FALSE;
+62.1122;62.112;6;Niveau 6;FALSE;
+62.1123;62.112;6;Niveau 6;FALSE;
+62.12;62.1;4;Niveau 4;TRUE;Falaises calcaires des Pyrénées centrales
+62.13;62.1;4;Niveau 4;TRUE;Falaises calcaires des Alpes ligures et des Apennins
+62.14;62.1;4;Niveau 4;FALSE;
+62.15;62.1;4;Niveau 4;TRUE;Falaises calcaires alpiennes et sub-méditerranéennes
+62.151;62.15;5;Niveau 5;TRUE;Falaises calcaires ensoleillées des Alpes
+62.152;62.15;5;Niveau 5;TRUE;Falaises calcaires médio-européennes à Fougères
+62.16;62.1;4;Niveau 4;FALSE;
+62.17;62.1;4;Niveau 4;FALSE;
+62.171;62.17;5;Niveau 5;FALSE;
+62.172;62.17;5;Niveau 5;FALSE;
+62.173;62.17;5;Niveau 5;FALSE;
+62.174;62.17;5;Niveau 5;FALSE;
+62.175;62.17;5;Niveau 5;FALSE;
+62.18;62.1;4;Niveau 4;FALSE;
+62.19;62.1;4;Niveau 4;FALSE;
+62.191;62.19;5;Niveau 5;FALSE;
+62.192;62.19;5;Niveau 5;FALSE;
+62.1A;62.1;4;Niveau 4;FALSE;
+62.1B;62.1;4;Niveau 4;FALSE;
+62.2;62;3;Niveau 3;TRUE;Végétation des falaises continentales siliceuses
+62.21;62.2;4;Niveau 4;TRUE;Falaises siliceuses des montagnes médio-européennes
+62.211;62.21;5;Niveau 5;TRUE;Falaises siliceuses pyrénéo-alpiennes
+62.212;62.21;5;Niveau 5;TRUE;Falaises siliceuses hercyniennes
+62.213;62.21;5;Niveau 5;TRUE;Falaises de serpentines hercyniennes
+62.22;62.2;4;Niveau 4;FALSE;
+62.221;62.22;5;Niveau 5;FALSE;
+62.222;62.22;5;Niveau 5;FALSE;
+62.23;62.2;4;Niveau 4;TRUE;Falaises siliceuses des Alpes sud-occidentales
+62.24;62.2;4;Niveau 4;TRUE;Falaises des montagnes cyrno-sardes
+62.25;62.2;4;Niveau 4;FALSE;
+62.26;62.2;4;Niveau 4;TRUE;Falaises siliceuses catalano-languedociennes
+62.27;62.2;4;Niveau 4;FALSE;
+62.28;62.2;4;Niveau 4;TRUE;Falaises siliceuses provenço-ibériques
+62.29;62.2;4;Niveau 4;FALSE;
+62.3;62;3;Niveau 3;TRUE;Dalles rocheuses
+62.4;62;3;Niveau 3;TRUE;Falaises continentales dénudées
+62.41;62.4;4;Niveau 4;TRUE;Falaises continentales calcaires nues
+62.42;62.4;4;Niveau 4;TRUE;Falaises continentales siliceuses nues
+62.5;62;3;Niveau 3;TRUE;Falaises continentales humides
+62.51;62.5;4;Niveau 4;TRUE;Falaises continentales humides méditerranéennes
+62.52;62.5;4;Niveau 4;TRUE;Falaises continentales humides septentrionales
+62.6;62;3;Niveau 3;FALSE;
+63;6;2;Niveau 2;TRUE;Neiges et glaces éternelles
+63.1;63;3;Niveau 3;TRUE;Névés
+63.2;63;3;Niveau 3;TRUE;Glaciers rocheux
+63.3;63;3;Niveau 3;TRUE;Glaciers
+64;6;2;Niveau 2;TRUE;Dunes sableuses continentales
+64.1;64;3;Niveau 3;TRUE;Dunes fluvio-glaciaires
+64.11;64.1;4;Niveau 4;TRUE;Pelouses pionnières des dunes continentales
+64.12;64.1;4;Niveau 4;TRUE;Pelouses siliceuses des dunes intérieures
+64.13;64.1;4;Niveau 4;TRUE;Landes sur dunes continentales
+64.131;64.13;5;Niveau 5;FALSE;
+64.132;64.13;5;Niveau 5;TRUE;Autres landes sur dunes continentales
+64.14;64.1;4;Niveau 4;TRUE;Fourrés sur dunes continentales
+64.141;64.14;5;Niveau 5;TRUE;Peuplements de Juniperus communis sur dunes continentales
+64.142;64.14;5;Niveau 5;TRUE;Autres fourrés sur dunes continentales
+64.15;64.1;4;Niveau 4;FALSE;
+64.16;64.1;4;Niveau 4;FALSE;
+64.2;64;3;Niveau 3;FALSE;
+64.3;64;3;Niveau 3;TRUE;Dunes paléo-côtières
+64.4;64;3;Niveau 3;TRUE;Dunes fluviatiles
+64.5;64;3;Niveau 3;TRUE;Dunes d'origine lacustre
+64.6;64;3;Niveau 3;TRUE;Dunes continentales méditerranéennes
+64.61;64.6;4;Niveau 4;TRUE;Dunes riveraines du Rhône
+64.611;64.61;5;Niveau 5;TRUE;Prairies dunaires du Rhône
+64.6111;64.611;6;Niveau 6;TRUE;Végétation de cannes sur dunes du Rhône
+64.6112;64.611;6;Niveau 6;TRUE;Autres pelouses des dunes du Rhône
+64.612;64.61;5;Niveau 5;TRUE;Fourrés dunaires du Rhône
+64.613;64.61;5;Niveau 5;TRUE;Bois de Genévriers des dunes du Rhône
+64.62;64.6;4;Niveau 4;FALSE;
+65;6;2;Niveau 2;TRUE;Grottes
+65.1;65;3;Niveau 3;FALSE;
+65.2;65;3;Niveau 3;TRUE;Grottes de l'Italie septentrionale et du sud-est de la France avec Hydromantes italicus
+65.3;65;3;Niveau 3;FALSE;
+65.4;65;3;Niveau 3;TRUE;Autres grottes
+66;6;2;Niveau 2;TRUE;Communautés des sites volcaniques
+66.1;66;3;Niveau 3;FALSE;
+66.2;66;3;Niveau 3;FALSE;
+66.3;66;3;Niveau 3;FALSE;
+66.4;66;3;Niveau 3;FALSE;
+66.5;66;3;Niveau 3;FALSE;
+66.6;66;3;Niveau 3;TRUE;Fumerolles
+66.61;66.6;4;Niveau 4;FALSE;
+66.62;66.6;4;Niveau 4;FALSE;
+66.63;66.6;4;Niveau 4;FALSE;
+66.64;66.6;4;Niveau 4;FALSE;
+8;;1;Niveau 1;TRUE;Terres agricoles et paysages artificiels
+81;8;2;Niveau 2;TRUE;Prairies améliorées
+81.1;81;3;Niveau 3;TRUE;Prairies sèches améliorées
+81.2;81;3;Niveau 3;TRUE;Prairies humides améliorées
+82;8;2;Niveau 2;TRUE;Cultures
+82.1;82;3;Niveau 3;TRUE;Champs d'un seul tenant intensément cultivés
+82.11;82.1;4;Niveau 4;TRUE;Grandes cultures
+82.12;82.1;4;Niveau 4;TRUE;Cultures et maraichage
+82.2;82;3;Niveau 3;TRUE;Cultures avec marges de végétation spontanée
+82.3;82;3;Niveau 3;TRUE;Culture extensive
+82.4;82;3;Niveau 3;TRUE;Cultures inondées
+82.41;82.4;4;Niveau 4;TRUE;Rizières
+82.42;82.4;4;Niveau 4;TRUE;Cressonnières
+83;8;2;Niveau 2;TRUE;Vergers, bosquets et plantations d'arbres
+83.1;83;3;Niveau 3;TRUE;Vergers de hautes tiges
+83.11;83.1;4;Niveau 4;TRUE;Oliveraies
+83.111;83.11;5;Niveau 5;TRUE;Oliveraies traditionnelles
+83.112;83.11;5;Niveau 5;TRUE;Oliveraies intensives
+83.12;83.1;4;Niveau 4;TRUE;Châtaigneraies
+83.13;83.1;4;Niveau 4;TRUE;Vergers à Noyers
+83.14;83.1;4;Niveau 4;TRUE;Vergers à Amandiers
+83.15;83.1;4;Niveau 4;TRUE;Vergers
+83.151;83.15;5;Niveau 5;TRUE;Vergers septentrionaux
+83.152;83.15;5;Niveau 5;TRUE;Vergers méridionaux
+83.16;83.1;4;Niveau 4;TRUE;Vergers à agrumes
+83.17;83.1;4;Niveau 4;FALSE;
+83.18;83.1;4;Niveau 4;TRUE;Autres vergers à hautes tiges
+83.2;83;3;Niveau 3;TRUE;Vergers à arbustes
+83.21;83.2;4;Niveau 4;TRUE;Vignobles
+83.211;83.21;5;Niveau 5;TRUE;Vignobles traditionnels
+83.212;83.21;5;Niveau 5;TRUE;Vignobles intensifs
+83.22;83.2;4;Niveau 4;TRUE;Vergers de basses tiges
+83.3;83;3;Niveau 3;TRUE;Plantations
+83.31;83.3;4;Niveau 4;TRUE;Plantations de conifères
+83.311;83.31;5;Niveau 5;TRUE;Plantations de conifères indigènes
+83.3111;83.311;6;Niveau 6;TRUE;Plantations de Sapins, d'Epicéas et de Mélèzes européens
+83.3112;83.311;6;Niveau 6;TRUE;Plantations de Pins européens
+83.3113;83.311;6;Niveau 6;TRUE;Plantations de Cyprès et de Genévriers européens
+83.312;83.31;5;Niveau 5;TRUE;Plantations de conifères exotiques
+83.3121;83.312;6;Niveau 6;TRUE;Plantations d'Epicéas, de Sapins exotiques, de Sapin de Douglas et de Cèdres
+83.3122;83.312;6;Niveau 6;TRUE;Plantations de Pins exotiques
+83.3123;83.312;6;Niveau 6;TRUE;Autres plantations de conifères exotiques
+83.32;83.3;4;Niveau 4;TRUE;Plantations d'arbres feuillus
+83.321;83.32;5;Niveau 5;TRUE;Plantations de Peupliers
+83.3211;83.321;6;Niveau 6;TRUE;Plantations de Peupliers avec une strate herbacée élevée (Mégaphorbiaies)
+83.3212;83.321;6;Niveau 6;TRUE;Autres plantations de Peupliers
+83.322;83.32;5;Niveau 5;TRUE;Plantations d'Eucalyptus
+83.323;83.32;5;Niveau 5;TRUE;Plantations de Chênes exotiques
+83.324;83.32;5;Niveau 5;TRUE;Plantations de Robiniers
+83.325;83.32;5;Niveau 5;TRUE;Autres plantations d'arbres feuillus
+84;8;2;Niveau 2;TRUE;Alignements d'arbres, haies, petits bois, bocage, parcs
+84.1;84;3;Niveau 3;TRUE;Alignements d'arbres
+84.2;84;3;Niveau 3;TRUE;Bordures de haies
+84.3;84;3;Niveau 3;TRUE;Petits bois, bosquets
+84.4;84;3;Niveau 3;TRUE;Bocages
+84.5;84;3;Niveau 3;FALSE;
+84.6;84;3;Niveau 3;FALSE;
+85;8;2;Niveau 2;TRUE;Parcs urbains et grands jardins
+85.1;85;3;Niveau 3;TRUE;Grands parcs
+85.11;85.1;4;Niveau 4;TRUE;Parcelles boisées de parcs
+85.12;85.1;4;Niveau 4;TRUE;Pelouses de parcs
+85.13;85.1;4;Niveau 4;TRUE;Bassins de parcs
+85.14;85.1;4;Niveau 4;TRUE;Parterre de fleurs, avec arbres et avec bosquets en parc
+85.15;85.1;4;Niveau 4;TRUE;Communautés sub-naturelles des parcs
+85.2;85;3;Niveau 3;TRUE;Petits parcs et squares citadins
+85.3;85;3;Niveau 3;TRUE;Jardins
+85.31;85.3;4;Niveau 4;TRUE;Jardins ornementaux
+85.32;85.3;4;Niveau 4;TRUE;Jardins potagers de subsistance
+85.4;85;3;Niveau 3;TRUE;Espaces internes au centre-ville
+86;8;2;Niveau 2;TRUE;Villes, villages et sites industriels
+86.1;86;3;Niveau 3;TRUE;Villes
+86.2;86;3;Niveau 3;TRUE;Villages
+86.3;86;3;Niveau 3;TRUE;Sites industriels en activité
+86.4;86;3;Niveau 3;TRUE;Sites industriels anciens
+86.41;86.4;4;Niveau 4;TRUE;Carrières
+86.411;86.41;5;Niveau 5;TRUE;Carrières de sable, d'argile et de kaolin
+86.412;86.41;5;Niveau 5;TRUE;Carrières de graviers
+86.413;86.41;5;Niveau 5;TRUE;Carrières de pierres
+86.42;86.4;4;Niveau 4;TRUE;Terrils crassiers et autres tas de détritus
+86.43;86.4;4;Niveau 4;TRUE;Voies de chemins de fer, gares de triage et autres espaces ouverts
+86.5;86;3;Niveau 3;TRUE;Serres et constructions agricoles
+86.6;86;3;Niveau 3;TRUE;Sites archéologiques
+87;8;2;Niveau 2;TRUE;Terrains en friche et terrains vagues
+87.1;87;3;Niveau 3;TRUE;Terrains en friche
+87.2;87;3;Niveau 3;TRUE;Zones rudérales
+88;8;2;Niveau 2;TRUE;Mines et passages souterrains
+89;8;2;Niveau 2;TRUE;Lagunes et réservoirs industriels, canaux
+89.1;89;3;Niveau 3;TRUE;Lagunes industrielles et canaux salins
+89.11;89.1;4;Niveau 4;TRUE;Ports maritimes
+89.12;89.1;4;Niveau 4;TRUE;Salines
+89.13;89.1;4;Niveau 4;TRUE;Autres lagunes industrielles et canaux salins
+89.2;89;3;Niveau 3;TRUE;Lagunes industrielles et canaux d'eau douce
+89.21;89.2;4;Niveau 4;TRUE;Canaux navigables
+89.22;89.2;4;Niveau 4;TRUE;Fossés et petits canaux
+89.23;89.2;4;Niveau 4;TRUE;Lagunes industrielles et bassins ornementaux
+89.24;89.2;4;Niveau 4;TRUE;Bassins de décantation et stations d'épuration

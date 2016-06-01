@@ -1,0 +1,45 @@
+Code;Type de végétation
+111;Tissu urbain continu
+112;Tissu urbain discontinu
+121;Zones industrielles et commerciales
+122;Réseaux routier et ferroviaire et espaces associés
+123;Zones portuaires
+124;Aéroports
+131;Extraction de matériaux
+132;Décharges
+133;Chantiers
+141;Espaces verts urbains
+142;Equipements sportifs et de loisirs
+211;Terres arables hors périmètres d'irrigation
+212;Périmètres irrigués en permanence
+213;Rizières
+221;Vignobles
+222;Vergers et petits fruits
+223;Oliveraies
+231;Prairies
+241;Cultures annuelles associées aux cultures permanentes
+242;Systèmes culturaux et parcellaires complexes
+243;Surfaces essentiellement agricoles, interrompues par des espaces naturels importants
+244;Territoires agro-forestiers
+311;Forêts de feuillus
+312;Forêts de conifères
+313;Forêts mélangées
+321;Pelouses et pâturages naturels
+322;Landes et broussailles
+323;Végétation sclérophylle
+324;Forêt et végétation arbustive en mutation
+331;Plages, dunes et sable
+332;Roches nues
+333;Végétation clairsemée
+334;Zones incendiées
+335;Glaciers et neiges éternelles
+411;Marais intérieurs
+412;Tourbières
+421;Marais maritimes
+422;Marais salants
+423;Zones intertidales
+511;Cours et voies d'eau
+512;Plans d'eau
+521;Lagunes littorales
+522;Estuaires
+523;Mers et océans

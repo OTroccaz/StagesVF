@@ -28,6 +28,7 @@ session_destroy();
             <ul class="nav navbar-nav">
                <li><a href="sign_in.php">Identification</a></li>
                <li><a href="import.php">Importation</a></li>
+               <li><a href="export.php">Exportation</a></li>
                <li><a href="management.php">Gestion</a></li>
                <li><a href="exit_mapVF.php">Consultation</a></li>
             </ul>

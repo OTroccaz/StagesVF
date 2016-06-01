@@ -13,7 +13,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
 {
    /* CONNEXION BDD */
    include ('../../config/connection.php');
-   $bdd = connexionMySQL();
+   $bdd = connexionPgSQL();
    /* CONNEXION FAITE */
 
    if(!isset($_SESSION['messagesParPage']))
@@ -33,7 +33,6 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    $total = $donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
    //Nous allons maintenant compter le nombre de pages.
    $nombreDePages = ceil($total / $_SESSION['messagesParPage']);
-
    if(isset($_GET['page'])) // Si la variable $_GET['page'] existe...
    {
       $pageActuelle = intval($_GET['page']);
@@ -46,12 +45,9 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    {
       $pageActuelle = 1; // La page actuelle est la n°1
    }
-
-   $premiereEntree=($pageActuelle-1)*$_SESSION['messagesParPage']; // On calcul la première entrée à lire
-
+   $premiereEntree=($pageActuelle-1)*$_SESSION['messagesParPage']; // On calcule la première entrée à lire
    // La requête sql pour récupérer les messages de la page actuelle.
-   $reponse = $bdd->query('SELECT * FROM files ORDER BY up_id DESC LIMIT '.$premiereEntree.', '.$_SESSION['messagesParPage'].'');
-
+   $reponse = $bdd->query('SELECT * FROM files ORDER BY up_id DESC LIMIT '.$_SESSION['messagesParPage'].' OFFSET '.$premiereEntree.'');
    ?>
    <table class="table table-striped sortable" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">
       <thead>

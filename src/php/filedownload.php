@@ -13,7 +13,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
 {
    /* CONNEXION BDD */
    include ('../../config/connection.php');
-   $bdd = connexionMySQL();
+   $bdd = connexionPgSQL();
    /* CONNEXION FAITE */
 
    // On récupère les infos du fichier correspondant à l'id indiqué dans l'url

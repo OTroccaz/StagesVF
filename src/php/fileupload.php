@@ -13,16 +13,20 @@ if ($connect == "1") // Si le visiteur s'est identifié.
 {
    /* CONNEXION BDD */
    include ('../../config/connection.php');
-   $bdd = connexionMySQL();
+   $bdd = connexionPgSQL();
    /* CONNEXION FAITE */
 
    include('../html/blank_page.htm');
+   include('check_import/survey.php');
+   include('check_import/dataset.php');
+   include('check_import/vegetation.php');
    ?> <title>Importation</title>
    <?php
 
-   function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier)
+   function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier,$type, $bdd)
    {
       $check = TRUE;
+      $verification = FALSE;
       //Test1: fichier correctement uploadé
       if (!isset($_FILES[$index]) OR $_FILES[$index]['error'] > 0)
       {
@@ -57,11 +61,35 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       $success = move_uploaded_file($_FILES[$index]['tmp_name'], '../../check/'.$nomFichier);
       if ($success)
       {
-         // Faire ici la VERIFICATION (algorithme de Mikael)
-
-         // if verification_mikael() + $bool
+         echo " lol ";
          if ($check)
          {
+            echo " ptdr ";
+            if ($type == 'dataset')
+            {
+               echo " mdr1 ";
+               $dataset = new dataset();
+               $verification = $dataset->initialisationDatasetAll('../../check/'.$nomFichier, $bdd);
+               echo $verification;
+            } else if ($type == 'survey')
+            {
+               echo " mdr2 ";
+               $survey = new survey();
+               $verification = $survey->initialisationSurveyAll('../../check/'.$nomFichier, $bdd);
+               echo $verification;
+            } else if ($type == 'vegetation')
+            {
+               echo " mdr3 ";
+               $vegetation = new vegetation();
+               $verification = $vegetation->initialisationVegetationAll('../../check/'.$nomFichier, $bdd);
+               echo $verification;
+            }
+         }
+
+         // if verification_mikael() + $bool
+         if ($check && $verification)
+         {
+            echo " de ouf LOL ";
             rename('../../check/'.$nomFichier, $destination); // on déplace le fichier vérifé au bon endroit
             ?>
             <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
@@ -70,10 +98,15 @@ if ($connect == "1") // Si le visiteur s'est identifié.
             <?php
          }
       } else {
+         echo " reessaye morray ";
          $check = FALSE;
       }
 
-      return $check;
+      $lol = $check && $verification;
+      echo " check && verification = ". $lol;
+      return $check && $verification;
+
+
 
       // } else {
       //    $taille = filesize('log.txt'):
@@ -122,7 +155,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       if(isset($true_directory))
       {
          // On test si l'upload est ok
-         $upload_possible = upload('fichier_importe','../../uploads/' . $true_directory . '/' . $fichier , 524288000, array('png','csv','jpg','jpeg'), $fichier );
+         $upload_possible = upload('fichier_importe', '../../uploads/'.$true_directory.'/'.$fichier, 524288000, array('csv'), $fichier, $true_directory, $bdd);
          // Confirmation
          if ($upload_possible) {
             ?>

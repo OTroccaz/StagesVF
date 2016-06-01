@@ -1,0 +1,713 @@
+Code PVF1;Syntaxon
+1;Adiantetea capilli-veneris Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+1.0.1;Adiantetalia capilli-veneris Br.-Bl. ex Horvati? 1939
+1.0.1.0.1;Adiantion capilli-veneris Br.-Bl. ex Horvati? 1939
+10;Betulo carpaticae-Alnetea viridis Rejmánek in Huml, Lepš, Prach & Rejmánek 1979
+10.0.1;Alnetalia viridis Rübel ex Huml, Lepš, Prach & Rejmánek 1979
+10.0.1.0.1;Alnion viridis A. Schnyd. 1930
+10.0.1.0.2;Salicion helveticae Rübel ex Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995
+10.0.1.0.3;Salicion lapponi-glaucosericeae Gams ex Julve 1993
+11;Bidentetea tripartitae Tüxen, Lohmeyer & Preising ex von Rochow 1951
+11.0.1;Bidentetalia tripartitae Br.-Bl. & Tüxen ex Klika in Klika & Hada? 1944
+11.0.1.0.1;Bidention tripartitae Nordhagen 1940
+11.0.1.0.2;Chenopodion rubri (Tüxen ex Poli & J. Tüxen 1960) Kopecký 1969
+12;Cakiletea maritimae Tüxen & Preising ex Br.-Bl. & Tüxen 1952
+12.0.1;Cakiletalia integrifoliae Tüxen ex Oberdorfer 1950 corr. Rivas-Martínez, Costa & Loidi 1992
+12.0.1.0.1;Atriplicion littoralis Nordhagen 1940
+12.0.1.0.2;Atriplici laciniatae-Salsolion kali Géhu 1975
+12.0.2;Euphorbietalia peplis Tüxen 1950 nom. nud.
+12.0.2.0.1;Euphorbion peplis Tüxen 1950 nom. nud.
+13;Calluno vulgaris-Ulicetea minoris Br.-Bl. & Tüxen ex Klika in Klika & Hada? 1944
+13.0.1;Ulicetalia minoris Quantin 1935
+13.0.1.0.1;Cisto salviifolii-Ericion cinereae Géhu 2004
+13.0.1.0.2;Daboecion cantabricae (Dupont ex Rivas-Martínez 1979) Rivas-Martínez, Fernández González & Loidi 1998
+13.0.1.0.3;Dactylido oceanicae-Ulicion maritimi Géhu 1975
+13.0.1.0.4;Ulicion minoris Malcuit 1929
+13.0.1.0.4.1;Ulici minoris-Ericenion ciliaris (Géhu 1975) Géhu & Botineau 2004
+13.0.1.0.4.2;Ulicenion minoris Géhu & Botineau 2004
+13.0.1.0.5;Genistion micrantho-anglicae Rivas-Martínez 1979
+13.0.2;Vaccinio myrtilli-Genistetalia pilosae Schubert 1960
+13.0.2.0.1;Calluno vulgaris-Arctostaphylion uvae-ursi Tüxen & Preising in Preising 1949 nom. nud.
+13.0.2.0.2;Genistion tinctorio-germanicae de Foucault 2008
+13.0.2.0.3;Genisto pilosae-Vaccinion uliginosi Br.-Bl. 1926
+14;Cardaminetea hirsutae Géhu 1999
+14.0.1;Geranio purpurei-Cardaminetalia hirsutae Brullo in Brullo & Marcenò 1985
+14.0.1.0.1;Drabo muralis-Cardaminion hirsutae de Foucault 1988
+14.0.1.0.2;Geranio pusilli-Anthriscion caucalidis Rivas-Martínez 1978
+14.0.1.0.3;Valantio muralis-Galion muralis Brullo in Brullo & Marcenò 1985
+14.0.1.0.4;Arabidopsion thalianae Passarge 1964
+15;Caricetea curvulae Br.-Bl. 1948 nom. cons. propos.
+15.0.1;Caricetalia curvulae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+15.0.1.0.1;Festucion variae Br.-Bl. 1926
+15.0.1.0.2;Festucion eskiae Br.-Bl. 1948
+15.0.1.0.3;Caricion curvulae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+15.0.1.0.4;Festucion supinae Br.-Bl. 1948
+15.0.1.0.5;Nardion strictae Br.-Bl. 1926
+15.0.2;Saginetalia piliferae Gamisans 1977
+15.0.2.0.1;Caricion caryophyllae Gamisans 1977
+15.0.2.0.2;Plantaginion insularis Gamisans ex J.C. Klein 1972
+16;Carici caryophyllae-Genistetea lobelii J.C. Klein 1972
+16.0.1;Carlinetalia macrocephalae Gamisans 1977
+16.0.1.0.1;Anthyllidion hermanniae J.C. Klein 1972
+17;Carici rupestris-Kobresietea bellardii Ohba 1974
+17.0.1;Oxytropido-Elynetalia myosuroidis Oberdorfer ex Albrecht 1969
+17.0.1.0.1;Oxytropido-Elynion myosuroidis Br.-Bl. 1949
+18;Charetea fragilis F. Fukarek ex Krausch 1964
+18.0.1;Nitelletalia flexilis Krause 1969
+18.0.1.0.1;Nitellion flexilis Segal ex Krause 1969
+18.0.1.0.2;Nitellion syncarpo-tenuissimae Krause 1969
+18.0.2;Charetalia hispidae Sauer ex Krausch 1964
+18.0.2.0.1;Charion fragilis Krausch 1964
+18.0.2.0.2;Charion vulgaris (Krause ex Krause & Lang 1977) Krause 1981
+18.0.2.0.3;Charion canescentis Krausch 1964
+19;Cisto ladaniferi-Lavanduletea stoechadis Br.-Bl. in Br.-Bl., Molinier & Wagner 1940
+19.0.1;Lavanduletalia stoechadis Br.-Bl. in Br.-Bl., Molinier & Wagner 1940
+19.0.1.0.1;Cistion ladaniferi Br.-Bl. in Br.-Bl., Molinier & Wagner 1940
+19.0.1.0.2;Cistion laurifolii Rivas Goday in Rivas Goday, Borja, Monasterio, Galiano & Rivas-Martínez 1956
+19.0.1.0.3;Teucrion mari Gamisans & Murraciole 1984
+2;Agropyretea pungentis Géhu 1968
+2.0.1;Agropyretalia pungentis Géhu 1968
+2.0.1.0.1;Agropyrion pungentis Géhu 1968
+2.0.1.0.2;Brachypodio pinnati-Agropyrion pungentis Géhu & Bioret all. prov.
+2.0.2;Agropyretalia intermedii-repentis Oberdorfer, Müller & Görs in Th. Müll. & Görs 1969
+2.0.2.0.1;Convolvulo arvensis-Agropyrion repentis Görs 1966
+2.0.2.0.2;Falcario vulgaris-Poion angustifoliae Passarge 1989
+2.0.2.0.3;Bromo-Oryzopsion miliaceae O. Bolòs 1970
+2.0.2.0.4;Artemisio absinthii-Agropyrion intermedii auct., non Müller & Görs 1969
+20;Crataego monogynae-Prunetea spinosae Tüxen 1962
+20.0.1;Salicetalia arenariae Preising & Weber in Weber 1997
+20.0.1.0.1;Salicion arenariae Tüxen ex Passarge in Scamoni 1963
+20.0.1.0.2;Ligustro vulgaris-Hippophaion rhamnoidis Géhu & Géhu-Franck 1983
+20.0.2;Prunetalia spinosae Tüxen 1952
+20.0.2.0.1;Cytision sessilifolii Biondi in Biondi, Allegrezza & J. Guítian 1988
+20.0.2.0.10;Salici cinereae-Rhamnion catharticae Géhu, de Foucault & Delelis ex Rameau all. prov.
+20.0.2.0.10.1;Hippophaenion fluviatilis Rübel ex Arlot 1985 nom. inval.
+20.0.2.0.10.2;Salici cinereae-Viburnenion opuli Passarge 1985
+20.0.2.0.10.3;Humulo lupuli-Sambucenion nigrae de Foucault & Julve ex Rameau suball. prov.
+20.0.2.0.11;Pruno spinosae-Rubion radulae Weber 1974
+20.0.2.0.11.1;Rubo-Prunenion spinosae Weber in Dierschke 1981
+20.0.2.0.11.2;Frangulo alni-Rubenion (Rivas Goday 1964) Oberdorfer 1983 nom. inval.
+20.0.2.0.11.3;Lonicero-Rubenion sylvatici Tüxen & Neumann ex Wittig 1977
+20.0.2.0.2;Pruno spinosae-Rubion ulmifolii O. Bolòs 1954
+20.0.2.0.3;Tamo communis-Viburnion lantanae (Géhu, de Foucault & Delelis 1983) Géhu all. prov. et stat. prov.
+20.0.2.0.4;Lonicerion periclymeni Géhu, de Foucault & Delelis 1983
+20.0.2.0.5;Frangulo alni-Pyrion cordatae Herrera, F. Prieto & Loidi 1991
+20.0.2.0.6;Ulici europaei-Rubion ulmifolii Weber 1997
+20.0.2.0.7;Berberidion vulgaris Br.-Bl. 1950
+20.0.2.0.7.1;Berberidenion vulgaris Géhu, de Foucault & Delelis 1983
+20.0.2.0.7.2;Berberido vulgaris-Juniperenion sabinae Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995
+20.0.2.0.7.3;Rosenion micranthae Arlot ex Rameau suball. prov.
+20.0.2.0.8;Carpino betuli-Prunion spinosae Weber 1974
+20.0.2.0.9;Corylo avellanae-Populion tremulae (Br.-Bl. ex Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995) Géhu all. prov. et stat. prov.
+20.0.3;Sambucetalia racemosae Oberdorfer ex Passarge in Scamoni 1963
+20.0.3.0.1;Sambuco racemosae-Salicion capreae Tüxen & Neumann in Tüxen 1950
+21;Crithmo maritimi-Staticetea Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+21.0.1;Crithmo maritimi-Staticetalia Molinier 1934
+21.0.1.0.1;Crithmo maritimi-Limonion binervosi Géhu & Géhu-Franck ex Géhu 1997
+21.0.1.0.2;Crithmo maritimi-Staticion Molinier 1934
+21.0.1.0.3;Erodion corsici (Gamisans & Muracciole 1984) Géhu & Biondi 1994
+22;Cytisetea scopario-striati Rivas-Martínez 1975
+22.0.1;Cytisetalia scopario-striati Rivas-Martínez 1975
+22.0.1.0.1;Ulici europaei-Cytision striati Rivas-Martínez, Báscones, T.E. Diáz, Fernández González & Loidi 1991
+22.0.1.0.2;Sarothamnion scoparii Tüxen ex Oberdorfer 1957
+22.0.1.0.3;Cytision oromediterraneo-scoparii Rivas-Martínez, Cantó & Sánchez-Mata 2002
+23;Epilobietea angustifolii Tüxen & Preising ex von Rochow 1951
+23.0.1;Atropetalia belladonnae J. Vlieger 1937
+23.0.1.0.1;Atropion belladonnae Aichinger 1933
+23.0.1.0.2;Epilobion angustifolii Tüxen ex Eggler 1952
+24;Erico carneae-Pinetea sylvestris Horvat 1959
+24.0.1;Junipero hemisphaericae-Pinetalia sylvestris Rameau 1998
+24.0.1.0.1;Junipero intermediae-Pinion catalaunicae Rivas-Martínez 1983 corr. Rivas-Martínez & J.A. Molina in Rivas-Martínez, Fern.-Gonz., Loidi, Lousã & Penas 2000
+24.0.2;Buxo sempervirentis-Pinetalia sylvestris Rameau 1998
+24.0.2.0.1;Cephalanthero rubrae-Pinion sylvestris Vanden Berghen 1963
+24.0.3;Astragalo monspessulani-Pinetalia sylvestris Oberdorfer ex Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995
+24.0.3.0.1;Ononido rotundifolii-Pinion sylvestris Br.-Bl. & R. Rich. 1950
+24.0.3.0.1.1;Ononido rotundifolii-Pinenion sylvestris Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995
+24.0.4;Erico carneae-Pinetalia sylvestris Horvat 1959
+24.0.4.0.1;Erico carneae-Pinion sylvestris Br.-Bl. in Br.-Bl., Sissingh & J. Vlieger 1939 nom. inv. propos.
+24.0.4.0.1.1;Erico carneae-Pinenion sylvestris Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995
+24.0.4.0.1.2;Molinio arundinaceae-Pinenion sylvestris Ellenberg & Klötzli ex Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995
+24.0.5;Junipero-Pinetalia mugo Bo?caiu 1971
+24.0.5.0.1;Rhododendro hirsuti-Pinion mugo Rivas-Martínez, Báscones, T.E. Diáz, Fernández González & Loidi 1991
+25;Euphorbio paraliae-Ammophiletea australis Géhu & Géhu-Franck 1988 corr. Géhu in Bardat et al. 2004
+25.0.1;Ammophiletalia australis Br.-Bl. 1933
+25.0.1.0.1;Ammophilion arenariae (Tüxen in Br.-Bl. & Tüxen 1952) Géhu 1988
+25.0.1.0.1.1;Agropyro boreoatlantici-Minuartienion peploidis (Tüxen in Br.-Bl. & Tüxen 1952) Géhu 1988
+25.0.1.0.1.2;Ammophilenion arenariae Géhu 1988
+25.0.1.0.1.3;Euphorbio paraliae-Festucenion arenariae Géhu (1975) 1994
+25.0.1.0.2;Ammophilion australis Br.-Bl. 1921 corr. Rivas-Martínez, Costa & Izco in Rivas-Martínez, Lousã, T.E. Diáz, Fern.-Gonz. & J.C. Costa 1990
+25.0.1.0.2.1;Sporobolenion arenarii Géhu 1988
+25.0.1.0.2.2;Sporobolo arenarii-Elymenion farcti Géhu 1988
+25.0.1.0.2.3;Ammophilenion australis Rivas-Martínez & Géhu in Rivas-Martínez, Costa, Castroviejo & E. Valdés 1980 corr. Rivas-Martínez, Lousã, T.E. Diáz, Fern.-Gonz. & J.C. Costa 1990
+25.0.1.0.3;Crucianellion maritimae Rivas Goday & Rivas-Martínez 1958
+26;Festuco valesiacae-Brometea erecti Br.-Bl. & Tüxen ex Br.-Bl. 1949
+26.0.1;Festucetalia valesiacae Br.-Bl. & Tüxen ex Br.-Bl. 1949
+26.0.1.0.1;Stipo capillatae-Poion carniolicae Br.-Bl. 1961
+26.0.2;Brometalia erecti Koch 1926
+26.0.2.0.1;Potentillo montanae-Brachypodion rupestris Br.-Bl. 1967 corr. Guitían, Izco & Amigo 1989
+26.0.2.0.2;Gentianello amarellae-Avenulion pratensis Royer 1987 nom. inval.
+26.0.2.0.3;Mesobromion erecti (Br.-Bl. & Moor 1938) Oberdorfer 1957 nom. cons. propos.
+26.0.2.0.3.1;Mesobromenion erecti Br.-Bl. & Moor 1938
+26.0.2.0.3.2;Chamaespartio sagittalis-Agrostidenion tenuis Vigo 1982
+26.0.2.0.3.3;Tetragonolobo maritimi-Mesobromenion erecti Royer 1991 nom. inval.
+26.0.2.0.3.4;Teucrio montani-Mesobromenion erecti Royer 1991 nom. inval.
+26.0.2.0.3.5;Seslerio caeruleae-Mesobromenion erecti Oberdorfer 1957
+26.0.2.0.3.6;Festucenion timbalii Boullet 1986 nom. ined.
+26.0.2.0.4;Xerobromion erecti (Br.-Bl. & Moor 1938) Moravec in Holub, Hejný, Moravec & Neuhäusl 1967
+26.0.2.0.4.1;Xerobromenion erecti Br.-Bl. & Moor 1938
+26.0.2.0.4.2;Seslerio caeruleae-Xerobromenion erecti Oberdorfer 1957
+26.0.2.0.5;Diantho gratianopolitani-Melicion ciliatae (Korneck 1974) Royer 1991
+26.0.2.0.6;Festuco amethystinae-Bromion erecti Barbero & Loisel 1972
+26.0.2.0.7;Koelerio macranthae-Phleion phleoidis Korneck 1974
+26.0.2.0.7.1;Dactylorhizo latifoliae-Saxifragenion granulatae Royer 2004
+26.0.2.0.7.2;Armerienion elongatae Krausch 1962 ex Royer 2004
+26.0.3;Ononidetalia striatae Br.-Bl. 1950
+26.0.3.0.1;Ononidion striatae Br.-Bl. & Susplugas 1937
+26.0.3.0.2;Seslerion elegantissimae (Vanden Berghen 1963) Barbero, Loisel & Quézel 1972
+26.0.3.0.3;Genistion lobelii Molinier 1934
+26.0.3.0.4;Echinospartion horridi Rivas-Martínez, T.E. Diáz, F. Prieto, Loidi & Penas 1991
+26.0.3.0.5;Lavandulo angustifoliae-Genistion cinereae Barbero, Loisel & Quézel 1972
+26.0.3.0.5.1;Lavandulo angustifoliae-Genistenion cinereae Gaultier 1989 nom. ined. et inval.
+26.0.3.0.5.2;Lilio pomponii-Artemisenion albae Gaultier 1989 nom. ined.
+26.0.3.0.6;Ononidion cenisiae Barbero 1972
+26.0.3.0.6.1;Ononidenion cristatae Gaultier 1989 nom. ined. et inval.
+26.0.3.0.6.2;Ononido cristatae-Helictotrichenion sempervirentis Gaultier 1989 nom. ined.
+26.0.3.0.7;Festucion scopariae Br.-Bl. 1948
+27;Festuco-Seslerietea caeruleae Barbero & Bonin 1969
+27.0.1;Seslerietalia caeruleae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+27.0.1.0.1;Avenion sempervirentis Barbero 1968
+27.0.1.0.2;Seslerion caeruleae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+27.0.1.0.2.1;Drabo aizoidis-Seslerienion caeruleae Béguin 1972
+27.0.1.0.2.2;Seslerienion caeruleae Béguin 1972
+27.0.1.0.2.3;Agrostio capillaris-Seslerienion caeruleae Béguin 1972
+27.0.1.0.3;Caricion ferrugineae G. Braun-Blanquet & Br.-Bl. 1931
+27.0.1.0.4;Primulion intricatae Br.-Bl. ex Vigo 1972
+27.0.1.0.5;Laserpitio nestleri-Ranunculion thorae Vigo 1979
+28;Filipendulo ulmariae-Convolvuletea sepium Géhu & Géhu-Franck 1987
+28.0.1;Convolvuletalia sepium Tüxen 1950 nom. nud.
+28.0.1.0.1;Convolvulion sepium Tüxen in Oberdorfer 1957
+28.0.1.0.2;Angelicion litoralis Tüxen in Lohmeyer, A. Matuszkiewicz, W. Matuszkiewicz, Merker, Moore, Müller, Oberdorfer, Poli, Seibert, Sukopp, Trautmann, J. Tüxen, Tüxen & Westhoff 1962
+28.0.1.0.3;Dorycnion recti Géhu & Biondi 1988
+28.0.2;Petasito hybridi-Chaerophylletalia hirsuti Morariu 1967
+28.0.2.0.1;Petasition officinalis Sill. 1933
+28.0.3;Filipenduletalia ulmariae de Foucault & Géhu ex de Foucault 1984 nom. inval.
+28.0.3.0.1;Thalictro flavi-Filipendulion ulmariae de Foucault 2006
+28.0.3.0.2;Filipendulo ulmariae-Petasition Br.-Bl. 1949
+29;Galio aparines-Urticetea dioicae Passarge ex Kopecký 1969
+29.0.1;Galio aparines-Alliarietalia petiolatae Oberdorfer ex Görs & Müller 1969
+29.0.1.0.1;Aegopodion podagrariae Tüxen 1967 nom. cons. propos.
+29.0.1.0.2;Geo urbani-Alliarion petiolatae Lohmeyer & Oberdorfer ex Görs & Müller 1969
+29.0.2;Impatienti noli-tangere-Stachyetalia sylvaticae Boullet, Géhu & Rameau 2004
+29.0.2.0.1;Impatienti noli-tangere-Stachyion sylvaticae Görs ex Mucina in Mucina, Grabherr & Ellmauer 1993
+3;Agrostietea stoloniferae Th. Müll. & Görs 1969
+3.0.1;Potentillo anserinae-Polygonetalia avicularis Tüxen 1947
+3.0.1.0.1;Bromion racemosi Tüxen in Tüxen & Preising 1951 nom. nud.
+3.0.1.0.2;Alopecurion utriculati Zeidler 1954
+3.0.1.0.3;Alopecurion pratensis Passarge 1964
+3.0.1.0.4;Loto tenuis-Trifolion fragiferi Westhoff et al. ex de Foucault 2008
+3.0.1.0.5;Mentho longifoliae-Juncion inflexi Müller & Görs ex de Foucault 2008
+3.0.1.0.6;Potentillion anserinae Tüxen 1947
+3.0.2;Eleocharitetalia palustris de Foucault 2008
+3.0.2.0.1;Oenanthion fistulosae de Foucault 2008
+3.0.2.0.2;Cnidion venosi Balátová 1966
+3.0.3;Paspalo distichi-Polypogonetalia semiverticillatae Delpech & Géhu ord. prov.
+3.0.3.0.1;Paspalo distichi-Agrostion semiverticillatae Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+30;Glycerio fluitantis-Nasturtietea officinalis Géhu & Géhu-Franck 1987
+30.0.1;Nasturtio officinalis-Glycerietalia fluitantis Pignatti 1953
+30.0.1.0.1;Glycerio fluitantis-Sparganion neglecti Br.-Bl. & Sissingh in Boer 1942
+30.0.1.0.2;Apion nodiflori Segal in Westhoff & den Held 1969
+31;Halodulo wrigthii-Thalassietea testudinum Rivas-Martínez, Fernández González & Loidi 1998
+31.0.1;Thalassio testudinum-Syringodietalia filiformis Knapp in Borhidi, O. Muñiz & Del Risco 1983
+31.0.1.0.1;Syringodio filiformis-Thalassion testudinum Borhidi in Borhidi, O. Muñiz & Del Risco 1983
+32;Helianthemetea guttati (Br.-Bl. ex Rivas Goday 1958) Rivas Goday & Rivas-Martínez 1963
+32.0.1;Helianthemetalia guttati Br.-Bl. in Br.-Bl., Molinier & Wagner 1940
+32.0.1.0.1;Vulpion ligusticae Aubert & Loisel 1971
+32.0.1.0.2;Helianthemion guttati Br.-Bl. in Br.-Bl., Molinier & Wagner 1940
+32.0.1.0.3;Thero-Airion Tüxen ex Oberdorfer 1957
+32.0.2;Malcolmietalia ramosissimae Rivas Goday 1958
+32.0.2.0.1;Maresio nanae-Malcolmion ramosissimae (Rivas-Martínez 1978) Rivas-Martínez, Costa & Loidi 1992
+32.0.2.0.2;Laguro ovati-Vulpion fasciculatae Géhu & Biondi 1994
+33;Honckenyo peploidis-Elymetea arenarii Tüxen 1966
+33.0.1;Honckenyo peploidis-Elymetalia arenarii Tüxen 1966
+33.0.1.0.1;Honckenyo peploidis-Elymion arenarii Tüxen 1966
+33.0.1.0.2;Honckenyo latifoliae-Crambion maritimae Géhu & Géhu-Franck 1969
+34;Isoeto durieui-Juncetea bufonii Br.-Bl. & Tüxen ex V. West., Dijk & Passchier 1946
+34.0.1;Isoetetalia durieui Br.-Bl. 1936
+34.0.1.0.1;Isoetion durieui Br.-Bl. 1936
+34.0.1.0.2;Cicendion filiformis (Rivas Goday in Rivas Goday & Borja 1961) Br.-Bl. 1967
+34.0.2;Elatino triandrae-Cyperetalia fusci de Foucault 1988
+34.0.2.0.1;Helochloion schoenoidis Br.-Bl. ex Rivas Goday, Borja, Monasterio, Galiano & Rivas-Martínez 1956
+34.0.2.0.2;Lythrion tribracteati Rivas Goday & Rivas-Martínez ex Rivas Goday 1970
+34.0.2.0.3;Elatino triandrae-Eleocharition ovatae (Pietsch & Müll.-Stoll 1968) Pietsch 1969
+34.0.3;Nanocyperetalia flavescentis Klika 1935
+34.0.3.0.1;Radiolion linoidis Pietsch 1971
+34.0.3.0.2;Nanocyperion flavescentis Koch ex Libbert 1932
+35;Juncetea maritimi Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+35.0.1;Juncetalia maritimi Br.-Bl. ex Horvati? 1934
+35.0.1.0.1;Juncion maritimi Br.-Bl. ex Horvati? 1934
+35.0.1.0.1.1;Puccinellienion festuciformis (Géhu & Scoppola in Géhu, Scoppola, Caniglia, Marchiori & Géhu-Franck 1984) Géhu & Biondi 1995 nom. nud.
+35.0.1.0.1.2;Juncenion maritimi Géhu & Biondi ex Géhu 2004
+35.0.1.0.1.3;Puccinellio festuciformis-Caricenion extensae Géhu & Biondi 1995 nom. nud.
+35.0.1.0.2;Halo-Artemision coerulescentis Pignatti 1953
+35.0.1.0.3;Plantaginion crassifoliae Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+36;Koelerio glaucae-Corynephoretea canescentis Klika in Klika & V. Novák 1941
+36.0.1;Corynephoretalia canescentis Klika 1934
+36.0.1.0.1;Corynephorion canescentis Klika 1931
+36.0.1.0.2;Armerion junceae Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+36.0.1.0.3;Koelerion glaucae (Volk 1931) Klika 1934
+36.0.1.0.4;Sileno conicae-Cerastion semidecandri Korneck 1974
+36.0.2;Artemisio lloydii-Koelerietalia albescentis Sissingh 1974
+36.0.2.0.1;Koelerion albescentis Tüxen 1937
+36.0.2.0.2;Euphorbio portandlicae-Helichrysion staechadis Géhu & Tüxen ex Sissingh 1974
+37;Lemnetea minoris O. Bolòs & Masclans 1955
+37.0.1;Lemnetalia minoris O. Bolòs & Masclans 1955
+37.0.1.0.1;Lemnion minoris O. Bolòs & Masclans 1955
+37.0.1.0.2;Lemnion trisulcae Hartog & Segal 1964
+37.0.1.0.3;Hydrocharition morsus-ranae Rübel ex Klika in Klika & Hada? 1944
+38;Littorelletea uniflorae Br.-Bl. & Tüxen ex Westhoff, Dijk & Passchier 1946
+38.0.1;Littorelletalia uniflorae Koch 1926
+38.0.1.0.1;Littorellion uniflorae Koch 1926
+38.0.1.0.2;Lobelion dortmannae (Vanden Berghen 1964) Tüxen & Dierssen in Dierssen 1972
+38.0.1.0.3;Elodo palustris-Sparganion Br.-Bl. & Tüxen ex Oberdorfer 1957
+38.0.1.0.4;Eleocharition acicularis Pietsch 1967
+39;Loiseleurio procumbentis-Vaccinietea microphylli Eggler ex Schubert 1960
+39.0.1;Rhododendro ferruginei-Vaccinietalia microphylli Br.-Bl. in Br.-Bl. & H. Jenny 1926
+39.0.1.0.1;Arctostaphylo-Cetrarion nivalis Dahl 1956
+39.0.1.0.2;Loiseleurio procumbentis-Vaccinion microphylli Br.-Bl. in Br.-Bl. & H. Jenny 1926
+39.0.1.0.3;Rhododendro ferruginei-Vaccinion myrtilli A. Schnyd. 1930
+39.0.1.0.4;Juniperion nanae Br.-Bl. in Br.-Bl., Sissingh & J. Vlieger 1939
+39.0.1.0.5;Ericion carneae Rübel ex Grabherr, Greimler & Mucina in Grabherr & Mucina 1993
+4;Alnetea glutinosae Br.-Bl. & Tüxen ex Westhoff, Dijk & Passchier 1946
+4.0.1;Salicetalia auritae Doing ex Westhoff in Westhoff & den Held 1969
+4.0.1.0.1;Salicion cinereae Müller et Görs 1958
+4.0.2;Alnetalia glutinosae Tüxen 1937
+4.0.2.0.1;Alnion glutinosae Malcuit 1929
+4.0.2.0.2;Sphagno-Alnion glutinosae (Doing-Kraft in Maas 1959) Passarge & Hofmann 1968
+40;Lygeo sparti-Stipetea tenacissimae Rivas-Martínez 1978 nom. conserv. propos.
+40.0.1;Lygeo sparti-Stipetalia tenacissimae Br.-Bl. & O. Bolòs 1958
+40.0.1.0.1;Phlomido lychnitidis-Brachypodion retusi G. Mateo 1983
+40.0.2;Hyparrhenietalia hirtae Rivas-Martínez 1978
+40.0.2.0.1;Saturejo graecae-Hyparrhenion hirtae O. Bolòs 1962
+40.0.3;Brachypodietalia phoenicoidis Br.-Bl. ex Molinier 1934
+40.0.3.0.1;Brachypodion phoenicoidis Br.-Bl. ex Molinier 1934
+41;Melampyro pratensis-Holcetea mollis Passarge 1994
+41.0.1;Melampyro pratensis-Holcetalia mollis Passarge 1979
+41.0.1.0.1;Potentillo erectae-Holcion mollis Passarge 1979
+41.0.1.0.2;Holco mollis-Pteridion aquilini (Passarge 1994) Rameau all. prov. et stat. prov.
+41.0.1.0.3;Melampyrion pratensis Passarge 1979
+41.0.1.0.4;Conopodio majoris-Teucrion scorodoniae Julve ex Boullet & Rameau 2004
+41.0.1.0.5;Melampyro sylvatici-Poion chaixii Julve ex Boullet & Rameau 2004
+42;Molinio caeruleae-Juncetea acutiflori Br.-Bl. 1950
+42.0.1;Molinietalia caeruleae Koch 1926
+42.0.1.0.1;Calthion palustris Tüxen 1937
+42.0.1.0.2;Juncion acutiflori Br.-Bl. in Br.-Bl. & Tüxen 1952
+42.0.1.0.2.1;Caro verticillati-Juncenion acutiflori de Foucault & Géhu 1980
+42.0.1.0.2.2;Anagallido tenellae-Juncenion acutiflori (Br.-Bl. 1967) de Foucault 2008
+42.0.1.0.2.3;Serratulo seoanei-Molinienion caeruleae de Foucault 2008
+42.0.1.0.2.4;Polygono bistortae-Juncenion acutiflori de Foucault & Géhu ex de Foucault 2008
+42.0.1.0.2.5;Juncenion acutiflori Delpech suball. prov. et stat. prov.
+42.0.1.0.3;Molinion caeruleae Koch 1926
+42.0.1.0.3.1;Allio angulosi-Molinienion caeruleae de Foucault & Géhu 1980
+42.0.1.0.3.2;Carici davallianae-Molinienion caeruleae de Foucault & Géhu 1980
+42.0.1.0.4;Deschampsio mediae-Molinion arundinaceae de Foucault 1984 ex Delpech all. prov.
+42.0.2;Holoschoenetalia vulgaris Br.-Bl. ex Tchou 1948
+42.0.2.0.1;Molinio arundinaceae-Holoschoenion vulgaris Br.-Bl. ex Tchou 1948
+42.0.2.0.2;Deschampsion mediae Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+43;Montio fontanae-Cardaminetea amarae Br.-Bl. & Tüxen ex Klika & Hada? 1944
+43.0.1;Cardamino amarae-Chrysosplenietalia alternifolii Hinterlang 1992
+43.0.1.0.1;Cochlearion pyrenaicae Bardat all. prov.
+43.0.1.0.2;Pellion endiviifoliae Bardat all. prov.
+43.0.1.0.3;Riccardio pinguis-Eucladion verticillati Bardat all. prov.
+43.0.1.0.4;Caricion remotae Kästner 1941
+43.0.1.0.4.1;Caricenion remotae Zechmeister & Mucina 1994
+43.0.2;Montio fontanae-Cardaminetalia amarae Paw?owski in Paw?owski, Soko?owski & Wallisch 1928
+43.0.2.0.1;Epilobio nutantis-Montion fontanae Zechmeister in Zechmeister & Mucina 1994
+43.0.2.0.2;Cratoneurion commutati Koch 1928
+43.0.2.0.3;Cardamino amarae-Montion fontanae Br.-Bl. 1926
+43.0.2.0.3.1;Cardamino amarae-Montienion fontanae Zechmeister & Mucina 1994
+43.0.2.0.4;Dermatocarpion rivulorum P. Geissler 1976
+44;Mulgedio alpini-Aconitetea variegati Hada? & Klika in Klika & Hada? 1944
+44.0.1;Calamagrostietalia villosae Paw?owski in Paw?owski, Soko?owski & Wallisch 1928
+44.0.1.0.1;Calamagrostion arundinaceae (Luquet 1926) Jeník 1961
+44.0.1.0.2;Calamagrostion villosae Paw?owski in Paw?owski, Soko?owski & Wallisch 1928
+44.0.2;Adenostyletalia alliariae G. Braun-Blanquet 1931
+44.0.2.0.1;Adenostylion alliariae Br.-Bl. 1926
+44.0.2.0.2;Arunco dioici-Petasition albi Br.-Bl. & Sutter 1977
+44.0.2.0.3;Doronicion corsici Gamisans 1977
+45;Nardetea strictae Rivas Goday in Rivas Goday & Rivas-Martínez 1963
+45.0.1;Nardetalia strictae Oberdorfer ex Preising 1949
+45.0.1.0.1;Agrostion curtisii de Foucault 1986
+45.0.1.0.2;Galio saxatilis-Festucion filiformis de Foucault 1994
+45.0.1.0.3;Violion caninae Schwickerath 1944
+45.0.1.0.4;Carici arenariae-Festucion filiformis de Foucault 1994
+45.0.1.0.5;Nardo strictae-Juncion squarrosi (Oberdorfer 1957) Passarge 1964
+46;Nerio oleandri-Tamaricetea africanae Br.-Bl. & O. Bolòs 1958
+46.0.1;Tamaricetalia africanae Br.-Bl. & O. Bolòs 1958
+46.0.1.0.1;Tamaricion africanae Br.-Bl. & O. Bolòs 1958
+46.0.1.0.2;Rubo ulmifolii-Nerion oleandri O. Bolòs 1985
+46.0.1.0.3;Imperato cylindricae-Erianthion ravennae Br.-Bl. & O. Bolòs 1958
+47;Oryzetea sativae Miyawaki 1960
+47.0.1;Cypero difformis-Echinochloetalia oryzoidis O. Bolòs & Masclans 1955
+47.0.1.0.1;Oryzo sativae-Echinochloion oryzoidis O. Bolòs & Masclans 1955
+48;Oxycocco palustris-Sphagnetea magellanici Br.-Bl. & Tüxen ex V. West., Dijk & Passchier 1946
+48.0.1;Erico tetralicis-Sphagnetalia papillosi Schwickerath 1940
+48.0.1.0.1;Oxycocco palustris-Ericion tetralicis Nordhagen ex Tüxen 1937
+48.0.1.0.2;Ericion tetralicis Schwickerath 1933
+48.0.2;Sphagnetalia medii M. Kästner & Flössner 1933
+48.0.2.0.1;Sphagnion medii M. Kästner & Flössner 1933
+49;Parietarietea judaicae Rivas-Martínez in Rivas Goday 1964
+49.0.1;Parietarietalia judaicae Rivas-Martínez ex Rivas Goday 1964
+49.0.1.0.1;Parietario judaicae-Galion muralis Rivas-Martínez ex Rivas Goday 1964
+49.0.1.0.2;Cymbalario muralis-Asplenion rutae-murariae Segal 1969
+49.0.1.0.3;Brassicion oleraceae Rivas-Martínez, Fern.-Gonz. & Loidi 1999
+5;Anogrammo leptophyllae-Polypodietea cambrici Rivas-Martínez 1975
+5.0.1;Anomodonto viticulosi-Polypodietalia cambrici O. Bolòs & Vives in O. Bolòs 1957
+5.0.1.0.1;Bartramio strictae-Polypodion serrati O. Bolòs & Vives in O. Bolòs 1957
+5.0.1.0.2;Hymenophyllion tunbrigensis Tüxen in Tüxen & Oberdorfer 1958 nom. nud.
+5.0.1.0.3;Polypodion serrati Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+5.0.1.0.4;Selaginello denticulatae-Anogrammion leptophyllae Rivas-Martínez, Fernández González & Loidi 1999
+50;Pegano harmalae-Salsoletea vermiculatae Br.-Bl. & O. Bolòs 1958
+50.0.1;Salsolo vermiculatae-Peganetalia harmalae Br.-Bl. & O. Bolòs 1958
+50.0.1.0.1;Salsolo vermiculatae-Artemision arborescentis Géhu & Biondi 1994
+51;Phragmiti australis-Magnocaricetea elatae Klika in Klika & V. Novák 1941
+51.0.1;Phragmitetalia australis Koch 1926
+51.0.1.0.1;Phragmition communis Koch 1926
+51.0.1.0.2;Oenanthion aquaticae Hejný ex Neuhäusl 1959
+51.0.1.0.3;Phalaridion arundinaceae Kopecký 1961
+51.0.2;Magnocaricetalia elatae Pignatti 1954
+51.0.2.0.1;Magnocaricion elatae Koch 1926
+51.0.2.0.2;Caricion gracilis Neuhäusl 1959
+51.0.2.0.3;Carici pseudocyperi-Rumicion hydrolapathi Passarge 1964
+51.0.3;Scirpetalia compacti Hejný in Holub, Hejný, Moravec & Neuhäusl 1967 corr. Rivas-Martínez, Costa, Castroviejo & E. Valdés 1980
+51.0.3.0.1;Scirpion compacti Dahl & Hada? 1941 corr. Rivas-Martínez, Costa, Castroviejo & E. Valdés 1980
+51.0.3.0.2;Scirpion compacto-littoralis Rivas-Martínez in Rivas-Martínez, Costa, Castroviejo & E. Valdés 1980
+52;Pino sylvestris-Juniperetea sabinae Rivas-Martínez 1964
+52.0.1;Pino sylvestris-Juniperetalia sabinae Rivas-Martínez 1964
+52.0.1.0.1;Juniperion thuriferae Rivas-Martínez 1969
+53;Polygono arenastri-Poetea annuae Rivas-Martínez 1975 corr. Rivas-Martínez, Báscones, T.E. Diáz, Fernández González & Loidi 1991
+53.0.1;Polygono arenastri-Poetalia annuae Tüxen in Géhu, Richard & Tüxen 1972 corr. Rivas-Martínez, Báscones, T.E. Diáz, Fernández González & Loidi 1991
+53.0.1.0.1;Saginion procumbentis Tüxen & Ohba in Géhu, Richard & Tüxen 1972
+53.0.1.0.2;Polygono arenastri-Coronopodion squamati Br.-Bl. ex Sissingh 1969
+53.0.1.0.3;Polycarpion tetraphylli Rivas-Martínez 1975
+53.0.1.0.4;Sclerochloo durae-Coronopodion squamati Rivas-Martínez 1975
+54;Posidonietea oceanicae Hartog 1976 ex Géhu 2004
+54.0.1;Posidonietalia oceanicae Hartog ex Géhu 2004
+54.0.1.0.1;Posidonion oceanicae Br.-Bl., Roussine & Nègre 1952
+55;Potametea pectinati Klika in Klika & V. Novák 1941
+55.0.1;Potametalia pectinati Koch 1926
+55.0.1.0.1;Nymphaeion albae Oberdorfer 1957
+55.0.1.0.2;Potamion pectinati (Koch 1926) Libbert 1931
+55.0.1.0.3;Potamion polygonifolii Hartog & Segal 1964
+55.0.1.0.4;Ranunculion aquatilis Passarge 1964
+55.0.1.0.5;Batrachion fluitantis Neuhäusl 1959
+56;Quercetea ilicis Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+56.0.1;Quercetalia ilicis Br.-Bl. ex Molinier 1934
+56.0.1.0.1;Quercion ilicis Br.-Bl. ex Molinier 1934
+56.0.1.0.1.1;Quercenion ilicis Rivas Goday 1960
+56.0.1.0.1.2;Quercenion suberis (Loisel 1971) Rameau suball. prov. et stat. prov.
+56.0.1.0.1.3;Querco ilicis-Pinenion maritimi Géhu & Géhu-Franck ex Géhu 2004
+56.0.2;Pistacio lentisci-Rhamnetalia alaterni Rivas-Martínez 1975
+56.0.2.0.1;Ericion arboreae Rivas-Martínez (1975) 1987
+56.0.2.0.2;Oleo sylvestris-Ceratonion siliquae Br.-Bl. ex Guinochet & Drouineau 1944
+56.0.2.0.3;Rhamno lycioidis-Quercion cocciferae Rivas Goday ex Rivas-Martínez 1975
+56.0.2.0.4;Juniperion turbinatae Rivas-Martínez 1975 corr. 1987
+57;Querco roboris-Fagetea sylvaticae Br.-Bl. & J. Vlieger in J. Vlieger 1937
+57.0.1;Quercetalia pubescenti-sessiliflorae Klika 1933 corr. Moravec in Béguin & Theurillat 1984
+57.0.1.0.1;Quercion pubescenti-sessiliflorae Br.-Bl. 1932
+57.0.1.0.1.1;Buxo sempervirentis-Quercenion pubescentis (Zólyomi & Jakucs in Jakucs 1960) Rivas-Martínez 1972
+57.0.1.0.1.2;Sorbo ariae-Quercenion pubescentis Rameau 1996 nom. inval.
+57.0.1.0.2;Potentillo albae-Quercion petraeae (Zólyomi & Jakucs ex Jakucs 1960) Jakucs 1967
+57.0.1.0.3;Carpinion orientalis Horvat 1958
+57.0.2;Quercetalia roboris Tüxen 1931
+57.0.2.0.1;Quercion robori-pyrenaicae (Br.-Bl., P. Silva, Rozeira & Fontes 1956) Rivas-Martínez 1975 nom. nud.
+57.0.2.0.1.1;Quercenion robori-pyrenaicae Rivas-Martínez 1975
+57.0.2.0.2;Quercion roboris Malcuit 1929
+57.0.2.0.2.1;Hyperico montani-Quercenion robori-petraeae Rameau 1996 nom. inval.
+57.0.2.0.2.2;Ilici aquifolii-Quercenion petraeae Rameau suball. prov.
+57.0.2.0.2.3;Quercenion robori-petraeae Rivas-Martínez 1975
+57.0.2.0.3;Molinio caeruleae-Quercion roboris Scamoni & Passarge 1959
+57.0.3;Fagetalia sylvaticae Paw?owski in Paw?owski, Soko?owski & Wallisch 1928
+57.0.3.1;Carpino betuli-Fagenalia sylvaticae Rameau (1981) 1996 nom. inval.
+57.0.3.1.1;Fraxino excelsioris-Quercion roboris Rameau 1996 nom. inval.
+57.0.3.1.2;Carpinion betuli Issler 1931
+57.0.3.1.3;Polysticho setiferi-Fraxinion excelsioris (O. Bolòs 1973) Rameau 1996 nom. inval.
+57.0.3.2;Cephalanthero rubrae-Fagenalia sylvaticae Rameau (1981) 1996 nom. inval.
+57.0.3.2.1;Cephalanthero rubrae-Fagion sylvaticae (Tüxen in Tüxen & Oberdorfer 1958) Rameau 1996 nom. inval.
+57.0.3.2.2;Tilion platyphylli Moor 1973
+57.0.3.3;Fagenalia sylvaticae Rameau prov.
+57.0.3.3.1;Fagion sylvaticae Luquet 1926
+57.0.3.3.1.1;Geranio nodosi-Fagenion sylvaticae (S. Gentile 1974) Ubaldi & Speranza 1985
+57.0.3.3.1.2;Scillo lilio-hyacinthi-Fagenion sylvaticae Oberdorfer ex Rivas-Martínez 1973
+57.0.3.3.1.3;Eu-Fagenion sylvaticae Oberdorfer 1957
+57.0.3.3.2;Tilio platyphylli-Acerion pseudoplatani Klika 1955
+57.0.3.3.3;Luzulo luzuloidis-Fagion sylvaticae Lohmeyer & Tüxen in Tüxen 1954
+57.0.3.3.3.1;Galio rotundifolii-Fagenion sylvaticae Gamisans (1977) 1979
+57.0.3.3.3.2;Ilici aquifolii-Fagenion sylvaticae (Br.-Bl. 1967) Rivas-Martínez 1973
+57.0.3.3.3.3;Luzulo luzuloidis-Fagenion sylvaticae (Lohmeyer & Tüxen in Tüxen 1954) Oberdorfer 1957
+57.0.3.3.3.4;Galio rotundifolii-Abietenion albae Oberdorfer 1962
+57.0.3.3.3.5;Deschampsio flexuosae-Acerenion pseudoplatani Müller in Oberdorfer 1992
+57.0.3.3.4;Acerion pseudoplatani (Oberdorfer 1957) Rameau in Rameau, Mansion & Dumé 1993 nom. nud.
+57.0.4;Populetalia albae Br.-Bl. ex Tchou 1948
+57.0.4.1;Populenalia albae (Br.-Bl. ex Tchou 1948) Rameau 1996 nom. nud.
+57.0.4.1.1;Populion albae Br.-Bl. ex Tchou 1948
+57.0.4.1.1.1;Populenion albae Rivas-Martínez 1975
+57.0.4.1.1.2;Fraxino angustifoliae-Ulmenion minoris Rivas-Martínez 1975
+57.0.4.1.2;Osmundo regalis-Alnion glutinosae (Br.-Bl., P. Silva & Rozeira 1956) Rivas-Martínez 1975
+57.0.4.1.2.1;Hyperico hircini-Alnenion glutinosae Dierschke 1975
+57.0.4.1.2.2;Osmundo regalis-Alnenion glutinosae ?
+57.0.4.2;Alno glutinosae-Ulmenalia minoris Rameau 1981
+57.0.4.2.1;Alnion incanae Paw?owski in Paw?owski, Soko?owski & Wallisch 1928
+57.0.4.2.1.1;Alnenion glutinoso-incanae Oberdorfer 1953
+57.0.4.2.1.2;Ulmenion minoris Oberdorfer 1953
+58;Rosmarinetea officinalis Rivas-Martínez, T.E. Diáz, F. Prieto, Loidi & Penas 1991
+58.0.1;Rosmarinetalia officinalis Br.-Bl. ex Molinier 1934
+58.0.1.0.1;Rosmarinion officinalis Br.-Bl. ex Molinier 1934
+58.0.1.0.2;Helianthemo italici-Aphyllanthion monspeliensis Díez Garretas, Fernández González & Asensi 1998
+58.0.2;Helichrysetalia italici Biondi & Géhu in Géhu & Biondi 1994
+58.0.2.0.1;Euphorbion pithuysae Biondi & Géhu in Géhu & Biondi 1994
+58.0.2.0.2;Dactylo hispanici-Helichrysion staechadis Géhu & Biondi 1994
+59;Ruppietea maritimae J. Tüxen 1960 nom. nud.
+59.0.1;Ruppietalia maritimae J. Tüxen 1960 nom. nud.
+59.0.1.0.1;Ruppion maritimae Br.-Bl. ex Westhoff 1943 nom. ined.
+59.0.1.0.2;Zannichellion pedicellatae Schaminée, B. Lanjouw & Schipper ex Pott 1992
+59.0.1.0.3;Eleocharition parvulae Segal 1968 nom. nud.
+6;Arrhenatheretea elatioris Br.-Bl. 1949 nom. nud.
+6.0.1;Arrhenatheretalia elatioris Tüxen 1931
+6.0.1.0.1;Arrhenatherion elatioris Koch 1926
+6.0.1.0.1.1;Centaureo jaceae-Arrhenatherenion elatioris de Foucault 1989
+6.0.1.0.1.2;Colchico autumnalis-Arrhenatherenion elatioris de Foucault 1989
+6.0.1.0.1.3;Rumici obtusifolii-Arrhenatherenion elatioris de Foucault 1989
+6.0.1.0.2;Brachypodio rupestris-Centaureion nemoralis Br.-Bl. 1967
+6.0.1.0.3;Triseto flavescentis-Polygonion bistortae Br.-Bl. & Tüxen ex Marschall 1947
+6.0.1.0.3.1;Violo sudeticae-Trisetenion flavescentis Julve 1993 nom. inval.
+6.0.1.0.3.2;Lathyro linifolii-Trisetenion flavescentis Dierschke 1981 nom. inval.
+6.0.1.0.3.3;Campanulo rhomboidalis-Trisetenion flavescentis Dierschke in Theurillat 1992
+6.0.2;Trifolio repentis-Phleetalia pratensis Passarge 1969
+6.0.2.0.1;Cynosurion cristati Tüxen 1947
+6.0.2.0.1.1;Bromo mollis-Cynosurenion cristati Passarge 1969
+6.0.2.0.1.2;Sanguisorbo minoris-Cynosurenion cristati Passarge 1969
+6.0.2.0.1.3;Polygalo vulgaris-Cynosurenion cristati Jurko 1974
+6.0.2.0.1.4;Cardamino pratensis-Cynosurenion cristati Passarge 1969
+6.0.2.0.1.5;Alchemillo xantochlorae-Cynosurenion cristati Passarge 1969
+6.0.2.0.2;Poion alpinae Gams ex Oberdorfer 1950
+6.0.3;Plantaginetalia majoris Tüxen ex von Rochow 1951
+6.0.3.0.1;Lolio perennis-Plantaginion majoris Sissingh 1969
+6.0.3.0.2;Trifolio fragiferi-Cynodontion dactylonis Br.-Bl. & O. Bolòs 1958
+6.0.3.0.3;Poion supinae Rivas-Martínez & Géhu 1978
+60;Saginetea maritimae Westhoff, van Leeuwen & Adriani 1962
+60.0.1;Saginetalia maritimae Westhoff, van Leeuwen & Adriani 1962
+60.0.1.0.1;Saginion maritimae Westhoff, van Leeuwen & Adriani 1962
+60.0.2;Frankenietalia pulverulentae Rivas-Martínez ex Castroviejo & Porta 1976
+60.0.2.0.1;Frankenion pulverulentae Rivas-Martínez ex Castroviejo & Porta 1976
+60.0.2.0.2;Hordeion marini Ladero, F. Navarro, C. Valle, B. Marcos, Ruiz & M.T. Santos 1984
+61;Salicetea herbaceae Br.-Bl. 1948
+61.0.1;Arabidetalia caeruleae Rübel ex Nordhagen 1936
+61.0.1.0.1;Arabidion caeruleae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+61.0.2;Salicetalia herbaceae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+61.0.2.0.1;Salicion herbaceae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+62;Salicetea purpureae Moor 1958
+62.0.1;Salicetalia purpureae Moor 1958
+62.0.1.0.1;Salicion triandrae Müller & Görs 1958
+62.0.1.0.2;Salicion incanae Aichinger 1933
+62.0.1.0.3;Salicion triandro-neotrichae Br.-Bl. & O. Bolòs 1958
+62.0.2;Salicetalia albae Müller & Görs 1958 nom. inval.
+62.0.2.0.1;Salicion albae Soó 1930
+62.0.2.0.2;Rubo caesii-Populion nigrae Passarge 1985
+63;Salicornietea fruticosae Br.-Bl. & Tüxen ex A. Bolòs & O. Bolòs in A. Bolòs 1950
+63.0.1;Salicornietalia fruticosae Br.-Bl. 1933
+63.0.1.0.1;Halimionion portulacoidis Géhu 1976
+63.0.1.0.2;Salicornion fruticosae Br.-Bl. 1933
+63.0.1.0.2.1;Sarcocornienion alpini Rivas-Martínez, Lousã, T.E. Diáz, Fern.-Gonz. & J.C. Costa 1990
+63.0.1.0.2.2;Arthrocnemenion fruticosi Rivas-Martínez in Rivas-Martínez, Costa, Castroviejo & E. Valdés 1980
+63.0.1.0.2.3;Arthrocnemenion glauci (Rivas-Martínez & Costa 1984) Géhu & Géhu-Franck 1984
+63.0.1.0.2.4;Suaedenion verae Rivas-Martínez, Lousã, T.E. Diáz, Fern.-Gonz. & J.C. Costa 1990
+63.0.2;Limonietalia Br.-Bl. & O. Bolòs 1958
+63.0.2.0.1;Limonion confusi (Br.-Bl. 1933) Rivas-Martínez & Costa 1984
+63.0.2.0.2;Limoniastrion monopetali Pignatti 1953
+64;Scheuchzerio palustris-Caricetea fuscae Tüxen 1937
+64.0.1;Scheuchzerietalia palustris Nordhagen 1936
+64.0.1.0.1;Rhynchosporion albae Koch 1926
+64.0.1.0.2;Caricion lasiocarpae Vanden Berghen in Lebrun, Noirfalise, Heinemann & Vanden Berghen 1949
+64.0.1.0.2.1;Junco acutiflori-Caricenion lasiocarpae (Julve 1993 nom. inval.) Royer stat. prov.
+64.0.1.0.2.2;Junco subnodulosi-Caricenion lasiocarpae (Julve 1993 nom. inval.) Royer stat. prov.
+64.0.1.0.2.3;Eriophorenion alpini Julve ex Royer 2004
+64.0.1.0.2.4;Caricenion chordorrhizo-lasiocarpae (Julve 1993 nom. inval.) Royer stat. prov.
+64.0.2;Caricetalia fuscae Koch 1926
+64.0.2.0.1;Caricion fuscae Koch 1926
+64.0.2.0.2;Eriophorion scheuchzeri Hada? 1939
+64.0.2.0.3;Bellidi bernardii-Bellion nivalis Gamisans 1977
+64.0.3;Caricetalia davallianae Br.-Bl. 1949
+64.0.3.0.1;Caricion davallianae Klika 1934
+64.0.3.0.1.1;Schoenenion nigricantis Giugni 1991
+64.0.3.0.1.2;Caricenion davallianae Giugni 1991
+64.0.3.0.2;Hydrocotylo vulgaris-Schoenion nigricantis de Foucault 2008
+64.0.3.0.2.1;Caricenion pulchello-trinervis (Julve 1993 nom. nud.) stat. prov.
+64.0.3.0.2.2;Hydrocotylo vulgaris-Schoenenion nigricantis Royer suball. prov.
+64.0.3.0.3;Caricion incurvae Br.-Bl. in Volk 1940
+65;Sedo albi-Scleranthetea biennis Br.-Bl. 1955
+65.0.1;Sedo albi-Scleranthetalia biennis Br.-Bl. 1955
+65.0.1.0.1;Sedo albi-Scleranthion biennis Br.-Bl. 1955
+65.0.1.0.2;Sedion pyrenaici Tüxen ex Rivas-Martínez, T.E. Diáz, F. Prieto, Loidi & Penas in T.E. Diáz & F. Prieto 1994
+65.0.1.0.3;Sedion anglici Br.-Bl. in Br.-Bl. & Tüxen 1952
+65.0.2;Alysso alyssoidis-Sedetalia albi Moravec 1967
+65.0.2.0.1;Alysso alyssoidis-Sedion albi Oberdorfer & Müller in Müller 1961
+65.0.2.0.2;Sedo albi-Veronicion dillenii Oberdorfer ex Korneck 1974
+65.0.2.0.3;Sedion micrantho-sediformis Rivas-Martínez, Sánchez-Gómez & Alcaraz in Sánchez-Gómez & Alcaraz 1993
+66;Sisymbrietea officinalis Gutte & Hilbig 1975
+66.0.1;Brometalia rubenti-tectorum Rivas-Martínez & Izco 1977
+66.0.1.0.1;Echio lycopsis-Galactition tomentosae O. Bolòs & Molinier 1969
+66.0.1.0.2;Taeniathero caput-medusae-Aegilopion geniculatae Rivas-Martínez & Izco 1977
+66.0.1.0.3;Laguro ovati-Bromion rigidi Géhu & Géhu-Franck ex Géhu 2004
+66.0.2;Sisymbrietalia officinalis J. Tüxen ex W. Matuszkiewicz 1962
+66.0.2.0.1;Sisymbrion officinalis Tüxen, Lohmeyer & Preising ex von Rochow 1951
+66.0.2.0.2;Malvion neglectae (Gutte 1966) Hejný 1978
+66.0.2.0.3;Hordeion murini Br.-Bl. in Br.-Bl., Gajewski, Wraber & Walas 1936
+66.0.2.0.4;Salsolion ruthenicae Philippi 1971
+66.0.3;Chenopodietalia muralis Br.-Bl. in Br.-Bl., Gajewski, Wraber & Walas 1936
+66.0.3.0.1;Chenopodion muralis Br.-Bl. in Br.-Bl., Gajewski, Wraber & Walas 1936
+66.0.3.0.2;Malvion parviflorae (Rivas-Martínez 1978) Brullo in Brullo & Marcenò 1985
+66.0.3.0.3;Mesembryanthenion crystallini Rivas-Martínez, Wildpret, del Arco, Rodriguez, Pérez de Paz, Garcia-Gallo, Acebes, T.E. Diáz & Fernández González 1993
+67;Spartinetea glabrae Tüxen in Beeftink 1962
+67.0.1;Spartinetalia glabrae Conard 1935
+67.0.1.0.1;Spartinion anglicae Géhu 2004
+68;Stellarietea mediae Tüxen, Lohmeyer & Preising ex von Rochow 1951
+68.0.1;Aperetalia spicae-venti J. Tüxen & Tüxen in Malato-Beliz, J. Tüxen & Tüxen 1960
+68.0.1.0.1;Scleranthion annui (Kruseman & J. Vlieger 1939) Sissingh in Westhoff, Dijk, Passchier & Sissingh 1946
+68.0.1.0.1.1;Arnoseridenion minimae (Malato-Beliz, J. Tüxen & Tüxen 1960) Oberdorfer 1983
+68.0.1.0.1.2;Scleranthenion annui Kruseman & J. Vlieger 1939
+68.0.1.0.2;Rumicion bucephalori Nezadal 1989
+68.0.2;Centaureetalia cyani Tüxen, Lohmeyer & Preising in Tüxen ex von Rochow 1951
+68.0.2.0.1;Caucalidion lappulae Tüxen 1950 nom. nud.
+68.0.2.0.2;Roemerion hybridae Br.-Bl. ex Rivas-Martínez, Fernández González & Loidi 1998
+68.0.3;Chenopodietalia albi Tüxen & Lohmeyer ex von Rochow 1951
+68.0.3.0.1;Diplotaxion erucoidis Br.-Bl. in Br.-Bl., Gajewski, Wraber & Walas 1936
+68.0.3.0.2;Panico crus-galli-Setarion viridis Sissingh in Westhoff, Dijk, Passchier & Sissingh 1946
+68.0.3.0.2.1;Panico crus-galli-Setarenion viridis (Sissingh in Westhoff, Dijk, Passchier & Sissingh 1946) Oberdorfer 1957
+68.0.3.0.2.2;Eu-Polygono persicariae-Chenopodenion polyspermi Oberdorfer 1957
+68.0.3.0.3;Veronico agrestis-Euphorbion peplus Sissingh ex Passarge 1964
+69;Stipo capensis-Trachynietea distachyae Brullo 1985
+69.0.1;Brachypodietalia distachyae Rivas-Martínez 1978
+69.0.1.0.1;Trachynion distachyae Rivas-Martínez ex Rivas-Martínez, Fern.-Gonz. & Loidi 1999
+7;Artemisietea vulgaris Lohmeyer, Preising & Tüxen ex von Rochow 1951
+7.0.1;Artemisietalia vulgaris Tüxen 1947 nom. nud.
+7.0.1.0.1;Arction lappae Tüxen 1937
+7.0.1.0.1.1;Arctienion lappae Rivas-Martínez, Báscones, T.E. Diáz, Fernández González & Loidi 1991
+7.0.1.0.1.2;Sambucenion ebuli O. Bolòs & Vigo in Rivas-Martínez, Báscones, T.E. Diáz, Fernández González & Loidi 1991
+7.0.1.0.2;Rumicion pseudalpini Rübel ex Scharfetter 1938 corr. Loidi & Biurrun 1996
+7.0.2;Onopordetalia acanthii Br.-Bl. & Tüxen ex Klika in Klika & Hada? 1944
+7.0.2.0.1;Onopordion acanthii Br.-Bl. in Br.-Bl., Gajewski, Wraber & Walas 1936
+7.0.2.0.2;Dauco carotae-Melilotion albi Görs 1966
+7.0.3;Carthametalia lanati Brullo in Brullo & Marcenò 1985
+7.0.3.0.1;Onopordion nervosi Br.-Bl. & O. Bolòs 1958 corr. Rivas-Martínez 1975
+7.0.3.0.2;Silybo mariani-Urticion piluliferae Sissingh ex Br.-Bl. & O. Bolòs 1958
+70;Thero-Suaedetea splendentis Rivas-Martínez 1972
+70.0.1;Thero-Salicornietalia dolichostachyae Tüxen ex Boullet & Géhu 2004
+70.0.1.0.1;Salicornion dolichostachyo-fragilis Géhu & Rivas-Martínez ex Géhu 2004
+70.0.1.0.2;Salicornion europaeo-ramosissimae Géhu & Géhu-Franck ex Rivas-Martínez 1990
+70.0.1.0.3;Salicornion patulae Géhu & Géhu-Franck ex Rivas-Martínez 1990
+70.0.2;Thero-Suaedetalia splendentis Br.-Bl. & O. Bolòs 1958
+70.0.2.0.1;Thero-Suaedion splendentis Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+71;Thlaspietea rotundifolii Br.-Bl. 1948
+71.0.1;Andryaletalia ragusinae Rivas Goday in Rivas Goday & Esteve 1972
+71.0.1.0.1;Pimpinello tragium-Gouffeion arenarioidis Br.-Bl. in Br.-Bl., Roussine & Nègre 1952
+71.0.2;Stipetalia calamagrostis Oberdorfer & Seibert in Oberdorfer 1977
+71.0.2.0.1;Leontodontion hyoseroidis Duvigneaud, Durin & Mullend. 1970
+71.0.2.0.2;Stipion calamagrostis Jenny ex Quantin 1932
+71.0.2.0.3;Scrophularion juratensis Béguin ex Richard 1971
+71.0.3;Thlaspietalia rotundifolii Br.-Bl. in Br.-Bl. & H. Jenny 1926
+71.0.3.0.1;Arabidion alpinae Béguin 1972
+71.0.3.0.2;Thlaspion rotundifolii Jenny 1930
+71.0.3.0.3;Petasition paradoxi B. Zollitsch ex Lippert 1966
+71.0.3.0.4;Iberidion spathulatae Br.-Bl. 1948
+71.0.4;Drabetalia hoppeanae B. Zollitsch ex Merxm. & B. Zollitsch 1967
+71.0.4.0.1;Androsacion ciliatae Rivas-Martínez 1988
+71.0.4.0.2;Drabion hoppeanae B. Zollitsch ex Merxm. & B. Zollitsch 1967
+71.0.5;Galeopsietalia segetum Oberdorfer & Seibert in Oberdorfer 1977
+71.0.5.0.1;Galeopsion segetum Oberdorfer 1957
+71.0.5.0.2;Galeopsion pyrenaicae Rivas-Martínez 1977
+71.0.6;Androsacetalia alpinae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+71.0.6.0.1;Allosuro crispi-Athyrion alpestris Nordhagen 1936 nom. inval.
+71.0.6.0.2;Senecionion leucophylli Br.-Bl. 1948
+71.0.6.0.3;Androsacion alpinae Br.-Bl. in Br.-Bl. & H. Jenny 1926
+71.0.7;Polystichetalia lonchitidis Rivas-Martínez, T.E. Diáz, F. Prieto, Loidi & Penas 1984 nom. inval.
+71.0.7.0.1;Dryopteridion abbreviatae Rivas-Martínez 1977
+71.0.7.0.2;Dryopteridion submontanae Rivas-Martínez, T.E. Diáz, F. Prieto, Loidi & Penas 1984
+71.0.8;Epilobietalia fleischeri Moor 1958
+71.0.8.0.1;Epilobion fleischeri G. Braun-Blanquet ex Br.-Bl. 1949
+71.0.8.0.2;Glaucion flavi Br.-Bl. ex Tchou 1948
+72;Trifolio medii-Geranietea sanguinei Müller 1962
+72.0.1;Origanetalia vulgaris Müller 1962
+72.0.1.0.1;Geranion sanguinei Tüxen in Müller 1962
+72.0.1.0.2;Trifolion medii Müller 1962
+72.0.1.0.2.1;Trifolio medii-Geranienion sanguinei van Gils & Gilissen 1976
+72.0.1.0.2.2;Trifolio medii-Agrimonienion medii Knapp 1976 nom. nud.
+72.0.1.0.2.3;Trifolio medii-Teucrienion scorodoniae Knapp 1976
+72.0.1.0.3;Knaution gracilis Julve 1993 nom. inval.
+72.0.1.0.4;Galio littoralis-Geranion sanguinei Géhu & Géhu-Franck 1983
+73;Utricularietea intermedio-minoris Pietsch ex Krausch 1968
+73.0.1;Utricularietalia intermedio-minoris Pietsch ex Krausch 1968
+73.0.1.0.1;Sphagno cuspidati-Utricularion minoris Müller & Görs 1960
+73.0.1.0.2;Scorpidio scorpidioidis-Utricularion minoris Pietsch ex Krausch 1968
+74;Vaccinio myrtilli-Piceetea abietis Br.-Bl. in Br.-Bl., Sissingh & J. Vlieger 1939
+74.0.1;Pinetalia sylvestris Oberdorfer 1957
+74.0.1.0.1;Dicrano undulati-Pinion sylvestris (Libbert 1933) W. Matuszkiewicz 1962
+74.0.1.0.2;Deschampsio flexuosae-Pinion sylvestris Br.-Bl. 1961
+74.0.1.0.3;Cytision oromediterranei Tüxen in Tüxen & Oberdorfer 1958 corr. Rivas-Martínez 1987
+74.0.1.0.3.1;Cytiso oromediterranei-Pinenion sylvestris Rameau suball. prov.
+74.0.1.0.3.2;Cytisenion oromediterranei (Tüxen in Tüxen & Oberdorfer 1958) Rivas-Martínez 1964 corr. Rivas-Martínez 1987
+74.0.2;Sphagno-Betuletalia pubescentis Lohmeyer & Tüxen in Scamoni & Passarge 1959
+74.0.2.0.1;Betulion pubescentis Lohmeyer & Tüxen ex Scamoni & Passarge 1959
+74.0.3;Piceetalia excelsae Paw?owski in Paw?owski, Soko?owski & Wallisch 1928
+74.0.3.0.1;Piceion excelsae Paw?owski in Paw?owski, Soko?owski & Wallisch 1928
+74.0.3.0.1.1;Vaccinio vitis-idaeae-Abietenion albae Oberdorfer 1962
+74.0.3.0.1.2;Rhododendro ferruginei-Abietenion albae Rameau 1996 nom. inval.
+74.0.3.0.1.3;Eu-Vaccinio myrtilli-Piceenion abietis Oberdorfer 1957
+74.0.4;Junipero alpinae-Pinetalia mugo Bo?caiu 1971
+74.0.4.0.1;Pinion mugo Paw?owski in Paw?owski, Soko?owski & Wallisch 1928
+75;Violetea calaminariae Ernst 1965
+75.0.1;Violetalia calaminariae Br.-Bl. & Tüxen ex Westhoff, Dijk & Passchier 1946
+75.0.1.0.1;Violion calaminariae (Schwickerath 1933) Westhoff, Dijk & Passchier 1946
+75.0.1.0.2;Armerion halleri Ernst 1965
+76;Zosteretea marinae Pignatti 1954
+76.0.1;Zosteretalia marinae Béguinot ex Pignatti 1954
+76.0.1.0.1;Zosterion marinae Christiansen 1934
+8;Asplenietea trichomanis (Br.-Bl. in Meier & Br.-Bl. 1934) Oberdorfer 1977
+8.0.1;Asplenietalia glandulosi Br.-Bl. & Meier in Meier & Br.-Bl. 1934
+8.0.1.0.1;Asplenion glandulosi Br.-Bl. & Meier in Meier & Br.-Bl. 1934
+8.0.2;Cheilanthetalia maranto-maderensis Sáenz & Rivas-Martínez 1979
+8.0.2.0.1;Phagnalo saxatilis-Cheilanthion maderensis Loisel 1970 corr. Sáenz & Rivas-Martínez 1979
+8.0.3;Potentilletalia caulescentis Br.-Bl. in Br.-Bl. & H. Jenny 1926
+8.0.3.0.1;Saxifragion lingulatae (Rioux & Quézel 1949) Loisel 1951
+8.0.3.0.2;Arenarion bertolonii Gamisans 1991 nom. nud.
+8.0.3.0.3;Potentillion caulescentis Br.-Bl. in Br.-Bl. & H. Jenny 1926
+8.0.3.0.3.1;Kernero saxatilis-Potentillenion caulescentis Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995
+8.0.3.0.3.2;Potentillenion caulescentis Theurillat in Theurillat, Aeschimann, P. Küpfer & Spichiger 1995
+8.0.3.0.4;Violo biflorae-Cystopteridion alpinae F. Casas 1970
+8.0.3.0.5;Saxifragion mediae Br.-Bl. in Meier & Br.-Bl. 1934
+8.0.4;Androsacetalia vandellii Br.-Bl. in Meier & Br.-Bl. 1934 nom. corr.
+8.0.4.1;Asplenienalia lanceolato-obovati Loisel 1970
+8.0.4.1.1;Asplenion septentrionalis Oberdorfer 1938
+8.0.4.1.2;Cheilanthion hispanicae Rivas Goday in Rivas Goday, Borja, Monasterio, Galiano & Rivas-Martínez 1956
+8.0.4.1.3;Asplenio billotii-Dianthion godroniani Rameau 1996 nom. inval.
+8.0.4.1.4;Asplenio billotii-Umbilicion rupestris de Foucault 1988
+8.0.4.1.5;Antirrhinion asarinae (Br.-Bl. in Meier & Br.-Bl. 1934) Br.-Bl., Roussine & Nègre 1952
+8.0.4.1.6;Asplenion serpentini Br.-Bl. & Tüxen ex Eggler 1955
+8.0.4.2;Androsacenalia vandellii Loisel 1970
+8.0.4.2.1;Potentillion crassinerviae Gamisans 1968
+8.0.4.2.2;Saxifragion pedemontanae Barbero & Bono 1967
+8.0.4.2.3;Dianthion gratianopolitani Focquet 1982
+8.0.4.2.4;Androsacion vandellii Br.-Bl. in Br.-Bl. & H. Jenny 1926 nom. corr.
+9;Asteretea tripolii Westhoff & Beeftink in Beeftink 1962
+9.0.1;Glauco maritimae-Puccinellietalia maritimae Beeftink & Westhoff in Beeftink 1962
+9.0.1.0.1;Puccinellion maritimae Christiansen 1927 nom. corr.
+9.0.1.0.1.1;Puccinellienion maritimae Géhu in Géhu & Géhu-Franck 1984
+9.0.1.0.1.2;Puccinellio maritimae-Spergularienion salinae (Beeftink 1965) Géhu & Géhu-Franck 1984
+9.0.1.0.2;Armerion maritimae Br.-Bl. & de Leeuw 1936
+9.0.1.0.2.1;Festucenion littoralis (Corillion 1953) Géhu 1976
+9.0.1.0.2.2;Frankenio laevis-Armerienion maritimae Géhu & Géhu-Franck ex Géhu 1976
+9.0.1.0.2.3;Limonio vulgaris-Plantaginenion maritimae Géhu & Géhu-Franck nom. nud.
+9.0.1.0.3;Glauco maritimae-Juncion maritimi Géhu & Géhu-Franck ex Géhu 2004
+9.0.2;Crithmo maritimi-Armerietalia maritimae Géhu 1975
+9.0.2.0.1;Cochleario officinalis-Armerion maritimae Géhu in Géhu & Géhu-Franck 1984 nom. nud.
+9.0.2.0.2;Crithmo maritimi-Armerion maritimae Géhu 1973 nom. nud.
+9.0.2.0.3;Sileno maritimae-Festucion pruinosae Géhu 2004

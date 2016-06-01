@@ -15,7 +15,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    {
       /* CONNEXION BDD */
       include ('../../config/connection.php');
-      $bdd = connexionMySQL();
+      $bdd = connexionPgSQL();
       /* CONNEXION FAITE */
 
       function afficherPage($bdd)
@@ -49,7 +49,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          }
          $premiereEntree=($pageActuelle-1)*$_SESSION['messagesParPage']; // On calcul la première entrée à lire
          // La requête sql pour récupérer les messages de la page actuelle.
-         $reponse = $bdd->query("SELECT * FROM request WHERE requester = '" . $_SESSION['pseudo'] . "' ORDER BY id_request DESC LIMIT ".$premiereEntree.",".$_SESSION['messagesParPage']);
+         $reponse = $bdd->query("SELECT * FROM request WHERE requester = '" . $_SESSION['pseudo'] . "' ORDER BY id_request DESC LIMIT ".$_SESSION['messagesParPage']." OFFSET ".$premiereEntree);
          ?>
          <center>
             <table class="table table-striped sortable" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">

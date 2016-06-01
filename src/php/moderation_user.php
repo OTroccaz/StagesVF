@@ -15,7 +15,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    {
       /* CONNEXION BDD */
       include ('../../config/connection.php');
-      $bdd = connexionMySQL();
+      $bdd = connexionPgSQL();
       /* CONNEXION FAITE */
 
       function modifyUserRights($bdd, $newRight)

@@ -27,7 +27,7 @@ session_start();
             <ul class="nav navbar-nav">
                <li><a href="src/php/sign_in.php">Identification</a></li>
                <li><a href="src/php/import.php">Importation</a></li>
-               <li><a href="src/php/management.php">Exportation</a></li>
+               <li><a href="src/php/management.php">Gestion</a></li>
                <li><a href="src/php/exit_mapVF.php">Consultation</a></li>
                <?php
                if(isset($_SESSION['pseudo']))
@@ -37,19 +37,31 @@ session_start();
                }
                if(isset($_SESSION['status']))
                {
-                  if($_SESSION['status']=="Administrateur" || $_SESSION['status']=="Gestionnaire")
-                  {
-                     ?>
-                     <li><a href="src/php/authorizations_management.php">Autorisations</a></li>
-                     <?php
-                  }
-                  if($_SESSION['status']=="Administrateur")
-                  { ?>
-                     <li><a href="src/php/moderation.php">Modération</a></li>
-                     <?php
-                  } else if($_SESSION['status']!="Gestionnaire")
+                  if($_SESSION['status']!="Administrateur" && $_SESSION['status']!="Gestionnaire")
                   {?>
                      <li><a href="src/php/requests.php">Mes demandes d'exportation</a></li>
+                     <?php
+                  }
+               }
+               if(isset($_SESSION['status']))
+               {
+                  if($_SESSION['status']!="Administrateur" || $_SESSION['status']!="Gestionnaire")
+                  {
+                     ?>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Privilèges<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                           <?php
+                           if($_SESSION['status']=="Administrateur")
+                           {
+                              ?>
+                              <li><a href="src/php/moderation.php">Modération</a></li>
+                              <li><a href="src/php/update_list.php">Modification listes</a></li>
+                              <?php
+                           } ?>
+                           <li><a href="src/php/authorizations_management.php">Autorisations</a></li>
+                        </ul>
+                     </li>
                      <?php
                   }
                }

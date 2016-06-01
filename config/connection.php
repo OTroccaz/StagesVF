@@ -6,7 +6,7 @@ function connexionMySQL()
    try
    {
    	// On se connecte à MySQL
-   	$bdd = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASSWORD);
+   	$bdd = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER_MYSQL, DB_PASSWORD_MYSQL);
    	$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       return $bdd;
    }
@@ -22,7 +22,7 @@ function connexionPgSQL()
    try
    {
    	// On se connecte à PgSQL
-   	$bdd = new PDO('pgsql:host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER, DB_PASSWORD);
+   	$bdd = new PDO('pgsql:host='.DB_HOST.';dbname='.DB_NAME, DB_USER_PGSQL, DB_PASSWORD_PGSQL);
    	$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       return $bdd;
    }

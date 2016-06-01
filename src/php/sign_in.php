@@ -1,7 +1,7 @@
 <?php
 /* CONNEXION BDD */
 include ('../../config/connection.php');
-$bdd = connexionMySQL();
+$bdd = connexionPgSQL();
 /* CONNEXION FAITE */
 
 session_start();
@@ -36,9 +36,9 @@ if(!isset($_SESSION['pseudo']))
          $_SESSION['pseudo'] = $pseudo;
 
          // On va chercher le status correspondant au pseudo
-         $reponse = $bdd->query("SELECT status FROM status WHERE id = (SELECT id_status FROM users WHERE pseudo='".$pseudo."')");
+         $reponse = $bdd->query("SELECT name_status FROM status WHERE id_status = (SELECT id_status FROM users WHERE pseudo='".$pseudo."')");
          $donnees = $reponse->fetch();
-         $_SESSION['status'] = $donnees['status'];
+         $_SESSION['status'] = $donnees['name_status'];
 
          include('../html/blank_page.htm');
 

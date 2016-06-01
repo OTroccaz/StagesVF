@@ -2,7 +2,7 @@
 
 /* CONNEXION BDD */
 include ('../../config/connection.php');
-$bdd = connexionMySQL();
+$bdd = connexionPgSQL();
 /* CONNEXION FAITE */
 session_start();
 
@@ -20,7 +20,7 @@ else // On est dans le cas traitement
 
    // On récupère les variables
    $i = 0;
-   $temps = date("Y-m-d H:i:s");
+   $temps = date("Y-m-d");
    $firstname = htmlspecialchars($_POST['firstname']);
    $lastname = htmlspecialchars($_POST['lastname']);
    $pseudo = htmlspecialchars($_POST['pseudo']);
@@ -87,7 +87,7 @@ else // On est dans le cas traitement
       <p>Cliquez <a href="sign_in.php">ici</a> pour revenir à la page de connexion</p></div>
 
       <?php
-      $requete=$bdd->prepare("INSERT INTO users(firstname, lastname, pseudo, password, email, domain, sign_up, last_visit, id_status) VALUES(?,?,?,?,?,?,?,?)");
+      $requete=$bdd->prepare("INSERT INTO users(firstname, lastname, pseudo, password, email, domaine, sign_up, last_visit, id_status) VALUES(?,?,?,?,?,?,?,?,?)");
       $requete->execute(array(
          $firstname,
          $lastname,
@@ -97,7 +97,7 @@ else // On est dans le cas traitement
          $domain,
          $temps,
          $temps,
-         2
+         1
       ));
       $requete->CloseCursor();
 

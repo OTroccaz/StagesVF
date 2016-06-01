@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Exportation</title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="icon" href="../../favicon.ico">
+   <link href="../../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.php">Accueil</a>
+         </div>
+         <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+               <li><a href="../php/sign_in.php">Identification</a></li>
+               <li><a href="../php/import.php">Importation</a></li>
+               <li class="active"><a href="../php/export.php">Exportation</a></li>
+               <li><a href="../php/management.php">Gestion</a></li>
+               <li><a href="../php/exit_mapVF.php">Consultation</a></li>
+               <?php
+               if(isset($_SESSION['pseudo']))
+               { ?>
+                  <li><a href="../php/myaccount.php">Mon compte</a></li>
+                  <?php
+               }
+               if(isset($_SESSION['status']))
+               {
+                  if($_SESSION['status']!="Administrateur" && $_SESSION['status']!="Gestionnaire")
+                  {?>
+                     <li><a href="../php/requests.php">Mes demandes d'exportation</a></li>
+                     <?php
+                  }
+               }
+               if(isset($_SESSION['status']))
+               {
+                  if($_SESSION['status']!="Utilisateur" && $_SESSION['status']!="Fournisseur")
+                  {
+                     ?>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Privilèges<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                           <?php
+                           if($_SESSION['status']=="Administrateur")
+                           {
+                              ?>
+                              <li><a href="../php/moderation.php">Modération</a></li>
+                              <li><a href="../php/update_list.php">Modification listes</a></li>
+                              <?php
+                           } ?>
+                           <li><a href="../php/authorizations_management.php">Autorisations</a></li>
+                        </ul>
+                     </li>
+                     <?php
+                  }
+               }
+               ?>
+            </ul>
+            <?php
+            if (isset($_SESSION['status']))
+            {?>
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="../php/disconnect.php"><span class="glyphicon glyphicon-off"></span> Se déconnecter</a></li>
+               </ul>
+               <?php
+            }?>
+         </div><!--/.nav-collapse -->
+      </div>
+   </div>
+   <div>
+      <center>
+         <div style="margin:auto; width:600px">
+            <h2>Exportation de fichier</h2>
+         </div>
+      </div>
+   </center>
+</div>
+</body>
+</html>
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../js/bootstrap-filestyle.min.js" charset="utf-8"></script>
+<script>
+$('input[type=file][name="fichier_importe"]').change(function(){
+   var hasNoFiles = this.files.length == 0;
+   $(this).closest('form') /* Select the form element */
+   .find('input[type=submit]') /* Get the submit button */
+   .prop('disabled', hasNoFiles); /* Disable the button. */
+});
+</script>

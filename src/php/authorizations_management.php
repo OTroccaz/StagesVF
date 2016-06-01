@@ -15,7 +15,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    {
       /* CONNEXION BDD */
       include ('../../config/connection.php');
-      $bdd = connexionMySQL();
+      $bdd = connexionPgSQL();
       /* CONNEXION FAITE */
 
       function afficherPage($bdd)
@@ -29,7 +29,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
             $_SESSION['messagesParPage'] = htmlspecialchars($_POST['select_nb_elem']);
          }
          include ('../html/authorizations_management.htm');
-         $retour_total = $bdd->query('SELECT COUNT(*) AS total FROM request WHERE allowed = FALSE'); //Nous récupérons le contenu de la requête dans $retour_total
+         $retour_total = $bdd->query("SELECT COUNT(*) AS total FROM request WHERE allowed = 'oui'"); //Nous récupérons le contenu de la requête dans $retour_total
          $donnees_total = $retour_total->fetch(); //On range retour sous la forme d'un tableau.
          $total = $donnees_total['total']; //On récupère le total pour le placer dans la variable $total.
          //Nous allons maintenant compter le nombre de pages.
@@ -48,7 +48,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          }
          $premiereEntree=($pageActuelle-1)*$_SESSION['messagesParPage']; // On calcul la première entrée à lire
          // La requête sql pour récupérer les messages de la page actuelle.
-         $reponse = $bdd->query("SELECT * FROM request WHERE allowed = 'attente' ORDER BY requester LIMIT ".$premiereEntree.",".$_SESSION['messagesParPage']);
+         $reponse = $bdd->query("SELECT * FROM request WHERE allowed = 'attente' ORDER BY requester LIMIT ".$_SESSION['messagesParPage']." OFFSET ".$premiereEntree);
          ?>
          <table class="table table-striped sortable" style="margin:auto; width:600px;table-layout:fixed; word-wrap:break-word;">
             <thead>

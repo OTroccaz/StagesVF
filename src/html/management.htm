@@ -25,6 +25,7 @@
             <ul class="nav navbar-nav">
                <li><a href="../php/sign_in.php">Identification</a></li>
                <li><a href="../php/import.php">Importation</a></li>
+               <li><a href="../php/export.php">Exportation</a></li>
                <li class="active"><a href="../php/management.php">Gestion</a></li>
                <li><a href="../php/exit_mapVF.php">Consultation</a></li>
                <?php
@@ -35,19 +36,31 @@
                }
                if(isset($_SESSION['status']))
                {
-                  if($_SESSION['status']=="Administrateur" || $_SESSION['status']=="Gestionnaire")
-                  {
-                     ?>
-                     <li><a href="../php/authorizations_management.php">Autorisations</a></li>
-                     <?php
-                  }
-                  if($_SESSION['status']=="Administrateur")
-                  { ?>
-                     <li><a href="../php/moderation.php">Modération</a></li>
-                     <?php
-                  } else if($_SESSION['status']!="Gestionnaire")
+                  if($_SESSION['status']!="Administrateur" && $_SESSION['status']!="Gestionnaire")
                   {?>
                      <li><a href="../php/requests.php">Mes demandes d'exportation</a></li>
+                     <?php
+                  }
+               }
+               if(isset($_SESSION['status']))
+               {
+                  if($_SESSION['status']!="Utilisateur" && $_SESSION['status']!="Fournisseur")
+                  {
+                     ?>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Privilèges<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                           <?php
+                           if($_SESSION['status']=="Administrateur")
+                           {
+                              ?>
+                              <li><a href="../php/moderation.php">Modération</a></li>
+                              <li><a href="../php/update_list.php">Modification listes</a></li>
+                              <?php
+                           } ?>
+                           <li><a href="../php/authorizations_management.php">Autorisations</a></li>
+                        </ul>
+                     </li>
                      <?php
                   }
                }
@@ -67,7 +80,7 @@
    <div style="margin:0 auto; width:500px">
       <center>
          <div>
-            <h2>Exportation des fichiers</h2>
+            <h2>Gestion des fichiers</h2>
             <input type="text" id ="filter" class="search form-control" placeholder="Que cherchez-vous ?">
          </div>
          <form method="post" action="../php/management.php" class="form-horizontal">

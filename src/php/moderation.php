@@ -15,7 +15,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    {
       /* CONNEXION BDD */
       include ('../../config/connection.php');
-      $bdd = connexionMySQL();
+      $bdd = connexionPgSQL();
       /* CONNEXION FAITE */
 
       if(!isset($_SESSION['messagesParPage']))
@@ -49,17 +49,12 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       {
          $pageActuelle = 1; // La page actuelle est la n°1
       }
-
       $premiereEntree=($pageActuelle-1)*$_SESSION['messagesParPage']; // On calcul la première entrée à lire
-
-      // La requête sql pour récupérer les messages de la page actuelle.
-      $reponse = $bdd->query('SELECT * FROM files ORDER BY up_id DESC LIMIT '.$premiereEntree.', '.$_SESSION['messagesParPage'].'');
-
       // On récupère tous les utilisateurs et on les liste avec leur statut hiérarchique
-      $sql = "SELECT users.pseudo pseudo, users.id_user id_user, users.sign_up sign_up, users.id_status id_status, status.status status";
-      $sql .= " FROM status INNER JOIN users AS users ON users.id_status = status.id";
+      $sql = "SELECT users.pseudo pseudo, users.id_user id_user, users.sign_up sign_up, users.id_status id_status, status.name_status status";
+      $sql .= " FROM status INNER JOIN users AS users ON users.id_status = status.id_status";
       $sql .= " WHERE pseudo != '" . $_SESSION['pseudo'] . "'"; // on exclue l'admin, qui ne va pas s'ôter des droits quand même !
-      $sql .= " ORDER BY id_user DESC LIMIT ".$premiereEntree.",".$_SESSION['messagesParPage']."";
+      $sql .= " ORDER BY id_user DESC LIMIT ".$_SESSION['messagesParPage']." OFFSET ".$premiereEntree."";
       $reponse = $bdd->query($sql);
 
       ?>

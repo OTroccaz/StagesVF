@@ -1,7 +1,7 @@
 <?php
 /* CONNEXION BDD */
 include ('../../config/connection.php');
-$bdd = connexionMySQL();
+$bdd = connexionPgSQL();
 /* CONNEXION FAITE */
 session_start();
 

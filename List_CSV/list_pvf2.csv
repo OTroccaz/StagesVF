@@ -1,0 +1,546 @@
+Code PVF2;Syntaxon
+F14-21;Alliario petiolatae – Cynoglossetum germanici Géhu et al. ex T. Müll. in Oberd. 1983
+F14-22;Moehringio trinerviae – Geranietum lucidi Romo 1989
+F14-20;Moehringio trinerviae – Geranietum robertiani Gillet 1986
+F14-19;Moehringio trinerviae – Stellarietum mediae Gallandat et al. 1995
+F03-01;Plantagini timbalii – Oenanthetum globulosae Paradis, Lorenzoni-Pietri, Pozzo di Borgo & Sorba ex de Foucault & Paradis in de Foucault & Catteau 2012
+F03-02;Ranunculo ophioglossifolii – Artemisietum molinieri de Foucault & Loisel 2012
+F03-03;Eleocharito palustris – Preslietum cervinae Braun-Blanq. ex Moor 1937
+F03-04;Inulo britannicae – Menthetum cervinae de Foucault & Loisel 2012
+F03-05;Loto preslii – Oenanthetum fistulosae (Donker & Stevelink 1962) de Foucault 2012
+F03-06;Helosciadio crassipedis – Ranunculetum ophioglossifolii (Paradis et al. 2008) de Foucault & Paradis 2012
+F03-07;Ranunculo ophioglossifolii – Oenanthetum fistulosae de Foucault 2008
+F03-08;Hydrocotylo vulgaris – Caricetum divisae Vanden Berghen 1965
+F03-09;Junco gerardi – Oenanthetum fistulosae de Foucault 2012
+F03-10;Gratiolo officinalis – Oenanthetum fistulosae de Foucault in Royer et al. 2006
+F03-11;Eleocharito palustris – Oenanthetum fistulosae de Foucault 2008
+F03-12;Hydrocotylo vulgaris – Eleocharitetum palustris Julve 1989
+F03-13;Oenantho fistulosae – Caricetum vulpinae Trivaudey 1989
+F03-14;Oenantho lachenalii – Eleocharitetum uniglumis Didier et al. in Royer et al. 2006
+F03-15;Ranunculo repentis – Alopecuretum geniculati Tüxen 1937
+F03-16;Cnidio dubii – Violetum pumilae Korneck ex Bal.-Tul. 1969
+F03-17;Glycerio fluitantis – Menthetum arvensis de Foucault 1986
+F03-18;Teucrio scordii – Menthetum arvensis J. Duvign. 1986
+F03-19;Trifolio maritimi – Oenanthetum silaifoliae Dupont ex de Foucault 2008
+F03-20;Carici divisae – Lolietum perennis de Foucault 2008
+F03-21;Lino biennis – Festucetum arundinaceae Dubuis & Simonneau ex de Foucault 2012
+F03-22;Dorycnio gracilis – Festucetum arundinaceae (Molin. & Devaux 1978) de Foucault 2012
+F03-23;Junco maritimi – Iridetum spuriae Molin. & Tallon 1969
+F03-24;Cerastio dubii – Juncetum gerardi J. Duvign. 1967
+F03-25;Agropyro repentis – Juncetum gerardi J. Duvign. 1967
+F03-26;Festuco arundinaceae – Caricetum distantis J. Duvign. 1967
+F03-27;Agrostio stoloniferae – Caricetum vikingensis Géhu 1982
+F03-28;Samolo valerandi – Caricetum vikingensis Géhu 1982
+F03-29;Potentillo anserinae – Festucetum arundinaceae Nordh. 1940 
+F03-30;Soncho arvensis – Rumicetum rupestris (Géhu & Géhu-Franck 1969) Bioret & Géhu 2002
+F03-31;Apio graveolentis – Rumicetum rupestris (Géhu & Géhu-Franck 1969) Bioret & Géhu 2002
+F03-32;Trifolietum fragifero – repentis Julve 1989
+F03-33;Potentillo reptantis – Elymetum repentis Julve 1989
+F03-34;Rhinantho grandiflori – Holcetum lanati Julve 1989
+F03-35;Taraxaco bessarabici – Caricetum distantis (Soó 1930) Wendelberger 1943
+F03-36;Cirsio monspessulani – Menthetum longifoliae O. Bolòs & Vives in O. Bolòs 1956
+F03-37;Potentillo reptantis – Menthetum suaveolentis Oberd. (1952) 1957 corr. 1983
+F03-38;Cichorio intybi – Festucetum arundinaceae Billy 2000
+F03-39;Ophioglosso vulgati – Oenanthetum pimpinelloidis Hofstra 1995
+F03-40;Oenantho peucedanifoliae – Brometum racemosi de Foucault 1981
+F03-41;Senecioni aquatici – Oenanthetum mediae Bournérias & Géhu in Bournérias et al. 1978
+F03-42;Trifolio patentis – Brometum racemosi de Foucault 2008
+F03-43;Junco acutiflori – Brometum racemosi de Foucault 1994
+F03-44;Deschampsio cespitosae – Oenanthetum peucedanifoliae de Foucault 1986
+F03-45;Colchico autumnalis – Brometum racemosi (J. Duvign. 1958) Sougnez in Sougnez & Limbourg 1963
+F03-46;Senecioni aquatici – Brometum racemosi Tüxen & Preising ex Lenski 1953
+F03-47;Achilleo ptarmicae – Brometum racemosi Oberd. 1957
+F03-48;Oenantho peucedanifoliae – Ranunculetum repentis Longchamp in Royer et al. 2006
+F03-49;Hordeo secalini – Lolietum perennis (Allorge 1922) de Foucault in Royer et al. 2006
+F03-50;Silao silai – Festucetum pratensis Misset in Royer et al. 2006
+F03-51;Euphorbio esulae – Elytrigietum repentis Didier & Royer in Royer et al. 2006
+F03-52;Trollio europaei – Cirsietum salisburgensis (Kuhn 1937) Oberd. 1957
+F03-53;Pulicario dysentericae – Juncetum inflexi de Foucault in Royer et al. 2006
+F03-54;Mentho suaveolentis – Festucetum arundinaceae Allorge ex de Foucault 2008
+F03-55;Carici flaccae – Juncetum inflexi Misset in Royer et al. 200
+F03-56;Mentho longifoliae – Juncetum inflexi Lohmeyer ex Oberd. 1957
+F03-57;Achilleo ptarmicae – Juncetum inflexi Mayot 1977
+F03-58;Gaudinio fragilis – Agrostietum stoloniferae de Foucault, Frileux & Delpech 2012
+F03-59;Hordeo secalini – Festucetum arundinaceae Billy 2000
+F03-60;Rumici crispi – Juncetum inflexi Billy 2000
+F03-61;Carici distantis – Potentilletum reptantis Gamisans 1976
+F03-62;Cirsio palustris – Juncetum effusi Gallandat 1982
+F03-63;Junco acutiflori – Cynosuretum cristati Sougnez 1957
+F03-64;Cirsio arvensis – Alopecuretum pratensis Catteau 2012
+F03-65;Loto pedunculati – Cynosuretum cristati (Tüxen 1937) de Foucault & Julve 2012
+F03-66;Plantagini majoris – Menthetum pulegii de Foucault in Royer et al. 2006
+F03-67;Potentillo anserinae – Alopecuretum geniculati Tüxen 1947
+F03-68;Rorippo sylvestris – Agrostietum stoloniferae Oberd. & Th. Müll. in Th. Müll. 1961
+F03-69;Ranunculo ophioglossifolii – Menthetum pulegii de Foucault 2008
+F03-70;Nasturtio microphylli – Alopecuretum geniculati Sýkora 1982
+F03-71;Triglochino palustris – Agrostietum stoloniferae Konczac 1968
+F03-72;Junco compressi – Blysmetum compressi Tüxen ex Oberd. 1957
+F03-73;Caricetum hirto – distichae Didier & Royer in Royer et al. 2006
+F03-74;Poo trivialis – Rumicetum obtusifolii Hülbusch 1969
+F03-75;Carici flaccae – Agrostietum albae Béguin 1970
+F03-76;Prunello vulgaris – Potentilletum reptantis Eliás 1978
+F03-77;Lolio perennis – Potentilletum anserinae Oberd. 1957
+F03-78;Prunello vulgaris – Ranunculetum repentis Winterhoff 1962
+F03-79;Plantagini majoris – Trifolietum resupinati de Foucault 2008
+F03-80;Cirsio monspessulani – Holoschoenetum vulgaris Braun-Blanq. ex Tchou 1948
+F03-81;Fuirenetum pubescentis Paradis 2009
+F03-82;Agrostio maritimae – Achilleetum agerati Braun-Blanq. in Braun-Blanq. et al. 1952
+F03-83;Prunello hyssopifoliae – Deschampsietum mediae Braun-Blanq. 1924
+F03-84;Hieracio pilosellae – Deschampsietum mediae Loisel et al. 1990
+F03-85;Hyperico tomentosi – Deschampsietum mediae (Molin. & Tallon 1950) Loisel et al. 1990
+F03-86;Junco compressi – Trifolietum fragiferi Braun-Blanq. et al. 1952
+F03-87;Trifolio fragiferi – Cynodontetum dactyli Braun-Blanq. & O. Bolòs 1958
+F03-88;Teucrio scordioidis – Agrostietum stoloniferae de Foucault & Provost 2012
+F03-89;Trifolietum nigrescenti – resupinati Molin. & Tallon 1968
+F03-90;Paspalo distichi – Agrostietum semiverticillatae Braun-Blanq. 1936
+F10-01;Lonicero alpigenae – Rhamnetum alpinae (Richard & Béguin 1971) de Foucault 2012
+F10-02;Sorbo mougeotii – Laburnetum alpini Géhu & Géhu-Franck 1985
+F10-03;Salici appendiculatae – Rhamnetum alpinae (Richard & Béguin 1971) de Foucault 2012
+F10-04;Aceri pseudoplatani – Salicetum appendiculatae (Braun-Blanq. 1950) Oberd. 1957 emend. 1978
+F10-05;Lonicero alpigenae – Sorbetum chamaemespili Géhu & Géhu-Franck 1985
+F10-06;Lonicero nigrae – Rosetum pendulinae Gallandat et al. ex de Foucault 1999
+F10-07;Cotoneastro integerrimi – Sorbetum chamaemespili Gallandat et al. 1995
+F10-08;Salici appendiculatae – Sorbetum glabratae Gallandat et al. 1995
+F10-09;Sorbo aucupariae – Loniceretum nigrae de Foucault 1987
+F10-10;Roso pendulinae – Sorbetum chamaemespili Billy 1997
+F10-11;Alnetum viridis Braun-Blanq. ex Beger 1922
+F10-12;Alnetum suaveolentis Litard. & Malcuit 1926
+F10-13;Ribeso petraei – Sorbetum aucupariae (Issler 1932) Boeuf & Simler in Boeuf 2012
+F10-14;Veratro albi – Salicetum balsaticae O. Bolòs 1984 corr Rivas-Mart. et al. 2002
+F10-15;Salicetum lapponum Zlatnik 1928
+F10-16;Salicetum caesio – foetidae Braun-Blanq. 1967 corr. Gutermann & Mucina in Karner & Mucina 1993
+F10-17;Salicetum helveticae Braun-Blanq., Pallmann & Bach 1954
+F10-18;Salicetum auritae x bicoloris (Issler 1925) Boeuf & Simler in Boeuf 1911
+F14-01;Fumario capreolatae – Torilidetum nodosae de Foucault 2009
+F14-02;Geranietum lucido – columbini de Foucault 1989 
+F14-03;Geranio columbini – Cardaminetum hirsutae Royer in Royer et al. 2006
+F14-04;Valerianello carinatae – Calepinetum irregularis de Foucault 2008
+F14-05;Geranio lucidi – Sedetum cepaeae Oberd. 1954
+F14-06;Geranio lucidi – Cardaminetum hirsutae de Foucault & Frileux 1983
+F14-07;Sedetum cepaeae Robbe in Royer et al.
+F14-08;Geranio purpurei – Anthriscetum caucalidis Bioret et al. 1993
+F14-09;Barbareetum vernae Robbe in Royer et al. 2006
+F14-10;Cardamino hirsutae – Arabidopsietum thalianae Géhu 1999
+F14-11;Drabo muralis – Myosotidetum pusillae de Foucault 2009
+F14-12;Claytonio perfoliatae – Anthriscetum caucalidis Izco et al. 1978
+F14-13;Anthrisco caucalidis – Cochlearietum danicae Bioret et al. 1993
+F14-14;Fumario boraei – Anthriscetum caucalidis Izco et al. 1978
+F14-15;Ranunculo parviflori – Geranietum mollis Provost ex de Foucault 2009
+F14-16;Cochleario danicae – Claytonietum perfoliatae Géhu 2008
+F14-17;Galio aparines – Fumarietum boraei Géhu 2006
+F14-18;Parietario judaicae – Fumarietum capreolatae Géhu 2006
+F18-01;Nitelletum flexilis Corill. 1957
+F18-02;Nitelletum capillaris Corill. 1957
+F18-03;Nitelletum gracilis Corill. 1957
+F18-04;Nitelletum hyalinae Corill. 1949
+F18-05;Charetum braunii Corill. 1957
+F18-06;Magnonitelletum translucentis Corill. 1957
+F18-07;Charetum fragiferae Corill. 1949
+F18-08;Nitelletum syncarpae Corill. 1957
+F18-09;Nitellopsio obtusae – Nitelletum mucronatae (Tomaszewicz 1979) Felzines & Lambert 2012
+F18-10;Nitelletum batrachospermae Corill. 1957
+F18-11;Nitelletum syncarpo – tenuissimae W. Krause 1969
+F18-12;Charo vulgaris – Tolypelletum intricatae W. Krause ex W. Krause & Lang in Oberd. 1977
+F18-13;Tolypelletum glomeratae Corill. 1957
+F18-14;Charetum vulgaris Corill. 1949
+F18-15;Nitelletum opacae Corill. 1957
+F18-16;Charetum imperfectae Cirujano 1995
+F18-17;Tolypelletum proliferae Guerlesquin 1961
+F18-18;Charetum curtae Heuff 2012
+F18-19;Charetum strigosae Dambska 1966
+F18-20;Charetum rudis Dambska 1966
+F18-21;Nitellopsietum obtusae Dambska 1961
+F18-22;Lychnothamnetum barbati Ionescu-Teculescu 1972
+F18-23;Charetum polyacanthae Dambska ex Gabka & Pelechaty 2003
+F18-24;Magnocharetum hispidae Corill. 1957
+F18-25;Charetum virgatae Doll 2012
+F18-26;Charetum intermediae Melzer ex W. Krause & Lang in Oberd. 1977
+F18-27;Magnocharetum tomentosae Corill. 1957
+F18-28;Charetum asperae Corill. 1957
+F18-29;Charetum contrariae Corill. 1957
+F18-30;Charetum fragilis Corill. 1949
+F18-31;Tolypelletum hispanicae Corill. 1957
+F18-32;Lamprothamnietum papulosi Corill. 1953
+F18-33;Charetum galioidis Corill. 1957
+F18-34;Charetum conniventis Ionescu-Teculescu 1972
+F18-35;Charetum canescentis Corill. 1957
+F18-36;Charetum balticae Korna? 1959
+F18-37;Tolypelletum nidificae Korna? 1959
+F19-01;Erico scopariae – Lavanduletum stoechadis Braun-Blanq. ex Braun-Blanq., Molin. & Wagner 1940
+F19-02;Calicotomo spinosae – Cistetum crispi Braun-Blanq. in Braun-Blanq., Molin. & Wagner 1940
+F19-03;Cistetum crispi Loisel 1971
+F19-04;Calicotomo spinosae – Cistetum ladaniferi Loisel 1971
+F19-05;Helichryso stoechadis – Cistetum albidi Loisel 1971
+F19-06;Stachydo glutinosae – Genistetum corsicae Gamisans & Muracciole 1984
+F19-07;Lavandulo stoechadis – Cistetum monspeliensis Braun-Blanq., Molin & Wagner ex Arrigoni, Di Tomaso, Camarda & Satta 1996
+F19-08;Cisto salviifolii – Halimietum halimifolii Géhu & Biondi 1994
+F19-09;Lavandulo stoechadis – Cistetum salviifolii Paradis et al. 2006
+F19-10;Helichryso angustifolii – Cistetum villosi Allier & Lacoste 1980
+F28-01;Pteridio aquilini – Oenanthetum crocatae de Foucault 2011
+F28-02;Junco acutiflori – Angelicetum sylvestris Botineau et al. 1985
+F28-03;Athyrio filicis–feminae – Phalaridetum arundinaceae Labadille 2000
+F28-04;Athyrio filicis–feminae – Scirpetum sylvatici de Foucault 1997
+F28-05;Achilleo ptarmicae – Filipenduletum ulmariae Passarge (1971) 1975
+F28-06;Junco effusi – Lotetum uliginosi Passarge 1988
+F28-07;Scrophulario auriculatae – Angelicetum sylvestris Robbe in Royer et al. 2006
+F28-08;Valeriano repentis – Cirsietum oleracei (Chouard 1926) de Foucault 2011
+F28-09;Euphorbio villosae – Filipenduletum ulmariae de Foucault 2008
+F28-10;Aconito napelli – Eupatorietum cannabini Royer et al. 1990
+F28-11;Symphyto officinalis – Scrophularietum auriculatae Julve 1994
+F28-12;Angelico sylvestris – Filipenduletum ulmariae Roulier 1998 nom. illeg.
+F28-13;Thalictro flavi – Althaeetum officinalis (Molin. & Tallon 1950) de Foucault in Royer et al. 2006
+F28-14;Valeriano officinalis – Filipenduletum ulmariae G. Sissingh ex Westhoff 1949
+F28-15;Veronico longifoliae – Euphorbietum palustris Korneck 1963
+F28-16;Equiseto sylvatici – Lotetum uliginosi Passarge 1988
+F28-17;Polygono bistortae – Scirpetum sylvatici Schwick. 1944 ex Oberd. 1957
+F28-18;Thalictro flavi – Filipenduletum ulmariae Tüxen & Hülbusch apud Richard 1975 nom. illeg.
+F28-19;Chaerophyllo hirsuti – Valerianetum pyrenaicae Vigo & Carreras in Carreras & Vigo 1984
+F28-20;Filipendulo ulmariae – Geranietum palustris Koch 1926
+F28-21;Ranunculo aconitifolii – Filipenduletum ulmariae Bal.-Tul. & Hübl 1979
+F28-22;Aconito napelli – Filipenduletum ulmariae Guin. ex Gallandat 1982
+F28-23;Aconito napelli – Chaerophylletum cicutariae Gallandat 1982
+F28-23b;Cirsio cretici– Dorycnietum recti (Brullo & Ronsisvalle 1975) Géhu & Biondi 1988
+F28-24;Senecioni doriae – Cirsietum monspessulani de Foucault 2011
+F28-25;Knautio integrifoliae – Oenanthetum crocatae de Foucault 2011
+F28-26;Eupatorio cannabini – Convolvuletum sepium Görs 1974
+F28-27;Eupatorietum cannabini Tüxen 1937
+F28-28;Calystegio sepium – Senecionetum paludosi Tüxen ex Passarge 1993 
+F28-29;Calystegio sepium – Phragmitetum australis Royer, Thévenin & Didier in Royer et al. 2006
+F28-30;Oenantho crocatae – Angelicetum archangelicae Frileux & Géhu ex Géhu in Géhu & Géhu-Franck 1984
+F28-31;Epilobio hirsuti – Equisetetum telmateiae de Foucault in Royer et al. 2006
+F28-32;Irido pseudacori – Oenanthetum crocatae Seytre 2011
+F28-33;Calystegio sepium – Asteretum lanceolati Holzner et al. ex Passarge 1993
+F28-34;Epilobio hirsuti – Convolvuletum sepium Hilbig et al. 1972
+F28-35;Symphyto officinalis – Cirsietum oleracei Géhu 2006
+F28-36;Urtico dioicae – Phalaridetum arundinaceae Schmidt 1981
+F28-37;Cuscuto europaeae – Brassicetum nigrae Volk ex Oberd. 1957
+F28-38;Picrido hieracioidis – Eupatorietum cannabini Loidi & Navarro 1988
+F28-39;Senecionetum fluviatilis Zahlheimer ex Th. Müll. in Oberd. 1983
+F28-40;Symphyto officinalis – Rubetum caesii Passarge 1982
+F28-41;Fallopio dumetorum – Cucubaletum bacciferi Passarge (1955) 1976
+F28-42;Cuscuto europaeae – Convolvuletum sepium Tüxen 1947 emend. Kopecký 1969
+F28-43;Phalarido arundinaceae – Petasitetum hybridi Schwick. 1933
+F28-44;Petasitetum hybridi Oberd. 1949 emend. Kopecký 1969
+F28-45;Urtico dioicae – Convolvuletum sepium Görs & Th. Müll. 1969
+F28-46;Impatienti glanduliferae – Solidaginetum serotinae Moor 1958
+F28-47;Convolvulo sepium – Angelicetum heterocarpae Géhu & Géhu-Franck 1978
+F28-48;Cochleario aestuariae – Oenanthetum crocatae Bioret et al. 1995
+F28-49;Senecioni aquatici – Oenanthetum crocatae Lazare & Bioret 2006
+F28-50;Althaeo officinalis – Calystegietum sepium Beeftink 1965
+F28-51;Althaeetum officinalis J. Duvign. 1967
+F28-52;Arundini donacis – Convolvuletum sepium O. Bolòs 1962
+F 34a-01;Isoëtetum setaceae Braun-Blanq. (1931) 1936
+F 34a-02;Eryngio barrelieri – Isoëtetum velatae (Pottier-Alapetite 1952) de Foucault 1988
+F 34a-03;Apietum crassipedis Paradis & Pozzo di Borgo 2005
+F 34a-04;Carici erythrostachyos – Helosciadietum crassipedis de Foucault, Paradis & Pozzo di Borgo 2013
+F 34a-05;Isoëtetum duriaei Braun-Blanq. (1931) 1936
+F 34a-06;Spirantho aestivalis – Anagallidetum tenellae G. Aubert & R.I. Loisel 1971
+F 34a-07;Serapiado linguae – Oenanthetum lachenalii Barbero 1967
+F 34a-08;Sedo rupestris – Isoëtetum duriei (Nozerau & Roux 1958) de Foucault 2013
+F 34a-09;Romuleo columnae – Isoëtetum histricis Bioret in de Foucault 2013
+F 34a-10;Chamaemelo nobilis – Isoëtetum histricis Bioret in de Foucault 2013
+F 34a-11;Ophioglosso azorici – Isoëtetum histricis de Foucault 1988
+F34b-01;Eleocharito ovatae – Caricetum bohemicae Klika 1935
+F34b-02;Peplido portulae – Eleocharitetum ovatae W. Pietsch 1973
+F34b-03;Cypero fusci – Limoselletum aquaticae Oberd. ex Korneck 1960
+F34b-04;Elatino alsinastri – Juncetum tenageiae Libbert ex W. Pietsch 1973
+F34b-05;Lythro portulae – Ludwigietum palustris Robbe ex J.-M. Royer, Felzines, Misset & Thévenin 2006
+F34b-06;Ludwigio palustris – Lindernietum procumbentis Felzines, Loiseau & Portal 2002
+F34b-07;Chenopodio rubri – Coleanthetum subtilis Le Bail, Lacroix, Magnanon & de Foucault 2013
+F34b-08;Cypero fusci – Ammannietum coccineae O. Bolòs & Masclans 1955
+F34b-09;Callitricho stagnalis – Polygonetum hydropiperis de Foucault 1989
+F34b-10;Plantagini intermediae – Crypsietum alopecuroidis J.-M. Royer ex Didier & J.-M. Royer 1999
+F34b-11;Ilysantho attenuatae – Cyperetum micheliani Corill. 1971
+F34b-12;Heleochloo schoenoidis – Fimbristylidetum bisumbellatae Braun-Blanq. ex Braun-Blanq. & Rivas Goday in Rivas Goday 1955 corr. Brullo & Minissale 1998
+F34b-13;Crypsio schoenoidis – Cyperetum micheliani Martinez Parras, Peinado Lorca, Bartolomé Esteban & Molero Mesa 1988
+F34b-14;Heliotropio supini – Heleochloetum schoenoidis Rivas Goday 1956
+F34b-15;Echinochloo cruris-galli – Crypsietum schoenoidis Paradis & Lorenzoni 1994
+F34b-16;Junco hybridi – Lythretum tribracteati Terrisse 1996
+F34b-17;Elatinetum macropodae Braun-Blanq. 1936
+F34b-18;Lythro portulae – Damasonietum alismatis de Foucault 1988
+F 34b-19;Myosuro minimi – Bulliardetum vaillantii Braun-Blanq. 1936
+F 34b-20;Bellido annuae – Lythretum borysthenici (Poirion & Barbero 1966) de Foucault 2013
+F 34b-21;Junco pygmaei – Lythretum borysthenici (Braun-Blanq. 1936) de Foucault 2013
+F34b-22;lsoëto velatae – Bulliardetum vaillantii Poirion & Barbero 1965
+F34b-23;Peplido erectae – Ranunculetum revelieri Barbero 1965
+F34b-24;Antinorio insularis – Lythretum borysthenici de Foucault, Paradis, Lorenzoni-Pietri, Pozzo di Borgo & Sorba 2013
+F 34b-25;Bellido annuae – Cicendietum filiformis de Foucault ex Paradis & Pozzo di Borgo 2005
+F 34b-26;Junco pygmaei – Ranunculetum revelieri Paradis & Pozzo di Borgo 2005
+F 34b-27;Solenopsio laurentiae – Lythretum borysthenici Paradis & Pozzo di Borgo 2005
+F34b-28;Agrostio pourretii – Juncetum capitati (Barbero 1965) de Foucault 2013
+F34b-29;Molineriello minutae – Juncetum fasciculati (Poirion & Barbero 1966) de Foucault 2013
+F34b-30;Laurentio michelii – Anthocerotetum dichotomi Braun-Blanq. 1936
+F34b-31;Lythro thymifolii – Juncetum capitati (Braun-Blanq. 1936) de Foucault 2013
+F34b-32;Cicendietum filiformis Allorge 1922
+F34b-33;Pseudognaphalio luteoalbi – Exaculetum pusilli J.-M. Royer in J.-M. Royer, Felzines, Misset & Thévenin 2006
+F34b-34;Centaurio maritimi – Juncetum capitati Bioret in de Foucault 2013
+F34b-35;Spergulario rubrae – Illecebretum verticillati G. Sissingh 1957
+F34b-36;Centunculo minimi – Anthocerotetum punctati W. Koch ex Moor 1936
+F34b-37;Ranunculo sardoi – Myosuretum minimi Diemont et al. ex Oesau 1973
+F34b-38;Ranunculo gracilis – Radioletum linoidis (Hueck 1932) Libbert 1940
+F34b-39;Centunculo minimi – Isolepidetum setaceae Braun-Blanq. & Tüxen 1952
+F34b-40;Junco capitati – Morisietum monanthi Gamisans 1976
+F34b-41;Cyperetum flavescentis W. Koch ex Aichinger 1933
+F34b-42;Stellario uliginosae – Scirpetum setacei W. Koch ex Libbert 1932
+F34b-43;Isolepido setaceae – Centaurietum chloodis Rivas Goday ex Brullo & Minissale 1998
+F34b-44;Blackstonio perfoliatae – Ranunculetum sardoi de Foucault 2013
+F34b-45;Gentiano uliginosae – Erythraeetum littoralis Braun-Blanq. & De Leeuw 1936
+F34b-46;Erythraeo pulchellae – Blackstonietum serotinae Oberd. 1957
+F34b-47;Euphorbio exiguae – Lythretum hyssopifoliae Misset in J.-M. Royer, Felzines, Misset & Thévenin, 2006
+F34b-48;Junco sphaerocarpi – Lythretum hyssopifoliae de Laclos & J.-M. Royer ex de Laclos & J.-M. Royer in J.-M. Royer, Felzines, Misset & Thévenin 2006
+F34b-49;Centaurio pulchelli – Filaginetum pyramidatae J.-M. Royer in L-M. Royer, Felzines, Misset & Thévenin 2006
+F37-01;Lemnetum minoris So? 1927
+F37-02;Spirodelo – Lemnetum minoris Müll. & Görs 1960
+F37-03;Lemno minusculae – Azolletum filiculoidis Felzines & Loiseau 1991
+F37-04;Lemnetum minori – turioniferae Wolff & Jentsch ex H. Passarge 1996
+F37-05;Wolffietum arrhizae Miyawaki & J. Tüxen 1960
+F37-06;Lemnetum gibbae Miyawaki & J. Tüxen 1960
+F37-07;Lemno minoris – Azolletum filiculoidis Braun-Blanq. in Braun-Blanq., Roussine & Nègre 1952
+F37-08;Lemnetum trisulcae Hartog 1963
+F37-09;Ricciocarpetum natantis Tüxen 1974
+F37-10;Riccietum fluitantis Slavni? 1956
+F37-11;Salvinio – Spirodeletum polyrhizae Slavni? 1956
+F37-12;Lemno trisulcae – Utricularietum vulgaris So? 1947
+F37-13;Utricularietum australis T. Müll. & Görs 1960
+F37-14;Spirodelo – Aldrovandetum vesiculosae Borhidi & Járai-Komlódi 1959
+F37-15;Stratiotetum aloidis Miljan 1933
+F37-16;Lemno minoris – Hydrocharitetum morsus–ranae Oberd. ex H. Passarge 1978
+F37-17;Potamo – Ceratophylletum submersi Pop 1962
+F37-18;Ceratophylletum demersi Corillion 1957
+F38-01;Isoeto lacustris – Lobelietum dortmannae Tüxen 1937 emend. Dierssen 1975
+F38-02;Scirpo americani – Lobelietum dortmannae Vanden Berghen 1964 emend. Dierssen 1975
+F38-03;Isoetetum boryanae (Vanden Berghen 1969) Dierssen 1975
+F38-04;Junco heterophylli – Pilularietum globuliferae J. Rodríguez et al. 1997
+F38-05;Littorello uniflorae – Isoetetum velatae Paradis & Pozzo di Borgo 2005
+F38-06;Eleocharito palustris – Littorelletum uniflorae (Gadeceau 1909) Chouard 1924
+F38-07;Eleocharitetum multicaulis Allorge ex Tüxen 1937
+F38-08;Hyperico elodis – Potametum oblongi Allorge ex Braun-Blanq. & Tüxen 1952
+F38-09;Potamo polygonifolii – Scirpetum fluitantis Allorge 1922
+F38-10;Scirpo americani – Hypericetum elodis Vanden Berghen 1969
+F38-11;Littorello uniflorae – Eleocharitetum acicularis Jouanne 1926
+F38-12;Apio inundati – Littorelletum uniflorae Fröde ex Passarge 1999
+F38-13;Pilularietum globuliferae Tüxen ex T. Müll. & Görs 1960
+F38-14;Ranunculo flammulae – Juncetum bulbosi Oberd. 1957
+F38-15;Samolo valerandi – Littorelletum uniflorae Westhoff 1947
+F38-16;Samolo valerandi – Baldellietum ranunculoidis (Müll.-Stoll & Götz 1962) Passarge 1999
+F38-17;Littorello uniflorae – Isoetetum tenuissimae Allorge & Gaume ex Géhu & de Foucault 1988
+F38-18;Eleocharitetum acicularis Koch ex Almquist 1929
+F38-19;Eleocharito acicularis – Alismatetum graminei Kallen ex Passarge 1999
+F38-20;Eleocharito acicularis – Marsileetum quadrifoliae Ubriszy ex Pietsch 1977
+F38-21;Deschampsietum rhenanae Oberd. ex Dierssen 1975
+F38-22;Isoeto lacustris – Sparganietum borderei Braun-Blanq. 1948 emend. Lazare & Riba 2010
+F38-23;Isoeto creussensis – Sparganietum angustifolii Lazare & Riba 2010
+F38-24;Isoetetum creussensis Lazare & Riba 2010
+F38-25;Isoetetum echinosporae Koch ex Dierssen 1975
+F38-26;Callitricho palustris – Sparganietum angustifolii Braun-Blanq. ex Oberd. 1957
+F38-27;Lythro portulae – Eleocharitetum acicularis Gamisans 1976
+F38-28;Ranunculo nodiflori – Juncetum bulbosi Gamisans 1976
+F44-01;Sorbo ambiguae – Calamagrostietum arundinaceae Oberd. (1936) 1957
+F44-02;Pediculari foliosae – Trollietum europaei  Carbiener 1966
+F44-03;Crepido blattarioidis – Laserpitietum latifolii Richard ex Fernez et al. 2007
+F44-04;Senecioni doronici – Calamagrostietum arundinaceae (Luquet 1926) Carbiener 1969
+F44-05;Senecioni cacaliastri – Calamagrostietum arundinaceae Schaminée et al. 1992
+F44-06;Heracleo sphondylii – Calamagrostietum arundinaceae Michalet & Philippe 1994
+F44-07;Luzulo sylvaticae – Calamagrostietum arundinaceae Michalet & Philippe 1994
+F44-08;Lilio pyrenaici – Molopospermetum peloponesiaci Rivas-Mart., Costa & P. Soriano in Rivas-Mart. et al. 2002
+F44-09;Aconito neapolitani – Imperatorietum ostruthii Braun-Blanq. 1948 corr. de Foucault & Corriol 2013
+F44-10;Knautio arvernensis – Imperatorietum ostruthii de Foucault & Gruber 2013
+F44-11;Scrophulario alpestris – Aruncetum dioici Nègre 1972 corr. Rivas-Mart. et al. 2002
+F44-12;Cirsio rufescentis – Aconitetum pyrenaici Villar & Benito 2003
+F44-13;Valeriano montanae – Aconitetum pyrenaici O. Bolòs & P. Monts. in O. Bolòs 1984
+F44-14;Ranunculo platanifolii – Adenostyletum pyrenaicae Rivas-Mart., Báscones, T.E. Díaz, F.-González & Loidi 1991
+F44-15;Myrrhido odoratae – Valerianetum pyrenaicae (Rivas-Mart., T.E. Díaz, F. Prieto, Loidi & Penas 1984) Carrillo & Ninot 1992
+F44-16;Doronico austriaci – Campanuletum latifoliae Quézel & Rioux 1954
+F44-17;Imperatorio ostruthii – Adenostyletum alliariae de Foucault & Corriol 2013
+F44-18;Adenostylo alliariae – Athyrietum distentifolii Thébaud et al. 1992 nom. illeg.
+F44-19;Arabido cebennensis – Adenostyletum alliariae Braun-Blanq. ex Delpech & de Foucault 1985
+F44-20;Epilobio trigoni – Adenostyletum alliariae Carbiener 1966
+F44-21;Polygonato verticillati – Adenostyletum alliariae de Foucault 1999
+F44-22;Ranunculo lanuginosi – Adenostyletum alliariae de Foucault & Corriol 2013
+F44-23;Cicerbito alpinae – Adenostyletum alliariae (Beger 1922) Braun-Blanq. 1950
+F44-24;Hugueninio tanacetifoliae – Adenostyletum alliariae Lacoste ex de Foucault & Lacoste 2013
+F44-25;Myrrhido odoratae – Adenostyletum alliariae Braun-Blanq. 1969
+F44-26;Polygono bistortae – Eryngietum alpini Géhu-Franck & Géhu 1984
+F44-27;Senecioni balbisiani – Peucedanetum ostruthii Quézel 1950
+F44-28;Peucedano ostruthii – Cirsietum spinosissimi G. & J. Braun-Blanq. 1931
+F44-29;Salici lapponum – Luzuletum desvauxii (Luquet 1926) de Foucault & Corriol 2013
+F44-30;Veratro albi – Luzuletum desvauxii Michalet & Philippe 1994
+F44-31;Pediculari foliosae – Geranietum sylvatici Michalet & Philippe 1994
+F44-32;Arunco dioici – Petasitetum albi Braun-Blanq. & Sutter 1977
+F44-33;Valeriano rotundifoliae – Adenostyletum briquetii Gamisans 1977
+F45-01;Carici piluliferae – Pseudarrhenatheretum longifolii (Allorge 1941) de Foucault 1986
+F45-02;Simethido planifoliae – Pseudarrhenatheretum longifolii de Foucault 1986
+F45-03;Agrostio curtisii – Avenuletum sulcatae de Foucault (1986) 1993
+F45-04;Agrostietum capillari – curtisii Wattez & Godeau ex de Foucault 1993
+F45-05;Carici binervis – Agrostietum curtisii de Foucault & Géhu ex de Foucault 2012
+F45-06;Gladiolo dubii – Agrostietum curtisii de Foucault 1993 corr. 2008
+F45-07;Potentillo erectae – Centaurietum scilloidis (Lemée 1938) de Foucault 1995
+F45-08;Galio hercynici – Festucetum tenuifoliae Rasch ex Stieperaere 1969
+F45-09;Hyperico maculati – Meetum athamantici (Schumacker 1975) de Foucault & Schumacker 2012
+F45-10;Jasiono laevis – Danthonietum decumbentis Loidi 1983
+F45-11;Polygalo vulgaris – Nardetum strictae Oberd. 1957
+F45-12;Galio saxatilis – Festucetum rubrae Oberd. 1957
+F45-13;Diantho sylvatici – Meetum athamantici (Luquet 1926) de Foucault 1986
+F45-14;Festuco rubrae – Genistetum sagittalis Issler 1927 emend. Oberd. 1957
+F45-15;Arnicetum montanae Schwick. 1944
+F45-16;Lathyro montani – Nardetum strictae Sougnez 1977
+F45-17;Omalotheco sylvaticae – Nardetum strictae Gillet in Ferrez et al. 2001
+F45-18;Polygalo vulgaris – Caricetum caryophylleae Misset 2002
+F45-19;Polygalo vulgaris – Alchemilletum xanthochlorae Misset 2005
+F45-20;Aveno pratensis – Genistelletum sagittalis (Kuhn 1937) Oberd. 1957
+F45-21;Thymo pulegioidis – Festucetum rubrae Oberd. & Görs in Görs 1968
+F45-22;Carici arenariae – Luzuletum campestris de Foucault 2008
+F45-23;Carici trinervis – Nardetum strictae de Foucault et al. 1978
+F45-24;Platanthero bifoliae – Serapiadetum linguae de Foucault et al. 1992
+F45-25;Orchido morionis – Serapiadetum linguae de Foucault 1986
+F45-26;Carici binervis – Nardetum strictae (Pethybridge & Praeger 1905) Braun-Blanq. & Tüxen 1952
+F45-27;Caro verticillati – Juncetum squarrosi de Foucault & Philippe in Royer et al. 2006
+F45-28;Nardo strictae – Juncetum squarrosi Büker ex P. Duvign. 1949
+F45-29;Polygalo vulgaris – Caricetum paniceae Misset 2002
+F45-30;Gentiano pneumonanthes – Nardetum strictae Preising 1950 nom. invers. Stieperaere 1990
+F45-31;Violo luteae – Nardetum strictae (Issler 1927) Oberd. 1957
+F45-32;Leontodonto helvetici – Nardetum strictae Bartsch & Bartsch 1940
+F45-33;Diantho sylvatici – Leontodontetum pyrenaici Billy 2000
+F45-34;Brizo mediae – Agrostietum capillaris Thébaud 2006
+F45-35;Trifolio alpini – Nardetum strictae Thébaud 2006
+F45-36;Luzulo multiflorae – Nardetum strictae Thébaud 2006
+F45-37;Campanulo rotundifoliae – Nardetum strictae Béguin in Theurillat & Béguin 1985
+F45-38;Daphno cneori – Nardetum strictae Ritter 1972
+F45-39;Dactylorhizo latifoliae – Nardetum strictae Ritter & de Foucault 2012
+F45-40;Festuco rubrae – Nardetum strictae Braun-Blanq. 1926
+F45-41;Potentillo aureae – Nardetum strictae Braun-Blanq. 1950 emend. Rivas-Mart. & Géhu 1978
+F45-42;Endressio pyrenaicae – Nardetum strictae Vigo 1972
+F45-43;Polygalo serpyllifoliae – Nardetum strictae Nègre 1969 nom. inv. prop.
+F45-44;Alchemillo flabellatae – Nardetum strictae Gruber 1975
+F45-45;Botrychio lunariae – Nardetum strictae Peeters & Vanden Berghen 1981
+F45-46;Trifolio thalii – Nardetum strictae Rivas-Mart. et al. 1991
+F45-47;Festuco microphyllae – Nardetum strictae Tüxen & Oberd. 1958
+F45-48;Selino pyrenaei – Nardetum strictae Braun-Blanq. 1948
+F45-49;Trifolio alpini – Selinetum pyrenaei Nègre 1969
+F45-50;Trifolio alpini – Phleetum gerardi  Braun-Blanq. 1948
+F45-51;Festuco scabriculmis – Potentilletum valderiae Guin. 1938 emend. Lacoste 1975
+F45-52;Leontodonto helvetici – Alchemilletum alpinae Lacoste 1975
+F45-53;Ranunculo pyrenaei – Alopecuretum gerardi Lippmaa ex Guin. 1938
+F45-54;Nigritello cornelianae – Nardetum strictae Barbero 1970
+F45-55;Phyteumato michelii – Poetum violaceae Barbero 1970
+F45-56;Anthoxantho odorati – Veronicetum allionii Lavagne et al. 1983
+F45-57;Trifolio alpini – Poetum violaceae Lavagne et al. 1983 nom. inval.
+F45-58;Avenetum parlatorei Lavagne et al. 1983
+F45-59;Lathyro lutei – Crepidetum blattarioidis Braun-Blanq. 1972
+F45-60;Centaureo uniflorae – Festucetum spadiceae Lippmaa 1933
+F45-61;Junipero nanae – Festucetum paniculatae Nègre 1950
+F45-62;Anemono alpinae – Meetum athamantici Lippmaa 1933
+F45-63;Campanulo ficarioidis – Festucetum eskiae Braun-Blanq. 1948 corr. Gruber 1975
+F45-64;Hieracio hypeuryi – Festucetum spadiceae Braun-Blanq. 1948 corr. Corriol 2008
+F45-65;Trifolio alpini – Festucetum eskiae Nègre 1974
+F45-66;Galio cespitosi – Festucetum eskiae Nègre 1974
+F45-67;Scorzonero aristatae – Festucetum paniculatae Nègre, Dendaletche &Villar 1975
+F45-68;Irido xiphioidis – Festucetum paniculatae Nègre 1968
+F45-69;Galeopsio pyrenaicae – Festucetum eskiae Nègre 1974
+F45-70;Ranunculo pyrenaei – Festucetum eskiae Nègre 1969
+F45-71;Androsaco laggeri – Festucetum eskiae Gruber 1975
+F45-72;Luzulo spadiceae – Festucetum eskiae tenuifoliae Nègre & Serve 1979 nom. inv. prop.
+F45-73;Sagino piliferae – Caricetum caryophylleae Gamisans 1977
+F45-74;Ophioglosso azorici – Nardetum strictae Gamisans 1976
+F45-75;Paronychio polygonifoliae – Armerietum multicipitis Gamisans 1977
+F45-76;Acini corsici – Tanacetetum tomentosi Litard. & Malcuit ex Gamisans 1977
+F45-77;Geo montani – Phleetum brachystachyi Gamisans 1977
+F45-78;Gnaphalio supini – Sibbaldietum procumbentis Gamisans 1977
+F45-79;Polygono alpini – Luzuletum sieberi Gamisans 1977
+F45-80;Huperzio selaginis – Caricetum ornithopodae Gamisans 1977
+F46-01;Tamaricetum gallicae Braun-Blanq. & O. Bolòs 1958
+F46-02;Solano dulcamarae – Tamaricetum gallicae de Foucault 2008
+F46-03;Inulo crithmodis – Tamaricetum africanae Gamisans 1992
+F46-04;Althaeo officinalis – Tamaricetum africanae Gamisans 1992
+F46-05;Rubo ulmifolii – Nerietum oleandri O. Bolòs 1956
+F46-06;Vinco majoris – Viticetum agni-casti O. Bolòs 1956
+F46-07;Nerio oleandri – Viticetum agni-casti Paradis 2006
+F46-08;Rubo ulmifolii – Viticetum agni-casti Paradis 2006
+F46-09;Erico scopariae – Nerietum oleandri (Lavagne & Moutte 1971) de Foucault, Bensettiti, Noble & Paradis 2012
+F48-01;Erico tetralicis – Sphagnetum magellanici (Osvald 1923) J.J. Moore 1968
+F48-02;Erico tetralicis – Sphagnetum rubelli (Allorge 1926) Lemée ex Thébaud 2012
+F48-03;Sphagno subnitentis – Narthecietum ossifragi Touffet ex Clément & Touffet 1980 nom. mut. propos. Thébaud 2012
+F48-04;Narthecio ossifragi – Sphagnetum auriculati Lieurade & Thomassin in Thébaud 2012
+F48-05;Ericetum tetralicis (P. Allorge 1922) Jonas ex Thébaud 2012
+F48-06;Sphagno compacti – Ericetum tetralicis (Clément 1981) Thébaud 2012
+F48-07;Sphagno compacti – Trichophoretum germanici (Oberd.) J. & M. Bartsch 1940
+F48-08;Sphagno tenelli – Trichophoretum cespitosi Osvald 1925
+F48-09;Sphagnetum magellanici M. Kästner & Flössner 1933
+F48-10;Vaccinio microcarpi – Sphagnetum fusci Thébaud & Pétel 2008
+F48-11;Eriophoro vaginati – Vaccinietum uliginosi de Foucault 1999
+F48-12;Dicrano bergeri – Callunetum vulgaris Thébaud & Pétel 2008
+F48-13;Eriophoro vaginati – Trichophoretum cespitosi Osvald 1923
+F48-14;Avenello flexuosae – Sphagnetum capillifolii Thébaud & Pétel 2008
+F48-15;Eriophoro vaginati – Sphagnetum angustifolii K. Hueck corr. Thébaud & Pétel 2008
+F48-16;Carici nigrae – Sphagnetum magellanici Bick 1985 nom. mut.
+F53-01;Bryo argentei – Saginetum procumbentis Diemont et al. 1940 corr. Rivas-Mart. et al. 2002
+F53-02;Herniarietum glabrae (Hohenester 1960) Hejný & Jehlík 1975
+F53-03;Poo annuae – Plantaginetum coronopodis (Le Neveu 1978) de Foucault 2008
+F53-04;Rumici acetosellae – Spergularietum rubrae Hülbusch 1973
+F53-05;Polygono avicularis – Scleranthetum uncinati de Foucault & Terrisse in de Foucault 1987
+F53-06;Poo annuae – Coronopodetum squamati (Oberd. 1957) Gutte 1966
+F53-07;Sisymbrio supini – Poetum annuae (J. Duvign. & Worms 1987) Thévenin & Royer in Royer et al. 2006
+F53-08;Coronopodo procumbentis – Sclerochloetum durae Braun-Blanq. 1936
+F53-09;Sclerochloo durae – Polygonetum arenastri Soó ex Korneck 1969 corr. Mucina in Mucina et al. 1993 
+F53-10b;Eleusinetum indicae Pignatti 1953
+F53-10;Eragrostio minoris – Polygonetum arenastri Oberd. 1954 corr. Mucina in Mucina et al. 1993
+F53-11;Crassulo tillaeae – Saginetum apetalae Rivas-Mart. 1975
+F53-12;Trifolio suffocati – Plantaginetum coronopodis de Foucault 2010
+F60-01;Sagino maritimae – Cochlearietum danicae Tüxen 1957
+F60-02;Sagino maritimae – Catapodietum marini Tüxen in Tüxen & Westhoff 1963
+F60-03;Catapodio marini – Parapholidetum incurvae Géhu & de Foucault 1978
+F60-04;Soncho oleracei – Cochlearietum danicae Géhu & de Foucault ex de Foucault & Bioret 2010
+F60-05;Desmazerio marinae – Brometum ferronii Bioret 1994
+F60-06;Catapodio marini – Trifolietum scabri Géhu & de Foucault 1978
+F60-07;Bromo ferronii – Trifolietum arvensis Géhu 2008
+F60-08;Catapodio marini – Evacetum rotundatae Géhu et al. 1989
+F60-09;Senecioni leucanthemifolii – Nanantheetum perpusillae Gamisans ex Biondi, Filigheddu & Farris 2001
+F60-10;Parapholido strigosae – Saginetum maritimae Géhu 1976
+F60-11;Hymenolobo procumbentis – Saginetum maritimae Géhu et de Foucault ex de Foucault & Bioret 2010
+F60-12;Sagino maritimae – Spergularietum marinae Bioret 2006
+F60-13;Spergularietum marinae Molin. & Tallon 1970
+F60-14;Spergularietum heldreichii Molin. & Tallon 1970
+F60-15;Parapholido strigosae – Hordeetum marini Géhu, Caron & Bon ex Géhu & de Foucault 1978
+F60-16;Junco bufonii – Chenopodietum chenopodioidis Géhu & Géhu-Franck 1984
+F60-17;Polypogonetum subspathacei Gamisans 1990
+F60-18;Centaurio acutiflori – Hordeetum gussoneani Gamisans 1990
+F65b-01;Simethido mattiazzii – Serapiadetum linguae de Foucault, Paradis & Pozzo di Borgo 2012
+F66-01;Echio lycopsis – Galactitetum tomentosae Molin. 1937
+F66-02;Alyssetum corsici Molin. 1959 in Julve 1993
+F66-03;Trifolio cherleri – Taeniatheretum capitis–medusae Rivas-Mart. & Izco 1977
+F66-04;Medicagini rigidulae – Aegilopetum geniculatae Rivas-Mart. & Izco 1977
+F66-05;Bromo tectorum – Stipetum capensis Rivas-Mart. & Izco 1977
+F66-06;Carduo tenuiflori – Onopordetum illyrici (Molin. & Tallon 1950) de Foucault 2012
+F66-07;Asphodelo fistulosi – Hordeetum leporinum A. & O. Bolòs 1950 prov. in A. Bolòs 1950
+F66-08;Hordeetum leporinum Braun-Blanq. 1936
+F66-09;Laguro ovati – Vulpietum membranaceae Géhu & Géhu-Franck 1985
+F66-10;Laguro ovati – Vulpietum fasciculatae Géhu & Géhu-Franck 1985
+F66-11;Laguro ovati – Brometum rigidi Géhu & Géhu-Franck 1985
+F66-12;Laguro ovati – Hordeetum leporinum Géhu & Géhu-Franck 1985
+F66-13;Laguro ovati – Avenetum barbatae Géhu 2008
+F66-14;Laguro ovati – Diplotaxietum tenuifoliae Géhu 2008
+F66-15;Laguro ovati – Centaureetum asperae Géhu 2000
+F66-16;Hordeo murinum – Arctothecetum calendulae Campos et al. 2010
+F66-17;Chenopodietum muralis Braun- Blanq. & Maire ex Braun- Blanq. 1936
+F66-18;Amarantho blitoidis – Chenopodietum ambrosioidis O. Bolòs 1967
+F66-19;Chenopodio muralis – Atriplicetum hastatae Braun-Blanq. & De Leeuw 1936
+F66-20;Chenopodio vulvariae – Atriplicetum roseae Molin. & Tallon 1970
+F66-21;Lavateretum cretico – arboreae Braun-Blanq. & Molin. 1935
+F66-22;Malvetum parvifloro – nicaeensis Braun-Blanq. & Maire 1924
+F66-23;Erigeronto canadensis – Lactucetum serriolae Lohmeyer ex Oberd. 1957
+F66-24;Lactuco serriolae – Sisymbrietum altissimi Lohmeyer ex Kienast 1978
+F66-25;Sisymbrio sophiae – Atriplicetum oblongifoliae Oberd. 1957
+F66-26;Sisymbrietum loeselii Gutte 1972
+F66-27;Chenopodietum stricti Oberd. 1957
+F66-28;Sisymbrio austriaci – Asperuginetum procumbentis Braun- Blanq. ex Rebholz 1931
+F66-29;Vulpio myuri – Erigerontetum canadensis Petit 1979
+F66-30;Urtico urentis – Malvetum neglectae W. Lohmeyer ex Grosse-Brauckmann 1954
+F66-31;Chenopodio vulvariae – Malvetum neglectae Gutte 1972
+F66-31;Chenopodietum vulvariae Gutte & Pysek 1976
+F66-32;Hyoscyamo nigri – Malvetum neglectae Aichinger 1933
+F66-33;Geranio mollis – Hordeetum murinum Géhu 2008
+F66-34;Sisymbrio officinalis – Hordeetum murinum Braun-Blanq. 1967
+F66-35;Hordeetum murinum Allorge 1922
+F66-36;Coronopodo procumbentis – Centaureetum calcitrapae Quantin 1947
+F66-37;Chenopodietum botryos G. Phil. ex Sukopp 1973
+F66-38;Plantagini indicae – Senecionetum viscosi G. Phil. ex Eliáš 1986
