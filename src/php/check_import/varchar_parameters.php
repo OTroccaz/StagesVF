@@ -5,10 +5,10 @@ class varchar_parameters{
 
   public function insertionVarcharParam ($tableau, $bdd){
 
-    $sql = $bdd->query("SELECT name_parameter FROM varchar_parameters");
+    $sql = $bdd->query("SELECT label FROM list_varchar");
     $champsVarchar = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-    $sql = $bdd->query("SELECT id_parameter FROM varchar_parameters");
+    $sql = $bdd->query("SELECT id_parameter FROM list_varchar");
     $champsVarcharCorres = $sql->fetchAll(PDO::FETCH_COLUMN);
 
     for($champs = 0 ; $champs < count($champsVarchar) ; $champs++){
@@ -39,7 +39,7 @@ class varchar_parameters{
   public function verifVarchar($tableau, $bdd){
     $log = new log_error();
     $error = true;
-    $sql = $bdd->query("SELECT name_parameter FROM varchar_parameters");
+    $sql = $bdd->query("SELECT label FROM list_varchar");
     $champsVarchar = $sql->fetchAll(PDO::FETCH_COLUMN);
 
     for($champs = 0 ; $champs < count($champsVarchar) ; $champs++){

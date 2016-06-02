@@ -1,4 +1,4 @@
-CD_EUNIS;CD_EUNIS_SUP;NIVEAU;LB_NIVEAU;France_a.v.;FRANCE;LB_EUNIS_FR;DESCRIPTIF_FR;LB_EUNIS_EN
+CD_EUNIS;CD_EUNIS_SUP;LEVEL;LB_LEVEL;France_av;FRANCE;LB_EUNIS_FR;DESCRIPTION_FR;label
 A;-;1;Niveau 1;TRUE;TRUE;;;Marine habitats
 A1;A;2;Niveau 2;TRUE;TRUE;;;Littoral rock and other hard substrata
 A1.1;A1;3;Niveau 3;TRUE;TRUE;;;High energy littoral rock

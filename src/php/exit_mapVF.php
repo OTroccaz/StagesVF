@@ -85,7 +85,7 @@ session_start();
             <h2>Consultation des données</h2>
          </div>
          <br><p><b>Attention</b>, en voulant consulter les données, vous allez <b>quitter ce site</b><br>pour rejoindre le site initialement créé de VegFrance.<br><b>Voulez-vous continuer ?</b></p><br><br>
-         <a href="mapVF.php?troli=ok"><button type="submit" class="btn btn-md btn-primary">Oui</button></a>
+         <a href="https://vegfrance.univ-rennes1.fr/carte.php"><button type="submit" class="btn btn-md btn-primary">Oui</button></a>
          <a href="../../index.php"><button type="submit" class="btn btn-md btn-secondary">Non</button></a>
       </center>
    </div>

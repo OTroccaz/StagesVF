@@ -27,7 +27,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    {
       $check = TRUE;
       $verification = FALSE;
-      //Test1: fichier correctement uploadé
+      // Test1 : fichier correctement uploadé
       if (!isset($_FILES[$index]) OR $_FILES[$index]['error'] > 0)
       {
          ?>
@@ -37,7 +37,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          <?php
          $check = FALSE;
       }
-      //Test2: taille limite
+      // Test2 : taille limite
       if ($maxsize !== FALSE AND $_FILES[$index]['size'] > $maxsize){
          ?>
          <div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
@@ -46,7 +46,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          <?php
          $check = FALSE;
       }
-      //Test3: extension
+      // Test3 : extension
       $ext = substr(strrchr($_FILES[$index]['name'],'.'),1);
       if ($extensions !== FALSE AND !in_array($ext,$extensions))
       {
@@ -58,65 +58,42 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          $check = FALSE;
       }
 
+      // On upload vers le dossier de fichiers non vérifiés
       $success = move_uploaded_file($_FILES[$index]['tmp_name'], '../../check/'.$nomFichier);
-      if ($success)
+      if ($success) // S'il a bien été uploadé
       {
-         echo " lol ";
-         if ($check)
+         if ($check) // Si pas d'erreurs concernant sa taille, etc
          {
-            echo " ptdr ";
-            if ($type == 'dataset')
+            if ($type == 'dataset') // S'il est de type dataset
             {
-               echo " mdr1 ";
-               $dataset = new dataset();
+               $dataset = new dataset(); // On fait la vérification
                $verification = $dataset->initialisationDatasetAll('../../check/'.$nomFichier, $bdd);
-               echo $verification;
-            } else if ($type == 'survey')
+            } else if ($type == 'survey') // S'il est de type survey
             {
-               echo " mdr2 ";
-               $survey = new survey();
+               $survey = new survey(); // On fait la vérification
                $verification = $survey->initialisationSurveyAll('../../check/'.$nomFichier, $bdd);
-               echo $verification;
-            } else if ($type == 'vegetation')
+            } else if ($type == 'vegetation') // S'il est de type vegetation
             {
-               echo " mdr3 ";
-               $vegetation = new vegetation();
+               $vegetation = new vegetation(); // On fait la vérification
                $verification = $vegetation->initialisationVegetationAll('../../check/'.$nomFichier, $bdd);
-               echo $verification;
             }
          }
 
-         // if verification_mikael() + $bool
+         // Si tout s'est bien passé et que la vérification n'a eu aucune erreur
          if ($check && $verification)
          {
-            echo " de ouf LOL ";
-            rename('../../check/'.$nomFichier, $destination); // on déplace le fichier vérifé au bon endroit
-            ?>
+            // On copie le fichier qui était dans le dossier de fichiers non vérifiés au bon dossier
+            rename('../../check/'.$nomFichier, $destination);
+            // Message de confirmation ?>
             <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
                Fichier accepté par la vérification !
             </div> <br>
             <?php
          }
       } else {
-         echo " reessaye morray ";
          $check = FALSE;
       }
-
-      $lol = $check && $verification;
-      echo " check && verification = ". $lol;
       return $check && $verification;
-
-
-
-      // } else {
-      //    $taille = filesize('log.txt'):
-      //    header('Content-Transfer-Encoding: binary'); // Transfert en binaire (fichier)
-      //    header('Content-Disposition: attachment; filename="log.txt"'); // Nom du fichier
-      //    header('Content-Length: '.$taille); // Taille du fichier
-      //    readfile("errors/log.txt"); // Envoi du fichier dont le chemin est passé en paramètre
-      //    echo 'Erreurs survenues (checkez le fichier log.txt)';
-      //    # code...
-      // }
    }
    ?>
    <center>
@@ -129,11 +106,11 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       $fichier = $path_parts['filename'].'_'.time().'.'.$path_parts['extension'];
 
       $fichier = strtr($fichier,
-      'ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ',// On remplace les lettres accentutées par les non accentuées dans $fichier.
-      'AAAAAACEEEEIIIIOOOOOUUUUYaaaaaaceeeeiiiioooooouuuuyy');// Et on récupère le résultat dans fichier
+      'ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜÝàáâãäåçèéêëìíîïðòóôõöùúûüýÿ', // On remplace les lettres accentutées par les non accentuées dans $fichier.
+      'AAAAAACEEEEIIIIOOOOOUUUUYaaaaaaceeeeiiiioooooouuuuyy'); // Et on récupère le résultat dans fichier
 
-      //En dessous, il y a l'expression régulière qui remplace tout ce qui n'est pas une lettre non accentuées ou un chiffre
-      //dans $fichier par un tiret "-" et qui place le résultat dans $fichier.
+      // En dessous, il y a l'expression régulière qui remplace tout ce qui n'est pas une lettre non accentuées ou un chiffre
+      // dans $fichier par un tiret "-" et qui place le résultat dans $fichier.
       $fichier = preg_replace('/([^.a-z0-9_]+)/i', '-', $fichier);
 
       // Si le repertoire uploads/ n'est pas créé, on fait mkdir
@@ -177,18 +154,16 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          } else {
             ?>
             <div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
-            Upload du fichier <?php echo htmlspecialchars($fichier); ?> raté...
-         </div>
-         <?php
+               Upload du fichier <?php echo htmlspecialchars($fichier); ?> raté...
+            </div>
+            <?php
+         }
       }
-   }
-   ?>
-
-   <form action="import.php">
-      <input type="submit" class="btn btn-secondary" value="Retour">
-   </form>
-
-</center>
+      ?>
+      <form action="import.php">
+         <input type="submit" class="btn btn-secondary" value="Retour">
+      </form>
+   </center>
 </div>
 </html>
 <?php

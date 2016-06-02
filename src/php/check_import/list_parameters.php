@@ -4,10 +4,10 @@ class list_parameters{
 
   public function insertionListParam ($tableau, $bdd){
 
-    $sql = $bdd->query("SELECT list_name FROM list_names");
+    $sql = $bdd->query("SELECT label FROM list_lists");
     $champsList = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-    $sql = $bdd->query("SELECT id_name FROM list_names");
+    $sql = $bdd->query("SELECT id_name FROM list_lists");
     $champsListCorres = $sql->fetchAll(PDO::FETCH_COLUMN);
 
     for($champs = 0 ; $champs < count($champsList) ; $champs++){
@@ -40,7 +40,7 @@ class list_parameters{
   public function verifList($tableau, $bdd){
     $log = new log_error();
     $error = true;
-    $sql = $bdd->query("SELECT list_name FROM list_names");
+    $sql = $bdd->query("SELECT label FROM list_lists");
     $champsList = $sql->fetchAll(PDO::FETCH_COLUMN);
 
     for($champs = 0 ; $champs < count($champsList) ; $champs++){
@@ -56,31 +56,92 @@ class list_parameters{
     return $error;
   }
 
+public function updateListAll($bdd){
+	$listArray = array('cah_hab',
+						'catminat',
+						'clc',
+						'corine',
+						'coverscale',
+						'eunis',
+						'exposure',
+						'geol_subst',
+						'hydro',
+						'lighting',
+						'loca_metho',
+						'management',
+						'n2k',
+						'nat_region',
+						'nutrient',
+						'pedology',
+						'protocol',
+						'pvf1',
+						'pvf2',
+						'regime',
+						'salinity',
+						'sampling',
+						'soil_ph',
+						//'species',
+						'stratum',
+						'temperatur',
+						//'type',
+						'typus',
+						'unit' );
 
-public function updateList($listName){
+	for($row = 0 ; $row < count($listArray) ; $row++){
+		$this->updateList($listArray[$row], $bdd);
+	}
+
+
+
+}
+public function updateList($listName, $bdd){
+  $listKeys = array();
+  $listInsert = array(array());
+  $ColumnName = array();
   $list = array(array());
   $row = 0;
+  $nbr_lignes = 0;
 
-  if (($handle = fopen($listName, "r")) !== FALSE) {
-    $nbr_lignes = count(file($listName));
-
+  if (($handle = fopen("../../../List_CSV/list_".$listName.".csv", "r")) !== FALSE) {
+    $nbr_lignes = count(file("../../../List_CSV/list_".$listName.".csv"));
+    $ColumnName = fgetcsv($handle, 1000, ";");
     while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
       $nbr_champs = count($data);
-
-      if($row < 1){
         for($i = 0 ; $i < $nbr_champs ; $i++){
-          $data[$c] = str_replace("'", chr(39), $data[$c]);
-          $tableau[$line][$tabName[$c]] = $data[$c];
-
+          $data[$i] = str_replace("'", "&apos;", $data[$i]);
+          $list[$ColumnName[$i]][$row] = $data[$i];
         }
-      }
+
       $row++;
 
     }
     fclose($handle);
   }
-  return $tabName;
-  $sql = $bdd->query("UPDATE ".$listName."");
+  $sql = $bdd->query("SELECT label FROM list_".$listName);
+  $listBdd = $sql->fetchAll(PDO::FETCH_COLUMN);
+
+  $listDiff = array_diff_assoc($list["label"], $listBdd);
+  var_dump($listDiff);
+  $listKeys = array_keys($listDiff);
+
+  for($t = 0 ; $t < count($listDiff) ; $t++){
+
+    $sqlInsert = "INSERT INTO list_".$listName." (";
+      for($b = 0 ; $b < count($ColumnName) ; $b++ ){
+        $sqlInsert .= $ColumnName[$b];
+        if($b != count($ColumnName)-1)$sqlInsert .= " , ";
+      }
+      $sqlInsert .= ") VALUES (";
+      for($c = 0 ; $c < count($ColumnName) ; $c++ ){
+        $sqlInsert .= "'".$list[$ColumnName[$c]][$listKeys[$t]]."'";
+        if($c != count($ColumnName)-1)$sqlInsert .= " , ";
+      }
+      $sqlInsert .= ")";
+      $bdd->exec($sqlInsert);
+
+
+
+    }
 
 }
 

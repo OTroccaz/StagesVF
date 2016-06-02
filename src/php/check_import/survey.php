@@ -130,39 +130,39 @@ class survey{
       $sql = $bdd->query("SELECT id_protocol FROM protocol");
       $tableauProtocolId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT cover_scale FROM coverscale");
+      $sql = $bdd->query("SELECT label FROM list_coverscale");
       $tableauCoverscale = $sql->fetchAll(PDO::FETCH_COLUMN);
-      $sql = $bdd->query("SELECT id_coverscale FROM coverscale");
+      $sql = $bdd->query("SELECT id_coverscale FROM list_coverscale");
       $tableauCoverscaleId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
       $sql = $bdd->query("SELECT localisation_method FROM list_loca_metho");
       $tableauLocaMethod = $sql->fetchAll(PDO::FETCH_COLUMN);
-      $sql = $bdd->query("SELECT localisation_precision FROM list_loca_metho");
+      $sql = $bdd->query("SELECT label FROM list_loca_metho");
       $tableauPrecision = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_loca_metho FROM list_loca_metho");
       $tableauLocaMethodId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT sampling_strategy FROM list_sampling");
+      $sql = $bdd->query("SELECT label FROM list_sampling");
       $tableauSampling = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_sampling FROM list_sampling");
       $tableauSamplingId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT exposition FROM list_exposure");
+      $sql = $bdd->query("SELECT label FROM list_exposure");
       $tableauExposure = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_exposure FROM list_exposure");
       $tableauExposureId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT geological_substrate FROM list_geol_subst");
+      $sql = $bdd->query("SELECT label FROM list_geol_subst");
       $tableauGeolSubst = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_geol_subst FROM list_geol_subst");
       $tableauGeolSubstId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT pedology FROM list_pedology");
+      $sql = $bdd->query("SELECT label FROM list_pedology");
       $tableauPedology = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_pedology FROM list_pedology");
       $tableauPedologyId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT management FROM list_management");
+      $sql = $bdd->query("SELECT label FROM list_management");
       $tableauManagement = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_management FROM list_management");
       $tableauManagementId = $sql->fetchAll(PDO::FETCH_COLUMN);
@@ -197,57 +197,56 @@ class survey{
       $sql = $bdd->query("SELECT id_salinity FROM list_salinity");
       $tableauSalinityId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT nomenclatural_type_of_survey FROM list_typus");
+      $sql = $bdd->query("SELECT label FROM list_typus");
       $tableauRelType = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_typus FROM list_typus");
       $tableauRelTypeId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT syntaxon FROM list_pvf1");
+      $sql = $bdd->query("SELECT label FROM list_pvf1");
       $tableauPvf1 = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_pvf1 FROM list_pvf1");
       $tableauPvf1Id = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT syntaxon FROM list_pvf2");
+      $sql = $bdd->query("SELECT label FROM list_pvf2");
       $tableauPvf2 = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT ID_PVF2 FROM list_pvf2");
       $tableauPvf2Id = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT vegetation_type FROM list_clc");
+      $sql = $bdd->query("SELECT label FROM list_clc");
       $tableauClc = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_clc FROM list_clc");
       $tableauClcId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT habitat_type FROM list_n2k");
+      $sql = $bdd->query("SELECT label FROM list_n2k");
       $tableauN2k = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_n2k FROM list_n2k");
       $tableauN2kId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT syntaxon FROM list_catminat");
+      $sql = $bdd->query("SELECT label FROM list_catminat");
       $tableauCatminat = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_catminat FROM list_catminat");
       $tableauCatminatId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT habitat_type FROM list_cah_hab");
+      $sql = $bdd->query("SELECT label FROM list_cah_hab");
       $tableauCahHab = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_cah_hab FROM list_cah_hab");
       $tableauCahHabId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT lb_eunis_en FROM list_eunis");
+      $sql = $bdd->query("SELECT label FROM list_eunis");
       $tableauEunis = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_eunis FROM list_eunis");
       $tableauEunisId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT lb_cb97_fr FROM list_corine");
+      $sql = $bdd->query("SELECT label FROM list_corine");
       $tableauCorine = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_corine FROM list_corine");
       $tableauCorineId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT phytoecological_region FROM list_nat_region");
+      $sql = $bdd->query("SELECT label FROM list_nat_region");
       $tableauNatRegion = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_nat_region FROM list_nat_region");
       $tableauNatRegionId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      echo "REQUETE OK";
 
     for($i = 0 ; $i < count($tableau) ; $i++){
 
@@ -514,7 +513,7 @@ class survey{
 
   public function intNull($tableau, $bdd){
 
-    $sql = $bdd->query("SELECT name_parameter FROM int_parameters");
+    $sql = $bdd->query("SELECT label FROM list_int");
     $champsInt = $sql->fetchAll(PDO::FETCH_COLUMN);
 
     for($row = 0; $row < count($tableau) ; $row++){
@@ -674,6 +673,8 @@ class survey{
       public function suppressionSurvey(){
         $sql = $bdd->query("TRUNCATE survey CASCADE;");
       }
+
+
 
 
     }

@@ -3,7 +3,7 @@ define('DB_NAME','vegfrance');
 define('DB_LOCALHOST','localhost');
 define('DB_HOST','129.20.88.134');
 define('DB_USER_MYSQL','stage_vegfrance');
-define('DB_USER_PGSQL','stages_vf');
+define('DB_USER_PGSQL','postgres');
 define('DB_PASSWORD_MYSQL','0905egats!');
-define('DB_PASSWORD_PGSQL','3005vf?');
+define('DB_PASSWORD_PGSQL','troli01');
 ?>

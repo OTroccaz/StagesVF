@@ -1,4 +1,4 @@
-CD_CB;CD_CB_SUP;NIVEAU;LB_NIVEAU;FRANCE;LB_CB97_FR
+CD_CB;CD_CB_SUP;LEVEL;LB_LEVEL;FRANCE;label
 1;;1;Niveau 1;TRUE;Habitats littoraux et halophiles
 11;1;2;Niveau 2;TRUE;Mers et océans
 11.1;11;3;Niveau 3;TRUE;Eaux marines

@@ -64,9 +64,10 @@ class dataset {
           echo $row;
 
         }
-        $requete = $bdd->query("SELECT id_user FROM users WHERE pseudo='".$_SESSION['pseudo']."'");
-        $donnees = $requete->fetch();
-        $tableau[$row-1]["ID_SUPPLIER"] = $donnees['id_user'];
+      //   $requete = $bdd->query("SELECT id_user FROM users WHERE pseudo='".$_SESSION['pseudo']."'");
+      // $donnees = $requete->fetch();
+      // $tonID = $donnees['id_user'];
+        $tableau[$row-1]["ID_SUPPLIER"] = 1;
       }
 
         echo "<p> $nbr_champs champs à la ligne $row: <br /></p>\n";

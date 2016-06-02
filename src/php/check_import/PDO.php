@@ -8,7 +8,7 @@ function connexion()
    	$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	echo "connexion réussie";
       return $bdd;
-	  
+
    }
    catch(Exception $e)
    {

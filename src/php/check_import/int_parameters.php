@@ -5,10 +5,10 @@ class int_parameters{
 
   public function insertionIntParam ($tableau, $bdd){
 
-    $sql = $bdd->query("SELECT name_parameter FROM int_parameters");
+    $sql = $bdd->query("SELECT label FROM list_int");
     $champsInt = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-    $sql = $bdd->query("SELECT id_parameter FROM int_parameters");
+    $sql = $bdd->query("SELECT id_parameter FROM list_int");
     $champsIntCorres = $sql->fetchAll(PDO::FETCH_COLUMN);
 
 
@@ -38,7 +38,7 @@ class int_parameters{
   public function verifInt($tableau, $bdd){
     $log = new log_error();
     $error = true;
-    $sql = $bdd->query("SELECT name_parameter FROM int_parameters");
+    $sql = $bdd->query("SELECT label FROM list_int");
     $champsInt = $sql->fetchAll(PDO::FETCH_COLUMN);
 
     for($champs = 0 ; $champs < count($champsInt) ; $champs++){

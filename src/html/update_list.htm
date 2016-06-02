@@ -82,18 +82,21 @@
             <h2>Mise à jour des listes</h2>
             <br>
             <br>
-            <form method="post" action="../php/fileupload.php" enctype="multipart/form-data" >
+            <form method="post" action="../php/upload_update_list.php" enctype="multipart/form-data" >
                <input type="hidden" name="MAX_FILE_SIZE" value="524288000" />
                <label class="control-label">Selectionnez le fichier</label>
                <input type="file" class="filestyle" data-icon="true" data-placeholder="Aucun fichier sélectionné" data-buttonText=" Choisir fichier" data-buttonName="btn-primary" style="position:relative;overflow:hidden" name="fichier_importe" id="fichier_importe">
                <br>
                <br>
                <input type="submit" value="Importer" class="btn btn-primary" id="submit" disabled="true" name="import" />
-            </br></br></br>
-         </form>
-      </div>
-   </center>
-</div>
+               <br><br><br>
+            </form>
+            <form method="post" action="../php/update_list.php">
+               <input type="submit" value="Mettre à jour" class="btn btn-primary" name="maj" id"maj">
+            </form>
+         </div>
+      </center>
+   </div>
 </body>
 </html>
 <script src="//code.jquery.com/jquery-2.2.3.min.js"></script>
