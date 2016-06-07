@@ -36,7 +36,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          $nombreDePages = ceil($total / $_SESSION['messagesParPage']);
          if(isset($_GET['page'])) // Si la variable $_GET['page'] existe...
          {
-            $pageActuelle = intval($_GET['page']);
+            $pageActuelle = htmlspecialchars(intval($_GET['page']));
             if($pageActuelle > $nombreDePages) // Si la valeur de $pageActuelle (le numéro de la page) est plus grande que $nombreDePages...
             {
                $pageActuelle = $nombreDePages;
@@ -67,10 +67,10 @@ if ($connect == "1") // Si le visiteur s'est identifié.
                {
                   ?>
                   <tr>
-                     <td> <?php echo "<b>".$donnees['id_request']."</b>"; ?> </td>
-                     <td> <?php echo "<b>".$donnees['filename']."</b>"; ?> </td>
-                     <td> <?php echo $donnees['date_request']; ?> </td>
-                     <td> <?php echo "<b>".$donnees['requester']."</b>"; ?> </td>
+                     <td> <?php echo "<b>".htmlspecialchars($donnees['id_request'])."</b>"; ?> </td>
+                     <td> <?php echo "<b>".htmlspecialchars($donnees['filename'])."</b>"; ?> </td>
+                     <td> <?php echo htmlspecialchars($donnees['date_request']); ?> </td>
+                     <td> <?php echo "<b>".htmlspecialchars($donnees['requester'])."</b>"; ?> </td>
                      <td>
                         <form method="post" action="authorizations_management.php">
                            <input type="hidden" name="id" value="<?php echo htmlspecialchars($donnees['id_file']); ?>" />
@@ -159,10 +159,10 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          if (isset($_POST['allow_yes']))
          {
             // On update la valeur allowed à 'oui' pour le fichier
-            $requete2 = $bdd->exec("UPDATE request SET allowed = 'oui' WHERE id_file ='".$_POST['id']."'");
+            $requete2 = $bdd->exec("UPDATE request SET allowed = 'oui' WHERE id_file ='".htmlspecialchars($_POST['id'])."'");
             afficherPage($bdd);
 
-            $requete = $bdd->query("SELECT email FROM users WHERE pseudo ='". $_SESSION['pseudo'] ."'");
+            $requete = $bdd->query("SELECT email FROM users WHERE pseudo ='". htmlspecialchars($_SESSION['pseudo']) ."'");
             $donnees = $requete->fetch();
 
             $email = $donnees['email'];
@@ -175,7 +175,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          } else if (isset($_POST['allow_no']))
          {
             // On update la valeur allowed à 'non' pour le fichier
-            $requete2 = $bdd->exec("UPDATE request SET allowed = 'non' WHERE id_file ='".$_POST['id']."'");
+            $requete2 = $bdd->exec("UPDATE request SET allowed = 'non' WHERE id_file ='".htmlspecialchars($_POST['id'])."'");
             afficherPage($bdd);
          }
       } else {

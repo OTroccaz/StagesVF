@@ -39,7 +39,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
 
       if(isset($_GET['page'])) // Si la variable $_GET['page'] existe...
       {
-         $pageActuelle = intval($_GET['page']);
+         $pageActuelle = htmlspecialchars(intval($_GET['page']));
          if($pageActuelle > $nombreDePages) // Si la valeur de $pageActuelle (le numéro de la page) est plus grande que $nombreDePages...
          {
             $pageActuelle = $nombreDePages;

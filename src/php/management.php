@@ -35,7 +35,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    $nombreDePages = ceil($total / $_SESSION['messagesParPage']);
    if(isset($_GET['page'])) // Si la variable $_GET['page'] existe...
    {
-      $pageActuelle = intval($_GET['page']);
+      $pageActuelle = htmlspecialchars(intval($_GET['page']));
       if($pageActuelle > $nombreDePages) // Si la valeur de $pageActuelle (le numéro de la page) est plus grande que $nombreDePages...
       {
          $pageActuelle = $nombreDePages;
@@ -65,10 +65,10 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          {
             ?>
             <tr>
-               <td> <?php echo "<b>".$donnees['up_id']."</b>"; ?> </td>
-               <td> <?php echo $donnees['up_type']; ?> </td>
-               <td> <?php echo "<b>".$donnees['up_filename']."</b>"; ?> </td>
-               <td> <?php echo $donnees['up_filedate']; ?> </td>
+               <td> <?php echo "<b>".htmlspecialchars($donnees['up_id'])."</b>"; ?> </td>
+               <td> <?php echo htmlspecialchars($donnees['up_type']); ?> </td>
+               <td> <?php echo "<b>".htmlspecialchars($donnees['up_filename'])."</b>"; ?> </td>
+               <td> <?php echo htmlspecialchars($donnees['up_filedate']); ?> </td>
                <td>
                   <form method="post" action="filedownload.php">
                      <input type="hidden" name="id" value="<?php echo htmlspecialchars($donnees['up_id']); ?>" />

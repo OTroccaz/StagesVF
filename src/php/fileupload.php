@@ -23,7 +23,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    ?> <title>Importation</title>
    <?php
 
-   function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier,$type, $bdd)
+   function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier,$type,$bdd)
    {
       $check = TRUE;
       $verification = FALSE;

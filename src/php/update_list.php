@@ -18,13 +18,6 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       $bdd = connexionPgSQL();
       /* CONNEXION FAITE */
       include('../html/update_list.htm');
-      include('check_import/list_parameters.php');
-
-      if (isset($_POST['maj']))
-      {
-         $param = new list_parameters();
-         $param->updateListAll($bdd);
-      }
 
    } else {
       ?>

@@ -35,8 +35,8 @@ if ($connect == "1") // Si le visiteur s'est identifié.
                <br><label>Voulez-vous ajouter ce fichier à votre liste de demandes d'exportation ?</label><br><br>
                <form method="post" action="../php/requests.php" class="form-horizontal">
                   <div class="form-group">
-                     <input type="hidden" name="id_file" value="<?php echo $donnees['up_id']; ?>">
-                     <input type="hidden" name="filename" value="<?php echo $donnees['up_filename']; ?>">
+                     <input type="hidden" name="id_file" value="<?php echo htmlspecialchars($donnees['up_id']); ?>">
+                     <input type="hidden" name="filename" value="<?php echo htmlspecialchars($donnees['up_filename']); ?>">
                      <input type="submit" class="btn btn-md btn-primary" name="yes_export" value="Oui">
                      <input type="submit" class="btn btn-md btn-secondary" name="no_export" value="Non">
                   </div>

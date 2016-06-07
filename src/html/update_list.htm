@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Importation</title>
+   <title>Mise à jour listes</title>
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +24,6 @@
             <ul class="nav navbar-nav">
                <li><a href="../php/sign_in.php">Identification</a></li>
                <li><a href="../php/import.php">Importation</a></li>
-               <li><a href="../php/export.php">Exportation</a></li>
                <li><a href="../php/management.php">Gestion</a></li>
                <li><a href="../php/exit_mapVF.php">Consultation</a></li>
                <?php
@@ -90,10 +89,30 @@
                <br>
                <input type="submit" value="Importer" class="btn btn-primary" id="submit" disabled="true" name="import" />
                <br><br><br>
+            </form
+            <br><br>
+
+            <?php
+            $dir = "../../List_CSV";
+            $lists_files = scandir($dir);
+            ?>
+            <form method="post" action="../php/download_list.php" class="form-horizontal">
+               <div class="form-group">
+                  <label for="list_file" class="col-sm-4 control-label">Choisissez la liste à modifier : </label>
+                  <select class="form-control col-sm-5" style="width:150px; margin:auto" id="list_file" name="list_file" size="1">
+                     <?php
+                     for ($i = 2; $i < count($lists_files); $i++)
+                     {
+                        ?>
+                        <option><?php echo $lists_files[$i]; ?></option>
+                        <?php
+                     }
+                     ?>
+                  </select>
+                  <input type="submit" class="btn btn-primary col-sm-3" name="dl_list" id="dl_list" value="Télécharger pour modifier">
+               </div>
             </form>
-            <form method="post" action="../php/update_list.php">
-               <input type="submit" value="Mettre à jour" class="btn btn-primary" name="maj" id"maj">
-            </form>
+            <label class="control-label">Vous devrez la réuploader après l'avoir modifiée<br>pour que le changement prenne effet.</label>
          </div>
       </center>
    </div>

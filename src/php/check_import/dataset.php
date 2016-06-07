@@ -30,7 +30,6 @@ class dataset {
         if($row == 0){
           for($i = 0 ; $i < $nbr_champs ; $i++){
             $tabName[$i] = $data[$i];
-            echo $tabName[$i];
           }
         }
         $row++;
@@ -60,8 +59,6 @@ class dataset {
         for ($c=0; $c < $nbr_champs; $c++) {
           $tableau[$row-1][$tabName[$c]] = $data[$c];
 
-          echo  $tableau[$row-1][$tabName[$c]];
-          echo $row;
 
         }
       //   $requete = $bdd->query("SELECT id_user FROM users WHERE pseudo='".$_SESSION['pseudo']."'");
@@ -69,8 +66,6 @@ class dataset {
       // $tonID = $donnees['id_user'];
         $tableau[$row-1]["ID_SUPPLIER"] = 1;
       }
-
-        echo "<p> $nbr_champs champs à la ligne $row: <br /></p>\n";
         $row++;
       }
       fclose($handle);
@@ -89,15 +84,7 @@ class dataset {
       $error = false;
     }
 
-  //Verifications des listes
 
-      // if($this->verificationRegime($tableau)){
-      //   echo "Vérification positive pour le régime $a <br />";
-      // }
-      // else{
-      //   echo "Vérification négative pour le régime $a <br />";
-      //   $error = false;
-      // }
     return $error;
 
   }

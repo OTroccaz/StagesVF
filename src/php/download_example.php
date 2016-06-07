@@ -1,7 +1,7 @@
 <?php
-$fichier = '../../doc/20160526_Tableau_insertion_relevés.xlsx';
+$fichier = 'Tableau_insertion_relevés.xlsx';
 $fichier_taille = filesize($fichier);
-header("Content-disposition: attachment; filename=$fichier");
+header("Content-disposition: attachment; filename=\"$fichier\"");
 header("Content-Type: application/force-download");
 header("Content-Transfer-Encoding: application/octet-stream");
 header("Content-Length: $fichier_taille");

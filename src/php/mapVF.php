@@ -558,6 +558,24 @@ include("../../config/_connexionpgVF.php");
 						overlays:{
 							"WMS":[
 								{
+									"name":"Survey WMS",
+									"url":"http://www.osuris.org/geoserver/wms?",
+									"options":{
+										"params":{
+											"layers":"cite:survey",
+											//"opacity":1,
+											//"singleTile":false,
+											"format":"image/png",
+											"transparent":true,
+											"visibility":true,
+											//"hover":true
+										},
+										"options":{
+											"visibility":false,
+										},
+									}
+								},
+								{
 									"name":"Corela WMS",
 									"url":"http://www.osuris.org/geoserver/wms?",
 									"options":{
@@ -1164,6 +1182,107 @@ include("../../config/_connexionpgVF.php");
 					viewer.getMap().addControl(popup_wfspo);
 					popup_wfspo.activate();
 
+					// Add WFS layer points de survey
+					wfspo2 = new OpenLayers.Layer.Vector("VF survey", {
+						typeNames: "survey",
+						strategies: [
+							new OpenLayers.Strategy.Fixed(),
+							new OpenLayers.Strategy.Cluster(clusterCat)
+						],
+						projection: 'EPSG:4326',
+						extractAttributes: true,
+						protocol: new OpenLayers.Protocol.WFS({
+							version: "2.0.0",
+							url: wfsUrl,
+							featureNS: "http://www.opengeospatial.net/cite",
+							featureType: "survey",
+							featurePrefix: "cite",
+							geometryName: "geom",
+						}),
+						styleMap: new OpenLayers.StyleMap({
+							default: clusterStyle,
+							select: {fillColor: '#8aeeef'}
+						}),
+						visibility: true,
+						displayInLayerSwitcher:true,
+						//minZoomLevel:15,
+						maxZoomLevel:14,
+						hover:false,
+						originators: [{
+							logo: 'VegFrance',
+							pictureUrl: 'https://ecobio-mapserver.univ-rennes1.fr/GS/logo_VF.jpg',
+							url: 'https://vegfrance.univ-rennes1.fr/',
+							//"attribution":"Circuit distribué par TouriLoire"}],
+							visibility:true
+						}],
+					});
+					viewer.getMap().addLayer(wfspo2);
+					//popup options
+					var j = 0;
+					var contselval = new Array();
+					popup_wfspo2 = new OpenLayers.Control.SelectFeature(wfspo2, {
+						hover:false,
+						multiple:true,
+						toggle:true,
+						box:false,
+						clickout:true,
+						onSelect: function openPopup(f){
+							viewer.getMap().panTo(f.geometry.getBounds().getCenterLonLat());
+							if(f.attributes.count <= 1) {// if not cluster
+								//f.popup= new OpenLayers.Popup.AnchoredBubble(
+								f.popup= new OpenLayers.Popup.FramedCloud(
+									"chicken",//identifiant
+									f.geometry.getBounds().getCenterLonLat(),
+									null, // taille null pour qu'elle s'adapte automatiquement
+									'<div id="popup_content"><div id="popup_head">'+
+									'<b>N° relevé : '+f.cluster[0].attributes.plot_id+'<\/b><\/div>'+
+									'<div id="popup_body">Modifié par : '+f.cluster[0].attributes.modif_par+'<\/div>',  //message dans la popup
+									null,
+									false // Booleen pour activer la closeBox
+								);
+								//alert(this.map.zoom);
+								viewer.getMap().addPopup(f.popup);
+							}else{
+								Geoportal.Control.unselectFeature(f);
+							}
+							var contsel = '<center><table style="border:1px solid white;"><tr><td align="center"><b>Id</b></td><td align="center"><b>N° relevé</b></td><td align="center"><b>Modifié par<b></td></tr>';
+							for (i = 0; i < f.attributes.count; i++) {
+								contselval[j] = '<tr><td align="center">'+Number(i+1)+'</td><td align="center">'+f.cluster[i].attributes.plot_id+'</td><td align="center">'+f.cluster[i].attributes.modif_par+'</td></tr>';
+								j += 1;
+							}
+							for (k = 0; k < contselval.length; k++) {
+								if (contselval[k]) {contsel += contselval[k];}
+							}
+							contsel += '</table></center>';
+							document.getElementById("select").innerHTML = contsel;
+						},
+						onUnselect : function closePopup(f) {
+							var nbrelsel = wfspo2.selectedFeatures.length;
+							Geoportal.Control.unselectFeature(f);
+							contselval.splice(0,k);
+							j = 0;
+							if (nbrelsel != 0) {
+								var contsel = '<center><table style="border:1px solid white;"><tr><td align="center"><b>Id</b></td><td align="center"><b>N° relevé</b></td><td align="center"><b>Modifié par<b></td></tr>';
+								for (var ii = 0; ii < nbrelsel; ii++) {
+									f = wfspo2.selectedFeatures[ii];
+									for (var i = 0; i < f.attributes.count; i++) {
+										contselval[j] = '<tr><td align="center">'+Number(i+1)+'</td><td align="center">'+f.cluster[i].attributes.plot_id+'</td><td align="center">'+f.cluster[i].attributes.modif_par+'</td></tr>';
+										j += 1;
+									}
+								}
+								for (k = 0; k < contselval.length; k++) {
+									if (contselval[k]) {contsel += contselval[k];}
+								}
+								contsel += '</table></center>';
+							}else{
+								contsel = "";
+							}
+							document.getElementById("select").innerHTML = contsel;
+						}
+					});
+					viewer.getMap().addControl(popup_wfspo2);
+					popup_wfspo2.activate();
+
 					function nettoyage() {//suppression du tableau et des popups lors d'un zoom
 					//var map = event.object;
 					//Geoportal.Control.unselectFeature();
@@ -1181,6 +1300,7 @@ include("../../config/_connexionpgVF.php");
 					//console.log(wfsde.selectedFeatures.length);
 					popup_wfsde.unselectAll();
 					popup_wfspo.unselectAll();
+					popup_wfspo2.unselectAll();
 				}
 				viewer.getMap().events.register('zoomend', wfsde, nettoyage);
 
