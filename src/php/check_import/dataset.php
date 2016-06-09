@@ -3,13 +3,13 @@
 class dataset {
 
   public function dataset(){
-
+    include('log_error.php');
   }
 
   public function initialisationDatasetAll($chemin, $bdd){
     $reponse = false;
     $tabName = $this->getTabNameDataset($chemin);
-    $tableau = $this->initDataset($chemin, $tabName);
+    $tableau = $this->initDataset($chemin, $tabName, $bdd);
     $verif = $this->verificationDataset($tableau);
     if($verif){
       $reponse = $this->insertionDataset($tableau, $bdd);
@@ -37,11 +37,10 @@ class dataset {
       }
       fclose($handle);
     }
-    var_dump($tabName);
       return $tabName;
   }
 
-  public function initDataset($nameDataset, $tabName){
+  public function initDataset($nameDataset, $tabName, $bdd){
     $log = new log_error();
     $log->resetLog();
     $row = 0;
@@ -61,16 +60,15 @@ class dataset {
 
 
         }
-      //   $requete = $bdd->query("SELECT id_user FROM users WHERE pseudo='".$_SESSION['pseudo']."'");
-      // $donnees = $requete->fetch();
-      // $tonID = $donnees['id_user'];
-        $tableau[$row-1]["ID_SUPPLIER"] = 1;
+        $requete = $bdd->query("SELECT id_user FROM users WHERE pseudo='".$_SESSION['pseudo']."'");
+       $donnees = $requete->fetch();
+       $tableau[$row-1]["ID_SUPPLIER"] = $donnees['id_user'];
+        
       }
         $row++;
       }
       fclose($handle);
     }
-    var_dump($tableau);
     return $tableau;
   }
 
@@ -153,19 +151,23 @@ class dataset {
 		$error = true;
 		for($row = 0 ; $row < count($tableau)-1 ; $row++){
 			if($tableau[$row]["PROJECT"] == NULL){
-				echo "Valeur(s) obligatoire(s) manquante(s)";
+				$logError = "ERREUR, VALEUR OBLIGATOIRE MANQUANTE , LIGNE : ".$row." / COLONNE : PROJECT";
+				$log->writeLog($logError);
 				$error = false;
 			}
 			if($tableau[$row]["REGIME"] == NULL){
-				echo "Valeur(s) obligatoire(s) manquante(s)";
+				$logError = "ERREUR, VALEUR OBLIGATOIRE MANQUANTE , LIGNE : ".$row." / COLONNE : REGIME";
+				$log->writeLog($logError);
 				$error = false;
 			}
 			if($tableau[$row]["TYPE"] == NULL){
-				echo "Valeur(s) obligatoire(s) manquante(s)";
+				$logError = "ERREUR, VALEUR OBLIGATOIRE MANQUANTE , LIGNE : ".$row." / COLONNE : TYPE";
+				$log->writeLog($logError);
 				$error = false;
 			}
 			if($tableau[$row]["ORGANIZATION"] == NULL){
-				echo "Valeur(s) obligatoire(s) manquante(s)";
+				$logError = "ERREUR, VALEUR OBLIGATOIRE MANQUANTE , LIGNE : ".$row." / COLONNE : ORGANIZATION";
+				$log->writeLog($logError);
 				$error = false;
 			}
 

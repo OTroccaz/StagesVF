@@ -3,10 +3,10 @@
 class vegetation{
 
   public function vegetation(){
-    // include('log_error.php');
+    include('log_error.php');
 
   }
-  public function initialisationVegetationAll($bdd, $chemin){
+  public function initialisationVegetationAll($chemin, $bdd){
     $reponse = false;
     $tabName = $this->getTabNameVegetation($chemin);
     $tableau = $this->initVegetation($chemin, $tabName);
@@ -32,7 +32,6 @@ class vegetation{
         if($row == 0){
           for($i = 0 ; $i < $nbr_champs ; $i++){
             $tabName[$i] = $data[$i];
-            echo $tabName[$i];
           }
         }
         $row++;
@@ -63,11 +62,8 @@ class vegetation{
         for ($c=0; $c < $nbr_champs; $c++) {
           $tableau[$row-1][$tabName[$c]] = $data[$c];
 
-          echo  $tableau[$row-1][$tabName[$c]];
-
         }
       }
-        echo "<p> $nbr_champs champs à la ligne $row: <br /></p>\n";
         $row++;
       }
 
@@ -151,18 +147,22 @@ class vegetation{
   }
 
   public function verifVegetationObligatoire($tableau){
-        $error = true;
-    for($i = 0 ; $i < count($tableau) ; $i++){
-      if($tableau[$i]["NAME_RELEVE"] == NULL){
-        echo "Valeur(s) obligatoire(s) manquante(s)";
+	$log = new log_error();
+    $error = true;
+    for($row = 0 ; $row < count($tableau) ; $row++){
+      if($tableau[$row]["NAME_RELEVE"] == NULL){
+				$logError = "ERREUR, VALEUR OBLIGATOIRE MANQUANTE , LIGNE : ".$row." / COLONNE : NAME_RELEVE";
+				$log->writeLog($logError);
         $error = false;
       }
-      if($tableau[$i]["SP_NAME"] == NULL){
-        echo "Valeur(s) obligatoire(s) manquante(s)";
+      if($tableau[$row]["SP_NAME"] == NULL){
+				$logError = "ERREUR, VALEUR OBLIGATOIRE MANQUANTE , LIGNE : ".$row." / COLONNE : SP_NAME";
+				$log->writeLog($logError);
         $error = false;
       }
-      if($tableau[$i]["COVER"] == NULL){
-        echo "Valeur(s) obligatoire(s) manquante(s)";
+      if($tableau[$row]["COVER"] == NULL){
+				$logError = "ERREUR, VALEUR OBLIGATOIRE MANQUANTE , LIGNE : ".$row." / COLONNE : COVER";
+				$log->writeLog($logError);
         $error = false;
       }
 

@@ -125,9 +125,9 @@ class survey{
       $sql = $bdd->query("SELECT id_dataset FROM dataset");
       $tableauDatasetId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-      $sql = $bdd->query("SELECT label FROM protocol");
+      $sql = $bdd->query("SELECT label FROM list_protocol");
       $tableauProtocol = $sql->fetchAll(PDO::FETCH_COLUMN);
-      $sql = $bdd->query("SELECT id_protocol FROM protocol");
+      $sql = $bdd->query("SELECT id_protocol FROM list_protocol");
       $tableauProtocolId = $sql->fetchAll(PDO::FETCH_COLUMN);
 
       $sql = $bdd->query("SELECT label FROM list_coverscale");
