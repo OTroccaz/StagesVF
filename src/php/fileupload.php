@@ -23,79 +23,57 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    ?> <title>Importation</title>
    <?php
 
-   function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier,$type,$bdd)
-   {
-      $check = TRUE;
-      $verification = FALSE;
-      // Test1 : fichier correctement uploadé
-      if (!isset($_FILES[$index]) OR $_FILES[$index]['error'] > 0)
-      {
-         ?>
+   function upload($formulaireUpload,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier,$type,$bdd) {
+      $check = TRUE; $verification = FALSE;
+      if (!isset($_FILES[$formulaireUpload]) OR $_FILES[$formulaireUpload]['error'] > 0) { ?>
          <div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
-            Erreur survenue lors de l'upload.
-         </div> <br>
-         <?php
-         $check = FALSE;
+            Erreur survenue lors de l'upload.</div> <br>
+         <?php $check = FALSE;
       }
-      // Test2 : taille limite
-      if ($maxsize !== FALSE AND $_FILES[$index]['size'] > $maxsize){
-         ?>
+      if ($maxsize !== FALSE AND $_FILES[$formulaireUpload]['size'] > $maxsize){ ?>
          <div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
-            Fichier trop important (taille maximale : 500 MB).
-         </div> <br>
-         <?php
-         $check = FALSE;
+            Fichier trop important (taille maximale : 50 MB).</div> <br>
+         <?php $check = FALSE;
       }
-      // Test3 : extension
-      $ext = substr(strrchr($_FILES[$index]['name'],'.'),1);
-      if ($extensions !== FALSE AND !in_array($ext,$extensions))
-      {
-         ?>
+      $ext = substr(strrchr($_FILES[$formulaireUpload]['name'],'.'),1);
+      if ($extensions !== FALSE AND !in_array($ext,$extensions)) { ?>
          <div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
-            Mauvaise extension de fichier (seuls les fichier .csv sont acceptés).
-         </div> <br>
-         <?php
-         $check = FALSE;
+            Mauvaise extension de fichier (seuls les fichier .csv sont acceptés).</div><br>
+         <?php $check = FALSE;
       }
-
-      // On upload vers le dossier de fichiers non vérifiés
-      $success = move_uploaded_file($_FILES[$index]['tmp_name'], '../../check/'.$nomFichier);
-      if ($success) // S'il a bien été uploadé
-      {
-         if ($check) // Si pas d'erreurs concernant sa taille, etc
-         {
-            if ($type == 'dataset') // S'il est de type dataset
-            {
-               $dataset = new dataset(); // On fait la vérification
-               $verification = $dataset->initialisationDatasetAll('../../check/'.$nomFichier, $bdd);
-            } else if ($type == 'survey') // S'il est de type survey
-            {
-               $survey = new survey(); // On fait la vérification
-               $verification = $survey->initialisationSurveyAll('../../check/'.$nomFichier, $bdd);
-            } else if ($type == 'vegetation') // S'il est de type vegetation
-            {
-               $vegetation = new vegetation(); // On fait la vérification
-               $verification = $vegetation->initialisationVegetationAll('../../check/'.$nomFichier, $bdd);
+      $success = move_uploaded_file($_FILES[$formulaireUpload]['tmp_name'], '../../check/'.$nomFichier); // On upload vers le dossier de fichiers non vérifiés
+      if ($success) { // S'il a bien été uploadé
+         if ($check) { // Si pas d'erreurs concernant sa taille, etc
+            if ($type == 'dataset') { // S'il est de type dataset
+               $dataset = new dataset();
+               $verification = $dataset->initialisationDatasetAll('../../check/'.$nomFichier, $bdd); // On fait la vérification
+            } else if ($type == 'survey') { // S'il est de type survey
+               $survey = new survey();
+               $verification = $survey->initialisationSurveyAll('../../check/'.$nomFichier, $bdd); // On fait la vérification
+            } else if ($type == 'vegetation') { // S'il est de type vegetation
+               $vegetation = new vegetation();
+               $verification = $vegetation->initialisationVegetationAll('../../check/'.$nomFichier, $bdd); // On fait la vérification
             }
          }
-
-         // Si tout s'est bien passé et que la vérification n'a eu aucune erreur
-         if ($check && $verification)
-         {
-            // On copie le fichier qui était dans le dossier de fichiers non vérifiés au bon dossier
-            rename('../../check/'.$nomFichier, $destination);
-            // Message de confirmation ?>
+         if ($check && $verification) { // Si tout s'est bien passé et que la vérification n'a eu aucune erreur
+            rename('../../check/'.$nomFichier, $destination); // On copie le fichier qui était dans le dossier de fichiers non vérifiés au bon dossier ?>
             <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
-               Fichier accepté par la vérification !
-            </div> <br>
+               Fichier accepté par la vérification !</div><br>
             <?php
+         } else if (!$verification){
+            ?>
+            <div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
+               Fichier non accepté par la vérification ...<br> Cliquez <a href="download_log.php">ici</a> pour télécharger le fichier d'erreurs.</div><br>
+            <?php
+
          }
-      } else {
-         $check = FALSE;
-      }
+      } else {$check = FALSE;}
       return $check && $verification;
-   }
-   ?>
+   } ?>
+
+
+
+
    <center>
       <h2> Confirmation de l'upload </h2>
       <?php
@@ -132,7 +110,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       if(isset($true_directory))
       {
          // On test si l'upload est ok
-         $upload_possible = upload('fichier_importe', '../../uploads/'.$true_directory.'/'.$fichier, 524288000, array('csv'), $fichier, $true_directory, $bdd);
+         $upload_possible = upload('fichier_importe', '../../uploads/'.$true_directory.'/'.$fichier, 52428800, array('csv'), $fichier, $true_directory, $bdd);
          // Confirmation
          if ($upload_possible) {
             ?>

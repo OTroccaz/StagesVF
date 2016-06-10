@@ -31,13 +31,16 @@ if(!isset($_SESSION['pseudo']))
          include('../html/sign_in.htm'); // On inclut le formulaire d'identification
          exit;
       }
+
       else {
          $_SESSION['connect'] = 1;
          $_SESSION['pseudo'] = $pseudo;
-         // On va chercher le status correspondant au pseudo
+         // On va chercher le statut correspondant au pseudo
          $reponse = $bdd->query("SELECT name_status FROM status WHERE id_status = (SELECT id_status FROM users WHERE pseudo='".$pseudo."')");
          $donnees = $reponse->fetch();
          $_SESSION['status'] = $donnees['name_status'];
+
+
          include('../html/blank_page.htm');
          echo '<p style="text-align:center;margin-top:10%">Vous êtes bien logué(e)';
          $reponse = $bdd->query("SELECT last_visit FROM users WHERE pseudo='".$pseudo."'");

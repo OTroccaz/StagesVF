@@ -45,7 +45,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       </div>
       <?php
       $param = new list_parameters();
-      $param->updateList($fichier, $bdd);
+      $param->updateListAll($fichier, $bdd);
    } else {
       ?>
       <div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">

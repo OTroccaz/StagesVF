@@ -38,6 +38,7 @@ class survey{
       $intParam->insertionIntParam($tableau, $bdd);
       $varcharParam->insertionVarcharParam($tableau, $bdd);
       $listParam->insertionListParam($tableau, $bdd);
+	  $this->initGeom($bdd);
       $bdd->commit();
       $verif = true;
     }
@@ -98,7 +99,7 @@ class survey{
         if($row > 1){
           for ($c=0; $c < $nbr_champs ; $c++) {
             $line = $row - 2;
-            $data[$c] = str_replace("'", chr(39), $data[$c]);
+            $data[$c] = str_replace("'", "&apos;", $data[$c]);
             $tableau[$line][$tabName[$c]] = $data[$c];
 
             //echo $tableau[$line][$tabName[$c]];
@@ -566,25 +567,25 @@ class survey{
   public function verifSurveyObligatoire($tableau){
     $log = new log_error();
     $error = true;
-    for($i = 2 ; $i < count($tableau) ; $i++){
-      if($tableau[$i]["PROJECT"] == NULL){
-        $log->writeLog("ERREUR , Nom du Dataset manquant");
+    for($row = 2 ; $row < count($tableau) ; $row++){
+      if($tableau[$row]["PROJECT"] == NULL){
+        $log->writeLog("ERREUR , Nom du Dataset manquant, LIGNE : ".$row." / COLONNE : PROJECT");
         $error = false;
       }
-      if($tableau[$i]["NAME_RELEVE"] == NULL){
-        $log->writeLog("ERREUR , Nom du relevé manquant");
+      if($tableau[$row]["NAME_RELEVE"] == NULL){
+        $log->writeLog("ERREUR , Nom du relevé manquant, LIGNE : ".$row." / COLONNE : NAME_RELEVE");
         $error = false;
       }
-      if($tableau[$i]["COMPLETE"] == NULL){
-        $log->writeLog("ERREUR , Completude du relevé manquant");
+      if($tableau[$row]["COMPLETE"] == NULL){
+        $log->writeLog("ERREUR , Completude du relevé manquant, LIGNE : ".$row." / COLONNE : COMPLETE");
         $error = false;
       }
-      if($tableau[$i]["PROTOCOL"] == NULL){
-        $log->writeLog("ERREUR , protocole du relevé manquant");
+      if($tableau[$row]["PROTOCOL"] == NULL){
+        $log->writeLog("ERREUR , protocole du relevé manquant, LIGNE : ".$row." / COLONNE : PROTOCOL");
         $error = false;
       }
-      if($tableau[$i]["COVERSCALE"] == NULL){
-        $log->writeLog("ERREUR , Echelle d'abondance du relevé manquant");
+      if($tableau[$row]["COVERSCALE"] == NULL){
+        $log->writeLog("ERREUR , Echelle d'abondance du relevé manquant, LIGNE : ".$row." / COLONNE : COVERSCALE");
         $error = false;
       }
 
@@ -677,6 +678,12 @@ class survey{
 
 
 
-    }
-
+    
+	
+	public function initGeom($bdd){
+		$query = "UPDATE survey SET geom = ST_SetSRID(ST_Point( deg_lon, deg_lat),4326)";
+		$bdd->query($query);
+	}
+	
+}
     ?>

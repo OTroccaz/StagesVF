@@ -74,13 +74,25 @@ class dataset {
 
 
   public function verificationDataset ($tableau){
-
+	$log = new log_error();
     $error = true;
-    $errorObligatoire = $this->verifDatasetObligatoire($tableau);
-    $errorType = $this->verifTypeDonnees($tableau);
-    if($errorObligatoire == false || $errorType == false){
-      $error = false;
-    }
+	$test = true;
+		  if(!(array_key_exists("PROJECT", $tableau[0]))){
+		  $logError = "ERREUR, MAUVAIS FICHIER";
+			$log->writeLog($logError);
+			$test = false;
+	  }
+	 if($test == true){
+		$errorObligatoire = $this->verifDatasetObligatoire($tableau);
+		$errorType = $this->verifTypeDonnees($tableau);
+		if($errorObligatoire == false || $errorType == false){
+			$error = false;
+		}
+
+	 }
+	 else {
+		 $error = false;
+	 }
 
 
     return $error;
