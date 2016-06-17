@@ -27,7 +27,6 @@ session_start();
             <ul class="nav navbar-nav">
                <li><a href="src/php/sign_in.php">Identification</a></li>
                <li><a href="src/php/import.php">Importation</a></li>
-               <li><a href="src/php/export.php">Exportation</a></li>
                <li><a href="src/php/management.php">Gestion</a></li>
                <li><a href="src/php/exit_mapVF.php">Consultation</a></li>
                <?php

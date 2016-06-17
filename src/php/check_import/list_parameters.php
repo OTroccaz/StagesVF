@@ -118,14 +118,65 @@ public function updateList($listName, $bdd){
     fclose($handle);
   }
   $name = substr($listName, 0, -4);
-  echo $name;
   
   $sql = $bdd->query("SELECT label FROM ".$name);
   $listBdd = $sql->fetchAll(PDO::FETCH_COLUMN);
-	var_dump($listBdd);
   $listDiff = array_diff_assoc($list["label"], $listBdd);
   $listKeys = array_keys($listDiff);
-  var_dump($listDiff);
+
+
+  for($t = 0 ; $t < count($listDiff) ; $t++){
+
+    $sqlInsert = "INSERT INTO ".$name." (";
+      for($b = 0 ; $b < count($ColumnName) ; $b++ ){
+        $sqlInsert .= $ColumnName[$b];
+        if($b != count($ColumnName)-1)$sqlInsert .= " , ";
+      }
+      $sqlInsert .= ") VALUES (";
+      for($c = 0 ; $c < count($ColumnName) ; $c++ ){
+        $sqlInsert .= "'".$list[$ColumnName[$c]][$listKeys[$t]]."'";
+        if($c != count($ColumnName)-1)$sqlInsert .= " , ";
+      }
+      $sqlInsert .= ")";
+	  echo $sqlInsert;
+      $bdd->exec($sqlInsert);
+	  
+			
+	
+    }
+
+}
+
+
+public function updateListTaxRef($listName, $bdd){
+  $listKeys = array();
+  $listInsert = array(array());
+  $ColumnName = array();
+  $list = array(array());
+  $line = 0;
+  $nbr_lignes = 0;
+
+  if (($handle = fopen("../../List_CSV/list_taxref9.csv", "r")) !== FALSE) {
+    $nbr_lignes = count(file("../../List_CSV/list_taxref9.csv"));
+    $ColumnName = fgetcsv($handle, 1000, ";");
+    while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
+      $nbr_champs = count($data);
+        for($i = 0 ; $i < $nbr_champs ; $i++){
+          $data[$i] = str_replace("'", "&apos;", $data[$i]);
+          $list[$ColumnName[$i]][$line] = $data[$i];
+        }
+
+      $line++;
+
+    }
+    fclose($handle);
+  }
+  $name = substr($listName, 0, -4);
+  
+  $sql = $bdd->query("SELECT cd_nom FROM taxref9");
+  $listBdd = $sql->fetchAll(PDO::FETCH_COLUMN);
+  $listDiff = array_diff_assoc($list["label"], $listBdd);
+  $listKeys = array_keys($listDiff);
 
   for($t = 0 ; $t < count($listDiff) ; $t++){
 
