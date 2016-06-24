@@ -66,7 +66,6 @@ class survey{
           for($i = 0 ; $i < $nbr_champs ; $i++){
 
             $tabName[$offset] = $data[$i];
-            // echo $tabName[$offset];
             $offset++;
 
           }
@@ -102,11 +101,7 @@ class survey{
             $data[$c] = str_replace("'", "&apos;", $data[$c]);
             $tableau[$line][$tabName[$c]] = $data[$c];
 
-            //echo $tableau[$line][$tabName[$c]];
-
           }
-
-        //  echo "<p> $nbr_champs champs à la ligne $line: <br /></p>\n";
         }
         $row++;
 

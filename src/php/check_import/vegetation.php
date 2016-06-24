@@ -11,9 +11,10 @@ class vegetation{
     $tabName = $this->getTabNameVegetation($chemin);
     $tableau = $this->initVegetation($chemin, $tabName);
     $tableau = $this->correspondanceVegetation($tableau, $bdd);
-    $verif = $this->verificationSurvey($tableau, $bdd);
+	$tableau = $this->corresintNull($tableau);
+    $verif = $this->verificationVegetation($tableau, $bdd);
     if($verif){
-    		$reponse = $survey->insertionSurveyAll($tableau, $bdd);
+    		$reponse = $this->insertionVegetation($tableau, $bdd);
     }
 
     return $reponse;
@@ -77,11 +78,7 @@ class vegetation{
   				 $dataStratum = $this->corresStratum($tableau[$row]["STRATUM"], $bdd);
   				 $tableau[$row]["STRATUM"] = $dataStratum;
   			}
-        $tableau[$row]["NAME"] = $tableau[$row]["SP_NAME"];
-        if($tableau[$row]["SP_NAME"] != NULL){
-           $dataSpName = $this->corresSpecies($tableau[$row]["SP_NAME"], $bdd);
-           $tableau[$row]["SP_NAME"] = $dataSpName;
-        }
+
   		}
       return $tableau;
   }
@@ -89,29 +86,30 @@ class vegetation{
   public function corresStratum($data, $bdd){
 
 
-    $sql = $bdd->query("SELECT id_stratum FROM stratum WHERE stratum_name='".$data."'");
+    $sql = $bdd->query("SELECT id_stratum FROM list_stratum WHERE label='".$data."'");
     $valeur = $sql->fetch();
 
     return $valeur[0];
   }
 
-  public function corresSpecies($data, $bdd){
+public function corresintNull($tableau){
+	for($row = 0 ; $row < count($tableau) ; $row++){
+		if($tableau[$row]["STRATUM"] == NULL){
+			$tableau[$row]["STRATUM"] = NULL;
+		}
+	}
+	return $tableau;
 
 
-    $sql = $bdd->query("SELECT id_species FROM TAXREF_5 WHERE cd_nom='".$data."'");
-    $valeur = $sql->fetch();
-
-    return $valeur[0];
-  }
-
-
+}
 
   public function verificationVegetation ($tableau, $bdd){
       $error = true;
       $errorType = $this->verifVegetationType($tableau);
       $errorObligatoire = $this->verifVegetationObligatoire($tableau);
       $errorUnique = $this->verifIdUniqueVegetation($tableau, $bdd);
-      if($errorType == false || $errorObligatoire == false || $errorUnique == false){
+      $errorCdNom = $this->verifCdNom($tableau, $bdd);
+      if($errorType == false || $errorObligatoire == false || $errorUnique == false || $errorCdNom == false){
         $error = false;
       }
       return $error;
@@ -126,18 +124,18 @@ class vegetation{
         $log->writeLog($logError);
         $error = false;
       }
-      if(!(is_numeric($tableau[$row]["SP_NAME"]))){
-        $logError = "ERREUR, LE TYPE DE DONNEE N'EST PAS UN INT , LIGNE : ".$row." / COLONNE : DATE_S";
+      if(!(is_string($tableau[$row]["SP_NAME"]))){
+        $logError = "ERREUR, LE TYPE DE DONNEE N'EST PAS UN STRING , LIGNE : ".$row." / COLONNE : SP_NAME";
         $log->writeLog($logError);
         $error = false;
       }
-      if(!(is_numeric($tableau[$row]["STRATUM"]))){
-        $logError = "ERREUR, LE TYPE DE DONNEE N'EST PAS UN INT , LIGNE : ".$row." / COLONNE : COMPLETE";
+      if(!(is_numeric($tableau[$row]["STRATUM"])) && !($tableau[$row]["ALTITUDE"] == NULL)){
+        $logError = "ERREUR, LE TYPE DE DONNEE N'EST PAS UN INT , LIGNE : ".$row." / COLONNE : STRATUM";
         $log->writeLog($logError);
         $error = false;
       }
       if(!(is_string($tableau[$row]["COVER"]))){
-        $logError = "ERREUR, LE TYPE DE DONNEE N'EST PAS UN STRING , LIGNE : ".$row." / COLONNE : COMPLETE";
+        $logError = "ERREUR, LE TYPE DE DONNEE N'EST PAS UN STRING , LIGNE : ".$row." / COLONNE : COVER";
         $log->writeLog($logError);
         $error = false;
       }
@@ -149,6 +147,7 @@ class vegetation{
   public function verifVegetationObligatoire($tableau){
 	$log = new log_error();
     $error = true;
+
     for($row = 0 ; $row < count($tableau) ; $row++){
       if($tableau[$row]["NAME_RELEVE"] == NULL){
 				$logError = "ERREUR, VALEUR OBLIGATOIRE MANQUANTE , LIGNE : ".$row." / COLONNE : NAME_RELEVE";
@@ -181,10 +180,7 @@ class vegetation{
     for($row = 0 ; $row < count($tableau) ; $row++ ){
       $idPresent = false;
       for($i = 0 ; $i < count($survey) ; $i++){
-        echo $tableau[$row]["NAME_RELEVE"];
-        echo "    &&    ";
-        echo $survey[$i];
-        echo "     ||     ";
+
         if($tableau[$row]["NAME_RELEVE"] == $survey[$i]){
           $idPresent = true;
         }
@@ -199,6 +195,33 @@ class vegetation{
 
 
   }
+  
+  public function verifCdNom($tableau, $bdd){
+	  
+	$log = new log_error();
+    $error = false;
+    $sql = $bdd->query("SELECT cd_nom FROM taxref_9");
+    $cdNom = $sql->fetchAll(PDO::FETCH_COLUMN);
+	
+	for($row = 0 ; $row < count($tableau) ; $row++){
+		for($i = 0 ; $i < count($cdNom) ; $i++){
+			echo $cdNom[$i];
+			if($tableau[$row]["CD_NOM"] == $cdNom[$i]){
+				echo "CA MAAAAAAAAAAAAARCHE";
+				$error = true;
+			}
+		}
+		if($error == false){
+			$line = $row +2;
+		 $log->writeLog("ERREUR , CD_NOM N'EXISTE PAS DANS LA BASE DE DONNEES , LIGNE ".$line);
+		}
+
+	}
+
+	return $error;
+	
+  }
+  
 
   public function insertionVegetation($tableau, $bdd){
     $verif = false;
@@ -217,16 +240,17 @@ class vegetation{
 
           $query->execute(array(
             $idVegfr[0],
-            $tableau[$row]["SP_NAME"],
+			$tableau[$row]["CD_NOM"],
             $tableau[$row]["STRATUM"],
             $tableau[$row]["COVER"],
-            $tableau[$row]["NAME"],
+			$tableau[$row]["SP_NAME"],
+			
           ));
 
 
       }
         $bdd->commit();
-        $verif = true;;
+        $verif = true;
       }
       catch ( Exception $e )
       {
