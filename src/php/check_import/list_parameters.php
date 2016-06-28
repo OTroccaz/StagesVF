@@ -124,9 +124,9 @@ public function updateList($listName, $bdd){
   $listDiff = array_diff_assoc($list["label"], $listBdd);
   $listKeys = array_keys($listDiff);
 
-
-  for($t = 0 ; $t < count($listDiff) ; $t++){
-
+	$nbrDiff = count($listDiff);
+  for($t = 0 ; $t < $nbrDiff ; $t++){
+	echo "T : ".$t;
     $sqlInsert = "INSERT INTO ".$name." (";
       for($b = 0 ; $b < count($ColumnName) ; $b++ ){
         $sqlInsert .= $ColumnName[$b];

@@ -7,7 +7,7 @@ class vegetation{
 
   }
   public function initialisationVegetationAll($chemin, $bdd){
-    $reponse = false;
+    $verif = false;
     $tabName = $this->getTabNameVegetation($chemin);
     $tableau = $this->initVegetation($chemin, $tabName);
     $tableau = $this->correspondanceVegetation($tableau, $bdd);
@@ -27,7 +27,7 @@ class vegetation{
     if (($handle = fopen($nameVegetation, "r")) !== FALSE) {
       $nbr_lignes = count(file($nameVegetation));
 
-      while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
+      while (($data = fgetcsv($handle, 300, ";")) !== FALSE) {
         $nbr_champs = count($data);
 
         if($row == 0){
@@ -49,14 +49,12 @@ class vegetation{
     $nbr_champs = 0;
     $tableau = array(array());
 
-
-
     if (($handle = fopen($nameVegetation, "r")) !== FALSE) {
       $nbr_lignes = count(file($nameVegetation));
 
 
 
-      while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
+      while (($data = fgetcsv($handle, 300, ";")) !== FALSE) {
         $nbr_champs = count($data);
 
       if($row >= 1){
@@ -197,23 +195,23 @@ public function corresintNull($tableau){
   }
   
   public function verifCdNom($tableau, $bdd){
-	  
 	$log = new log_error();
     $error = false;
     $sql = $bdd->query("SELECT cd_nom FROM taxref_9");
     $cdNom = $sql->fetchAll(PDO::FETCH_COLUMN);
+	$verifTri = sort($cdNom);
+	$valeurDebut = 0;
+	$valeurFin = (count($cdNom)-1);
+	$tabCount = count($tableau);
 	
-	for($row = 0 ; $row < count($tableau) ; $row++){
-		for($i = 0 ; $i < count($cdNom) ; $i++){
-			echo $cdNom[$i];
-			if($tableau[$row]["CD_NOM"] == $cdNom[$i]){
-				echo "CA MAAAAAAAAAAAAARCHE";
-				$error = true;
-			}
+	for($row = 0 ; $row < $tabCount ; $row++){
+		
+		 if($this->rechercheDicho($cdNom, count($cdNom),  $tableau[$row]["CD_NOM"] )){
+			$error = true;
 		}
 		if($error == false){
 			$line = $row +2;
-		 $log->writeLog("ERREUR , CD_NOM N'EXISTE PAS DANS LA BASE DE DONNEES , LIGNE ".$line);
+			$log->writeLog("ERREUR , CD_NOM N'EXISTE PAS DANS LA BASE DE DONNEES , LIGNE ".$line);
 		}
 
 	}
@@ -272,7 +270,44 @@ public function corresintNull($tableau){
 
 
   }
+  
 
+
+  
+  
+public function rechercheDicho($tab, $nbVal, $val){
+
+
+  $trouve = false;
+  $id = 0;
+  $im = 0;
+  $ifin = ($nbVal-1);
+
+  while(($trouve == false) && (($ifin - $id) > 1)){
+
+    $im = (($id + $ifin)/2);   
+	if($tab[$im] == $val){
+		$trouve = true;
+	}
+  
+    if($tab[$im] > $val){
+		$ifin = $im;
+	}
+    else{
+	 $id = $im;  
+	}
+  }
+  
+  if($tab[$id] == $val){
+	 return true;   
+  }
+  else{
+	  return false; 
+  }
+
+  
+
+}
 
 
 }
