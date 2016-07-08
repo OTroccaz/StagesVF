@@ -45,9 +45,12 @@ class list_parameters{
 
     for($champs = 0 ; $champs < count($champsList) ; $champs++){
       for($row = 0; $row < count($tableau) ; $row++){
-        if(is_numeric($tableau[$row][$champsList[$champs]]) || $tableau[$row][$champsList[$champs]] == NULL){
+        if(is_numeric($tableau[$row][$champsList[$champs]]) || ($tableau[$row][$champsList[$champs]] == NULL)){
         }
         else{
+			echo $tableau[$row][$champsList[$champs]];
+			echo $row;
+			echo "ERRUR";
             $log->writeLog("ERREUR, LA DONNEE N'EST PAS UN INT , LIGNE : ".$row." / COLONNE : ".$champsList[$champs]);
           $error = false;
         }
@@ -80,7 +83,6 @@ public function updateListAll($bdd){
 						'salinity',
 						'sampling',
 						'soil_ph',
-						//'species',
 						'stratum',
 						'temperatur',
 						'typus',

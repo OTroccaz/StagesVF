@@ -14,14 +14,32 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    /* CONNEXION BDD */
    include ('../../config/connection.php');
    $bdd = connexionPgSQL();
-   /* CONNEXION FAITE */
+   /* CONNEXION FAITE */ 
 
    include('../html/blank_page.htm');
    include('check_import/survey.php');
    include('check_import/dataset.php');
    include('check_import/vegetation.php');
+   
+
+   
    ?> <title>Importation</title>
    <?php
+   
+   	if (isset($_GET['verif']) && $_GET['verif'] == 1) // On vérifie que le variable existe.
+	{
+		?>
+		<div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
+		Fichier accepté par la vérification !</div><br>
+		<?php
+	}
+	if(isset($_GET['verif']) && $_GET['verif'] == 0){
+		?>
+		<div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
+		Fichier non accepté par la vérification ...<br> Cliquez <a href="download_log.php">ici</a> pour télécharger le fichier d'erreurs.</div><br>
+		<?php
+	}
+   
 
    function upload($formulaireUpload,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier,$type,$bdd) {
       $check = TRUE; $verification = FALSE;
@@ -48,8 +66,8 @@ if ($connect == "1") // Si le visiteur s'est identifié.
                $dataset = new dataset();
                $verification = $dataset->initialisationDatasetAll('../../check/'.$nomFichier, $bdd); // On fait la vérification
             } else if ($type == 'survey') { // S'il est de type survey
-               $survey = new survey();
-               $verification = $survey->initialisationSurveyAll('../../check/'.$nomFichier, $bdd); // On fait la vérification
+				$survey = new survey();
+				$verification = $survey->initialisationSurveyAll('../../check/'.$nomFichier, $bdd, 0); // On fait la vérification
             } else if ($type == 'vegetation') { // S'il est de type vegetation
                $vegetation = new vegetation();
                $verification = $vegetation->initialisationVegetationAll('../../check/'.$nomFichier, $bdd); // On fait la vérification
@@ -57,8 +75,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          }
          if ($check && $verification) { // Si tout s'est bien passé et que la vérification n'a eu aucune erreur
             rename('../../check/'.$nomFichier, $destination); // On copie le fichier qui était dans le dossier de fichiers non vérifiés au bon dossier ?>
-            <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
-               Fichier accepté par la vérification !</div><br>
+
             <?php
          } else if (!$verification){
             ?>

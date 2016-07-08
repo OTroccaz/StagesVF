@@ -11,12 +11,14 @@ class int_parameters{
     $sql = $bdd->query("SELECT id_parameter FROM list_int");
     $champsIntCorres = $sql->fetchAll(PDO::FETCH_COLUMN);
 
-
-    for($champs = 0 ; $champs < count($champsInt) ; $champs++){
+	$nbrInt = count($champsInt);
+	$nbrTab = count($tableau);
+	
+    for($champs = 0 ; $champs < $nbrInt ; $champs++){
 
       $sqlInsert = "INSERT INTO int_type (id_vegfr, id_parameter, value) VALUES (?,?,?)";
 
-      for($row = 0 ; $row < count($tableau) ; $row++){
+      for($row = 0 ; $row < $nbrTab ; $row++){
 
         $sql = $bdd->query("SELECT id_vegfr FROM survey WHERE name_releve = '".$tableau[$row]["NAME_RELEVE"]."'");
         $idVegfr = $sql->fetchAll(PDO::FETCH_COLUMN);

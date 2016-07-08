@@ -44,7 +44,7 @@ class varchar_parameters{
 
     for($champs = 0 ; $champs < count($champsVarchar) ; $champs++){
       for($row = 0; $row < count($tableau) ; $row++){
-        if(is_string($tableau[$row][$champsVarchar[$champs]])){
+        if(is_string($tableau[$row][$champsVarchar[$champs]]) || $tableau[$row][$champsVarchar[$champs]] == NULL){
         }
         else{
           $log->writeLog( "ERREUR, LA DONNEE N'EST PAS UN STRING , LIGNE : ".$row." / COLONNE : ".$champsVarchar[$champs]);

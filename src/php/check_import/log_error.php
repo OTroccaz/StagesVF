@@ -8,7 +8,7 @@ class log_error{
   $contenu_du_fichier = $log;
   $contenu_du_fichier .= "\n";
   fseek ($fp, SEEK_END);
-  fputs ($fp, $contenu_du_fichier);
+  fwrite ($fp, $contenu_du_fichier);
   fclose ($fp);
 
   }

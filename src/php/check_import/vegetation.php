@@ -6,19 +6,51 @@ class vegetation{
     include('log_error.php');
 
   }
-  public function initialisationVegetationAll($chemin, $bdd){
+  public function initialisationVegetationAll($chemin, $bdd, $Nbr_row){
+	 
+	if($Nbr_row == 499){
+
+		$chemin = substr($chemin, 12);
+		$chemin = "../../../uploads/vegetation/".$chemin;
+		$chemin = trim($chemin);
+	}	 
+	$nbrLines = $this->getNbrLines($chemin);
     $verif = false;
+    $reponse = true;
     $tabName = $this->getTabNameVegetation($chemin);
     $tableau = $this->initVegetation($chemin, $tabName);
     $tableau = $this->correspondanceVegetation($tableau, $bdd);
 	$tableau = $this->corresintNull($tableau);
     $verif = $this->verificationVegetation($tableau, $bdd);
     if($verif){
-    		$reponse = $this->insertionVegetation($tableau, $bdd);
-    }
+    		$inc = $this->insertionVegetation($tableau, $bdd);
+		if($Nbr_row + $inc > $nbrLines){
+			$Nbr_row = $nbrLines;
+		}
+		else{
+			$Nbr_row = $Nbr_row + $inc;
+		}
+			
+		echo $Nbr_row;
+		echo " / ";
+		echo $nbrLines;
 
+		if($Nbr_row < $nbrLines){
+			header( "Refresh:1; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/check_import/lancementVegetation.php?row=".$Nbr_row."&chemin=".$chemin, true);
+
+		}
+		else{
+			echo " L'insertion est terminé ! Vous allez être redirigé vers la page d'importation.";
+			header( "Refresh:5; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/fileupload.php?verif=1", true);
+		}
+    }
+	else{
+		$reponse = false;
+		echo " L'insertion a rencontrée une erreur ! Vous allez être redirigé vers la page d'importation.";
+		header( "Refresh:5; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/fileupload.php?verif=0", true);
+	}
     return $reponse;
-  }
+ }
 
   public function getTabNameVegetation($nameVegetation){
     $tabName = array();
@@ -42,34 +74,42 @@ class vegetation{
     }
       return $tabName;
   }
-  public function initVegetation($nameVegetation, $tabName){
+  public function initVegetation($nameVegetation, $tabName, $row){
     $log = new log_error();
-    $log->resetLog();
     $row = 0;
     $nbr_champs = 0;
     $tableau = array(array());
+	$increment = 0;
+	$line = 0;
 
     if (($handle = fopen($nameVegetation, "r")) !== FALSE) {
       $nbr_lignes = count(file($nameVegetation));
+		$rowLow = $row + 1;
+		if($nbr_lignes >= ($row + 501)){
+			$rowHigh = $row + 501;
+		}
+		else{
+			$rowHigh += ($nbr_champs - $row); 
+		}
 
 
-
-      while (($data = fgetcsv($handle, 300, ";")) !== FALSE) {
+      while (($data = fgetcsv($handle, 500, ";")) !== FALSE) {
         $nbr_champs = count($data);
 
-      if($row >= 1){
+      if($line > 1 && $line >= $rowLow && $line <= $rowHigh){
         for ($c=0; $c < $nbr_champs; $c++) {
-          $tableau[$row-1][$tabName[$c]] = $data[$c];
+          $tableau[$increment][$tabName[$c]] = $data[$c];
 
         }
+		$increment++;
       }
-        $row++;
-      }
-
+        $line++;
+    }
+	fclose($handle);
     }
     return $tableau;
     }
-
+	
   public function correspondanceVegetation($tableau, $bdd){
   		for($row = 0 ; $row < count($tableau) ; $row++){
   			if($tableau[$row]["STRATUM"] != NULL){
@@ -78,7 +118,7 @@ class vegetation{
   			}
 
   		}
-      return $tableau;
+    return $tableau;
   }
 
   public function corresStratum($data, $bdd){
@@ -223,6 +263,7 @@ public function corresintNull($tableau){
 
   public function insertionVegetation($tableau, $bdd){
     $verif = false;
+	$inc = 0;
       $log = new log_error();
       $sqlInsert = "INSERT INTO vegetation (id_vegfr, id_species, id_stratum, cover, species_name) VALUES (?,?,?,?,?)";
 
@@ -245,7 +286,7 @@ public function corresintNull($tableau){
 			
           ));
 
-
+		$inc++;
       }
         $bdd->commit();
         $verif = true;
@@ -256,7 +297,7 @@ public function corresintNull($tableau){
         $log->writeLog($e->getMessage());
         $log->writeLog("INSERTION NON EFFECTUE");
       }
-      return $verif;
+      return $inc;
   }
 
   public function deleteVegetation($bdd, $surveyName){
@@ -303,11 +344,17 @@ public function rechercheDicho($tab, $nbVal, $val){
   }
   else{
 	  return false; 
-  }
-
-  
-
+  } 
 }
+
+  public function getNbrLines($nameSurvey){
+	  $nbr_lignes = 0;
+	    if (($handle = fopen($nameSurvey, "r")) !== FALSE) {
+			$nbr_lignes = count(file($nameSurvey));
+	        fclose($handle);
+		}
+		return $nbr_lignes;
+  }
 
 
 }

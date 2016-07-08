@@ -1,30 +1,76 @@
 <?php
 
 class survey{
+	
+	public $row;
+	public $limit;
+	public $chemin;
+	
+	
+	public function __construct()
+    {
+		include('log_error.php');
+		include('int_parameters.php');
+		include('varchar_parameters.php');
+		include('list_parameters.php');
+		ini_set('memory_limit', '-1');
+		set_time_limit(0);
+    }
 
-
-  public function survey(){
-    include('log_error.php');
-    include('int_parameters.php');
-    include('varchar_parameters.php');
-    include('list_parameters.php');
-    ini_set('memory_limit', '-1');
-    set_time_limit(0);
-
-  }
-
-  public function initialisationSurveyAll($chemin, $bdd){
+	
+	
+	
+	
+	
+  public function initialisationSurveyAll($chemin, $bdd, $Nbr_row){
+	
+    $log = new log_error();
     $reponse = false;
+    $verif = false;
+	
+	if($Nbr_row == 500){
+
+		$chemin = substr($chemin, 12);
+		$chemin = "../../../uploads/survey/".$chemin;
+		$chemin = trim($chemin);
+	}
+	
+	$nbrLines = $this->getNbrLines($chemin);
     $tabName = $this->getTabNameSurvey($chemin);
-    $tableau = $this->initSurvey($chemin, $tabName);
+    $tableau = $this->initSurvey($chemin, $tabName, $Nbr_row);
     $tableau = $this->correspondanceSurvey($tableau, $bdd);
     $tableau = $this->intNull($tableau, $bdd);
-    $verif = $this->verificationSurvey($tableau, $bdd);
+	$verif = $this->verificationSurvey($tableau, $bdd);
     if($verif){
-      $reponse = $this->insertionSurveyAll($tableau, $bdd);
+		$reponse = $this->insertionSurveyAll($tableau, $bdd);
+		
+		if($Nbr_row + 500 > $nbrLines){
+			$Nbr_row = $nbrLines;
+		}
+		else{
+			$Nbr_row = $Nbr_row + 500;
+		}
+			
+		echo $Nbr_row;
+		echo " / ";
+		echo $nbrLines;
+
+		if($Nbr_row < $nbrLines){
+			header( "Refresh:1; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/check_import/lancement.php?row=".$Nbr_row."&chemin=".$chemin, true);
+
+		}
+		else{
+			echo " L'insertion est terminé ! Vous allez être redirigé vers la page d'importation.";
+			header( "Refresh:5; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/fileupload.php?verif=1", true);
+		}
     }
+	else{
+		$reponse = false;
+		echo " L'insertion a rencontrée une erreur ! Vous allez être redirigé vers la page d'importation.";
+		header( "Refresh:5; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/fileupload.php?verif=0", true);
+	}
     return $reponse;
-  }
+ }
 
   public function insertionSurveyAll($tableau, $bdd){
     $verif = false;
@@ -34,23 +80,35 @@ class survey{
     $varcharParam = new varchar_parameters();
     $listParam = new list_parameters();
     try{
-      $this->insertionSurvey($tableau, $bdd);
-      $intParam->insertionIntParam($tableau, $bdd);
-      $varcharParam->insertionVarcharParam($tableau, $bdd);
-      $listParam->insertionListParam($tableau, $bdd);
-	  $this->initGeom($bdd);
-      $bdd->commit();
-      $verif = true;
+		$this->insertionSurvey($tableau, $bdd);
+        $intParam->insertionIntParam($tableau, $bdd);
+		$varcharParam->insertionVarcharParam($tableau, $bdd);
+        $listParam->insertionListParam($tableau, $bdd);
+		$this->initGeom($bdd);
+		$bdd->commit();
+		$verif = true;
     }
     catch ( Exception $e )
     {
       $bdd -> rollBack ();
+	  $msg = $e->getMessage();
       $log->writeLog($e->getMessage());
       $log->writeLog("INSERTION NON EFFECTUE");
     }
     return $verif;
   }
 
+  
+  public function getNbrLines($nameSurvey){
+	  $nbr_lignes = 0;
+	    if (($handle = fopen($nameSurvey, "r")) !== FALSE) {
+			$nbr_lignes = count(file($nameSurvey));
+	        fclose($handle);
+		}
+		return $nbr_lignes;
+  }
+  
+  
   public function getTabNameSurvey($nameSurvey){
     $tabName = array();
     $row = 0;
@@ -78,44 +136,47 @@ class survey{
     return $tabName;
   }
 
-  public function initSurvey($nameSurvey, $tabName){
-
+  public function initSurvey($nameSurvey, $tabName, $row){
     $log = new log_error();
-    $log->resetLog();
-    $row = 0;
     $nbr_champs = 0;
+	$nbr_lignes = 0;
     $tableau = array(array());
-
+	$increment = 0;
+	$line = 0;
 
     if (($handle = fopen($nameSurvey, "r")) !== FALSE) {
-      $nbr_lignes = count(file($nameSurvey));
-      $nbr_champs = count($tabName);
+		$nbr_lignes = count(file($nameSurvey));
+		$nbr_champs = count($tabName);
+		$rowLow = $row + 1;
+		if($nbr_lignes >= ($row + 500)){
+			$rowHigh = $row + 500;
+		}
+		else{
+			$rowHigh += ($nbr_champs - $row); 
+		}
+		while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
 
-      while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
+			if($line > 1 && $line >= $rowLow && $line <= $rowHigh){
+				for ($c=0; $c < $nbr_champs ; $c++) {
+					$data[$c] = str_replace("'", "&apos;", $data[$c]);
+					$tableau[$increment][$tabName[$c]] = $data[$c];
 
 
+				}
+				$increment++;
+			}
+			$line++;
 
-        if($row > 1){
-          for ($c=0; $c < $nbr_champs ; $c++) {
-            $line = $row - 2;
-            $data[$c] = str_replace("'", "&apos;", $data[$c]);
-            $tableau[$line][$tabName[$c]] = $data[$c];
+		}
+		fclose($handle);
 
-          }
-        }
-        $row++;
-
-      }
-      fclose($handle);
     }
-
-
 
     return $tableau;
   }
 
   public function correspondanceSurvey($tableau, $bdd){
-
+	  
       $sql = $bdd->query("SELECT project FROM dataset");
       $tableauDataset = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_dataset FROM dataset");
@@ -242,6 +303,7 @@ class survey{
       $tableauNatRegion = $sql->fetchAll(PDO::FETCH_COLUMN);
       $sql = $bdd->query("SELECT id_nat_region FROM list_nat_region");
       $tableauNatRegionId = $sql->fetchAll(PDO::FETCH_COLUMN);
+	  
 
 
     for($i = 0 ; $i < count($tableau) ; $i++){
@@ -445,7 +507,9 @@ class survey{
   public function verifTypeSurvey($tableau){
     $log = new log_error();
     $error = true;
-    for($row = 0 ; $row < count($tableau) ; $row++){
+	$nbrRow = count($tableau);
+    for($row = 1 ; $row < $nbrRow ; $row++){
+		
       if(!(is_string($tableau[$row]["NAME_RELEVE"]))){
         $logError = "ERREUR, LE TYPE DE DONNEE N'EST PAS UN STRING , LIGNE : ".$row." / COLONNE : NAME_RELEVE";
         $log->writeLog($logError);
@@ -562,7 +626,7 @@ class survey{
   public function verifSurveyObligatoire($tableau){
     $log = new log_error();
     $error = true;
-    for($row = 2 ; $row < count($tableau) ; $row++){
+    for($row = 1 ; $row < count($tableau) ; $row++){
       if($tableau[$row]["PROJECT"] == NULL){
         $log->writeLog("ERREUR , Nom du Dataset manquant, LIGNE : ".$row." / COLONNE : PROJECT");
         $error = false;
@@ -591,14 +655,11 @@ class survey{
   public function insertionSurvey ($tableau, $bdd){
 
     //Insertion des données dans survey
-
     $sql = "INSERT INTO survey (id_dataset, name_releve, complete, date_s, 	id_protocol,
       id_coverscale, author, deg_lon,deg_lat, altitude, table_nb, nb_in_table, ref_geo, repetition)
       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
-
       for($row = 0 ; $row < count($tableau) ; $row++){
-
         $query=$bdd->prepare($sql);
         $query->execute(array(
           $tableau[$row]["PROJECT"],	//id_dataset
@@ -611,10 +672,10 @@ class survey{
           $tableau[$row]["DEG_LONG"],	//deg_long
           $tableau[$row]["DEG_LAT"],	//deg_lat
           $tableau[$row]["ALTITUDE"],	//altitude
-          $tableau[$row]["TABLE_NR"],	//projection
-          $tableau[$row]["NR_IN_TAB"],	//projection
-          $tableau[$row]["REF_GEO"],	//projection
-          $tableau[$row]["REPETITION"],	//projection
+          $tableau[$row]["TABLE_NR"],	
+          $tableau[$row]["NR_IN_TAB"],	
+          $tableau[$row]["REF_GEO"],	
+          $tableau[$row]["REPETITION"],	
 
         ));
 
@@ -637,8 +698,8 @@ class survey{
 
           $query=$bdd->prepare($sql);
           $query->execute(array(
-            $idVegfr[0], //id veg_fr
-            "FRANCE", //country
+            $idVegfr[0],
+            "FRANCE",
             $tableau[$row]["DEPARTMENT"],
             $tableau[$row]["COUNTY"],
             $tableau[$row]["LOCALITY"],
@@ -680,5 +741,12 @@ class survey{
 		$bdd->query($query);
 	}
 	
+	public function resetLogError($bdd){
+		 $log = new log_error();
+		 $log->resetLog();
+	}
 }
+	
+
+
     ?>
