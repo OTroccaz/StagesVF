@@ -1,4 +1,5 @@
 <?php
+// Lance le téléchargement d'une des listes dont son nom est transféré par la méthode POST des formulaires
 $fichier = '../../List_CSV/'.$_POST['list_file'];
 $fichier_taille = filesize($fichier);
 header("Content-disposition: attachment; filename=".$_POST['list_file']);

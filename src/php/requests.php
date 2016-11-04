@@ -198,7 +198,7 @@ else if (isset($_POST['yes_export'])) // Si on a cliqué sur OUI lors de la dema
       </div> <br>
       <?php
 
-      // Supprimez toute la partie ---email--- si vous ne souhaitez pas avoir d'email à chaque demande d'import
+      // Supprimez ou mettez en commentaire toute la partie ---email--- si vous ne souhaitez pas avoir d'email à chaque demande d'import
       // ---email---
       $requete = $bdd->query("SELECT firstname, lastname, email FROM users WHERE pseudo ='". $_SESSION['pseudo'] ."'");
       $donnees = $requete->fetch();
@@ -208,15 +208,15 @@ else if (isset($_POST['yes_export'])) // Si on a cliqué sur OUI lors de la dema
       $expeditor = "From:noreply@VegFrance.fr";
 
       // enlever les commentaires sur la ligne de requete et la boucle while (les 5 suivantes) lorsque le ligne sera opérationnel
-      // $requete = $bdd->query("SELECT email FROM users WHERE id_status = 4 OR id_status = 5");
-      // while ($donnees = $requete->fetch())
-      // {
-      //    $success = mail($donnees['email'], $subject, $message, $expeditor);
-      // }
+      $requete = $bdd->query("SELECT email FROM users WHERE id_status = 4 OR id_status = 5");
+      while ($donnees = $requete->fetch())
+      {
+         mail($donnees['email'], $subject, $message, $expeditor);
+      }
 
       // garder cette ligne pour éviter le spam d'emails pour le moment
       // email envoyé sur mon adresse perso pour ne pas gêner alexia par exemple lors des tests
-      mail("adrienleblanc53@gmail.com", $subject, $message, $expeditor);
+      // mail("adresseperso@gmail.com", $subject, $message, $expeditor);
 
       // ---email---
       afficherPage($bdd);

@@ -1,7 +1,10 @@
 <?php
 
-class int_parameters{
+//classe contenant les fonctions de vérification et d'insertion pour les champs facultatif de type integer
 
+class int_parameters{
+	
+	// Cette fonction permet d'inserer les données ayant passé la vérification dans la BDD
 
   public function insertionIntParam ($tableau, $bdd){
 
@@ -36,6 +39,7 @@ class int_parameters{
   }
   }
 
+  // Cette fonction permet de vérifier que toutes les données sont bien des integer
 
   public function verifInt($tableau, $bdd){
     $log = new log_error();

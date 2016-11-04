@@ -30,14 +30,14 @@ session_start();
                <li><a href="management.php">Gestion</a></li>
                <li class="active"><a href="exit_mapVF.php">Consultation</a></li>
                <?php
-               if(isset($_SESSION['pseudo']))
+               if(isset($_SESSION['pseudo'])) // Si on est connecté
                { ?>
                   <li><a href="../php/myaccount.php">Mon compte</a></li>
                   <?php
                }
                if(isset($_SESSION['status']))
                {
-                  if($_SESSION['status']!="Administrateur" && $_SESSION['status']!="Gestionnaire")
+                  if($_SESSION['status']!="Administrateur" && $_SESSION['status']!="Gestionnaire") // Si on est connecté et qu'on est pas admin ou gestionnaire
                   {?>
                      <li><a href="../php/requests.php">Mes demandes d'exportation</a></li>
                      <?php
@@ -45,7 +45,7 @@ session_start();
                }
                if(isset($_SESSION['status']))
                {
-                  if($_SESSION['status']!="Utilisateur" && $_SESSION['status']!="Fournisseur")
+                  if($_SESSION['status']!="Utilisateur" && $_SESSION['status']!="Fournisseur") // Si on est connecté et qu'on est admin ou gestionnaire
                   {
                      ?>
                      <li class="dropdown">
@@ -68,7 +68,7 @@ session_start();
                ?>
             </ul>
             <?php
-            if (isset($_SESSION['status']))
+            if (isset($_SESSION['status'])) // Si on est connecté
             {?>
                <ul class="nav navbar-nav navbar-right">
                   <li><a href="../php/disconnect.php"><span class="glyphicon glyphicon-off"></span> Se déconnecter</a></li>
@@ -84,7 +84,7 @@ session_start();
             <h2>Consultation des données</h2>
          </div>
          <br><p><b>Attention</b>, en voulant consulter les données, vous allez <b>quitter ce site</b><br>pour rejoindre le site initialement créé de VegFrance.<br><b>Voulez-vous continuer ?</b></p><br><br>
-         <a href="https://vegfrance.univ-rennes1.fr/carte.php"><button type="submit" class="btn btn-md btn-primary">Oui</button></a>
+         <a href="https://ecobio-mapserver.univ-rennes1.fr/GS/mapVF_index.php?troli=ok"><button type="submit" class="btn btn-md btn-primary">Oui</button></a>
          <a href="../../index.php"><button type="submit" class="btn btn-md btn-secondary">Non</button></a>
       </center>
    </div>

@@ -1,10 +1,13 @@
 <?php
 
+//classe contenant les fonctions d'initialisation, de correspondance, de vérification et d'insertion des relevés
+
 class survey{
 	
 	public $row;
 	public $limit;
 	public $chemin;
+	
 	
 	
 	public function __construct()
@@ -19,7 +22,10 @@ class survey{
 
 	
 	
-	
+	// Cette fonction lance toutes les fonctions nécessaires à l'insertion des données
+	//(initialisation, vérification et insertion)
+	//Si l'insertion fait plus de 500 lignes, la page sera rechargée et la fonction relancé
+	//pour insérer les 500 lignes suivantes
 	
 	
   public function initialisationSurveyAll($chemin, $bdd, $Nbr_row){
@@ -41,8 +47,11 @@ class survey{
     $tableau = $this->correspondanceSurvey($tableau, $bdd);
     $tableau = $this->intNull($tableau, $bdd);
 	$verif = $this->verificationSurvey($tableau, $bdd);
+	
+	//Si la vérification est bonne on continue
     if($verif){
 		$reponse = $this->insertionSurveyAll($tableau, $bdd);
+		
 		
 		if($Nbr_row + 500 > $nbrLines){
 			$Nbr_row = $nbrLines;
@@ -55,23 +64,29 @@ class survey{
 		echo " / ";
 		echo $nbrLines;
 
+		//Si il reste encore des lignes à insérer, on relance la fonction
 		if($Nbr_row < $nbrLines){
-			header( "Refresh:1; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/check_import/lancement.php?row=".$Nbr_row."&chemin=".$chemin, true);
+			header( "Refresh:1; url=https://vegfrance.univ-rennes1.fr/Gestion_BDD/src/php/check_import/lancement.php?row=".$Nbr_row."&chemin=".$chemin, true);
 
 		}
+		//Si il n'y a plus de lignes, on stop l'insertion et on redirige vers la page d'importation
 		else{
 			echo " L'insertion est terminé ! Vous allez être redirigé vers la page d'importation.";
-			header( "Refresh:5; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/fileupload.php?verif=1", true);
+			header( "Refresh:5; url=https://vegfrance.univ-rennes1.fr/Gestion_BDD/src/php/fileupload.php?verif=1", true);
 		}
     }
+	//Si il y a eu une erreur, on redirige vers la page d'importation avec un lien pour télécharger le fichier d'erreur
 	else{
 		$reponse = false;
 		echo " L'insertion a rencontrée une erreur ! Vous allez être redirigé vers la page d'importation.";
-		header( "Refresh:5; url=https://vegfrance.univ-rennes1.fr/StagesVF/src/php/fileupload.php?verif=0", true);
+		header( "Refresh:5; url=https://vegfrance.univ-rennes1.fr/Gestion_BDD/src/php/fileupload.php?verif=0", true);
 	}
     return $reponse;
  }
 
+	//Cette fonction lance toutes les fonctions d'insertion nécéssaire pour les données des relevés
+	//ainsi que les champs facultatifs
+ 
   public function insertionSurveyAll($tableau, $bdd){
     $verif = false;
     $log = new log_error();
@@ -98,6 +113,7 @@ class survey{
     return $verif;
   }
 
+  //Cette fonction permet de récuperer le nombre de lignes dans un fichier CSV
   
   public function getNbrLines($nameSurvey){
 	  $nbr_lignes = 0;
@@ -108,6 +124,8 @@ class survey{
 		return $nbr_lignes;
   }
   
+  
+  //Cette fonction permet de récuperer les noms de champs et de les mettre dans un tableau
   
   public function getTabNameSurvey($nameSurvey){
     $tabName = array();
@@ -135,6 +153,9 @@ class survey{
     }
     return $tabName;
   }
+  
+  //Cette fonction permet de passer les données du fichier CSV sous la forme
+  //d'un tableau PHP avec pour index des colonne le nom des champs
 
   public function initSurvey($nameSurvey, $tabName, $row){
     $log = new log_error();
@@ -152,7 +173,8 @@ class survey{
 			$rowHigh = $row + 500;
 		}
 		else{
-			$rowHigh += ($nbr_champs - $row); 
+			$rowHigh = $nbr_lignes; 
+
 		}
 		while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
 
@@ -160,8 +182,6 @@ class survey{
 				for ($c=0; $c < $nbr_champs ; $c++) {
 					$data[$c] = str_replace("'", "&apos;", $data[$c]);
 					$tableau[$increment][$tabName[$c]] = $data[$c];
-
-
 				}
 				$increment++;
 			}
@@ -174,8 +194,12 @@ class survey{
 
     return $tableau;
   }
+  
+	//Cette fonction va récuperer les listes de la BDD pour faire la correspondances
+	//entre les données du fichier CSV et celles de la BDD
 
   public function correspondanceSurvey($tableau, $bdd){
+	
 	  
       $sql = $bdd->query("SELECT project FROM dataset");
       $tableauDataset = $sql->fetchAll(PDO::FETCH_COLUMN);
@@ -418,6 +442,8 @@ class survey{
     $tableau = $this->corresBooleanAll($tableau);
     return $tableau;
   }
+  
+  //Fonction permettant de faire la comparaison et d'initialiser la donnée si elle correspond
 
   public function corresList($data, $bdd, $tableau1, $tableauId){
     $row = 0;
@@ -436,6 +462,9 @@ class survey{
     return $data;
   }
 
+  //Fonction permettant de faire la comparaison et d'initialiser la donnée si elle correspond
+  //Cas particulier
+  
   public function corresLocaMethod($data, $data2, $bdd, $tableau, $tableau2, $tableauId){
     $row = 0;
     $verif = false;
@@ -450,7 +479,8 @@ class survey{
   }
 
 
-
+	//Cette fonction permet de faire la correspondances pour les booléens
+	
   public function corresBoolean($data){
 
     if($data == "Oui"){
@@ -464,6 +494,8 @@ class survey{
 
   }
 
+  	//Cette fonction permet de faire la correspondances pour les booléens prédéfinis
+	
   public function corresBooleanAll($tableau){
     for($i = 0 ; $i < count($tableau) ; $i++){
       if($tableau[$i]["COMPLETE"] != NULL){
@@ -484,7 +516,8 @@ class survey{
   }
 
 
-
+	//Cette fonction permet de lancer toutes les fonctions de vérification des données
+	
   public function verificationSurvey ($tableau,$bdd){
     $intParam = new int_parameters();
     $varcharParam = new varchar_parameters();
@@ -504,6 +537,10 @@ class survey{
     return $error;
 
   }
+  
+  
+    // Cette fonction permet de vérifier que toutes les données sont bien du type que l'on attend
+	
   public function verifTypeSurvey($tableau){
     $log = new log_error();
     $error = true;
@@ -570,6 +607,7 @@ class survey{
   }
 
 
+  //Initialise des données integer à NULL si elles le sont
 
   public function intNull($tableau, $bdd){
 
@@ -603,7 +641,8 @@ class survey{
   }
 
 
-
+//Vérifie si les données uniques ne sont pas présent dans la BDD
+  
   public function verifUnique($tableau, $bdd){
     $log = new log_error();
     $error = true;
@@ -622,7 +661,8 @@ class survey{
     return $error;
   }
 
-
+	//Vérifie que les données obligatoire ne sont pas nul
+  
   public function verifSurveyObligatoire($tableau){
     $log = new log_error();
     $error = true;
@@ -652,9 +692,11 @@ class survey{
     return $error;
   }
 
+  
+  //Insertion des données dans la table survey
+  
   public function insertionSurvey ($tableau, $bdd){
 
-    //Insertion des données dans survey
     $sql = "INSERT INTO survey (id_dataset, name_releve, complete, date_s, 	id_protocol,
       id_coverscale, author, deg_lon,deg_lat, altitude, table_nb, nb_in_table, ref_geo, repetition)
       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
@@ -662,16 +704,16 @@ class survey{
       for($row = 0 ; $row < count($tableau) ; $row++){
         $query=$bdd->prepare($sql);
         $query->execute(array(
-          $tableau[$row]["PROJECT"],	//id_dataset
-          $tableau[$row]["NAME_RELEVE"],	//name_survey
-          $tableau[$row]["COMPLETE"],	//complete
-          $tableau[$row]["DATE_S"],	//date_s
-          $tableau[$row]["PROTOCOL"],	//id_method
-          $tableau[$row]["COVERSCALE"],	//id_coverscale
+          $tableau[$row]["PROJECT"],	
+          $tableau[$row]["NAME_RELEVE"],	
+          $tableau[$row]["COMPLETE"],	
+          $tableau[$row]["DATE_S"],	
+          $tableau[$row]["PROTOCOL"],	
+          $tableau[$row]["COVERSCALE"],	
           $tableau[$row]["AUTHOR"],
-          $tableau[$row]["DEG_LONG"],	//deg_long
-          $tableau[$row]["DEG_LAT"],	//deg_lat
-          $tableau[$row]["ALTITUDE"],	//altitude
+          $tableau[$row]["DEG_LONG"],	
+          $tableau[$row]["DEG_LAT"],	
+          $tableau[$row]["ALTITUDE"],	
           $tableau[$row]["TABLE_NR"],	
           $tableau[$row]["NR_IN_TAB"],	
           $tableau[$row]["REF_GEO"],	
@@ -680,12 +722,15 @@ class survey{
         ));
 
       }
+	  
+	  //Appelle de la fonction d'insertion dans la table local_admin
       $this->insertionLocaAdmin($tableau, $bdd);
     }
 
+	//Insetion des données dans la table local_admin
+	
     public function insertionLocaAdmin ($tableau, $bdd){
 
-      //Insertion des données dans survey
 
       $sql = "INSERT INTO local_admin (id_vegfr, country, department, county_name, locality)
         VALUES (?,?,?,?,?)";
@@ -708,7 +753,8 @@ class survey{
 
         }
       }
-
+	  
+	  //Suppression des données de la table survey en fonction de l'ID
 
       public function deleteSurvey($bdd, $surveyName){
 
@@ -721,12 +767,12 @@ class survey{
         $bdd->query("DELETE FROM int_type WHERE id_vegfr='".$idVegFr[0]."'");
         $bdd->query("DELETE FROM varchar_type WHERE id_vegfr='".$idVegFr[0]."'");
         $bdd->query("DELETE FROM list_parameters WHERE id_vegfr='".$idVegFr[0]."'");
-
-
         $bdd->query("DELETE FROM survey WHERE name_releve='".$surveyName."'");
 
       }
 
+	  //Supprime TOUTE la table survey et les données associées
+	  
       public function suppressionSurvey(){
         $sql = $bdd->query("TRUNCATE survey CASCADE;");
       }
@@ -734,19 +780,14 @@ class survey{
 
 
 
-    
+    //Initialise le champs GEOM de la BDD qui permet de placer un relevé sur le webmapping
 	
 	public function initGeom($bdd){
 		$query = "UPDATE survey SET geom = ST_SetSRID(ST_Point( deg_lon, deg_lat),4326)";
 		$bdd->query($query);
 	}
 	
-	public function resetLogError($bdd){
-		 $log = new log_error();
-		 $log->resetLog();
-	}
 }
-	
 
 
     ?>

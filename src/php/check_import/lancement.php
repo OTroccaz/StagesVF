@@ -1,5 +1,5 @@
 <?php	
-
+	//Fonction permettant de relancer la fonction d'insertion des relevés avec les bons paramètres
 		include('survey.php');
 		include ('../../../config/connection.php');
 		$bdd = connexionPgSQL();

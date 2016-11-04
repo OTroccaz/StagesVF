@@ -1,0 +1,1562 @@
+NAME_RELEVE;SP_NAME;STRATUM;COVER;CD_NOM
+T0003_1;Anthoxanthum odoratum L.;;1;82922
+T0003_1;Ajuga reptans L.;;+;80990
+T0003_1;Poa pratensis L.;;1;114332
+T0003_1;Cynosurus cristatus L.;;2;93860
+T0003_1;Prunella vulgaris L.;;+;116012
+T0003_1;Lathyrus pratensis L.;;+;105247
+T0003_1;Lotus corniculatus L.;;+;106653
+T0003_1;Festuca pratensis Hudson;;1;98460
+T0003_1;Dactylis glomerata L.;;+;94207
+T0003_1;Poa trivialis L.;;1;114416
+T0003_1;Festuca rubra L.;;2;98512
+T0003_1;Trifolium pratense L.;;2;127439
+T0003_1;Veronica serpyllifolia L.;;+;129003
+T0003_1;Leontodon autumnalis L.;;1;105480
+T0003_1;Cardamine pratensis L.;;+;87964
+T0003_1;Polygonum bistorta L.;;+;114664
+T0003_1;Veronica chamaedrys L.;;+;128832
+T0003_1;Deschampsia cespitosa (L.) Beauv.;;+;94626
+T0003_1;Trollius europaeus L.;;1;127872
+T0003_1;Briza media L.;;+;86490
+T0003_1;Alchemilla xanthochlora Rothm.;;1;81195
+T0003_1;Leucanthemum vulgare Lam.;;+;105817
+T0003_1;Primula officinalis;;+;115900
+T0003_1;Carum carvi L.;;+;89250
+T0003_1;Vicia sativa L.;;+;129298
+T0003_1;Bellis perennis L.;;+;85740
+T0003_1;Cerastium fontanum Baumg.;;+;90008
+T0003_1;Trifolium repens L.;;1;127454
+T0003_1;Nardus stricta L.;;2;109366
+T0003_1;Gentiana campestris;;+;99872
+T0003_1;Plantago media L.;;+;113906
+T0003_1;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_1;Ranunculus acer;;+;116903
+T0003_1;Hypericum maculatum Crantz;;+;103298
+T0003_1;Agrostis capillaris L.;;1;80591
+T0003_1;Geum rivale L.;;+;100215
+T0003_1;Medicago lupulina L.;;+;107649
+T0003_1;Filipendula ulmaria (L.) Maxim.;;+;98717
+T0003_1;Cirsium acaule Scop.;;+;91274
+T0003_1;Phyteuma orbiculare L.;;+;113389
+T0003_1;Gentiana lutea L.;;+;99903
+T0003_10;Gentiana lutea L.;;+;99903
+T0003_10;Rumex acetosa L.;;+;119418
+T0003_10;Leontodon autumnalis L.;;1;105480
+T0003_10;Ranunculus acer;;+;116903
+T0003_10;Anthoxanthum odoratum L.;;+;82922
+T0003_10;Festuca pratensis Hudson;;2;98460
+T0003_10;Trifolium repens L.;;2;127454
+T0003_10;Briza media L.;;+;86490
+T0003_10;Galeopsis tetrahit L.;;+;99334
+T0003_10;Prunella vulgaris L.;;+;116012
+T0003_10;Leontodon hispidus L.;;+;105502
+T0003_10;Festuca rubra L.;;4;98512
+T0003_10;Rhinanthus minor L.;;+;117616
+T0003_10;Carex ovalis Good.;;+;88742
+T0003_10;Achillea millefolium L.;;+;79908
+T0003_10;Plantago major L.;;+;113904
+T0003_10;Taraxacum officinale Weber;;+;125677
+T0003_10;Cerastium fontanum Baumg.;;+;90008
+T0003_10;Carum carvi L.;;1;89250
+T0003_10;Plantago media L.;;+;113906
+T0003_10;Agrostis capillaris L.;;1;80591
+T0003_10;Cirsium acaule Scop.;;+;91274
+T0003_10;Veronica serpyllifolia L.;;+;129003
+T0003_10;Alchemilla xanthochlora Rothm.;;3;81195
+T0003_10;Cynosurus cristatus L.;;3;93860
+T0003_10;Lotus corniculatus L.;;+;106653
+T0003_10;Poa trivialis L.;;2;114416
+T0003_10;Bellis perennis L.;;+;85740
+T0003_10;Dactylis glomerata L.;;1;94207
+T0003_10;Trifolium pratense L.;;2;127439
+T0003_10;Cardamine pratensis L.;;+;87964
+T0003_10;Leucanthemum vulgare Lam.;;+;105817
+T0003_10;Veronica chamaedrys L.;;+;128832
+T0003_10;Rumex crispus L.;;+;119473
+T0003_11;Taraxacum officinale Weber;;+;125677
+T0003_11;Daucus carota L.;;+;94503
+T0003_11;Thymus serpyllum L.;;+;126573
+T0003_11;Gentiana lutea L.;;+;99903
+T0003_11;Deschampsia cespitosa (L.) Beauv.;;+;94626
+T0003_11;Cerastium fontanum Baumg.;;+;90008
+T0003_11;Carum carvi L.;;+;89250
+T0003_11;Galium mollugo L.;;+;99473
+T0003_11;Trifolium pratense L.;;2;127439
+T0003_11;Trifolium repens L.;;2;127454
+T0003_11;Galium cruciata;;+;99409
+T0003_11;Festuca pratensis Hudson;;2;98460
+T0003_11;Stellaria graminea L.;;+;125000
+T0003_11;Rumex acetosa L.;;+;119418
+T0003_11;Festuca rubra L.;;3;98512
+T0003_11;Cirsium acaule Scop.;;+;91274
+T0003_11;Rumex crispus L.;;+;119473
+T0003_11;Euphrasia rostkoviana Hayne;;+;97801
+T0003_11;Cardamine pratensis L.;;+;87964
+T0003_11;Cynosurus cristatus L.;;3;93860
+T0003_11;Dactylis glomerata L.;;1;94207
+T0003_11;Sanguisorba minor Scop.;;+;120753
+T0003_11;Campanula rotundifolia L.;;+;87720
+T0003_11;Thlaspi silvestre;;+;126400
+T0003_11;Leontodon autumnalis L.;;1;105480
+T0003_11;Lathyrus pratensis L.;;+;105247
+T0003_11;Lotus corniculatus L.;;+;106653
+T0003_11;Anthoxanthum odoratum L.;;+;82922
+T0003_11;Leucanthemum vulgare Lam.;;+;105817
+T0003_11;Trisetum flavescens (L.) Beauv.;;1;127660
+T0003_11;Hypericum maculatum Crantz;;+;103298
+T0003_11;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_11;Plantago media L.;;1;113906
+T0003_11;Prunella vulgaris L.;;+;116012
+T0003_11;Veronica chamaedrys L.;;+;128832
+T0003_11;Agrostis capillaris L.;;1;80591
+T0003_11;Poa trivialis L.;;1;114416
+T0003_11;Hieracium auricula;;+;101672
+T0003_11;Ranunculus acer;;+;116903
+T0003_11;Plantago major L.;;+;113904
+T0003_11;Bellis perennis L.;;+;85740
+T0003_11;Alchemilla xanthochlora Rothm.;;2;81195
+T0003_11;Achillea millefolium L.;;+;79908
+T0003_11;Phleum pratense L.;;+;113221
+T0003_12;Cardamine pratensis L.;;+;87964
+T0003_12;Poa trivialis L.;;+;114416
+T0003_12;Leucanthemum vulgare Lam.;;+;105817
+T0003_12;Veronica chamaedrys L.;;+;128832
+T0003_12;Lolium perenne L.;;1;106499
+T0003_12;Cynosurus cristatus L.;;3;93860
+T0003_12;Bellis perennis L.;;+;85740
+T0003_12;Phleum pratense L.;;+;113221
+T0003_12;Taraxacum officinale Weber;;+;125677
+T0003_12;Achillea millefolium L.;;+;79908
+T0003_12;Cerastium arvense L.;;+;89968
+T0003_12;Plantago major L.;;+;113904
+T0003_12;Cerastium fontanum Baumg.;;+;90008
+T0003_12;Malva moschata L.;;+;107282
+T0003_12;Carum carvi L.;;+;89250
+T0003_12;Lotus corniculatus L.;;+;106653
+T0003_12;Plantago media L.;;1;113906
+T0003_12;Thymus serpyllum L.;;+;126573
+T0003_12;Rumex crispus L.;;+;119473
+T0003_12;Veronica serpyllifolia L.;;1;129003
+T0003_12;Cirsium acaule Scop.;;+;91274
+T0003_12;Agrostis capillaris L.;;1;80591
+T0003_12;Stellaria graminea L.;;+;125000
+T0003_12;Hieracium auricula;;+;101672
+T0003_12;Galium cruciata;;+;99409
+T0003_12;Festuca rubra L.;;3;98512
+T0003_12;Trisetum flavescens (L.) Beauv.;;+;127660
+T0003_12;Trifolium pratense L.;;2;127439
+T0003_12;Briza media L.;;+;86490
+T0003_12;Festuca pratensis Hudson;;2;98460
+T0003_12;Hieracium pilosella L.;;+;102352
+T0003_12;Prunella vulgaris L.;;+;116012
+T0003_12;Anthoxanthum odoratum L.;;1;82922
+T0003_12;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_12;Campanula rotundifolia L.;;+;87720
+T0003_12;Hypericum maculatum Crantz;;+;103298
+T0003_12;Galium mollugo L.;;+;99473
+T0003_12;Urtica urens L.;;+;128298
+T0003_12;Alchemilla xanthochlora Rothm.;;1;81195
+T0003_12;Ranunculus acer;;+;116903
+T0003_12;Dactylis glomerata L.;;1;94207
+T0003_12;Euphrasia rostkoviana Hayne;;+;97801
+T0003_12;Rumex acetosa L.;;+;119418
+T0003_12;Trifolium repens L.;;3;127454
+T0003_12;Leontodon autumnalis L.;;1;105480
+T0003_12;Potentilla tormentilla;;+;115680
+T0003_13;Stellaria graminea L.;;+;125000
+T0003_13;Phleum pratense L.;;+;113221
+T0003_13;Galium cruciata;;+;99409
+T0003_13;Cerastium fontanum Baumg.;;+;90008
+T0003_13;Gentiana lutea L.;;+;99903
+T0003_13;Taraxacum officinale Weber;;+;125677
+T0003_13;Lolium perenne L.;;1;106499
+T0003_13;Leontodon hispidus L.;;+;105502
+T0003_13;Leucanthemum vulgare Lam.;;+;105817
+T0003_13;Rumex crispus L.;;+;119473
+T0003_13;Poa trivialis L.;;1;114416
+T0003_13;Leontodon autumnalis L.;;1;105480
+T0003_13;Dactylis glomerata L.;;2;94207
+T0003_13;Hypericum maculatum Crantz;;+;103298
+T0003_13;Cynosurus cristatus L.;;2;93860
+T0003_13;Festuca rubra L.;;2;98512
+T0003_13;Lotus corniculatus L.;;+;106653
+T0003_13;Cirsium acaule Scop.;;+;91274
+T0003_13;Ranunculus acer;;+;116903
+T0003_13;Festuca pratensis Hudson;;2;98460
+T0003_13;Medicago lupulina L.;;+;107649
+T0003_13;Plantago media L.;;1;113906
+T0003_13;Rhinanthus alectorolophus (Scop.) Pollich;;+;117587
+T0003_13;Veronica chamaedrys L.;;+;128832
+T0003_13;Agrostis capillaris L.;;1;80591
+T0003_13;Trifolium repens L.;;3;127454
+T0003_13;Briza media L.;;+;86490
+T0003_13;Carum carvi L.;;1;89250
+T0003_13;Alchemilla xanthochlora Rothm.;;1;81195
+T0003_13;Bellis perennis L.;;+;85740
+T0003_13;Veronica serpyllifolia L.;;+;129003
+T0003_13;Trifolium pratense L.;;2;127439
+T0003_13;Thymus serpyllum L.;;+;126573
+T0003_13;Campanula rotundifolia L.;;+;87720
+T0003_13;Achillea millefolium L.;;+;79908
+T0003_13;Trisetum flavescens (L.) Beauv.;;1;127660
+T0003_13;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_13;Capsella bursa-pastoris (L.) Medicus;;+;87849
+T0003_13;Urtica urens L.;;+;128298
+T0003_14;Trisetum flavescens (L.) Beauv.;;+;127660
+T0003_14;Prunella grandiflora (L.) Scholler;;+;115993
+T0003_14;Leontodon autumnalis L.;;1;105480
+T0003_14;Leontodon hispidus L.;;+;105502
+T0003_14;Bellis perennis L.;;+;85740
+T0003_14;Cirsium eriophorum (L.) Scop.;;+;91327
+T0003_14;Alchemilla xanthochlora Rothm.;;1;81195
+T0003_14;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_14;Hieracium auricula;;+;101672
+T0003_14;Cynosurus cristatus L.;;1;93860
+T0003_14;Agrostis stolonifera L.;;+;80759
+T0003_14;Trifolium repens L.;;1;127454
+T0003_14;Galium mollugo L.;;+;99473
+T0003_14;Briza media L.;;+;86490
+T0003_14;Festuca rubra L.;;4;98512
+T0003_14;Bromus erectus Hudson;;+;86601
+T0003_14;Trifolium pratense L.;;1;127439
+T0003_14;Festuca pratensis Hudson;;2;98460
+T0003_14;Campanula rotundifolia L.;;+;87720
+T0003_14;Rhinanthus minor L.;;+;117616
+T0003_14;Rumex acetosa L.;;+;119418
+T0003_14;Dactylis glomerata L.;;+;94207
+T0003_14;Pimpinella saxifraga L.;;+;113596
+T0003_14;Plantago media L.;;+;113906
+T0003_14;Lotus corniculatus L.;;+;106653
+T0003_14;Agrostis capillaris L.;;2;80591
+T0003_14;Centaurea jacea L.;;+;89619
+T0003_14;Leucanthemum vulgare Lam.;;+;105817
+T0003_14;Luzula campestris (L.) Dc.;;+;106818
+T0003_14;Lolium perenne L.;;1;106499
+T0003_14;Stellaria graminea L.;;+;125000
+T0003_14;Taraxacum officinale Weber;;1;125677
+T0003_14;Phleum pratense L.;;+;113221
+T0003_14;Veronica chamaedrys L.;;+;128832
+T0003_14;Thymus serpyllum L.;;+;126573
+T0003_14;Poa trivialis L.;;2;114416
+T0003_14;Plantago lanceolata L.;;+;113893
+T0003_14;Medicago lupulina L.;;+;107649
+T0003_14;Cerastium fontanum Baumg.;;+;90008
+T0003_14;Achillea millefolium L.;;1;79908
+T0003_15;Briza media L.;;1;86490
+T0003_15;Medicago lupulina L.;;+;107649
+T0003_15;Festuca rubra L.;;3;98512
+T0003_15;Plantago media L.;;2;113906
+T0003_15;Festuca pratensis Hudson;;1;98460
+T0003_15;Phleum pratense L.;;+;113221
+T0003_15;Euphrasia rostkoviana Hayne;;+;97801
+T0003_15;Campanula rotundifolia L.;;+;87720
+T0003_15;Plantago lanceolata L.;;+;113893
+T0003_15;Rumex acetosa L.;;+;119418
+T0003_15;Achillea millefolium L.;;+;79908
+T0003_15;Trisetum flavescens (L.) Beauv.;;2;127660
+T0003_15;Leucanthemum vulgare Lam.;;+;105817
+T0003_15;Poa trivialis L.;;+;114416
+T0003_15;Leontodon hispidus L.;;+;105502
+T0003_15;Deschampsia cespitosa (L.) Beauv.;;+;94626
+T0003_15;Veronica chamaedrys L.;;+;128832
+T0003_15;Alchemilla xanthochlora Rothm.;;2;81195
+T0003_15;Anthoxanthum odoratum L.;;+;82922
+T0003_15;Ranunculus acer;;+;116903
+T0003_15;Knautia arvensis (L.) Coulter;;+;104516
+T0003_15;Vicia cracca L.;;+;129147
+T0003_15;Lolium perenne L.;;+;106499
+T0003_15;Agrostis capillaris L.;;2;80591
+T0003_15;Hieracium auricula;;+;101672
+T0003_15;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_15;Lotus corniculatus L.;;+;106653
+T0003_15;Luzula campestris (L.) Dc.;;+;106818
+T0003_15;Leontodon autumnalis L.;;+;105480
+T0003_15;Trifolium repens L.;;2;127454
+T0003_15;Lathyrus pratensis L.;;+;105247
+T0003_15;Carex flacca Schreber;;+;88510
+T0003_15;Cerastium fontanum Baumg.;;+;90008
+T0003_15;Dactylis glomerata L.;;2;94207
+T0003_15;Centaurea jacea L.;;+;89619
+T0003_15;Carum carvi L.;;+;89250
+T0003_15;Trifolium pratense L.;;2;127439
+T0003_15;Thymus serpyllum L.;;+;126573
+T0003_15;Cynosurus cristatus L.;;1;93860
+T0003_15;Sanguisorba minor Scop.;;+;120753
+T0003_15;Cirsium eriophorum (L.) Scop.;;+;91327
+T0003_15;Daucus carota L.;;+;94503
+T0003_15;Taraxacum officinale Weber;;1;125677
+T0003_16;Lotus corniculatus L.;;1;106653
+T0003_16;Trifolium repens L.;;2;127454
+T0003_16;Stachys officinalis (L.) Trevisan;;+;124797
+T0003_16;Ranunculus acer;;+;116903
+T0003_16;Sanguisorba officinalis L.;;+;120758
+T0003_16;Genista tinctoria L.;;+;99828
+T0003_16;Poa trivialis L.;;2;114416
+T0003_16;Anthoxanthum odoratum L.;;1;82922
+T0003_16;Leucanthemum vulgare Lam.;;+;105817
+T0003_16;Briza media L.;;+;86490
+T0003_16;Cerastium fontanum Baumg.;;+;90008
+T0003_16;Lathyrus pratensis L.;;+;105247
+T0003_16;Potentilla tormentilla;;+;115680
+T0003_16;Scabiosa columbaria L.;;+;121334
+T0003_16;Festuca rubra L.;;3;98512
+T0003_16;Agrostis capillaris L.;;3;80591
+T0003_16;Carex flacca Schreber;;+;88510
+T0003_16;Hypericum perforatum L.;;+;103316
+T0003_16;Prunella vulgaris L.;;+;116012
+T0003_16;Polygala vulgaris L.;;+;114595
+T0003_16;Trisetum flavescens (L.) Beauv.;;+;127660
+T0003_16;Leontodon hispidus L.;;+;105502
+T0003_16;Holcus lanatus L.;;1;102900
+T0003_16;Linum catharticum L.;;+;106288
+T0003_16;Juncus lamprocarpus;;+;104229
+T0003_16;Gentiana lutea L.;;+;99903
+T0003_16;Trifolium ochroleucum;;+;127412
+T0003_16;Carum carvi L.;;3;89250
+T0003_16;Cynosurus cristatus L.;;4;93860
+T0003_16;Centaurea scabiosa L.;;+;89697
+T0003_16;Alchemilla xanthochlora Rothm.;;+;81195
+T0003_16;Leontodon autumnalis L.;;+;105480
+T0003_16;Sanguisorba minor Scop.;;+;120753
+T0003_16;Medicago lupulina L.;;+;107649
+T0003_16;Achillea millefolium L.;;+;79908
+T0003_16;Plantago media L.;;+;113906
+T0003_16;Euphrasia rostkoviana Hayne;;+;97801
+T0003_16;Festuca pratensis Hudson;;2;98460
+T0003_16;Centaurea jacea L.;;+;89619
+T0003_16;Campanula glomerata L.;;+;87652
+T0003_16;Vicia sepium L.;;+;129305
+T0003_16;Trifolium pratense L.;;3;127439
+T0003_16;Taraxacum officinale Weber;;+;125677
+T0003_16;Vicia cracca L.;;+;129147
+T0003_16;Pimpinella major (L.) Hudson;;+;113579
+T0003_16;Rhinanthus minor L.;;+;117616
+T0003_16;Plantago lanceolata L.;;+;113893
+T0003_17;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_17;Agrostis capillaris L.;;3;80591
+T0003_17;Euphrasia rostkoviana Hayne;;+;97801
+T0003_17;Briza media L.;;+;86490
+T0003_17;Carex flacca Schreber;;+;88510
+T0003_17;Poa trivialis L.;;1;114416
+T0003_17;Trollius europaeus L.;;+;127872
+T0003_17;Vicia sativa L.;;+;129298
+T0003_17;Knautia arvensis (L.) Coulter;;+;104516
+T0003_17;Ranunculus acer;;+;116903
+T0003_17;Centaurea jacea L.;;+;89619
+T0003_17;Crepis mollis (Jacq.) Ascherson;;+;93088
+T0003_17;Anthoxanthum odoratum L.;;1;82922
+T0003_17;Phleum pratense L.;;1;113221
+T0003_17;Leontodon autumnalis L.;;1;105480
+T0003_17;Daucus carota L.;;+;94503
+T0003_17;Prunella vulgaris L.;;1;116012
+T0003_17;Cirsium tuberosum (L.) All.;;+;91422
+T0003_17;Pimpinella major (L.) Hudson;;+;113579
+T0003_17;Trisetum flavescens (L.) Beauv.;;2;127660
+T0003_17;Leontodon hispidus L.;;+;105502
+T0003_17;Plantago media L.;;1;113906
+T0003_17;Cardamine pratensis L.;;+;87964
+T0003_17;Carum carvi L.;;+;89250
+T0003_17;Festuca rubra L.;;1;98512
+T0003_17;Lychnis flos-cuculi L.;;+;106918
+T0003_17;Trifolium pratense L.;;2;127439
+T0003_17;Bromus erectus Hudson;;+;86601
+T0003_17;Filipendula ulmaria (L.) Maxim.;;+;98717
+T0003_17;Lotus corniculatus L.;;+;106653
+T0003_17;Festuca pratensis Hudson;;2;98460
+T0003_17;Cerastium fontanum Baumg.;;+;90008
+T0003_17;Cynosurus cristatus L.;;2;93860
+T0003_17;Sanguisorba officinalis L.;;+;120758
+T0003_17;Alchemilla xanthochlora Rothm.;;2;81195
+T0003_17;Colchicum autumnale L.;;+;92127
+T0003_17;Vicia cracca L.;;+;129147
+T0003_17;Heracleum sphondylium L.;;+;101300
+T0003_17;Deschampsia cespitosa (L.) Beauv.;;+;94626
+T0003_17;Dactylis glomerata L.;;1;94207
+T0003_17;Lathyrus pratensis L.;;+;105247
+T0003_17;Leucanthemum vulgare Lam.;;+;105817
+T0003_17;Achillea millefolium L.;;+;79908
+T0003_17;Cerastium arvense L.;;+;89968
+T0003_17;Trifolium repens L.;;3;127454
+T0003_17;Veronica chamaedrys L.;;+;128832
+T0003_17;Taraxacum officinale Weber;;+;125677
+T0003_18;Colchicum autumnale L.;;+;92127
+T0003_18;Alchemilla xanthochlora Rothm.;;+;81195
+T0003_18;Plantago lanceolata L.;;+;113893
+T0003_18;Pimpinella major (L.) Hudson;;1;113579
+T0003_18;Cirsium palustre (L.) Scop.;;+;91382
+T0003_18;Centaurea jacea L.;;+;89619
+T0003_18;Centaurea scabiosa L.;;+;89697
+T0003_18;Poa trivialis L.;;+;114416
+T0003_18;Agrostis capillaris L.;;+;80591
+T0003_18;Leucanthemum vulgare Lam.;;+;105817
+T0003_18;Cerastium fontanum Baumg.;;+;90008
+T0003_18;Veronica chamaedrys L.;;3;128832
+T0003_18;Plantago media L.;;2;113906
+T0003_18;Medicago lupulina L.;;+;107649
+T0003_18;Lotus corniculatus L.;;+;106653
+T0003_18;Carum carvi L.;;+;89250
+T0003_18;Senecio jacobaea L.;;+;122636
+T0003_18;Bromus erectus Hudson;;+;86601
+T0003_18;Dactylis glomerata L.;;1;94207
+T0003_18;Campanula rotundifolia L.;;+;87720
+T0003_18;Trifolium repens L.;;2;127454
+T0003_18;Euphorbia brittingeri Opiz ex Samp.;;+;97466
+T0003_18;Rhinanthus alectorolophus (Scop.) Pollich;;+;117587
+T0003_18;Salvia pratensis L.;;+;120685
+T0003_18;Cynosurus cristatus L.;;+;93860
+T0003_18;Sanguisorba minor Scop.;;+;120753
+T0003_18;Campanula rhomboidalis L.;;+;87716
+T0003_18;Daucus carota L.;;+;94503
+T0003_18;Ranunculus acer;;+;116903
+T0003_18;Primula officinalis;;+;115900
+T0003_18;Prunella vulgaris L.;;1;116012
+T0003_18;Carex flacca Schreber;;+;88510
+T0003_18;Trifolium pratense L.;;2;127439
+T0003_18;Festuca rubra L.;;3;98512
+T0003_18;Lathyrus pratensis L.;;+;105247
+T0003_18;Campanula glomerata L.;;+;87652
+T0003_18;Festuca pratensis Hudson;;3;98460
+T0003_18;Rumex acetosa L.;;+;119418
+T0003_18;Trisetum flavescens (L.) Beauv.;;1;127660
+T0003_19;Festuca pratensis Hudson;;3;98460
+T0003_19;Ranunculus acer;;+;116903
+T0003_19;Primula officinalis;;+;115900
+T0003_19;Trifolium repens L.;;+;127454
+T0003_19;Gentiana lutea L.;;1;99903
+T0003_19;Stellaria graminea L.;;+;125000
+T0003_19;Leucanthemum vulgare Lam.;;+;105817
+T0003_19;Achillea millefolium L.;;+;79908
+T0003_19;Cerastium fontanum Baumg.;;+;90008
+T0003_19;Vicia cracca L.;;+;129147
+T0003_19;Agrostis capillaris L.;;1;80591
+T0003_19;Lathyrus pratensis L.;;+;105247
+T0003_19;Galium asperum;;+;99380
+T0003_19;Medicago lupulina L.;;+;107649
+T0003_19;Genista tinctoria L.;;+;99828
+T0003_19;Lotus corniculatus L.;;1;106653
+T0003_19;Plantago media L.;;+;113906
+T0003_19;Festuca rubra L.;;2;98512
+T0003_19;Viola hirta L.;;+;129586
+T0003_19;Plantago lanceolata L.;;+;113893
+T0003_19;Viola odorata L.;;+;129632
+T0003_19;Alchemilla xanthochlora Rothm.;;1;81195
+T0003_19;Daucus carota L.;;+;94503
+T0003_19;Trisetum flavescens (L.) Beauv.;;2;127660
+T0003_19;Carex flacca Schreber;;+;88510
+T0003_19;Juniperus communis L.;;+;104397
+T0003_19;Rumex acetosa L.;;+;119418
+T0003_19;Prunella vulgaris L.;;+;116012
+T0003_19;Thymus serpyllum L.;;+;126573
+T0003_19;Sanguisorba minor Scop.;;2;120753
+T0003_19;Dactylis glomerata L.;;2;94207
+T0003_19;Anthoxanthum odoratum L.;;+;82922
+T0003_19;Avenula pubescens (Hudson) Dumort.;;2;85439
+T0003_19;Phleum pratense L.;;+;113221
+T0003_19;Trifolium pratense L.;;1;127439
+T0003_19;Campanula rotundifolia L.;;+;87720
+T0003_19;Centaurea jacea L.;;+;89619
+T0003_19;Euphorbia cyparissias L.;;+;97490
+T0003_19;Senecio jacobaea L.;;+;122636
+T0003_19;Cirsium acaule Scop.;;+;91274
+T0003_19;Briza media L.;;+;86490
+T0003_19;Barbarea vulgaris R. Br.;;+;85557
+T0003_2;Cerastium fontanum Baumg.;;+;90008
+T0003_2;Festuca rubra L.;;4;98512
+T0003_2;Trifolium pratense L.;;1;127439
+T0003_2;Deschampsia cespitosa (L.) Beauv.;;1;94626
+T0003_2;Nardus stricta L.;;3;109366
+T0003_2;Plantago lanceolata L.;;+;113893
+T0003_2;Pimpinella major (L.) Hudson;;+;113579
+T0003_2;Plantago media L.;;+;113906
+T0003_2;Campanula rotundifolia L.;;+;87720
+T0003_2;Cardamine pratensis L.;;+;87964
+T0003_2;Euphorbia brittingeri Opiz ex Samp.;;+;97466
+T0003_2;Lotus corniculatus L.;;+;106653
+T0003_2;Ranunculus acer;;+;116903
+T0003_2;Hieracium pilosella L.;;+;102352
+T0003_2;Agrostis capillaris L.;;+;80591
+T0003_2;Cirsium acaule Scop.;;+;91274
+T0003_2;Alchemilla xanthochlora Rothm.;;3;81195
+T0003_2;Trollius europaeus L.;;1;127872
+T0003_2;Polygonum bistorta L.;;1;114664
+T0003_2;Veronica chamaedrys L.;;+;128832
+T0003_2;Gentiana lutea L.;;+;99903
+T0003_2;Geum rivale L.;;+;100215
+T0003_2;Potentilla tormentilla;;+;115680
+T0003_2;Poa pratensis L.;;1;114332
+T0003_2;Luzula campestris (L.) Dc.;;+;106818
+T0003_2;Leontodon autumnalis L.;;+;105480
+T0003_2;Trifolium repens L.;;+;127454
+T0003_2;Carum carvi L.;;+;89250
+T0003_2;Briza media L.;;+;86490
+T0003_2;Lathyrus pratensis L.;;+;105247
+T0003_20;Deschampsia cespitosa (L.) Beauv.;;2;94626
+T0003_20;Juncus lamprocarpus;;+;104229
+T0003_20;Leontodon autumnalis L.;;1;105480
+T0003_20;Carex flacca Schreber;;+;88510
+T0003_20;Holcus lanatus L.;;2;102900
+T0003_20;Daucus carota L.;;+;94503
+T0003_20;Lathyrus pratensis L.;;+;105247
+T0003_20;Centaurea jacea L.;;2;89619
+T0003_20;Cerastium fontanum Baumg.;;+;90008
+T0003_20;Briza media L.;;+;86490
+T0003_20;Plantago lanceolata L.;;+;113893
+T0003_20;Festuca rubra L.;;2;98512
+T0003_20;Lotus corniculatus L.;;+;106653
+T0003_20;Medicago lupulina L.;;+;107649
+T0003_20;Cynosurus cristatus L.;;3;93860
+T0003_20;Dactylis glomerata L.;;+;94207
+T0003_20;Euphrasia rostkoviana Hayne;;+;97801
+T0003_20;Heracleum sphondylium L.;;+;101300
+T0003_20;Achillea millefolium L.;;+;79908
+T0003_20;Leucanthemum vulgare Lam.;;1;105817
+T0003_20;Gentiana lutea L.;;+;99903
+T0003_20;Agrostis capillaris L.;;+;80591
+T0003_20;Cardamine pratensis L.;;+;87964
+T0003_20;Carex ornithopoda Willd.;;+;88737
+T0003_20;Agrostis stolonifera L.;;+;80759
+T0003_20;Lolium perenne L.;;+;106499
+T0003_20;Prunella vulgaris L.;;1;116012
+T0003_20;Plantago media L.;;+;113906
+T0003_20;Rumex acetosa L.;;+;119418
+T0003_20;Trisetum flavescens (L.) Beauv.;;+;127660
+T0003_20;Taraxacum officinale Weber;;1;125677
+T0003_20;Vicia cracca L.;;+;129147
+T0003_20;Potentilla crantzi;;+;115449
+T0003_20;Trifolium pratense L.;;+;127439
+T0003_20;Ranunculus acer;;+;116903
+T0003_20;Trifolium repens L.;;5;127454
+T0003_21;Briza media L.;;+;86490
+T0003_21;Cerastium fontanum Baumg.;;+;90008
+T0003_21;Festuca rubra L.;;3;98512
+T0003_21;Potentilla tormentilla;;+;115680
+T0003_21;Festuca pratensis Hudson;;+;98460
+T0003_21;Rumex acetosa L.;;+;119418
+T0003_21;Bromus erectus Hudson;;+;86601
+T0003_21;Potentilla reptans L.;;+;115624
+T0003_21;Polygala vulgaris L.;;+;114595
+T0003_21;Trisetum flavescens (L.) Beauv.;;1;127660
+T0003_21;Sanguisorba minor Scop.;;+;120753
+T0003_21;Pimpinella major (L.) Hudson;;+;113579
+T0003_21;Cynosurus cristatus L.;;2;93860
+T0003_21;Trifolium repens L.;;1;127454
+T0003_21;Euphrasia rostkoviana Hayne;;+;97801
+T0003_21;Dactylis glomerata L.;;1;94207
+T0003_21;Avenula pubescens (Hudson) Dumort.;;1;85439
+T0003_21;Leucanthemum vulgare Lam.;;+;105817
+T0003_21;Lathyrus pratensis L.;;+;105247
+T0003_21;Anthoxanthum odoratum L.;;2;82922
+T0003_21;Alchemilla xanthochlora Rothm.;;2;81195
+T0003_21;Thymus serpyllum L.;;+;126573
+T0003_21;Cardamine pratensis L.;;+;87964
+T0003_21;Hieracium pilosella L.;;+;102352
+T0003_21;Lotus corniculatus L.;;+;106653
+T0003_21;Achillea millefolium L.;;+;79908
+T0003_21;Luzula campestris (L.) Dc.;;+;106818
+T0003_21;Vicia sativa L.;;+;129298
+T0003_21;Hieracium auricula;;+;101672
+T0003_21;Centaurea jacea L.;;+;89619
+T0003_21;Heracleum sphondylium L.;;+;101300
+T0003_21;Plantago lanceolata L.;;+;113893
+T0003_21;Veronica chamaedrys L.;;+;128832
+T0003_21;Ranunculus acer;;+;116903
+T0003_21;Campanula rotundifolia L.;;+;87720
+T0003_21;Trifolium pratense L.;;1;127439
+T0003_21;Agrostis capillaris L.;;2;80591
+T0003_21;Plantago media L.;;1;113906
+T0003_21;Prunella vulgaris L.;;1;116012
+T0003_21;Knautia arvensis (L.) Coulter;;+;104516
+T0003_3;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_3;Poa trivialis L.;;+;114416
+T0003_3;Trifolium pratense L.;;2;127439
+T0003_3;Dactylis glomerata L.;;1;94207
+T0003_3;Thymus serpyllum L.;;+;126573
+T0003_3;Carum carvi L.;;+;89250
+T0003_3;Poa pratensis L.;;2;114332
+T0003_3;Deschampsia cespitosa (L.) Beauv.;;+;94626
+T0003_3;Sanguisorba minor Scop.;;+;120753
+T0003_3;Cirsium eriophorum (L.) Scop.;;+;91327
+T0003_3;Cirsium acaule Scop.;;+;91274
+T0003_3;Cerastium fontanum Baumg.;;+;90008
+T0003_3;Silene vulgaris (Moench) Garcke;;+;123683
+T0003_3;Trifolium repens L.;;2;127454
+T0003_3;Campanula rotundifolia L.;;+;87720
+T0003_3;Briza media L.;;1;86490
+T0003_3;Potentilla verna;;+;115694
+T0003_3;Phyteuma orbiculare L.;;+;113389
+T0003_3;Leontodon autumnalis L.;;+;105480
+T0003_3;Aquilegia vulgaris L.;;+;83267
+T0003_3;Alchemilla xanthochlora Rothm.;;3;81195
+T0003_3;Gentiana campestris;;+;99872
+T0003_3;Gentiana lutea L.;;+;99903
+T0003_3;Trollius europaeus L.;;2;127872
+T0003_3;Veronica chamaedrys L.;;+;128832
+T0003_3;Galium cruciata;;+;99409
+T0003_3;Helianthemum ovatum;;+;100964
+T0003_3;Koeleria cristata;;+;193739
+T0003_3;Plantago lanceolata L.;;+;113893
+T0003_3;Ranunculus acer;;+;116903
+T0003_3;Agrostis capillaris L.;;1;80591
+T0003_3;Hieracium pilosella L.;;+;102352
+T0003_3;Hypericum maculatum Crantz;;+;103298
+T0003_3;Alchemilla hoppeana (Reichenb.) Dalla Torre;;+;81098
+T0003_3;Festuca rubra L.;;5;98512
+T0003_3;Taraxacum officinale Weber;;+;125677
+T0003_3;Plantago media L.;;1;113906
+T0003_3;Leucanthemum vulgare Lam.;;+;105817
+T0003_3;Rhinanthus minor L.;;+;117616
+T0003_3;Euphrasia rostkoviana Hayne;;+;97801
+T0003_3;Epilobium angustifolium L.;;+;96136
+T0003_3;Anthoxanthum odoratum L.;;+;82922
+T0003_4;Tragopogon pratensis L.;;+;127029
+T0003_4;Ranunculus acer;;+;116903
+T0003_4;Achillea millefolium L.;;1;79908
+T0003_4;Heracleum sphondylium L.;;+;101300
+T0003_4;Rumex crispus L.;;+;119473
+T0003_4;Lychnis flos-cuculi L.;;+;106918
+T0003_4;Centaurea jacea L.;;+;89619
+T0003_4;Prunella vulgaris L.;;1;116012
+T0003_4;Carum carvi L.;;+;89250
+T0003_4;Dactylis glomerata L.;;+;94207
+T0003_4;Taraxacum officinale Weber;;+;125677
+T0003_4;Lathyrus pratensis L.;;+;105247
+T0003_4;Lotus corniculatus L.;;1;106653
+T0003_4;Festuca pratensis Hudson;;1;98460
+T0003_4;Gentiana lutea L.;;+;99903
+T0003_4;Leucanthemum vulgare Lam.;;+;105817
+T0003_4;Poa trivialis L.;;+;114416
+T0003_4;Festuca rubra L.;;2;98512
+T0003_4;Leontodon hispidus L.;;+;105502
+T0003_4;Cynosurus cristatus L.;;5;93860
+T0003_4;Crepis biennis L.;;+;93015
+T0003_4;Leontodon autumnalis L.;;1;105480
+T0003_4;Cerastium fontanum Baumg.;;+;90008
+T0003_4;Bromus erectus Hudson;;+;86601
+T0003_4;Vicia cracca L.;;+;129147
+T0003_4;Phleum pratense L.;;+;113221
+T0003_4;Plantago media L.;;+;113906
+T0003_4;Agrostis capillaris L.;;2;80591
+T0003_4;Briza media L.;;+;86490
+T0003_4;Trifolium repens L.;;4;127454
+T0003_4;Medicago lupulina L.;;+;107649
+T0003_4;Anthoxanthum odoratum L.;;+;82922
+T0003_4;Alchemilla xanthochlora Rothm.;;+;81195
+T0003_4;Trifolium pratense L.;;4;127439
+T0003_4;Bellis perennis L.;;+;85740
+T0003_4;Carex flacca Schreber;;+;88510
+T0003_4;Pimpinella major (L.) Hudson;;+;113579
+T0003_5;Festuca rubra L.;;5;98512
+T0003_5;Anthoxanthum odoratum L.;;+;82922
+T0003_5;Lathyrus pratensis L.;;+;105247
+T0003_5;Heracleum sphondylium L.;;1;101300
+T0003_5;Lolium perenne L.;;+;106499
+T0003_5;Daucus carota L.;;1;94503
+T0003_5;Polygonum bistorta L.;;+;114664
+T0003_5;Taraxacum officinale Weber;;3;125677
+T0003_5;Dactylis glomerata L.;;2;94207
+T0003_5;Lotus corniculatus L.;;+;106653
+T0003_5;Poa trivialis L.;;1;114416
+T0003_5;Briza media L.;;+;86490
+T0003_5;Plantago major L.;;+;113904
+T0003_5;Pimpinella major (L.) Hudson;;1;113579
+T0003_5;Alchemilla xanthochlora Rothm.;;1;81195
+T0003_5;Trifolium repens L.;;3;127454
+T0003_5;Centaurea jacea L.;;+;89619
+T0003_5;Carex flacca Schreber;;+;88510
+T0003_5;Rumex acetosa L.;;+;119418
+T0003_5;Trifolium pratense L.;;2;127439
+T0003_5;Carum carvi L.;;+;89250
+T0003_5;Plantago media L.;;+;113906
+T0003_5;Medicago lupulina L.;;+;107649
+T0003_5;Vicia cracca L.;;+;129147
+T0003_5;Agrostis capillaris L.;;2;80591
+T0003_5;Leucanthemum vulgare Lam.;;+;105817
+T0003_5;Cynosurus cristatus L.;;3;93860
+T0003_5;Phleum pratense L.;;+;113221
+T0003_5;Plantago lanceolata L.;;+;113893
+T0003_5;Ranunculus acer;;+;116903
+T0003_5;Festuca pratensis Hudson;;2;98460
+T0003_5;Prunella vulgaris L.;;+;116012
+T0003_5;Trollius europaeus L.;;+;127872
+T0003_5;Euphrasia rostkoviana Hayne;;+;97801
+T0003_5;Trisetum flavescens (L.) Beauv.;;+;127660
+T0003_6;Euphrasia rostkoviana Hayne;;+;97801
+T0003_6;Anthoxanthum odoratum L.;;+;82922
+T0003_6;Rumex acetosa L.;;+;119418
+T0003_6;Carex flacca Schreber;;+;88510
+T0003_6;Sanguisorba minor Scop.;;+;120753
+T0003_6;Festuca pratensis Hudson;;1;98460
+T0003_6;Leucanthemum vulgare Lam.;;+;105817
+T0003_6;Festuca rubra L.;;1;98512
+T0003_6;Trisetum flavescens (L.) Beauv.;;1;127660
+T0003_6;Ranunculus acer;;+;116903
+T0003_6;Heracleum sphondylium L.;;+;101300
+T0003_6;Cynosurus cristatus L.;;1;93860
+T0003_6;Campanula glomerata L.;;+;87652
+T0003_6;Cerastium fontanum Baumg.;;+;90008
+T0003_6;Taraxacum officinale Weber;;+;125677
+T0003_6;Bromus erectus Hudson;;+;86601
+T0003_6;Prunella vulgaris L.;;1;116012
+T0003_6;Agrostis capillaris L.;;+;80591
+T0003_6;Plantago lanceolata L.;;1;113893
+T0003_6;Centaurea jacea L.;;+;89619
+T0003_6;Medicago lupulina L.;;+;107649
+T0003_6;Holcus lanatus L.;;1;102900
+T0003_6;Carum carvi L.;;+;89250
+T0003_6;Trifolium pratense L.;;1;127439
+T0003_6;Knautia arvensis (L.) Coulter;;+;104516
+T0003_6;Briza media L.;;+;86490
+T0003_6;Trifolium repens L.;;1;127454
+T0003_6;Crepis biennis L.;;+;93015
+T0003_6;Primula officinalis;;+;115900
+T0003_6;Lotus corniculatus L.;;+;106653
+T0003_6;Veronica chamaedrys L.;;+;128832
+T0003_7;Ranunculus acer;;+;116903
+T0003_7;Achillea millefolium L.;;1;79908
+T0003_7;Hypericum maculatum Crantz;;+;103298
+T0003_7;Leucanthemum vulgare Lam.;;+;105817
+T0003_7;Galium cruciata;;+;99409
+T0003_7;Plantago lanceolata L.;;+;113893
+T0003_7;Rhinanthus alectorolophus (Scop.) Pollich;;+;117587
+T0003_7;Leontodon autumnalis L.;;1;105480
+T0003_7;Plantago major L.;;+;113904
+T0003_7;Veronica chamaedrys L.;;+;128832
+T0003_7;Geranium pusillum L.;;+;100133
+T0003_7;Ranunculus aconitifolius L.;;+;116902
+T0003_7;Alchemilla xanthochlora Rothm.;;1;81195
+T0003_7;Galeopsis tetrahit L.;;+;99334
+T0003_7;Festuca pratensis Hudson;;2;98460
+T0003_7;Gentiana lutea L.;;+;99903
+T0003_7;Ranunculus repens L.;;+;117201
+T0003_7;Festuca rubra L.;;1;98512
+T0003_7;Agrostis capillaris L.;;+;80591
+T0003_7;Prunella vulgaris L.;;+;116012
+T0003_7;Taraxacum officinale Weber;;+;125677
+T0003_7;Cirsium eriophorum (L.) Scop.;;+;91327
+T0003_7;Trifolium repens L.;;2;127454
+T0003_7;Lotus corniculatus L.;;+;106653
+T0003_7;Cynosurus cristatus L.;;1;93860
+T0003_7;Sanguisorba minor Scop.;;+;120753
+T0003_7;Stellaria graminea L.;;+;125000
+T0003_7;Dactylis glomerata L.;;2;94207
+T0003_7;Plantago media L.;;+;113906
+T0003_7;Cerastium fontanum Baumg.;;+;90008
+T0003_7;Lolium perenne L.;;+;106499
+T0003_7;Rumex crispus L.;;+;119473
+T0003_7;Bellis perennis L.;;+;85740
+T0003_7;Daucus carota L.;;+;94503
+T0003_7;Medicago lupulina L.;;+;107649
+T0003_7;Poa trivialis L.;;2;114416
+T0003_7;Cerastium arvense L.;;+;89968
+T0003_7;Rumex acetosa L.;;+;119418
+T0003_7;Carum carvi L.;;+;89250
+T0003_7;Phleum pratense L.;;+;113221
+T0003_7;Trisetum flavescens (L.) Beauv.;;1;127660
+T0003_7;Trifolium pratense L.;;1;127439
+T0003_8;Thymus serpyllum L.;;+;126573
+T0003_8;Gentiana lutea L.;;+;99903
+T0003_8;Veronica serpyllifolia L.;;+;129003
+T0003_8;Carum carvi L.;;1;89250
+T0003_8;Poa trivialis L.;;1;114416
+T0003_8;Veronica chamaedrys L.;;+;128832
+T0003_8;Cirsium acaule Scop.;;+;91274
+T0003_8;Chenopodium bonus-henricus L.;;+;90697
+T0003_8;Achillea millefolium L.;;+;79908
+T0003_8;Lathyrus pratensis L.;;+;105247
+T0003_8;Trifolium pratense L.;;2;127439
+T0003_8;Agrostis capillaris L.;;1;80591
+T0003_8;Stellaria graminea L.;;+;125000
+T0003_8;Cerastium fontanum Baumg.;;+;90008
+T0003_8;Ranunculus acer;;+;116903
+T0003_8;Thlaspi silvestre;;+;126400
+T0003_8;Urtica urens L.;;+;128298
+T0003_8;Poa pratensis L.;;2;114332
+T0003_8;Taraxacum officinale Weber;;+;125677
+T0003_8;Medicago lupulina L.;;+;107649
+T0003_8;Gnaphalium silvaticum;;+;100516
+T0003_8;Galeopsis tetrahit L.;;+;99334
+T0003_8;Bellis perennis L.;;+;85740
+T0003_8;Festuca rubra L.;;2;98512
+T0003_8;Festuca pratensis Hudson;;2;98460
+T0003_8;Trifolium repens L.;;2;127454
+T0003_8;Dactylis glomerata L.;;1;94207
+T0003_8;Rumex acetosa L.;;+;119418
+T0003_8;Alchemilla xanthochlora Rothm.;;1;81195
+T0003_8;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0003_8;Plantago media L.;;1;113906
+T0003_8;Euphrasia rostkoviana Hayne;;+;97801
+T0003_8;Phleum pratense L.;;+;113221
+T0003_8;Galium cruciata;;+;99409
+T0003_8;Cirsium eriophorum (L.) Scop.;;+;91327
+T0003_8;Briza media L.;;+;86490
+T0003_8;Cynosurus cristatus L.;;+;93860
+T0003_8;Leucanthemum vulgare Lam.;;+;105817
+T0003_8;Leontodon autumnalis L.;;+;105480
+T0003_9;Anthoxanthum odoratum L.;;+;82922
+T0003_9;Holcus lanatus L.;;1;102900
+T0003_9;Achillea millefolium L.;;+;79908
+T0003_9;Carum carvi L.;;3;89250
+T0003_9;Centaurea jacea L.;;+;89619
+T0003_9;Festuca rubra L.;;1;98512
+T0003_9;Vicia cracca L.;;+;129147
+T0003_9;Festuca pratensis Hudson;;2;98460
+T0003_9;Stellaria graminea L.;;+;125000
+T0003_9;Deschampsia cespitosa (L.) Beauv.;;+;94626
+T0003_9;Agrostis capillaris L.;;4;80591
+T0003_9;Galium mollugo L.;;+;99473
+T0003_9;Veronica chamaedrys L.;;+;128832
+T0003_9;Geranium columbinum L.;;+;100045
+T0003_9;Cynosurus cristatus L.;;3;93860
+T0003_9;Ranunculus acer;;+;116903
+T0003_9;Trifolium pratense L.;;2;127439
+T0003_9;Sonchus asper (L.) Hill;;+;124233
+T0003_9;Taraxacum officinale Weber;;1;125677
+T0003_9;Bellis perennis L.;;1;85740
+T0003_9;Hypochoeris radicata L.;;+;446973
+T0003_9;Heracleum sphondylium L.;;+;101300
+T0003_9;Alchemilla xanthochlora Rothm.;;+;81195
+T0003_9;Cirsium arvense (L.) Scop.;;+;91289
+T0003_9;Dactylis glomerata L.;;+;94207
+T0003_9;Trifolium repens L.;;2;127454
+T0003_9;Plantago lanceolata L.;;1;113893
+T0003_9;Potentilla reptans L.;;+;115624
+T0003_9;Leontodon autumnalis L.;;1;105480
+T0003_9;Plantago major L.;;+;113904
+T0003_9;Plantago media L.;;1;113906
+T0003_9;Leontodon hispidus L.;;+;105502
+T0003_9;Lolium perenne L.;;+;106499
+T0003_9;Phleum pratense L.;;2;113221
+T0003_9;Prunella vulgaris L.;;1;116012
+T0003_9;Matricaria chamomilla;;+;107440
+T0003_9;Poa trivialis L.;;1;114416
+T0003_9;Leucanthemum vulgare Lam.;;+;105817
+T0003_9;Juncus glaucus;;+;104200
+T0003_9;Lotus corniculatus L.;;+;106653
+T0003_9;Medicago lupulina L.;;+;107649
+T0004_1;Prunus spinosa L.;;+;116142
+T0004_1;Silene dioica (L.) Clairv.;;+;123471
+T0004_1;Convolvulus arvensis L.;;1;92302
+T0004_1;Heracleum sphondylium L.;;1;101300
+T0004_1;Ranunculus acer;;1;116903
+T0004_1;Papaver rhoeas L.;;1;112355
+T0004_1;Cirsium arvense (L.) Scop.;;+;91289
+T0004_1;Galium verum L.;;+;99582
+T0004_1;Phleum pratense L.;;+;113221
+T0004_1;Knautia arvensis (L.) Coulter;;1;104516
+T0004_1;Primula officinalis;;+;115900
+T0004_1;Cerastium fontanum Baumg.;;+;90008
+T0004_1;Artemisia vulgaris L.;;+;84061
+T0004_1;Trisetum flavescens (L.) Beauv.;;+;127660
+T0004_1;Lathyrus tuberosus L.;;1;105273
+T0004_1;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;4;83912
+T0004_1;Campanula rapunculus L.;;+;87712
+T0004_1;Rumex crispus L.;;+;119473
+T0004_1;Poa pratensis L.;;1;114332
+T0004_1;Pimpinella saxifraga L.;;+;113596
+T0004_1;Dactylis glomerata L.;;1;94207
+T0004_1;Agrimonia eupatoria L.;;1;80410
+T0004_1;Centaurea pratensis;;+;89674
+T0004_1;Vicia hirsuta (L.) S. F. Gray;;+;129191
+T0004_1;Poa trivialis L.;;1;114416
+T0004_10;Primula officinalis;;1;115900
+T0004_10;Poa pratensis L.;;1;114332
+T0004_10;Avenula pubescens (Hudson) Dumort.;;1;85439
+T0004_10;Plantago media L.;;2;113906
+T0004_10;Festuca rubra L.;;1;98512
+T0004_10;Galium mollugo L.;;1;99473
+T0004_10;Ononis spinosa L.;;+;110236
+T0004_10;Lotus corniculatus L.;;+;106653
+T0004_10;Carex flacca Schreber;;+;88510
+T0004_10;Brachypodium pinnatum (L.) Beauv.;;+;86289
+T0004_10;Trifolium repens L.;;2;127454
+T0004_10;Ranunculus acer;;1;116903
+T0004_10;Taraxacum officinale Weber;;2;125677
+T0004_10;Bellis perennis L.;;1;85740
+T0004_10;Centaurea scabiosa L.;;1;89697
+T0004_10;Bromus erectus Hudson;;1;86601
+T0004_10;Briza media L.;;1;86490
+T0004_10;Medicago lupulina L.;;+;107649
+T0004_10;Centaurea pratensis;;1;89674
+T0004_10;Luzula campestris (L.) Dc.;;+;106818
+T0004_10;Trisetum flavescens (L.) Beauv.;;2;127660
+T0004_10;Poa trivialis L.;;1;114416
+T0004_10;Leucanthemum vulgare Lam.;;2;105817
+T0004_10;Achillea millefolium L.;;2;79908
+T0004_10;Plantago lanceolata L.;;2;113893
+T0004_10;Dactylis glomerata L.;;1;94207
+T0004_10;Festuca pratensis Hudson;;1;98460
+T0004_10;Pimpinella major (L.) Hudson;;+;113579
+T0004_10;Holcus lanatus L.;;+;102900
+T0004_10;Cynosurus cristatus L.;;1;93860
+T0004_10;Salvia pratensis L.;;1;120685
+T0004_10;Lolium perenne L.;;1;106499
+T0004_10;Cerastium fontanum Baumg.;;1;90008
+T0004_10;Phleum pratense L.;;+;113221
+T0004_10;Hieracium pilosella L.;;+;102352
+T0004_10;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;1;83912
+T0004_10;Convolvulus arvensis L.;;+;92302
+T0004_10;Ranunculus bulbosus L.;;1;116952
+T0004_10;Heracleum sphondylium L.;;1;101300
+T0004_10;Crepis biennis L.;;1;93015
+T0004_10;Senecio jacobaea L.;;+;122636
+T0004_11;Cynosurus cristatus L.;;2;93860
+T0004_11;Cerastium fontanum Baumg.;;1;90008
+T0004_11;Plantago media L.;;2;113906
+T0004_11;Poa pratensis L.;;2;114332
+T0004_11;Leucanthemum vulgare Lam.;;2;105817
+T0004_11;Daucus carota L.;;+;94503
+T0004_11;Dactylis glomerata L.;;1;94207
+T0004_11;Taraxacum officinale Weber;;+;125677
+T0004_11;Linum catharticum L.;;+;106288
+T0004_11;Lolium perenne L.;;1;106499
+T0004_11;Festuca rubra L.;;+;98512
+T0004_11;Coeloglossum viride (L.) Hartman;;+;92097
+T0004_11;Salvia pratensis L.;;+;120685
+T0004_11;Ranunculus bulbosus L.;;2;116952
+T0004_11;Lotus corniculatus L.;;1;106653
+T0004_11;Centaurea scabiosa L.;;+;89697
+T0004_11;Centaurea pratensis;;1;89674
+T0004_11;Sanguisorba minor Scop.;;+;120753
+T0004_11;Crepis biennis L.;;+;93015
+T0004_11;Cirsium acaule Scop.;;+;91274
+T0004_11;Phleum pratense L.;;1;113221
+T0004_11;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;1;83912
+T0004_11;Origanum vulgare L.;;+;111289
+T0004_11;Achillea millefolium L.;;2;79908
+T0004_11;Primula officinalis;;1;115900
+T0004_11;Avenula pubescens (Hudson) Dumort.;;1;85439
+T0004_11;Prunus spinosa L.;;+;116142
+T0004_11;Bellis perennis L.;;1;85740
+T0004_11;Brachypodium pinnatum (L.) Beauv.;;1;86289
+T0004_11;Medicago lupulina L.;;2;107649
+T0004_11;Knautia arvensis (L.) Coulter;;+;104516
+T0004_11;Briza media L.;;1;86490
+T0004_11;Trisetum flavescens (L.) Beauv.;;2;127660
+T0004_11;Bromus erectus Hudson;;1;86601
+T0004_11;Trifolium pratense L.;;1;127439
+T0004_11;Bromus hordeaceus L. =mollis;;+;86680
+T0004_11;Ranunculus acer;;+;116903
+T0004_11;Galium verum L.;;1;99582
+T0004_11;Pimpinella saxifraga L.;;+;113596
+T0004_11;Agrimonia eupatoria L.;;1;80410
+T0004_11;Plantago lanceolata L.;;1;113893
+T0004_12;Leucanthemum vulgare Lam.;;1;105817
+T0004_12;Ranunculus bulbosus L.;;1;116952
+T0004_12;Veronica serpyllifolia L.;;+;129003
+T0004_12;Daucus carota L.;;+;94503
+T0004_12;Origanum vulgare L.;;+;111289
+T0004_12;Heracleum sphondylium L.;;+;101300
+T0004_12;Pimpinella major (L.) Hudson;;+;113579
+T0004_12;Prunus spinosa L.;;+;116142
+T0004_12;Lolium perenne L.;;+;106499
+T0004_12;Cynosurus cristatus L.;;+;93860
+T0004_12;Salvia pratensis L.;;1;120685
+T0004_12;Hieracium pilosella L.;;+;102352
+T0004_12;Holcus lanatus L.;;+;102900
+T0004_12;Dactylis glomerata L.;;1;94207
+T0004_12;Valerianella olitoria;;+;128484
+T0004_12;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;1;83912
+T0004_12;Phleum pratense L.;;+;113221
+T0004_12;Trisetum flavescens (L.) Beauv.;;1;127660
+T0004_12;Rumex acetosa L.;;+;119418
+T0004_12;Rubus fruticosus;;1;119097
+T0004_12;Plantago media L.;;1;113906
+T0004_12;Trifolium pratense L.;;+;127439
+T0004_12;Carduus nutans L.;;+;88167
+T0004_12;Ranunculus acer;;1;116903
+T0004_12;Tragopogon pratensis L.;;+;127029
+T0004_12;Bromus hordeaceus L. =mollis;;2;86680
+T0004_12;Lathyrus pratensis L.;;+;105247
+T0004_12;Galium cruciata;;+;99409
+T0004_12;Luzula campestris (L.) Dc.;;+;106818
+T0004_12;Bromus erectus Hudson;;3;86601
+T0004_12;Rosa canina L.;;+;118073
+T0004_12;Briza media L.;;1;86490
+T0004_12;Ononis spinosa L.;;1;110236
+T0004_12;Centaurea pratensis;;+;89674
+T0004_12;Hypericum perforatum L.;;+;103316
+T0004_12;Pimpinella saxifraga L.;;+;113596
+T0004_12;Poa pratensis L.;;1;114332
+T0004_12;Senecio jacobaea L.;;+;122636
+T0004_12;Medicago lupulina L.;;1;107649
+T0004_12;Vicia sativa L.;;1;129298
+T0004_12;Cerastium fontanum Baumg.;;1;90008
+T0004_12;Festuca rubra L.;;1;98512
+T0004_12;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0004_12;Geranium dissectum L.;;+;100052
+T0004_12;Lotus corniculatus L.;;1;106653
+T0004_2;Poa trivialis L.;;1;114416
+T0004_2;Daucus carota L.;;+;94503
+T0004_2;Rubus fruticosus;;1;119097
+T0004_2;Dactylis glomerata L.;;1;94207
+T0004_2;Vicia hirsuta (L.) S. F. Gray;;1;129191
+T0004_2;Vicia sativa L.;;+;129298
+T0004_2;Agrimonia eupatoria L.;;+;80410
+T0004_2;Anthriscus sylvestris (L.) Hoffm.;;+;82952
+T0004_2;Taraxacum officinale Weber;;1;125677
+T0004_2;Centaurea pratensis;;1;89674
+T0004_2;Bellis perennis L.;;+;85740
+T0004_2;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0004_2;Lotus corniculatus L.;;+;106653
+T0004_2;Stellaria graminea L.;;+;125000
+T0004_2;Origanum vulgare L.;;1;111289
+T0004_2;Senecio jacobaea L.;;+;122636
+T0004_2;Medicago lupulina L.;;+;107649
+T0004_2;Pimpinella saxifraga L.;;+;113596
+T0004_2;Campanula rapunculus L.;;1;87712
+T0004_2;Papaver rhoeas L.;;+;112355
+T0004_2;Convolvulus arvensis L.;;1;92302
+T0004_2;Trisetum flavescens (L.) Beauv.;;1;127660
+T0004_2;Phleum pratense L.;;1;113221
+T0004_2;Pimpinella major (L.) Hudson;;+;113579
+T0004_2;Rumex crispus L.;;+;119473
+T0004_2;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;4;83912
+T0004_2;Lathyrus tuberosus L.;;1;105273
+T0004_2;Geranium dissectum L.;;+;100052
+T0004_2;Holcus lanatus L.;;1;102900
+T0004_2;Lapsana communis L.;;+;105017
+T0004_2;Knautia arvensis (L.) Coulter;;+;104516
+T0004_2;Prunus spinosa L.;;+;116142
+T0004_2;Festuca rubra L.;;1;98512
+T0004_2;Galium mollugo L.;;+;99473
+T0004_3;Trisetum flavescens (L.) Beauv.;;+;127660
+T0004_3;Potentilla anserina L.;;+;115402
+T0004_3;Galium cruciata;;1;99409
+T0004_3;Galium verum L.;;+;99582
+T0004_3;Cynosurus cristatus L.;;1;93860
+T0004_3;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;2;83912
+T0004_3;Trifolium pratense L.;;2;127439
+T0004_3;Festuca pratensis Hudson;;1;98460
+T0004_3;Tragopogon pratensis L.;;+;127029
+T0004_3;Cerastium fontanum Baumg.;;+;90008
+T0004_3;Achillea millefolium L.;;1;79908
+T0004_3;Poa pratensis L.;;2;114332
+T0004_3;Ranunculus acer;;1;116903
+T0004_3;Holcus lanatus L.;;1;102900
+T0004_3;Briza media L.;;1;86490
+T0004_3;Veronica chamaedrys L.;;+;128832
+T0004_3;Ranunculus bulbosus L.;;2;116952
+T0004_3;Centaurea pratensis;;1;89674
+T0004_3;Pimpinella saxifraga L.;;+;113596
+T0004_3;Taraxacum officinale Weber;;1;125677
+T0004_3;Bromus erectus Hudson;;+;86601
+T0004_3;Plantago lanceolata L.;;1;113893
+T0004_3;Leucanthemum vulgare Lam.;;1;105817
+T0004_3;Luzula campestris (L.) Dc.;;+;106818
+T0004_3;Crepis biennis L.;;+;93015
+T0004_3;Heracleum sphondylium L.;;1;101300
+T0004_3;Cardamine pratensis L.;;+;87964
+T0004_3;Dactylis glomerata L.;;1;94207
+T0004_3;Calystegia sepium (L.) R. Br.;;+;87560
+T0004_3;Medicago lupulina L.;;+;107649
+T0004_3;Pimpinella major (L.) Hudson;;+;113579
+T0004_3;Festuca rubra L.;;2;98512
+T0004_4;Briza media L.;;1;86490
+T0004_4;Cynosurus cristatus L.;;1;93860
+T0004_4;Lathyrus pratensis L.;;1;105247
+T0004_4;Medicago lupulina L.;;+;107649
+T0004_4;Veronica chamaedrys L.;;+;128832
+T0004_4;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;3;83912
+T0004_4;Centaurea pratensis;;1;89674
+T0004_4;Taraxacum officinale Weber;;1;125677
+T0004_4;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0004_4;Luzula campestris (L.) Dc.;;1;106818
+T0004_4;Ranunculus bulbosus L.;;+;116952
+T0004_4;Lotus corniculatus L.;;1;106653
+T0004_4;Poa pratensis L.;;1;114332
+T0004_4;Cirsium arvense (L.) Scop.;;1;91289
+T0004_4;Cerastium fontanum Baumg.;;1;90008
+T0004_4;Ranunculus acer;;2;116903
+T0004_4;Heracleum sphondylium L.;;1;101300
+T0004_4;Holcus lanatus L.;;+;102900
+T0004_4;Bellis perennis L.;;1;85740
+T0004_4;Pimpinella saxifraga L.;;1;113596
+T0004_4;Primula officinalis;;1;115900
+T0004_4;Senecio erucaefolius;;1;122596
+T0004_4;Trisetum flavescens (L.) Beauv.;;1;127660
+T0004_4;Festuca rubra L.;;1;98512
+T0004_4;Achillea millefolium L.;;2;79908
+T0004_4;Leucanthemum vulgare Lam.;;+;105817
+T0004_4;Trifolium pratense L.;;1;127439
+T0004_4;Rumex acetosa L.;;1;119418
+T0004_4;Plantago lanceolata L.;;+;113893
+T0004_4;Dactylis glomerata L.;;1;94207
+T0004_4;Festuca pratensis Hudson;;+;98460
+T0004_4;Poa trivialis L.;;1;114416
+T0004_4;Galium verum L.;;1;99582
+T0004_5;Holcus lanatus L.;;1;102900
+T0004_5;Avenula pubescens (Hudson) Dumort.;;1;85439
+T0004_5;Ranunculus bulbosus L.;;1;116952
+T0004_5;Trisetum flavescens (L.) Beauv.;;1;127660
+T0004_5;Crepis biennis L.;;2;93015
+T0004_5;Briza media L.;;1;86490
+T0004_5;Luzula campestris (L.) Dc.;;+;106818
+T0004_5;Festuca rubra L.;;+;98512
+T0004_5;Trifolium pratense L.;;1;127439
+T0004_5;Lolium perenne L.;;1;106499
+T0004_5;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;3;83912
+T0004_5;Achillea millefolium L.;;+;79908
+T0004_5;Vicia sativa L.;;1;129298
+T0004_5;Cerastium fontanum Baumg.;;1;90008
+T0004_5;Rumex acetosa L.;;2;119418
+T0004_5;Plantago lanceolata L.;;1;113893
+T0004_5;Daucus carota L.;;+;94503
+T0004_5;Heracleum sphondylium L.;;1;101300
+T0004_5;Anthoxanthum odoratum L.;;1;82922
+T0004_5;Bellis perennis L.;;+;85740
+T0004_5;Ranunculus acer;;2;116903
+T0004_5;Leucanthemum vulgare Lam.;;+;105817
+T0004_5;Taraxacum officinale Weber;;1;125677
+T0004_5;Festuca pratensis Hudson;;1;98460
+T0004_5;Plantago media L.;;+;113906
+T0004_5;Leontodon hispidus L.;;1;105502
+T0004_5;Lathyrus pratensis L.;;1;105247
+T0004_5;Pimpinella saxifraga L.;;1;113596
+T0004_5;Medicago lupulina L.;;+;107649
+T0004_5;Centaurea pratensis;;+;89674
+T0004_5;Dactylis glomerata L.;;1;94207
+T0004_5;Cynosurus cristatus L.;;+;93860
+T0004_5;Poa trivialis L.;;2;114416
+T0004_6;Rumex acetosa L.;;1;119418
+T0004_6;Convolvulus arvensis L.;;+;92302
+T0004_6;Ranunculus bulbosus L.;;2;116952
+T0004_6;Plantago media L.;;+;113906
+T0004_6;Veronica chamaedrys L.;;+;128832
+T0004_6;Cerastium fontanum Baumg.;;+;90008
+T0004_6;Daucus carota L.;;1;94503
+T0004_6;Poa trivialis L.;;2;114416
+T0004_6;Centaurea pratensis;;1;89674
+T0004_6;Achillea millefolium L.;;1;79908
+T0004_6;Anthriscus sylvestris (L.) Hoffm.;;+;82952
+T0004_6;Bellis perennis L.;;1;85740
+T0004_6;Bromus hordeaceus L. =mollis;;1;86680
+T0004_6;Pimpinella saxifraga L.;;1;113596
+T0004_6;Anthoxanthum odoratum L.;;1;82922
+T0004_6;Primula officinalis;;+;115900
+T0004_6;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;2;83912
+T0004_6;Plantago lanceolata L.;;1;113893
+T0004_6;Cynosurus cristatus L.;;1;93860
+T0004_6;Lolium perenne L.;;1;106499
+T0004_6;Lotus corniculatus L.;;+;106653
+T0004_6;Poa pratensis L.;;1;114332
+T0004_6;Holcus lanatus L.;;+;102900
+T0004_6;Agrimonia eupatoria L.;;1;80410
+T0004_6;Leucanthemum vulgare Lam.;;+;105817
+T0004_6;Cirsium arvense (L.) Scop.;;1;91289
+T0004_6;Geranium dissectum L.;;+;100052
+T0004_6;Dactylis glomerata L.;;1;94207
+T0004_6;Crepis biennis L.;;1;93015
+T0004_6;Taraxacum officinale Weber;;1;125677
+T0004_6;Ranunculus acer;;1;116903
+T0004_6;Medicago lupulina L.;;+;107649
+T0004_6;Lathyrus pratensis L.;;+;105247
+T0004_6;Trisetum flavescens (L.) Beauv.;;1;127660
+T0004_6;Festuca rubra L.;;1;98512
+T0004_6;Trifolium pratense L.;;2;127439
+T0004_7;Plantago lanceolata L.;;1;113893
+T0004_7;Festuca rubra L.;;+;98512
+T0004_7;Rumex acetosa L.;;1;119418
+T0004_7;Primula officinalis;;1;115900
+T0004_7;Luzula campestris (L.) Dc.;;+;106818
+T0004_7;Cerastium fontanum Baumg.;;+;90008
+T0004_7;Leucanthemum vulgare Lam.;;1;105817
+T0004_7;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;2;83912
+T0004_7;Galium verum L.;;+;99582
+T0004_7;Pimpinella major (L.) Hudson;;1;113579
+T0004_7;Dactylis glomerata L.;;1;94207
+T0004_7;Poa trivialis L.;;1;114416
+T0004_7;Briza media L.;;1;86490
+T0004_7;Crepis biennis L.;;1;93015
+T0004_7;Holcus lanatus L.;;2;102900
+T0004_7;Heracleum sphondylium L.;;3;101300
+T0004_7;Bromus hordeaceus L. =mollis;;+;86680
+T0004_7;Tragopogon pratensis L.;;+;127029
+T0004_7;Alopecurus pratensis L.;;1;81656
+T0004_7;Bellis perennis L.;;+;85740
+T0004_7;Trifolium pratense L.;;2;127439
+T0004_7;Trisetum flavescens (L.) Beauv.;;2;127660
+T0004_7;Plantago media L.;;+;113906
+T0004_7;Lolium perenne L.;;1;106499
+T0004_7;Festuca pratensis Hudson;;1;98460
+T0004_7;Ranunculus acer;;2;116903
+T0004_7;Lathyrus pratensis L.;;+;105247
+T0004_8;Lotus corniculatus L.;;2;106653
+T0004_8;Leucanthemum vulgare Lam.;;1;105817
+T0004_8;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;2;83912
+T0004_8;Festuca rubra L.;;2;98512
+T0004_8;Vicia sepium L.;;+;129305
+T0004_8;Cynosurus cristatus L.;;1;93860
+T0004_8;Dactylis glomerata L.;;1;94207
+T0004_8;Holcus lanatus L.;;+;102900
+T0004_8;Pimpinella major (L.) Hudson;;+;113579
+T0004_8;Agrostis capillaris L.;;2;80591
+T0004_8;Leontodon hispidus L.;;1;105502
+T0004_8;Centaurea pratensis;;3;89674
+T0004_8;Poa trivialis L.;;+;114416
+T0004_8;Ranunculus acer;;1;116903
+T0004_8;Briza media L.;;1;86490
+T0004_8;Prunella vulgaris L.;;+;116012
+T0004_8;Heracleum sphondylium L.;;+;101300
+T0004_8;Senecio jacobaea L.;;+;122636
+T0004_8;Trifolium repens L.;;1;127454
+T0004_8;Anthoxanthum odoratum L.;;1;82922
+T0004_8;Daucus carota L.;;1;94503
+T0004_8;Rumex acetosa L.;;+;119418
+T0004_8;Cirsium arvense (L.) Scop.;;1;91289
+T0004_8;Plantago lanceolata L.;;2;113893
+T0004_8;Trifolium pratense L.;;+;127439
+T0004_8;Tragopogon pratensis L.;;1;127029
+T0004_8;Allium vineale L.;;+;81544
+T0004_8;Trifolium filiforme;;+;198631
+T0004_8;Convolvulus arvensis L.;;+;92302
+T0004_8;Achillea millefolium L.;;1;79908
+T0004_8;Poa pratensis L.;;1;114332
+T0004_8;Ranunculus bulbosus L.;;+;116952
+T0004_8;Primula officinalis;;+;115900
+T0004_8;Trisetum flavescens (L.) Beauv.;;2;127660
+T0004_9;Lathyrus pratensis L.;;1;105247
+T0004_9;Trifolium pratense L.;;1;127439
+T0004_9;Galium verum L.;;2;99582
+T0004_9;Taraxacum officinale Weber;;1;125677
+T0004_9;Plantago media L.;;+;113906
+T0004_9;Tragopogon pratensis L.;;1;127029
+T0004_9;Ranunculus acer;;1;116903
+T0004_9;Medicago lupulina L.;;1;107649
+T0004_9;Avenula pubescens (Hudson) Dumort.;;+;85439
+T0004_9;Ononis spinosa L.;;1;110236
+T0004_9;Galium cruciata;;1;99409
+T0004_9;Festuca pratensis Hudson;;1;98460
+T0004_9;Senecio erucaefolius;;+;122596
+T0004_9;Convolvulus arvensis L.;;1;92302
+T0004_9;Trisetum flavescens (L.) Beauv.;;+;127660
+T0004_9;Heracleum sphondylium L.;;1;101300
+T0004_9;Cirsium arvense (L.) Scop.;;+;91289
+T0004_9;Holcus lanatus L.;;+;102900
+T0004_9;Silene vulgaris (Moench) Garcke;;1;123683
+T0004_9;Rumex crispus L.;;+;119473
+T0004_9;Anthriscus sylvestris (L.) Hoffm.;;1;82952
+T0004_9;Pimpinella saxifraga L.;;1;113596
+T0004_9;Dactylis glomerata L.;;1;94207
+T0004_9;Achillea millefolium L.;;1;79908
+T0004_9;Plantago lanceolata L.;;1;113893
+T0004_9;Vicia cracca L.;;1;129147
+T0004_9;Hypericum perforatum L.;;+;103316
+T0004_9;Centaurea pratensis;;1;89674
+T0004_9;Knautia arvensis (L.) Coulter;;1;104516
+T0004_9;Origanum vulgare L.;;1;111289
+T0004_9;Leontodon hispidus L.;;+;105502
+T0004_9;Artemisia vulgaris L.;;+;84061
+T0004_9;Daucus carota L.;;1;94503
+T0004_9;Vicia sativa L.;;+;129298
+T0004_9;Arrhenatherum elatius (L.) Beauv. ex J. & C. Presl;;4;83912
+T0004_9;Poa pratensis L.;;1;114332
+T0004_9;Leucanthemum vulgare Lam.;;1;105817
+T0004_9;Lotus corniculatus L.;;1;106653
+T0005_1;Polygonum amphibium L.;;+;114641
+T0005_1;Alopecurus pratensis L.;;1;81656
+T0005_1;Juncus effusus L.;;2;104173
+T0005_1;Alopecurus geniculatus L.;;+;81637
+T0005_1;Lolium perenne L.;;2;106499
+T0005_1;Holcus lanatus L.;;1;102900
+T0005_1;Ranunculus repens L.;;2;117201
+T0005_1;Trifolium pratense L.;;+;127439
+T0005_1;Cynosurus cristatus L.;;1;93860
+T0005_1;Festuca pratensis Hudson;;+;98460
+T0005_1;Myosotis scorpioides L.;;+;109091
+T0005_1;Galium palustre L.;;+;99494
+T0005_1;Rumex crispus L.;;+;119473
+T0005_1;Ranunculus acer;;1;116903
+T0005_1;Carex disticha Hudson;;1;88478
+T0005_1;Carex vulpina L.;;+;88952
+T0005_1;Poa pratensis L.;;1;114332
+T0005_1;Ranunculus flammula L.;;+;117025
+T0005_1;Glyceria altissima;;+;100372
+T0005_1;Trifolium repens L.;;2;127454
+T0005_1;Taraxacum officinale Weber;;1;125677
+T0005_1;Lysimachia nummularia L.;;+;107073
+T0005_1;Cerastium fontanum Baumg.;;+;90008
+T0005_1;Caltha palustris L.;;+;87540
+T0005_1;Anthoxanthum odoratum L.;;1;82922
+T0005_1;Lychnis flos-cuculi L.;;2;106918
+T0005_1;Centaurea pratensis;;+;89674
+T0005_1;Bellis perennis L.;;+;85740
+T0005_10;Holcus lanatus L.;;3;102900
+T0005_10;Leucanthemum vulgare Lam.;;1;105817
+T0005_10;Cardamine pratensis L.;;1;87964
+T0005_10;Prunella vulgaris L.;;2;116012
+T0005_10;Anthoxanthum odoratum L.;;1;82922
+T0005_10;Rumex acetosa L.;;+;119418
+T0005_10;Hypochoeris radicata L.;;1;446973
+T0005_10;Stellaria graminea L.;;1;125000
+T0005_10;Juncus conglomeratus L.;;1;104160
+T0005_10;Ranunculus repens L.;;1;117201
+T0005_10;Juncus lamprocarpus;;+;104229
+T0005_10;Lotus uliginosus Schkuhr;;1;106723
+T0005_10;Centaurea pratensis;;1;89674
+T0005_10;Trifolium repens L.;;2;127454
+T0005_10;Dactylis glomerata L.;;+;94207
+T0005_10;Trisetum flavescens (L.) Beauv.;;+;127660
+T0005_10;Lolium perenne L.;;1;106499
+T0005_10;Myosotis scorpioides L.;;1;109091
+T0005_10;Bellis perennis L.;;1;85740
+T0005_10;Cerastium fontanum Baumg.;;1;90008
+T0005_10;Trifolium pratense L.;;1;127439
+T0005_10;Veronica scutellata L.;;+;129000
+T0005_10;Juncus effusus L.;;1;104173
+T0005_10;Alopecurus pratensis L.;;+;81656
+T0005_10;Festuca pratensis Hudson;;2;98460
+T0005_10;Phleum pratense L.;;+;113221
+T0005_10;Agrostis capillaris L.;;1;80591
+T0005_10;Carex hirta L.;;+;88569
+T0005_10;Cynosurus cristatus L.;;2;93860
+T0005_10;Ajuga reptans L.;;+;80990
+T0005_10;Plantago lanceolata L.;;2;113893
+T0005_10;Rumex crispus L.;;+;119473
+T0005_11;Ajuga reptans L.;;+;80990
+T0005_11;Trifolium pratense L.;;1;127439
+T0005_11;Plantago lanceolata L.;;+;113893
+T0005_11;Holcus lanatus L.;;1;102900
+T0005_11;Anthoxanthum odoratum L.;;2;82922
+T0005_11;Myosotis scorpioides L.;;+;109091
+T0005_11;Bellis perennis L.;;1;85740
+T0005_11;Alopecurus geniculatus L.;;1;81637
+T0005_11;Alopecurus pratensis L.;;2;81656
+T0005_11;Bromus hordeaceus L. =mollis;;+;86680
+T0005_11;Trifolium repens L.;;2;127454
+T0005_11;Cardamine pratensis L.;;1;87964
+T0005_11;Poa pratensis L.;;2;114332
+T0005_11;Ranunculus flammula L.;;+;117025
+T0005_11;Rumex acetosa L.;;1;119418
+T0005_11;Lychnis flos-cuculi L.;;+;106918
+T0005_11;Festuca pratensis Hudson;;1;98460
+T0005_11;Lysimachia nummularia L.;;+;107073
+T0005_11;Cerastium fontanum Baumg.;;1;90008
+T0005_11;Cynosurus cristatus L.;;1;93860
+T0005_11;Lolium perenne L.;;3;106499
+T0005_11;Ranunculus repens L.;;3;117201
+T0005_11;Taraxacum officinale Weber;;+;125677
+T0005_12;Dactylis glomerata L.;;+;94207
+T0005_12;Lolium perenne L.;;2;106499
+T0005_12;Trifolium repens L.;;2;127454
+T0005_12;Poa trivialis L.;;1;114416
+T0005_12;Poa pratensis L.;;3;114332
+T0005_12;Trifolium pratense L.;;+;127439
+T0005_12;Holcus lanatus L.;;+;102900
+T0005_12;Rumex acetosa L.;;+;119418
+T0005_12;Bellis perennis L.;;1;85740
+T0005_12;Ranunculus acer;;1;116903
+T0005_12;Ranunculus repens L.;;3;117201
+T0005_12;Alopecurus pratensis L.;;1;81656
+T0005_12;Festuca pratensis Hudson;;1;98460
+T0005_12;Myosotis scorpioides L.;;+;109091
+T0005_12;Taraxacum officinale Weber;;1;125677
+T0005_12;Alopecurus geniculatus L.;;+;81637
+T0005_12;Plantago lanceolata L.;;+;113893
+T0005_12;Rumex crispus L.;;1;119473
+T0005_12;Leucanthemum vulgare Lam.;;+;105817
+T0005_12;Cardamine pratensis L.;;2;87964
+T0005_12;Plantago major L.;;1;113904
+T0005_12;Carex disticha Hudson;;+;88478
+T0005_2;Ranunculus acer;;1;116903
+T0005_2;Glyceria altissima;;+;100372
+T0005_2;Cerastium fontanum Baumg.;;+;90008
+T0005_2;Bellis perennis L.;;+;85740
+T0005_2;Lysimachia nummularia L.;;+;107073
+T0005_2;Polygonum amphibium L.;;+;114641
+T0005_2;Rumex acetosa L.;;1;119418
+T0005_2;Rumex crispus L.;;+;119473
+T0005_2;Lychnis flos-cuculi L.;;1;106918
+T0005_2;Trifolium repens L.;;+;127454
+T0005_2;Taraxacum officinale Weber;;1;125677
+T0005_2;Festuca pratensis Hudson;;2;98460
+T0005_2;Carex disticha Hudson;;1;88478
+T0005_2;Holcus lanatus L.;;1;102900
+T0005_2;Cardamine pratensis L.;;2;87964
+T0005_2;Agrostis capillaris L.;;1;80591
+T0005_2;Ranunculus flammula L.;;+;117025
+T0005_2;Alopecurus geniculatus L.;;1;81637
+T0005_2;Cynosurus cristatus L.;;1;93860
+T0005_2;Juncus effusus L.;;2;104173
+T0005_2;Galium palustre L.;;1;99494
+T0005_2;Lolium perenne L.;;1;106499
+T0005_2;Ranunculus repens L.;;2;117201
+T0005_2;Anthoxanthum odoratum L.;;1;82922
+T0005_2;Poa pratensis L.;;+;114332
+T0005_2;Potentilla anserina L.;;+;115402
+T0005_2;Scirpus palustris;;1;121759
+T0005_2;Caltha palustris L.;;1;87540
+T0005_2;Alopecurus pratensis L.;;1;81656
+T0005_2;Myosotis scorpioides L.;;+;109091
+T0005_2;Plantago lanceolata L.;;+;113893
+T0005_3;Ranunculus repens L.;;2;117201
+T0005_3;Poa pratensis L.;;1;114332
+T0005_3;Ranunculus acer;;+;116903
+T0005_3;Poa trivialis L.;;+;114416
+T0005_3;Glyceria altissima;;+;100372
+T0005_3;Anthoxanthum odoratum L.;;1;82922
+T0005_3;Caltha palustris L.;;2;87540
+T0005_3;Juncus lamprocarpus;;1;104229
+T0005_3;Rumex acetosa L.;;+;119418
+T0005_3;Cardamine pratensis L.;;1;87964
+T0005_3;Carex acuta L.;;1;88314
+T0005_3;Carex disticha Hudson;;1;88478
+T0005_3;Bellis perennis L.;;+;85740
+T0005_3;Taraxacum officinale Weber;;1;125677
+T0005_3;Mentha aquatica L.;;+;108027
+T0005_3;Deschampsia cespitosa (L.) Beauv.;;+;94626
+T0005_3;Galium palustre L.;;1;99494
+T0005_3;Lolium perenne L.;;1;106499
+T0005_3;Lysimachia nummularia L.;;1;107073
+T0005_3;Cynosurus cristatus L.;;+;93860
+T0005_3;Alopecurus pratensis L.;;1;81656
+T0005_3;Rumex crispus L.;;+;119473
+T0005_3;Lychnis flos-cuculi L.;;1;106918
+T0005_3;Oenanthe fistulosa L.;;1;109869
+T0005_3;Trifolium repens L.;;1;127454
+T0005_3;Holcus lanatus L.;;1;102900
+T0005_4;Rumex crispus L.;;+;119473
+T0005_4;Cynosurus cristatus L.;;1;93860
+T0005_4;Poa pratensis L.;;1;114332
+T0005_4;Poa trivialis L.;;1;114416
+T0005_4;Anthoxanthum odoratum L.;;1;82922
+T0005_4;Scirpus palustris;;1;121759
+T0005_4;Holcus lanatus L.;;3;102900
+T0005_4;Juncus effusus L.;;+;104173
+T0005_4;Scirpus silvaticus;;1;121792
+T0005_4;Lolium perenne L.;;+;106499
+T0005_4;Lotus uliginosus Schkuhr;;+;106723
+T0005_4;Myosotis scorpioides L.;;1;109091
+T0005_4;Glyceria fluitans (L.) R. Br.;;1;100387
+T0005_4;Ranunculus repens L.;;1;117201
+T0005_4;Carex acuta L.;;+;88314
+T0005_4;Rumex acetosa L.;;+;119418
+T0005_4;Cardamine pratensis L.;;1;87964
+T0005_4;Trifolium repens L.;;1;127454
+T0005_4;Trifolium pratense L.;;1;127439
+T0005_4;Carex disticha Hudson;;1;88478
+T0005_4;Galium palustre L.;;+;99494
+T0005_4;Lychnis flos-cuculi L.;;1;106918
+T0005_4;Filipendula ulmaria (L.) Maxim.;;1;98717
+T0005_4;Festuca rubra L.;;1;98512
+T0005_4;Stellaria uliginosa;;+;125044
+T0005_4;Cerastium fontanum Baumg.;;1;90008
+T0005_4;Caltha palustris L.;;2;87540
+T0005_5;Centaurea pratensis;;1;89674
+T0005_5;Bellis perennis L.;;+;85740
+T0005_5;Lysimachia nummularia L.;;1;107073
+T0005_5;Myosotis scorpioides L.;;1;109091
+T0005_5;Alopecurus geniculatus L.;;+;81637
+T0005_5;Holcus lanatus L.;;1;102900
+T0005_5;Rumex acetosa L.;;1;119418
+T0005_5;Mentha aquatica L.;;+;108027
+T0005_5;Poa trivialis L.;;+;114416
+T0005_5;Ranunculus repens L.;;2;117201
+T0005_5;Carex disticha Hudson;;+;88478
+T0005_5;Alopecurus pratensis L.;;1;81656
+T0005_5;Stellaria graminea L.;;+;125000
+T0005_5;Cardamine pratensis L.;;1;87964
+T0005_5;Plantago lanceolata L.;;+;113893
+T0005_5;Galium palustre L.;;+;99494
+T0005_5;Festuca pratensis Hudson;;2;98460
+T0005_5;Caltha palustris L.;;+;87540
+T0005_5;Ajuga reptans L.;;+;80990
+T0005_5;Cynosurus cristatus L.;;2;93860
+T0005_5;Lolium perenne L.;;2;106499
+T0005_5;Oenanthe fistulosa L.;;+;109869
+T0005_5;Taraxacum officinale Weber;;1;125677
+T0005_5;Scirpus palustris;;+;121759
+T0005_5;Juncus lamprocarpus;;+;104229
+T0005_5;Achillea ptarmica L.;;1;79921
+T0005_5;Prunella vulgaris L.;;1;116012
+T0005_5;Scirpus silvaticus;;+;121792
+T0005_5;Trifolium repens L.;;1;127454
+T0005_5;Anthoxanthum odoratum L.;;1;82922
+T0005_5;Filipendula ulmaria (L.) Maxim.;;+;98717
+T0005_5;Lathyrus pratensis L.;;+;105247
+T0005_5;Juncus effusus L.;;+;104173
+T0005_5;Cerastium fontanum Baumg.;;+;90008
+T0005_5;Lychnis flos-cuculi L.;;+;106918
+T0005_5;Leucanthemum vulgare Lam.;;+;105817
+T0005_5;Carex vulpina L.;;+;88952
+T0005_5;Poa pratensis L.;;1;114332
+T0005_6;Deschampsia cespitosa (L.) Beauv.;;3;94626
+T0005_6;Filipendula ulmaria (L.) Maxim.;;+;98717
+T0005_6;Trifolium pratense L.;;1;127439
+T0005_6;Anthoxanthum odoratum L.;;+;82922
+T0005_6;Agrostis capillaris L.;;1;80591
+T0005_6;Galium palustre L.;;+;99494
+T0005_6;Stellaria graminea L.;;1;125000
+T0005_6;Cerastium fontanum Baumg.;;+;90008
+T0005_6;Cynosurus cristatus L.;;1;93860
+T0005_6;Festuca pratensis Hudson;;1;98460
+T0005_6;Lolium perenne L.;;1;106499
+T0005_6;Carex ovalis Good.;;+;88742
+T0005_6;Bellis perennis L.;;+;85740
+T0005_6;Juncus effusus L.;;+;104173
+T0005_6;Lysimachia nummularia L.;;+;107073
+T0005_6;Alopecurus geniculatus L.;;+;81637
+T0005_6;Trifolium repens L.;;2;127454
+T0005_6;Holcus lanatus L.;;1;102900
+T0005_6;Ranunculus acer;;1;116903
+T0005_6;Ranunculus repens L.;;1;117201
+T0005_6;Poa pratensis L.;;3;114332
+T0005_6;Alopecurus pratensis L.;;2;81656
+T0005_7;Ranunculus repens L.;;2;117201
+T0005_7;Holcus lanatus L.;;+;102900
+T0005_7;Deschampsia cespitosa (L.) Beauv.;;3;94626
+T0005_7;Poa pratensis L.;;1;114332
+T0005_7;Dactylis glomerata L.;;1;94207
+T0005_7;Alopecurus geniculatus L.;;1;81637
+T0005_7;Alopecurus pratensis L.;;1;81656
+T0005_7;Ranunculus flammula L.;;+;117025
+T0005_7;Anthoxanthum odoratum L.;;+;82922
+T0005_7;Agrostis capillaris L.;;2;80591
+T0005_7;Carex disticha Hudson;;2;88478
+T0005_7;Phleum pratense L.;;2;113221
+T0005_7;Trifolium repens L.;;1;127454
+T0005_7;Oenanthe fistulosa L.;;+;109869
+T0005_8;Cardamine pratensis L.;;1;87964
+T0005_8;Carex disticha Hudson;;+;88478
+T0005_8;Juncus effusus L.;;+;104173
+T0005_8;Filipendula ulmaria (L.) Maxim.;;+;98717
+T0005_8;Trifolium repens L.;;+;127454
+T0005_8;Ranunculus repens L.;;2;117201
+T0005_8;Phalaris arundinacea L.;;+;112975
+T0005_8;Ranunculus flammula L.;;1;117025
+T0005_8;Poa pratensis L.;;1;114332
+T0005_8;Caltha palustris L.;;2;87540
+T0005_8;Galium palustre L.;;+;99494
+T0005_8;Festuca pratensis Hudson;;1;98460
+T0005_8;Phleum pratense L.;;+;113221
+T0005_8;Alopecurus geniculatus L.;;1;81637
+T0005_8;Anthoxanthum odoratum L.;;1;82922
+T0005_8;Deschampsia cespitosa (L.) Beauv.;;3;94626
+T0005_8;Lolium perenne L.;;+;106499
+T0005_8;Lysimachia nummularia L.;;1;107073
+T0005_8;Alopecurus pratensis L.;;2;81656
+T0005_8;Poa trivialis L.;;1;114416
+T0005_9;Cardamine pratensis L.;;1;87964
+T0005_9;Ranunculus repens L.;;1;117201
+T0005_9;Equisetum palustre L.;;+;96534
+T0005_9;Carex flacca Schreber;;1;88510
+T0005_9;Trifolium pratense L.;;+;127439
+T0005_9;Carex disticha Hudson;;1;88478
+T0005_9;Myosotis scorpioides L.;;+;109091
+T0005_9;Juncus glaucus;;1;104200
+T0005_9;Cynosurus cristatus L.;;1;93860
+T0005_9;Plantago lanceolata L.;;+;113893
+T0005_9;Festuca pratensis Hudson;;1;98460
+T0005_9;Poa pratensis L.;;1;114332
+T0005_9;Poa trivialis L.;;1;114416
+T0005_9;Scirpus palustris;;2;121759
+T0005_9;Cerastium fontanum Baumg.;;+;90008
+T0005_9;Juncus effusus L.;;1;104173
+T0005_9;Bellis perennis L.;;+;85740
+T0005_9;Holcus lanatus L.;;1;102900
+T0005_9;Anthoxanthum odoratum L.;;1;82922
+T0005_9;Centaurea pratensis;;1;89674
+T0005_9;Lychnis flos-cuculi L.;;1;106918
+T0005_9;Carex vulpina L.;;+;88952
+T0005_9;Carex hirta L.;;1;88569
+T0005_9;Cirsium palustre (L.) Scop.;;1;91382

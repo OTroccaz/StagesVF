@@ -14,35 +14,36 @@ if ($connect == "1") // Si le visiteur s'est identifié.
    /* CONNEXION BDD */
    include ('../../config/connection.php');
    $bdd = connexionPgSQL();
-   /* CONNEXION FAITE */ 
+   /* CONNEXION FAITE */
 
    include('../html/blank_page.htm');
    include('check_import/survey.php');
    include('check_import/dataset.php');
    include('check_import/vegetation.php');
-   
 
-   
    ?> <title>Importation</title>
    <?php
-   
-   	if (isset($_GET['verif']) && $_GET['verif'] == 1) // On vérifie que le variable existe.
+
+   if (isset($_GET['verif']) && $_GET['verif'] == 1) // On vérifie que le variable existe.
 	{
 		?>
 		<div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
 		Fichier accepté par la vérification !</div><br>
 		<?php
 	}
-	if(isset($_GET['verif']) && $_GET['verif'] == 0){
-		?>
+	if(isset($_GET['verif']) && $_GET['verif'] == 0){ // Si elle existe et qu'elle vaut 0
+      // On permet le téléchargement du fichier d'erreurs
+      ?>
 		<div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
 		Fichier non accepté par la vérification ...<br> Cliquez <a href="download_log.php">ici</a> pour télécharger le fichier d'erreurs.</div><br>
 		<?php
 	}
-   
 
+   // fonction qui permet de vérifier qu'un fichier importé via le formulaire n'a aucune erreur
+   // pour ensuite lui faire passer la vérification
    function upload($formulaireUpload,$destination,$maxsize=FALSE,$extensions=FALSE,$nomFichier,$type,$bdd) {
-      $check = TRUE; $verification = FALSE;
+      $check = TRUE;
+      $verification = FALSE;
       if (!isset($_FILES[$formulaireUpload]) OR $_FILES[$formulaireUpload]['error'] > 0) { ?>
          <div class="alert alert-danger" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
             Erreur survenue lors de l'upload.</div> <br>
@@ -66,8 +67,8 @@ if ($connect == "1") // Si le visiteur s'est identifié.
                $dataset = new dataset();
                $verification = $dataset->initialisationDatasetAll('../../check/'.$nomFichier, $bdd); // On fait la vérification
             } else if ($type == 'survey') { // S'il est de type survey
-				$survey = new survey();
-				$verification = $survey->initialisationSurveyAll('../../check/'.$nomFichier, $bdd, 0); // On fait la vérification
+   				$survey = new survey();
+   				$verification = $survey->initialisationSurveyAll('../../check/'.$nomFichier, $bdd, 0); // On fait la vérification
             } else if ($type == 'vegetation') { // S'il est de type vegetation
                $vegetation = new vegetation();
                $verification = $vegetation->initialisationVegetationAll('../../check/'.$nomFichier, $bdd); // On fait la vérification
@@ -120,9 +121,9 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       // Upload du fichier dans le bon répertoire
       $directory = htmlspecialchars($_POST['type_de_donnees']);
       // Renommage de la variable pour le bon dossier, français vers anglais
-      if ($directory == 'Jeu de données') $true_directory = 'dataset';
-      if ($directory == 'Relevé') $true_directory = 'survey';
-      if ($directory == 'Végétation') $true_directory = 'vegetation';
+      if ($directory == 'Jeux de données') $true_directory = 'dataset';
+      if ($directory == 'Caractéristiques des relevés') $true_directory = 'survey';
+      if ($directory == 'Données Végétation') $true_directory = 'vegetation';
 
       if(isset($true_directory))
       {
@@ -131,9 +132,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          // Confirmation
          if ($upload_possible) {
             ?>
-            <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
-               Upload du fichier <?php echo htmlspecialchars($fichier); ?> réussi !
-            </div>
+
             <?php
 
             // Insertion dans la BDD des données du fichier importé

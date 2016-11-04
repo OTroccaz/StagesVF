@@ -1,11 +1,17 @@
 <?php
 
+//classe contenant les fonctions d'initialisation, de vérification et d'insertion des datasets
+
 class dataset {
 
   public function dataset(){
     include('log_error.php');
   }
 
+  
+   // Cette fonction lance toutes les fonctions nécessaires à l'insertion des données
+   //(initialisation, vérification et insertion)
+   
   public function initialisationDatasetAll($chemin, $bdd){
     $reponse = false;
     $tabName = $this->getTabNameDataset($chemin);
@@ -17,6 +23,8 @@ class dataset {
     return $reponse;
   }
 
+  //Cette fonction permet de récuperer les noms de champs et de les mettre dans un tableau
+  
   public function getTabNameDataset($nameDataset){
     $tabName = array();
     $row = 0;
@@ -40,6 +48,9 @@ class dataset {
       return $tabName;
   }
 
+  //Cette fonction permet de passer les données du fichier CSV sous la forme
+  //d'un tableau PHP avec pour index des colonne le nom des champs
+  
   public function initDataset($nameDataset, $tabName, $bdd){
     $log = new log_error();
     $log->resetLog();
@@ -73,6 +84,8 @@ class dataset {
   }
 
 
+  // Cette fonction permet de lancer les fonctions de vérification et de récuperer le résultat
+  
   public function verificationDataset ($tableau){
 	$log = new log_error();
     $error = true;
@@ -98,7 +111,8 @@ class dataset {
     return $error;
 
   }
-
+  
+  // Cette fonction permet de vérifier si le type de données des champs est correct
 
   public function verifTypeDonnees($tableau){
       $log = new log_error();
@@ -138,26 +152,7 @@ class dataset {
     return $error;
   }
 
-  // public function verifIdUniqueDataset($tableau, $bdd){
-  //   $log = new log_error();
-  //   $error = true;
-  //   $sql = $bdd->query("SELECT id_dataset FROM dataset");
-  //   $dataset = $sql->fetchAll(PDO::FETCH_COLUMN);
-  //
-  //   for($row = 0 ; $row < count($dataset) ; $row++ ){
-  //     for($i = 0 ; $i < count($tableau) ; $i++){
-  //       if($tableau[$i]["PROJECT"] == $dataset[$row]){
-  //         $error = false;
-  //           $log->writeLog("ERREUR , L'IDENTIFIANT NAME_RELEVE: ".$tableau[$i]["PROJECT"]." EXISTE DEJA DANS LA BASE DE DONNEES");
-  //       }
-  //     }
-  //   }
-
-  //  return $error;
-
-
-//  }
-
+	// Cette fonction permet de vérifier si certaines données obligatoires ne sont pas nul.
 
   public function verifDatasetObligatoire($tableau){
 		$error = true;
@@ -187,6 +182,8 @@ class dataset {
 		return $error;
 
 	}
+	
+		// Cette fonction permet d'inserer les données ayant passé la vérification dans la BDD
 
   public function insertionDataset ($tableau, $bdd){
     $verif = false;
@@ -222,10 +219,8 @@ class dataset {
     return $verif;
   }
 
-  public function recupSupplier(){
-
-  }
-
+  //Supression des données d'un dataset et les données associés
+  
   public function deleteDataset($bdd, $datasetName){
 
     $sql = $bdd->query("SELECT id_dataset FROM dataset WHERE project='".$datasetName."'");
@@ -244,14 +239,9 @@ class dataset {
     $bdd->query("DELETE FROM dataset WHERE id_dataset='".$datasetId[0]."'");
   }
 
-  public function updateDataset($bdd, $datasetId){
-    $this->deleteDataset($bdd, $datasetId);
-
-
-  }
-  public function DeleteAll($bdd){
-    $bdd->query("TRUNCATE survey CASCADE");
-  }
+  
+  
+  //Permet de récupérer les liste des dataset
 
   public function getProjects($bdd){
     $sql = $bdd->query("SELECT projects FROM dataset");

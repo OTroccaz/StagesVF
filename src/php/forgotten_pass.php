@@ -31,8 +31,9 @@ if(isset($_POST['recover']))
       $email = htmlspecialchars($_POST['email']);
 
       if(!empty($pseudo) && !empty($email)) {
-         $requete = $bdd->prepare("SELECT email FROM users WHERE pseudo = '" . $speudo . "'");
+         $requete = $bdd->query("SELECT email FROM users WHERE pseudo = '" . $pseudo . "'");
          $donnees = $requete->fetch();
+
          if ($donnees['email'] == $email)
          {
             $req = $bdd->prepare('SELECT id_user FROM users WHERE pseudo = :pseudo AND email = :email');
@@ -43,7 +44,7 @@ if(isset($_POST['recover']))
             $subject = "VegFrance mot de passe perdu";
             $message = "Votre pseudo : " . $pseudo ."\n" .
             "Votre nouveau mot de passe : " . $new_password . "\n" .
-            'Reconnectez vous en cliquant sur ce lien : https://vegfrance.univ-rennes1.fr/StagesVF/src/php/sign_in.php">';
+            'Reconnectez vous en cliquant sur ce lien : https://vegfrance.univ-rennes1.fr/Gestion_BDD/src/php/sign_in.php">';
             $expeditor = "From: noreply@VegFrance.fr";
 
             $req = $bdd->exec("UPDATE users SET password = '" . $sha1 . "' WHERE pseudo = '" . $pseudo ."' AND email = '" . $email . "'");

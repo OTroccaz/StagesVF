@@ -1,6 +1,10 @@
 <?php
 
+//Classe permettant d'écrire dans le fichier log les erreurs de la vérification
+
 class log_error{
+  
+  //Cette fonction permet d'écrire dans le fichier log
   
   public function writeLog($log){
 
@@ -12,7 +16,7 @@ class log_error{
   fclose ($fp);
 
   }
-
+  //Cette fonction permet de vider le fichier log
   public function resetLog(){
     $fp = fopen ("check_import\log.txt", "r+");
     $contenu_du_fichier = "";

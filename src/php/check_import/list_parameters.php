@@ -1,6 +1,12 @@
 <?php
 
+//classe contenant les fonctions de vérification et d'insertion pour les champs facultatif de type list
+
 class list_parameters{
+
+
+
+	// Cette fonction permet d'inserer les données ayant passé la vérification dans la BDD
 
   public function insertionListParam ($tableau, $bdd){
 
@@ -37,6 +43,8 @@ class list_parameters{
 
   }
 
+    // Cette fonction permet de vérifier que toutes les données sont bien des integer
+  
   public function verifList($tableau, $bdd){
     $log = new log_error();
     $error = true;
@@ -96,6 +104,10 @@ public function updateListAll($bdd){
 
 
 }
+
+	// Permet de comparer les listes présentes dans la BDD avec celle d'un fichier CSV
+	// Insère les différences constaté dans la BDD
+
 public function updateList($listName, $bdd){
   $listKeys = array();
   $listInsert = array(array());
@@ -150,6 +162,9 @@ public function updateList($listName, $bdd){
 }
 
 
+
+	//Permet de mettre à jour la liste TaxRef à partir d'un fichier CSV
+	
 public function updateListTaxRef($bdd){
 	  set_time_limit(0);
 	ini_set('memory_limit', '256M');

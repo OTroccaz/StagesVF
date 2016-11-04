@@ -46,6 +46,8 @@ if(!isset($_SESSION['pseudo']))
          $reponse = $bdd->query("SELECT last_visit FROM users WHERE pseudo='".$pseudo."'");
          $donnees = $reponse->fetch();
          echo ' | Dernière visite : ' . $donnees['last_visit'] . '</p>';
+         $maj = "UPDATE users SET last_visit='".date("Y-m-d",time())."' WHERE pseudo='".$pseudo."'";
+         $requete = $bdd->exec($maj);
          header("refresh:3; url=../../index.php");
       }
    }

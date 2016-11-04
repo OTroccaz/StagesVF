@@ -106,7 +106,7 @@ else // On est dans le cas traitement
       $message .= "Pour rappel, \n";
       $message .= "votre identifiant est : " . $pseudo . "\n";
       $message .= "et votre mot de passe est : " . htmlspecialchars($_POST['password']);
-      $message .= 'Connectez-vous <a href="https://vegfrance.univ-rennes1.fr/StagesVF/src/php/sign_in.php">ici</a>.';
+      $message .= 'Connectez-vous <a href="https://vegfrance.univ-rennes1.fr/Gestion_BDD/src/php/sign_in.php">ici</a>.';
       $expeditor = "From: noreply@VegFrance.fr";
 
       $succes = mail($email, $subject, $message, $expeditor);

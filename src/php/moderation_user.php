@@ -27,28 +27,28 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          <center>
             <?php
             switch ($newRight) {
-               case 2:
+               case 1:
                ?>
                <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
                   L'utilisateur <?php echo $user ?> est à présent Utilisateur
                </div> <br>
                <?php
                break;
-               case 3:
+               case 2:
                ?>
                <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
                   L'utilisateur <?php echo $user ?> est à présent Fournisseur
                </div> <br>
                <?php
                break;
-               case 4:
+               case 3:
                ?>
                <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
                   L'utilisateur <?php echo $user ?> est à présent Gestionnaire
                </div> <br>
                <?php
                break;
-               case 5:
+               case 4:
                ?>
                <div class="alert alert-success" role="alert" style="display:inline-block;list-style-type:none;text-align:center">
                   L'utilisateur <?php echo $user ?> est à présent Administrateur

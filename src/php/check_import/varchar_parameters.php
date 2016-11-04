@@ -1,7 +1,11 @@
 <?php
 
+//classe contenant les fonctions de vérification et d'insertion pour les champs facultatif de type varchar
+
 class varchar_parameters{
 
+
+	// Cette fonction permet d'inserer les données ayant passé la vérification dans la BDD
 
   public function insertionVarcharParam ($tableau, $bdd){
 
@@ -35,6 +39,9 @@ class varchar_parameters{
     }
   }
 }
+
+
+  // Cette fonction permet de vérifier que toutes les données sont bien des varchar
 
   public function verifVarchar($tableau, $bdd){
     $log = new log_error();

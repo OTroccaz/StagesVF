@@ -87,17 +87,17 @@
                         // on met en évidence le  statut du user en le mettant par défaut dans la liste
                         if (isset($_POST['status'])) {
                            ?>
-                           <option value="2" <?php if(htmlspecialchars($_POST['status'] == "Utilisateur")) echo 'selected="selected"';?> >Utilisateur</option>
-                           <option value="3" <?php if(htmlspecialchars($_POST['status'] == "Fournisseur")) echo 'selected="selected"';?> >Fournisseur</option>
-                           <option value="4" <?php if(htmlspecialchars($_POST['status'] == "Gestionnaire")) echo 'selected="selected"';?> >Gestionnaire</option>
-                           <option value="5" <?php if(htmlspecialchars($_POST['status'] == "Administrateur")) echo 'selected="selected"';?> >Administrateur</option>
+                           <option value="1" <?php if(htmlspecialchars($_POST['status'] == "Utilisateur")) echo 'selected="selected"';?> >Utilisateur</option>
+                           <option value="2" <?php if(htmlspecialchars($_POST['status'] == "Fournisseur")) echo 'selected="selected"';?> >Fournisseur</option>
+                           <option value="3" <?php if(htmlspecialchars($_POST['status'] == "Gestionnaire")) echo 'selected="selected"';?> >Gestionnaire</option>
+                           <option value="4" <?php if(htmlspecialchars($_POST['status'] == "Administrateur")) echo 'selected="selected"';?> >Administrateur</option>
                            <?php
                         } else {
                            ?>
-                           <option value="2">Utilisateur</option>
-                           <option value="3">Fournisseur</option>
-                           <option value="4">Gestionnaire</option>
-                           <option value="5">Administrateur</option>
+                           <option value="1">Utilisateur</option>
+                           <option value="2">Fournisseur</option>
+                           <option value="3">Gestionnaire</option>
+                           <option value="4">Administrateur</option>
                            <?php
                         }
                         ?>

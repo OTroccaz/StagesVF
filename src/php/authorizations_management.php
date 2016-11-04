@@ -46,7 +46,7 @@ if ($connect == "1") // Si le visiteur s'est identifié.
          {
             $pageActuelle = 1; // La page actuelle est la n°1
          }
-         $premiereEntree=($pageActuelle-1)*$_SESSION['messagesParPage']; // On calcul la première entrée à lire
+         $premiereEntree=($pageActuelle-1)*$_SESSION['messagesParPage']; // On calcule la première entrée à lire
          // La requête sql pour récupérer les messages de la page actuelle.
          $reponse = $bdd->query("SELECT * FROM request WHERE allowed = 'attente' ORDER BY requester LIMIT ".$_SESSION['messagesParPage']." OFFSET ".$premiereEntree);
          ?>
@@ -162,13 +162,15 @@ if ($connect == "1") // Si le visiteur s'est identifié.
             $requete2 = $bdd->exec("UPDATE request SET allowed = 'oui' WHERE id_file ='".htmlspecialchars($_POST['id'])."'");
             afficherPage($bdd);
 
+            // Afin de pouvoir dire à l'utilisateur que sa demande a été autorisée par un admin, on lui envoie un mail
+            // On va donc chercher son email dans la base de données
             $requete = $bdd->query("SELECT email FROM users WHERE pseudo ='". htmlspecialchars($_SESSION['pseudo']) ."'");
             $donnees = $requete->fetch();
 
             $email = $donnees['email'];
             $subject = "VegFrance - Droit d'exportation accordé";
             $message = "Une de vos demandes d'exportation effectuée a été autorisée par un administrateur. \n";
-            $message .= "Vous pouvez dès à présent télécharger le fichier depuis le lien suivant : https://vegfrance.univ-rennes1.fr/StagesVF/src/php/requests.php";
+            $message .= "Vous pouvez dès à présent télécharger le fichier depuis le lien suivant : https://vegfrance.univ-rennes1.fr/Gestion_BDD/src/php/requests.php";
             $expeditor = "From:noreply@VegFrance.fr";
             mail($email, $subject, $message, $expeditor);
 

@@ -50,9 +50,9 @@ if ($connect == "1") // Si le visiteur s'est identifié.
       if ($donnees = $requete->fetch()) { // Si le fichier est trouvé, alors
          // On renomme la variable des sous-dossiers en anglais
          $directory = $donnees['up_type'];
-         if ($directory == 'Jeu de données') $directory = 'dataset';
-         if ($directory == 'Relevé') $directory = 'survey';
-         if ($directory == 'Végétation') $directory = 'vegetation';
+         if ($directory == 'Jeux de données') $directory = 'dataset';
+         if ($directory == 'Caractéristiques des relevés') $directory = 'survey';
+         if ($directory == 'Données Végétation') $directory = 'vegetation';
          // Création des headers, pour indiquer au navigateur qu'il s'agit d'un fichier à télécharger
          header('Content-Transfer-Encoding: binary'); // Transfert en binaire (fichier)
          header('Content-Disposition: attachment; filename="'.$donnees["up_finalname"].'"'); // Nom du fichier

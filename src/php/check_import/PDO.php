@@ -1,4 +1,7 @@
 <?php
+
+//Cette fonction permet de se connecter avec la base postgreSQL
+
 function connexion()
 {
    try

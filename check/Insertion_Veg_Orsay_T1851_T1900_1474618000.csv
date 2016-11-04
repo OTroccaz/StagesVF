@@ -1,0 +1,2297 @@
+REL_CODE;FULLNAME BIS;STRATUM;COVER_CODE;TAXREF9_CDNOM
+T1853_1;Rhamnus alaternus;;+;117526
+T1853_1;Hypochoeris glabra L.;;+;103364
+T1853_1;Calicotome spinosa (L.) Link;;+;87446
+T1853_1;Argyrolobium zanonii (Turra) P. W. Ball;;+;83722
+T1853_1;Euphorbia spinosa L.;;+;97673
+T1853_1;Euphorbia dendroides L.;;+;97492
+T1853_1;Myrtus communis L.;;4;109186
+T1853_1;Brachypodium retusum (Pers.) Beauv.;;2;86297
+T1853_1;Rosmarinus officinalis L.;;2;118865
+T1853_1;Arisarum vulgare Targ. -tozz.;;1;83755
+T1853_1;Fumana levipes;;+;99022
+T1853_1;Lonicera implexa Aiton;;+;106570
+T1853_1;Phillyrea latifolia L.;;+;113148
+T1853_1;Pinus halepensis Miller;;+;113665
+T1853_1;Smilax aspera L.;;1;123987
+T1853_1;Pistacia lentiscus L.;;3;113744
+T1857_1;Oryzopsis coerulescens;;2;111794
+T1857_1;Stachys rectus;;+;124805
+T1857_1;Phagnalon saxatile (L.) Cass.;;2;112935
+T1857_1;Andropogon distachyos L.;;2;82439
+T1857_1;Arisarum vulgare Targ. -tozz.;;+;83755
+T1857_1;Umbilicus pendulinus;;+;128214
+T1857_1;Asplenium ruta-muraria L.;;+;84521
+T1857_1;Geranium robertianum L.;;+;100142
+T1857_1;Crucianella angustifolia L.;;+;93295
+T1857_1;Melica pyramidalis;;1;107873
+T1857_1;Senecio cineraria;;1;122574
+T1857_1;Lotus ornithopodioides L.;;+;106694
+T1857_1;Misopates orontium (L.) Rafin.;;+;108645
+T1857_1;Hyparrhenia hirta (L.) Stapf;;+;103216
+T1857_2;Stachys arvensis (L.) L.;;1;124744
+T1857_2;Andropogon distachyos L.;;1;82439
+T1857_2;Silene gallica L.;;+;123485
+T1857_2;Umbilicus pendulinus;;1;128214
+T1857_2;Brachypodium retusum (Pers.) Beauv.;;+;86297
+T1857_2;Lavandula stoechas L.;;+;105321
+T1857_2;Phagnalon saxatile (L.) Cass.;;2;112935
+T1857_2;Oryzopsis coerulescens;;+;111794
+T1857_2;Crucianella angustifolia L.;;+;93295
+T1857_2;Cistus albidus L.;;2;91630
+T1857_2;Melica pyramidalis;;+;107873
+T1857_2;Centranthus calcitrapae (L.) Dufresne;;1;89881
+T1857_2;Misopates orontium (L.) Rafin.;;+;108645
+T1857_2;Stachys rectus;;+;124805
+T1857_2;Hyparrhenia hirta (L.) Stapf;;+;103216
+T1857_2;Ruta chalepensis L.;;1;119710
+T1857_2;Nardurus halleri;;+;109348
+T1857_2;Geranium robertianum L.;;+;100142
+T1857_3;Umbilicus pendulinus;;2;128214
+T1857_3;Phagnalon saxatile (L.) Cass.;;+;112935
+T1857_3;Stachys arvensis (L.) L.;;+;124744
+T1857_3;Cheilanthes fragrans (L. Fil.) Swartz;;+;90584
+T1857_3;Hyparrhenia hirta (L.) Stapf;;1;103216
+T1857_3;Oryzopsis coerulescens;;+;111794
+T1857_3;Misopates orontium (L.) Rafin.;;+;108645
+T1857_3;Bromus madritensis L.;;+;86668
+T1857_3;Brachypodium distachyon (L.) Beauv.;;+;86262
+T1857_3;Ceterach officinarum Dc.;;1;90292
+T1857_3;Silene gallica L.;;+;123485
+T1857_3;Ruta chalepensis L.;;+;119710
+T1857_3;Andropogon distachyos L.;;1;82439
+T1857_3;Nardurus halleri;;2;109348
+T1857_3;Sedum nicaeense;;+;122216
+T1857_4;Sideritis romana L.;;+;123325
+T1857_4;Lavandula stoechas L.;;1;105321
+T1857_4;Phagnalon saxatile (L.) Cass.;;2;112935
+T1857_4;Oryzopsis coerulescens;;1;111794
+T1857_4;Stachys rectus;;+;124805
+T1857_4;Brachypodium retusum (Pers.) Beauv.;;2;86297
+T1857_4;Ruta chalepensis L.;;1;119710
+T1857_4;Melica pyramidalis;;+;107873
+T1857_4;Sedum nicaeense;;+;122216
+T1857_4;Convolvulus althaeoides L.;;+;92297
+T1857_4;Cheilanthes fragrans (L. Fil.) Swartz;;+;90584
+T1857_4;Hyparrhenia hirta (L.) Stapf;;2;103216
+T1857_4;Umbilicus pendulinus;;+;128214
+T1857_5;Phagnalon saxatile (L.) Cass.;;1;112935
+T1857_5;Oryzopsis coerulescens;;+;111794
+T1857_5;Sedum nicaeense;;+;122216
+T1857_5;Crucianella angustifolia L.;;+;93295
+T1857_5;Helianthemum guttatum;;+;100926
+T1857_5;Misopates orontium (L.) Rafin.;;+;108645
+T1857_5;Phagnalon sordidum (L.) Reichenb.;;+;112936
+T1857_5;Hyparrhenia hirta (L.) Stapf;;3;103216
+T1857_5;Stachys arvensis (L.) L.;;+;124744
+T1857_5;Cistus albidus L.;;1;91630
+T1857_5;Silene gallica L.;;+;123485
+T1857_5;Asplenium adiantum-nigrum L.;;+;84458
+T1857_5;Galium parisiense L.;;+;99496
+T1857_5;Asplenium trichomanes L.;;+;84534
+T1857_5;Ceterach officinarum Dc.;;+;90292
+T1857_5;Andropogon distachyos L.;;+;82439
+T1857_6;Phagnalon saxatile (L.) Cass.;;+;112935
+T1857_6;Oryzopsis coerulescens;;+;111794
+T1857_6;Galium parisiense L.;;+;99496
+T1857_6;Cheilanthes fragrans (L. Fil.) Swartz;;+;90584
+T1857_6;Crucianella angustifolia L.;;+;93295
+T1857_6;Stachys arvensis (L.) L.;;+;124744
+T1857_6;Hyparrhenia hirta (L.) Stapf;;1;103216
+T1857_6;Nothohlaena marantae;;+;109705
+T1857_6;Nardurus halleri;;+;109348
+T1857_6;Asplenium trichomanes L.;;+;84534
+T1857_6;Misopates orontium (L.) Rafin.;;+;108645
+T1857_6;Ceterach officinarum Dc.;;1;90292
+T1857_6;Asplenium adiantum-nigrum L.;;+;84458
+T1857_6;Cistus albidus L.;;+;91630
+T1857_6;Ruta chalepensis L.;;+;119710
+T1857_6;Silene gallica L.;;+;123485
+T1857_6;Umbilicus pendulinus;;1;128214
+T1857_6;Senecio cineraria;;+;122574
+T1857_7;Lavandula stoechas L.;;+;105321
+T1857_7;Senecio cineraria;;+;122574
+T1857_7;Centaurea paniculata L.;;+;89659
+T1857_7;Oryzopsis coerulescens;;1;111794
+T1857_7;Bufonia perennis Pourret;;1;86881
+T1857_7;Phagnalon saxatile (L.) Cass.;;2;112935
+T1857_7;Hyparrhenia hirta (L.) Stapf;;+;103216
+T1858_1;Phalaris arundinacea L.;;+;112975
+T1858_1;Glechoma hederaceum;;+;100310
+T1858_1;Urtica dioica L.;;+;128268
+T1858_1;Rubus coesius;;+;118993
+T1858_1;Dipsacus fullonum L.;;+;95149
+T1858_2;Oenothera biennis L.;;+;109911
+T1858_2;Urtica dioica L.;;+;128268
+T1858_2;Phalaris arundinacea L.;;+;112975
+T1858_2;Cucubalus baccifer L.;;+;93487
+T1858_3;Urtica dioica L.;;+;128268
+T1858_3;Poa palustris L.;;+;114312
+T1858_3;Phalaris arundinacea L.;;+;112975
+T1858_3;Glechoma hederaceum;;+;100310
+T1858_4;Solanum dulcamara L.;;+;124034
+T1858_4;Verbascum thapsus L.;;+;128660
+T1858_4;Rorippa silvestris;;+;117951
+T1858_4;Phalaris arundinacea L.;;+;112975
+T1858_4;Urtica dioica L.;;+;128268
+T1858_5;Phalaris arundinacea L.;;+;112975
+T1858_5;Glechoma hederaceum;;+;100310
+T1858_5;Solanum dulcamara L.;;+;124034
+T1858_5;Urtica dioica L.;;+;128268
+T1858_6;Conyza canadensis (L.) Cronq.;;+;92379
+T1858_6;Chenopodium ambrosioides L.;;+;90684
+T1858_6;Artemisia vulgaris L.;;+;84061
+T1858_6;Solanum dulcamara L.;;+;124034
+T1858_6;Tanacetum vulgare L.;;+;125474
+T1858_6;Eragrostis pilosa (L.) Beauv.;;+;96628
+T1858_6;Erysimum cheiranthoides L.;;+;97183
+T1858_6;Phalaris arundinacea L.;;+;112975
+T1859_1;Spirodela polyrrhiza;;+;124707
+T1859_1;Lemna minor L.;;+;105431
+T1859_1;Lemna trisulca L.;;+;105441
+T1859_1;Glyceria fluitans (L.) R. Br.;;+;100387
+T1859_1;Elodea canadensis Michx;;+;95980
+T1859_1;Apium nodiflorum (L.) Lag.;;+;83205
+T1859_1;Myosotis scorpioides L.;;+;109091
+T1859_1;Hydrocharis morsus Ranae;;+;103120
+T1859_1;Phalaris arundinacea L.;;+;112975
+T1859_10;Lemna minor L.;;+;105431
+T1859_10;Lemna gibba L.;;+;105427
+T1859_10;Lemna trisulca L.;;+;105441
+T1859_10;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1859_11;Lemna minor L.;;+;105431
+T1859_11;Lemna gibba L.;;+;105427
+T1859_11;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1859_11;Lemna trisulca L.;;+;105441
+T1859_11;Hydrocharis morsus Ranae;;+;103120
+T1859_12;Lemna trisulca L.;;+;105441
+T1859_12;Hydrocharis morsus Ranae;;+;103120
+T1859_12;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1859_12;Lemna minor L.;;+;105431
+T1859_12;Lemna gibba L.;;+;105427
+T1859_13;Lemna trisulca L.;;+;105441
+T1859_13;Lemna gibba L.;;+;105427
+T1859_13;Lemna minor L.;;+;105431
+T1859_13;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1859_14;Ceratophyllum demersum L.;;+;90208
+T1859_14;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1859_14;Spirodela polyrrhiza;;+;124707
+T1859_14;Lemna gibba L.;;+;105427
+T1859_14;Lemna minor L.;;+;105431
+T1859_15;Glyceria fluitans (L.) R. Br.;;+;100387
+T1859_15;Lemna trisulca L.;;+;105441
+T1859_15;Spirodela polyrrhiza;;+;124707
+T1859_15;Ceratophyllum demersum L.;;+;90208
+T1859_15;Lemna gibba L.;;+;105427
+T1859_15;Nasturtium officinale R. Br.;;+;773798
+T1859_15;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1859_15;Lemna minor L.;;+;105431
+T1859_15;Hydrocharis morsus Ranae;;+;103120
+T1859_16;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1859_16;Hydrocharis morsus Ranae;;+;103120
+T1859_16;Lemna gibba L.;;+;105427
+T1859_16;Lemna minor L.;;+;105431
+T1859_16;Ceratophyllum demersum L.;;+;90208
+T1859_16;Spirodela polyrrhiza;;+;124707
+T1859_2;Myosotis scorpioides L.;;+;109091
+T1859_2;Glyceria fluitans (L.) R. Br.;;+;100387
+T1859_2;Spirodela polyrrhiza;;+;124707
+T1859_2;Lemna trisulca L.;;+;105441
+T1859_2;Apium nodiflorum (L.) Lag.;;+;83205
+T1859_2;Elodea canadensis Michx;;+;95980
+T1859_2;Hydrocharis morsus Ranae;;+;103120
+T1859_2;Lemna minor L.;;+;105431
+T1859_3;Lemna minor L.;;+;105431
+T1859_3;Lemna trisulca L.;;+;105441
+T1859_3;Hydrocharis morsus Ranae;;+;103120
+T1859_3;Glyceria fluitans (L.) R. Br.;;+;100387
+T1859_3;Apium nodiflorum (L.) Lag.;;+;83205
+T1859_3;Phalaris arundinacea L.;;+;112975
+T1859_3;Myosotis scorpioides L.;;+;109091
+T1859_3;Lemna gibba L.;;+;105427
+T1859_3;Spirodela polyrrhiza;;+;124707
+T1859_4;Hydrocharis morsus Ranae;;+;103120
+T1859_4;Lemna minor L.;;+;105431
+T1859_4;Lemna trisulca L.;;+;105441
+T1859_4;Glyceria fluitans (L.) R. Br.;;+;100387
+T1859_4;Elodea canadensis Michx;;+;95980
+T1859_4;Spirodela polyrrhiza;;+;124707
+T1859_4;Lemna gibba L.;;+;105427
+T1859_4;Phalaris arundinacea L.;;+;112975
+T1859_4;Apium nodiflorum (L.) Lag.;;+;83205
+T1859_5;Phalaris arundinacea L.;;+;112975
+T1859_5;Mentha aquatica L.;;+;108027
+T1859_5;Potamogeton densus;;+;115249
+T1859_5;Lemna trisulca L.;;+;105441
+T1859_5;Glyceria fluitans (L.) R. Br.;;+;100387
+T1859_5;Myosotis scorpioides L.;;+;109091
+T1859_5;Lemna minor L.;;+;105431
+T1859_5;Glyceria altissima;;+;100372
+T1859_5;Spirodela polyrrhiza;;+;124707
+T1859_6;Lemna gibba L.;;+;105427
+T1859_6;Lemna minor L.;;+;105431
+T1859_6;Apium nodiflorum (L.) Lag.;;+;83205
+T1859_6;Glyceria altissima;;+;100372
+T1859_6;Lemna trisulca L.;;+;105441
+T1859_6;Spirodela polyrrhiza;;+;124707
+T1859_6;Elodea canadensis Michx;;+;95980
+T1859_6;Myosotis scorpioides L.;;+;109091
+T1859_7;Lemna trisulca L.;;+;105441
+T1859_7;Lemna minor L.;;+;105431
+T1859_7;Lemna gibba L.;;+;105427
+T1859_7;Elodea canadensis Michx;;+;95980
+T1859_7;Glyceria altissima;;+;100372
+T1859_7;Apium nodiflorum (L.) Lag.;;+;83205
+T1859_7;Myosotis scorpioides L.;;+;109091
+T1859_7;Spirodela polyrrhiza;;+;124707
+T1859_8;Lemna gibba L.;;+;105427
+T1859_8;Spirodela polyrrhiza;;+;124707
+T1859_8;Lemna trisulca L.;;+;105441
+T1859_8;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1859_8;Lemna minor L.;;+;105431
+T1859_8;Hydrocharis morsus Ranae;;+;103120
+T1859_9;Lemna trisulca L.;;+;105441
+T1859_9;Lemna minor L.;;+;105431
+T1859_9;Hydrocharis morsus Ranae;;+;103120
+T1859_9;Lemna gibba L.;;+;105427
+T1859_9;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1860_1;Epilobium hirsutum L.;;+;96180
+T1860_1;Sium erectum;;+;123949
+T1860_1;Solanum dulcamara L.;;+;124034
+T1860_1;Lythrum salicaria L.;;+;107117
+T1860_1;Scrophularia aquatica;;+;197537
+T1860_1;Calystegia sepium (L.) R. Br.;;+;87560
+T1860_1;Mentha aquatica L.;;+;108027
+T1860_1;Apium nodiflorum (L.) Lag.;;+;83205
+T1860_1;Glyceria altissima;;+;100372
+T1860_2;Scrophularia aquatica;;+;197537
+T1860_2;Lysimachia nummularia L.;;+;107073
+T1860_2;Epilobium hirsutum L.;;+;96180
+T1860_2;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1860_2;Galium palustre L.;;+;99494
+T1860_2;Polygonum persicaria L.;;+;114822
+T1860_2;Urtica dioica L.;;+;128268
+T1860_2;Glyceria altissima;;+;100372
+T1860_2;Angelica sylvestris L.;;+;82738
+T1860_2;Apium nodiflorum (L.) Lag.;;+;83205
+T1860_2;Solanum dulcamara L.;;+;124034
+T1860_2;Symphytum officinale L.;;+;125355
+T1860_3;Myosotis scorpioides L.;;+;109091
+T1860_3;Symphytum officinale L.;;+;125355
+T1860_3;Rumex obtusifolius L.;;+;119550
+T1860_3;Mentha aquatica L.;;+;108027
+T1860_3;Ranunculus repens L.;;+;117201
+T1860_3;Glyceria altissima;;+;100372
+T1860_3;Galium palustre L.;;+;99494
+T1860_3;Carex riparia Curtis;;+;88833
+T1860_3;Phalaris arundinacea L.;;+;112975
+T1860_3;Equisetum palustre L.;;+;96534
+T1860_3;Calystegia sepium (L.) R. Br.;;+;87560
+T1860_3;Polygonum amphibium L.;;+;114641
+T1860_3;Rumex hydrolapathum Hudson;;+;771868
+T1860_4;Phalaris arundinacea L.;;+;112975
+T1860_4;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1860_4;Apium nodiflorum (L.) Lag.;;+;83205
+T1860_4;Polygonum amphibium L.;;+;114641
+T1860_4;Lemna minor L.;;+;105431
+T1860_4;Myosotis scorpioides L.;;+;109091
+T1860_4;Solanum dulcamara L.;;+;124034
+T1860_4;Equisetum palustre L.;;+;96534
+T1860_4;Ribes nigrum L.;;+;117766
+T1860_4;Equisetum fluviatile L.;;+;96519
+T1860_4;Glyceria altissima;;+;100372
+T1860_4;Veronica anagallis;;+;128792
+T1860_4;Valeriana officinalis L.;;+;128419
+T1860_4;Galium palustre L.;;+;99494
+T1860_5;Lemna minor L.;;+;105431
+T1860_5;Equisetum palustre L.;;+;96534
+T1860_5;Lythrum salicaria L.;;+;107117
+T1860_5;Carex disticha Hudson;;+;88478
+T1860_5;Phalaris arundinacea L.;;+;112975
+T1860_5;Carex riparia Curtis;;+;88833
+T1860_5;Mentha aquatica L.;;+;108027
+T1860_5;Symphytum officinale L.;;+;125355
+T1860_5;Epilobium parviflorum Schreber;;+;96229
+T1860_5;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1860_5;Apium nodiflorum (L.) Lag.;;+;83205
+T1860_5;Glyceria altissima;;+;100372
+T1860_5;Polygonum amphibium L.;;+;114641
+T1860_5;Rumex hydrolapathum Hudson;;+;771868
+T1860_5;Glyceria fluitans (L.) R. Br.;;+;100387
+T1860_5;Galium palustre L.;;+;99494
+T1860_5;Iris pseudacorus L.;;+;103772
+T1860_5;Alnus glutinosa (L.) Gaertner;;+;81569
+T1860_5;Valeriana officinalis L.;;+;128419
+T1860_5;Solanum dulcamara L.;;+;124034
+T1860_6;Rumex obtusifolius L.;;+;119550
+T1860_6;Glyceria fluitans (L.) R. Br.;;+;100387
+T1860_6;Carex vulpina L.;;+;88952
+T1860_6;Lemna minor L.;;+;105431
+T1860_6;Mentha aquatica L.;;+;108027
+T1860_6;Carex disticha Hudson;;+;88478
+T1860_6;Phalaris arundinacea L.;;+;112975
+T1860_6;Juncus glaucus;;+;104200
+T1860_6;Myosotis scorpioides L.;;+;109091
+T1860_6;Lythrum salicaria L.;;+;107117
+T1860_6;Potentilla anserina L.;;+;115402
+T1860_6;Rumex conglomeratus Murray;;+;119471
+T1860_6;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1860_6;Glyceria altissima;;+;100372
+T1860_6;Equisetum fluviatile L.;;+;96519
+T1860_6;Galium palustre L.;;+;99494
+T1860_6;Polygonum amphibium L.;;+;114641
+T1860_6;Sparganium ramosum;;+;124417
+T1860_6;Juncus effusus L.;;+;104173
+T1860_7;Glyceria altissima;;+;100372
+T1860_7;Symphytum officinale L.;;+;125355
+T1860_7;Mentha aquatica L.;;+;108027
+T1860_7;Myosotis scorpioides L.;;+;109091
+T1860_7;Valeriana officinalis L.;;+;128419
+T1860_7;Rumex conglomeratus Murray;;+;119471
+T1860_7;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1860_7;Lythrum salicaria L.;;+;107117
+T1860_7;Galium palustre L.;;+;99494
+T1860_7;Polygonum amphibium L.;;+;114641
+T1861_1;Myosotis scorpioides L.;;+;109091
+T1861_1;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1861_1;Symphytum officinale L.;;+;125355
+T1861_1;Lycopus europaeus L.;;+;107038
+T1861_1;Stachys palustris L.;;+;124798
+T1861_1;Valeriana officinalis L.;;+;128419
+T1861_1;Calystegia sepium (L.) R. Br.;;+;87560
+T1861_1;Polygonum amphibium L.;;+;114641
+T1861_1;Equisetum palustre L.;;+;96534
+T1861_1;Epilobium hirsutum L.;;+;96180
+T1861_1;Lythrum salicaria L.;;+;107117
+T1861_1;Rumex crispus L.;;+;119473
+T1861_1;Galium palustre L.;;+;99494
+T1861_1;Phalaris arundinacea L.;;+;112975
+T1861_1;Carex riparia Curtis;;+;88833
+T1861_1;Glyceria altissima;;+;100372
+T1861_1;Mentha aquatica L.;;+;108027
+T1861_1;Ranunculus repens L.;;+;117201
+T1861_2;Iris pseudacorus L.;;+;103772
+T1861_2;Lythrum salicaria L.;;+;107117
+T1861_2;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1861_2;Equisetum palustre L.;;+;96534
+T1861_2;Polygonum amphibium L.;;+;114641
+T1861_2;Caltha palustris L.;;+;87540
+T1861_2;Urtica dioica L.;;+;128268
+T1861_2;Rumex crispus L.;;+;119473
+T1861_2;Mentha aquatica L.;;+;108027
+T1861_2;Phalaris arundinacea L.;;+;112975
+T1861_2;Carex riparia Curtis;;+;88833
+T1861_2;Galium aparine L.;;+;99373
+T1861_2;Galium palustre L.;;+;99494
+T1861_2;Symphytum officinale L.;;+;125355
+T1861_2;Valeriana officinalis L.;;+;128419
+T1861_3;Iris pseudacorus L.;;+;103772
+T1861_3;Valeriana officinalis L.;;+;128419
+T1861_3;Rumex crispus L.;;+;119473
+T1861_3;Galium palustre L.;;+;99494
+T1861_3;Equisetum palustre L.;;+;96534
+T1861_3;Phalaris arundinacea L.;;+;112975
+T1861_3;Symphytum officinale L.;;+;125355
+T1861_3;Mentha aquatica L.;;+;108027
+T1861_3;Carex disticha Hudson;;+;88478
+T1861_3;Ranunculus repens L.;;+;117201
+T1861_3;Caltha palustris L.;;+;87540
+T1861_3;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1861_3;Carex riparia Curtis;;+;88833
+T1861_3;Polygonum amphibium L.;;+;114641
+T1861_3;Alopecurus geniculatus L.;;+;81637
+T1861_4;Scirpus silvaticus;;+;121792
+T1861_4;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1861_4;Galium aparine L.;;+;99373
+T1861_4;Symphytum officinale L.;;+;125355
+T1861_4;Rumex crispus L.;;+;119473
+T1861_4;Carex disticha Hudson;;+;88478
+T1861_4;Equisetum palustre L.;;+;96534
+T1861_4;Lythrum salicaria L.;;+;107117
+T1861_4;Polygonum amphibium L.;;+;114641
+T1861_4;Phalaris arundinacea L.;;+;112975
+T1861_4;Caltha palustris L.;;+;87540
+T1861_4;Mentha aquatica L.;;+;108027
+T1861_4;Apium nodiflorum (L.) Lag.;;+;83205
+T1861_4;Galium palustre L.;;+;99494
+T1861_4;Iris pseudacorus L.;;+;103772
+T1861_4;Carex riparia Curtis;;+;88833
+T1861_5;Solanum dulcamara L.;;+;124034
+T1861_5;Polygonum amphibium L.;;+;114641
+T1861_5;Caltha palustris L.;;+;87540
+T1861_5;Iris pseudacorus L.;;+;103772
+T1861_5;Equisetum fluviatile L.;;+;96519
+T1861_5;Equisetum palustre L.;;+;96534
+T1861_5;Valeriana officinalis L.;;+;128419
+T1861_5;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1861_5;Mentha aquatica L.;;+;108027
+T1861_5;Phalaris arundinacea L.;;+;112975
+T1861_6;Symphytum officinale L.;;+;125355
+T1861_6;Polygonum amphibium L.;;+;114641
+T1861_6;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1861_6;Oenanthe fistulosa L.;;+;109869
+T1861_6;Ranunculus lingua L.;;+;117096
+T1861_6;Carex riparia Curtis;;+;88833
+T1861_6;Iris pseudacorus L.;;+;103772
+T1861_6;Epilobium hirsutum L.;;+;96180
+T1861_6;Phalaris arundinacea L.;;+;112975
+T1861_6;Stellaria palustris Retz.;;+;125025
+T1861_6;Equisetum fluviatile L.;;+;96519
+T1861_6;Apium nodiflorum (L.) Lag.;;+;83205
+T1861_6;Juncus effusus L.;;+;104173
+T1861_6;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1861_6;Lythrum salicaria L.;;+;107117
+T1861_6;Caltha palustris L.;;+;87540
+T1861_6;Scirpus palustris;;+;121759
+T1861_6;Glyceria altissima;;+;100372
+T1861_6;Galium palustre L.;;+;99494
+T1861_6;Mentha aquatica L.;;+;108027
+T1861_6;Spirodela polyrrhiza;;+;124707
+T1861_6;Lysimachia vulgaris L.;;+;107090
+T1861_6;Lycopus europaeus L.;;+;107038
+T1861_6;Equisetum palustre L.;;+;96534
+T1861_6;Rumex hydrolapathum Hudson;;+;771868
+T1861_6;Lemna minor L.;;+;105431
+T1861_6;Solanum dulcamara L.;;+;124034
+T1861_7;Symphytum officinale L.;;+;125355
+T1861_7;Carex riparia Curtis;;+;88833
+T1861_7;Lythrum salicaria L.;;+;107117
+T1861_7;Phalaris arundinacea L.;;+;112975
+T1861_7;Rumex hydrolapathum Hudson;;+;771868
+T1861_7;Sparganium ramosum;;+;124417
+T1861_7;Carex pseudocyperus L.;;+;88794
+T1861_7;Galium palustre L.;;+;99494
+T1861_7;Lycopus europaeus L.;;+;107038
+T1861_7;Apium nodiflorum (L.) Lag.;;+;83205
+T1861_7;Equisetum palustre L.;;+;96534
+T1861_7;Solanum dulcamara L.;;+;124034
+T1861_7;Polygonum amphibium L.;;+;114641
+T1862_1;Carex riparia Curtis;;+;88833
+T1862_1;Symphytum officinale L.;;+;125355
+T1862_1;Glyceria altissima;;+;100372
+T1862_1;Phalaris arundinacea L.;;+;112975
+T1862_1;Galium palustre L.;;+;99494
+T1862_1;Polygonum amphibium L.;;+;114641
+T1862_1;Urtica dioica L.;;+;128268
+T1862_1;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1862_1;Equisetum fluviatile L.;;+;96519
+T1862_1;Equisetum palustre L.;;+;96534
+T1862_2;Urtica dioica L.;;+;128268
+T1862_2;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1862_2;Symphytum officinale L.;;+;125355
+T1862_3;Equisetum palustre L.;;+;96534
+T1862_3;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1862_3;Symphytum officinale L.;;+;125355
+T1862_3;Urtica dioica L.;;+;128268
+T1862_4;Rumex hydrolapathum Hudson;;+;771868
+T1862_4;Lysimachia nummularia L.;;+;107073
+T1862_4;Galium aparine L.;;+;99373
+T1862_4;Symphytum officinale L.;;+;125355
+T1862_4;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1862_4;Polygonum amphibium L.;;+;114641
+T1862_4;Galium palustre L.;;+;99494
+T1862_4;Equisetum fluviatile L.;;+;96519
+T1862_4;Cardamine pratensis L.;;+;87964
+T1862_4;Rumex crispus L.;;+;119473
+T1862_4;Calystegia sepium (L.) R. Br.;;+;87560
+T1862_4;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1862_4;Phalaris arundinacea L.;;+;112975
+T1862_4;Carex riparia Curtis;;+;88833
+T1862_4;Caltha palustris L.;;+;87540
+T1862_4;Scrophularia aquatica;;+;197537
+T1862_4;Urtica dioica L.;;+;128268
+T1862_4;Apium nodiflorum (L.) Lag.;;+;83205
+T1862_4;Oenanthe fistulosa L.;;+;109869
+T1862_4;Mentha aquatica L.;;+;108027
+T1862_5;Phalaris arundinacea L.;;+;112975
+T1862_5;Lysimachia vulgaris L.;;+;107090
+T1862_5;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1862_5;Symphytum officinale L.;;+;125355
+T1862_5;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1862_5;Polygonum amphibium L.;;+;114641
+T1862_5;Urtica dioica L.;;+;128268
+T1862_5;Caltha palustris L.;;+;87540
+T1862_6;Mentha aquatica L.;;+;108027
+T1862_6;Juncus effusus L.;;+;104173
+T1862_6;Lotus uliginosus Schkuhr;;+;106723
+T1862_6;Caltha palustris L.;;+;87540
+T1862_6;Galium palustre L.;;+;99494
+T1862_6;Lysimachia vulgaris L.;;+;107090
+T1862_6;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1862_6;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1862_6;Lysimachia nummularia L.;;+;107073
+T1862_6;Carex acuta L.;;+;88314
+T1862_7;Carex acuta L.;;+;88314
+T1862_7;Caltha palustris L.;;+;87540
+T1862_7;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1862_7;Cirsium palustre (L.) Scop.;;+;91382
+T1862_7;Lotus uliginosus Schkuhr;;+;106723
+T1862_7;Polygonum amphibium L.;;+;114641
+T1862_7;Iris pseudacorus L.;;+;103772
+T1862_7;Equisetum fluviatile L.;;+;96519
+T1862_7;Lysimachia vulgaris L.;;+;107090
+T1862_7;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1862_7;Mentha aquatica L.;;+;108027
+T1862_7;Epilobium hirsutum L.;;+;96180
+T1862_7;Galium palustre L.;;+;99494
+T1862_7;Oenanthe fistulosa L.;;+;109869
+T1863_1;Lycopus europaeus L.;;+;107038
+T1863_1;Galium palustre L.;;+;99494
+T1863_1;Mentha aquatica L.;;+;108027
+T1863_1;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1863_1;Glyceria altissima;;+;100372
+T1863_1;Oenanthe fistulosa L.;;+;109869
+T1863_1;Myosotis scorpioides L.;;+;109091
+T1863_1;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1863_1;Carex acuta L.;;+;88314
+T1863_1;Angelica sylvestris L.;;+;82738
+T1863_1;Equisetum palustre L.;;+;96534
+T1863_1;Epilobium hirsutum L.;;+;96180
+T1863_1;Caltha palustris L.;;+;87540
+T1863_2;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1863_2;Mentha aquatica L.;;+;108027
+T1863_2;Equisetum palustre L.;;+;96534
+T1863_2;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1863_2;Galium palustre L.;;+;99494
+T1863_2;Glyceria altissima;;+;100372
+T1863_2;Caltha palustris L.;;+;87540
+T1863_2;Equisetum fluviatile L.;;+;96519
+T1863_2;Carex acuta L.;;+;88314
+T1863_2;Angelica sylvestris L.;;+;82738
+T1863_3;Solanum dulcamara L.;;+;124034
+T1863_3;Galium palustre L.;;+;99494
+T1863_3;Carex acuta L.;;+;88314
+T1863_3;Glyceria altissima;;+;100372
+T1863_3;Equisetum palustre L.;;+;96534
+T1863_3;Angelica sylvestris L.;;+;82738
+T1863_3;Mentha aquatica L.;;+;108027
+T1863_3;Epilobium hirsutum L.;;+;96180
+T1863_4;Carex acuta L.;;+;88314
+T1863_4;Galium palustre L.;;+;99494
+T1863_4;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1863_4;Lycopus europaeus L.;;+;107038
+T1863_4;Equisetum fluviatile L.;;+;96519
+T1863_4;Polygonum amphibium L.;;+;114641
+T1863_4;Epilobium hirsutum L.;;+;96180
+T1863_4;Glyceria altissima;;+;100372
+T1863_4;Lythrum salicaria L.;;+;107117
+T1863_4;Mentha aquatica L.;;+;108027
+T1864_1;Solanum dulcamara L.;;+;124034
+T1864_1;Galium palustre L.;;+;99494
+T1864_1;Carex riparia Curtis;;+;88833
+T1864_1;Mentha aquatica L.;;+;108027
+T1864_1;Lemna minor L.;;+;105431
+T1864_1;Rumex hydrolapathum Hudson;;+;771868
+T1864_1;Lycopus europaeus L.;;+;107038
+T1864_1;Juncus effusus L.;;+;104173
+T1864_1;Equisetum fluviatile L.;;+;96519
+T1864_1;Polygonum amphibium L.;;+;114641
+T1864_2;Mentha aquatica L.;;+;108027
+T1864_2;Epilobium hirsutum L.;;+;96180
+T1864_2;Polygonum amphibium L.;;+;114641
+T1864_2;Carex riparia Curtis;;+;88833
+T1864_2;Juncus effusus L.;;+;104173
+T1864_2;Equisetum fluviatile L.;;+;96519
+T1864_2;Solanum dulcamara L.;;+;124034
+T1864_3;Myosotis scorpioides L.;;+;109091
+T1864_3;Polygonum amphibium L.;;+;114641
+T1864_3;Galium palustre L.;;+;99494
+T1864_3;Epilobium hirsutum L.;;+;96180
+T1864_3;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1864_3;Lycopus europaeus L.;;+;107038
+T1864_3;Mentha aquatica L.;;+;108027
+T1864_3;Cirsium palustre (L.) Scop.;;+;91382
+T1864_3;Eupatorium cannabinum L.;;+;97434
+T1864_3;Carex riparia Curtis;;+;88833
+T1864_3;Solanum dulcamara L.;;+;124034
+T1864_3;Rumex obtusifolius L.;;+;119550
+T1864_3;Carex disticha Hudson;;+;88478
+T1864_3;Rumex hydrolapathum Hudson;;+;771868
+T1864_4;Lemna minor L.;;+;105431
+T1864_4;Galium palustre L.;;+;99494
+T1864_4;Mentha aquatica L.;;+;108027
+T1864_4;Solanum dulcamara L.;;+;124034
+T1864_4;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1864_4;Epilobium hirsutum L.;;+;96180
+T1864_4;Carex riparia Curtis;;+;88833
+T1864_4;Equisetum fluviatile L.;;+;96519
+T1864_4;Polygonum amphibium L.;;+;114641
+T1864_4;Rumex hydrolapathum Hudson;;+;771868
+T1864_5;Polygonum amphibium L.;;+;114641
+T1864_5;Solanum dulcamara L.;;+;124034
+T1864_5;Lysimachia nummularia L.;;+;107073
+T1864_5;Cardamine pratensis L.;;+;87964
+T1864_5;Lemna trisulca L.;;+;105441
+T1864_5;Galium palustre L.;;+;99494
+T1864_5;Lemna minor L.;;+;105431
+T1864_5;Equisetum fluviatile L.;;+;96519
+T1864_5;Carex disticha Hudson;;+;88478
+T1864_5;Mentha aquatica L.;;+;108027
+T1864_5;Carex riparia Curtis;;+;88833
+T1864_5;Iris pseudacorus L.;;+;103772
+T1864_5;Carex panicea L.;;+;88752
+T1864_5;Epilobium hirsutum L.;;+;96180
+T1864_5;Juncus effusus L.;;+;104173
+T1864_5;Oenanthe fistulosa L.;;+;109869
+T1864_5;Carex elata All.;;+;88491
+T1864_6;Carex riparia Curtis;;+;88833
+T1864_6;Oenanthe fistulosa L.;;+;109869
+T1864_6;Scrophularia aquatica;;+;197537
+T1864_6;Lycopus europaeus L.;;+;107038
+T1864_6;Galium aparine L.;;+;99373
+T1864_6;Rumex conglomeratus Murray;;+;119471
+T1864_6;Carex panicea L.;;+;88752
+T1864_6;Myosotis scorpioides L.;;+;109091
+T1864_6;Rumex hydrolapathum Hudson;;+;771868
+T1864_6;Carex disticha Hudson;;+;88478
+T1864_6;Mentha aquatica L.;;+;108027
+T1864_6;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1864_6;Polygonum amphibium L.;;+;114641
+T1864_6;Galium palustre L.;;+;99494
+T1864_6;Juncus glaucus;;+;104200
+T1864_6;Lythrum salicaria L.;;+;107117
+T1864_7;Cirsium palustre (L.) Scop.;;+;91382
+T1864_7;Lysimachia vulgaris L.;;+;107090
+T1864_7;Symphytum officinale L.;;+;125355
+T1864_7;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1864_7;Angelica sylvestris L.;;+;82738
+T1864_7;Solanum dulcamara L.;;+;124034
+T1864_7;Eupatorium cannabinum L.;;+;97434
+T1864_7;Polygonum amphibium L.;;+;114641
+T1864_7;Equisetum palustre L.;;+;96534
+T1864_7;Mentha aquatica L.;;+;108027
+T1864_7;Phalaris arundinacea L.;;+;112975
+T1864_7;Carex riparia Curtis;;+;88833
+T1864_7;Valeriana officinalis L.;;+;128419
+T1864_7;Sonchus asper (L.) Hill;;+;124233
+T1864_7;Scutellaria galericulata L.;;+;122069
+T1864_7;Galium aparine L.;;+;99373
+T1864_7;Galium palustre L.;;+;99494
+T1864_7;Epilobium hirsutum L.;;+;96180
+T1864_7;Iris pseudacorus L.;;+;103772
+T1865_1;Mentha aquatica L.;;+;108027
+T1865_1;Oenanthe fistulosa L.;;+;109869
+T1865_1;Rumex crispus L.;;+;119473
+T1865_1;Carex elata All.;;+;88491
+T1865_1;Epilobium hirsutum L.;;+;96180
+T1865_1;Carex disticha Hudson;;+;88478
+T1865_1;Ranunculus repens L.;;+;117201
+T1865_1;Glyceria fluitans (L.) R. Br.;;+;100387
+T1865_1;Carex vulpina L.;;+;88952
+T1865_1;Lysimachia nummularia L.;;+;107073
+T1865_1;Galium palustre L.;;+;99494
+T1865_2;Cardamine pratensis L.;;+;87964
+T1865_2;Glyceria fluitans (L.) R. Br.;;+;100387
+T1865_2;Rumex crispus L.;;+;119473
+T1865_2;Scirpus palustris;;+;121759
+T1865_2;Carex panicea L.;;+;88752
+T1865_2;Nasturtium officinale R. Br.;;+;773798
+T1865_2;Equisetum fluviatile L.;;+;96519
+T1865_2;Lysimachia nummularia L.;;+;107073
+T1865_2;Iris pseudacorus L.;;+;103772
+T1865_2;Galium palustre L.;;+;99494
+T1865_2;Carex disticha Hudson;;+;88478
+T1865_2;Ranunculus repens L.;;+;117201
+T1865_2;Ranunculus flammula L.;;+;117025
+T1865_2;Taraxacum officinale Weber;;+;125677
+T1865_3;Myosotis scorpioides L.;;+;109091
+T1865_3;Galium aparine L.;;+;99373
+T1865_3;Taraxacum officinale Weber;;+;125677
+T1865_3;Ranunculus repens L.;;+;117201
+T1865_3;Polygonum amphibium L.;;+;114641
+T1865_3;Iris pseudacorus L.;;+;103772
+T1865_3;Carex riparia Curtis;;+;88833
+T1865_3;Glyceria fluitans (L.) R. Br.;;+;100387
+T1865_3;Carex elata All.;;+;88491
+T1865_3;Rumex crispus L.;;+;119473
+T1865_3;Carex disticha Hudson;;+;88478
+T1865_3;Lysimachia nummularia L.;;+;107073
+T1865_3;Oenanthe fistulosa L.;;+;109869
+T1865_4;Lysimachia nummularia L.;;+;107073
+T1865_4;Ranunculus flammula L.;;+;117025
+T1865_4;Rumex crispus L.;;+;119473
+T1865_4;Glyceria fluitans (L.) R. Br.;;+;100387
+T1865_4;Mentha aquatica L.;;+;108027
+T1865_4;Galium palustre L.;;+;99494
+T1865_4;Carex elata All.;;+;88491
+T1865_4;Ranunculus repens L.;;+;117201
+T1865_4;Polygonum amphibium L.;;+;114641
+T1865_4;Carex disticha Hudson;;+;88478
+T1865_4;Oenanthe fistulosa L.;;+;109869
+T1865_4;Ranunculus sardous Crantz;;+;117221
+T1865_5;Cardamine pratensis L.;;+;87964
+T1865_5;Ranunculus repens L.;;+;117201
+T1865_5;Rumex crispus L.;;+;119473
+T1865_5;Myosotis scorpioides L.;;+;109091
+T1865_5;Ranunculus flammula L.;;+;117025
+T1865_5;Glyceria fluitans (L.) R. Br.;;+;100387
+T1865_5;Iris pseudacorus L.;;+;103772
+T1865_5;Taraxacum officinale Weber;;+;125677
+T1865_5;Scirpus palustris;;+;121759
+T1865_5;Carex elata All.;;+;88491
+T1865_5;Mentha aquatica L.;;+;108027
+T1865_5;Carex disticha Hudson;;+;88478
+T1865_5;Juncus glaucus;;+;104200
+T1865_5;Carex hirta L.;;+;88569
+T1865_5;Lysimachia nummularia L.;;+;107073
+T1865_6;Oenanthe fistulosa L.;;+;109869
+T1865_6;Ranunculus repens L.;;+;117201
+T1865_6;Carex vulpina L.;;+;88952
+T1865_6;Poa pratensis L.;;+;114332
+T1865_6;Potentilla anserina L.;;+;115402
+T1865_6;Iris pseudacorus L.;;+;103772
+T1865_6;Galium palustre L.;;+;99494
+T1865_6;Carex disticha Hudson;;+;88478
+T1865_6;Rumex crispus L.;;+;119473
+T1866_1;Glyceria fluitans (L.) R. Br.;;+;100387
+T1866_1;Carex disticha Hudson;;+;88478
+T1866_1;Ranunculus repens L.;;+;117201
+T1866_1;Lysimachia nummularia L.;;+;107073
+T1866_1;Potentilla anserina L.;;+;115402
+T1866_1;Mentha aquatica L.;;+;108027
+T1866_1;Carex hirta L.;;+;88569
+T1866_1;Carex ovalis Good.;;+;88742
+T1866_1;Scirpus palustris;;+;121759
+T1866_1;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1866_1;Polygonum amphibium L.;;+;114641
+T1866_1;Hordeum secalinum Schreber;;+;102990
+T1866_1;Rumex crispus L.;;+;119473
+T1866_1;Iris pseudacorus L.;;+;103772
+T1866_1;Carex elata All.;;+;88491
+T1866_1;Galium palustre L.;;+;99494
+T1866_1;Cardamine pratensis L.;;+;87964
+T1866_1;Spergularia macrorhiza (Req.) Heynh.;;+;124567
+T1866_1;Carex vulpina L.;;+;88952
+T1866_2;Lychnis flos-cuculi L.;;+;106918
+T1866_2;Agrostis capillaris L.;;+;80591
+T1866_2;Spergularia macrorhiza (Req.) Heynh.;;+;124567
+T1866_2;Lysimachia nummularia L.;;+;107073
+T1866_2;Carex distans L.;;+;88477
+T1866_2;Myosotis scorpioides L.;;+;109091
+T1866_2;Carex disticha Hudson;;+;88478
+T1866_2;Glyceria fluitans (L.) R. Br.;;+;100387
+T1866_2;Iris pseudacorus L.;;+;103772
+T1866_2;Juncus glaucus;;+;104200
+T1866_2;Scirpus palustris;;+;121759
+T1866_2;Rumex crispus L.;;+;119473
+T1866_2;Carex ovalis Good.;;+;88742
+T1866_2;Carex elata All.;;+;88491
+T1866_2;Cardamine pratensis L.;;+;87964
+T1866_2;Mentha aquatica L.;;+;108027
+T1866_2;Ranunculus repens L.;;+;117201
+T1866_2;Carex vulpina L.;;+;88952
+T1866_2;Hordeum secalinum Schreber;;+;102990
+T1866_2;Ranunculus flammula L.;;+;117025
+T1866_2;Carex riparia Curtis;;+;88833
+T1866_2;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1866_3;Potentilla anserina L.;;+;115402
+T1866_3;Glyceria fluitans (L.) R. Br.;;+;100387
+T1866_3;Epilobium hirsutum L.;;+;96180
+T1866_3;Rumex crispus L.;;+;119473
+T1866_3;Poa pratensis L.;;+;114332
+T1866_3;Ranunculus sardous Crantz;;+;117221
+T1866_3;Carex disticha Hudson;;+;88478
+T1866_3;Lysimachia nummularia L.;;+;107073
+T1866_3;Ranunculus repens L.;;+;117201
+T1866_3;Hordeum secalinum Schreber;;+;102990
+T1866_3;Carex vulpina L.;;+;88952
+T1866_3;Plantago lanceolata L.;;+;113893
+T1866_3;Agrostis capillaris L.;;+;80591
+T1866_4;Cynosurus cristatus L.;;+;93860
+T1866_4;Trifolium pratense L.;;+;127439
+T1866_4;Lathyrus pratensis L.;;+;105247
+T1866_4;Rumex crispus L.;;+;119473
+T1866_4;Agrostis capillaris L.;;+;80591
+T1866_4;Holcus lanatus L.;;+;102900
+T1866_4;Carex ovalis Good.;;+;88742
+T1866_4;Plantago lanceolata L.;;+;113893
+T1866_4;Stellaria graminea L.;;+;125000
+T1866_4;Equisetum palustre L.;;+;96534
+T1866_4;Anthoxanthum odoratum L.;;+;82922
+T1866_4;Medicago lupulina L.;;+;107649
+T1866_4;Bellis perennis L.;;+;85740
+T1866_4;Juncus glaucus;;+;104200
+T1866_4;Ranunculus repens L.;;+;117201
+T1866_4;Carex disticha Hudson;;+;88478
+T1866_4;Cardamine pratensis L.;;+;87964
+T1866_4;Rumex acetosa L.;;+;119418
+T1866_5;Bellis perennis L.;;+;85740
+T1866_5;Stellaria uliginosa;;+;125044
+T1866_5;Taraxacum officinale Weber;;+;125677
+T1866_5;Rumex acetosa L.;;+;119418
+T1866_5;Medicago lupulina L.;;+;107649
+T1866_5;Carex disticha Hudson;;+;88478
+T1866_5;Trifolium pratense L.;;+;127439
+T1866_5;Cardamine pratensis L.;;+;87964
+T1866_5;Juncus glaucus;;+;104200
+T1866_5;Ranunculus repens L.;;+;117201
+T1866_5;Alopecurus geniculatus L.;;+;81637
+T1866_5;Equisetum palustre L.;;+;96534
+T1866_5;Rumex crispus L.;;+;119473
+T1866_5;Holcus lanatus L.;;+;102900
+T1866_5;Plantago lanceolata L.;;+;113893
+T1866_5;Agrostis capillaris L.;;+;80591
+T1866_5;Cynosurus cristatus L.;;+;93860
+T1867_1;Galium palustre L.;;+;99494
+T1867_1;Solanum dulcamara L.;;+;124034
+T1867_1;Sium erectum;;+;123949
+T1867_1;Carex pseudocyperus L.;;+;88794
+T1867_1;Salix aurita L.;;+;119952
+T1867_1;Myosotis scorpioides L.;;+;109091
+T1867_1;Phalaris arundinacea L.;;+;112975
+T1867_1;Lysimachia nummularia L.;;+;107073
+T1867_1;Rumex hydrolapathum Hudson;;+;771868
+T1867_1;Scutellaria galericulata L.;;+;122069
+T1867_1;Eupatorium cannabinum L.;;+;97434
+T1867_1;Alisma plantago-aquatica L.;;+;81272
+T1867_1;Alnus glutinosa (L.) Gaertner;;+;81569
+T1867_1;Lemna minor L.;;+;105431
+T1867_1;Apium nodiflorum (L.) Lag.;;+;83205
+T1867_1;Carex paniculata L.;;+;88753
+T1867_1;Potamogeton natans L.;;+;115280
+T1867_1;Polygonum hydropiper L.;;+;114745
+T1867_1;Lycopus europaeus L.;;+;107038
+T1867_2;Spirodela polyrrhiza;;+;124707
+T1867_2;Ranunculus lingua L.;;+;117096
+T1867_2;Carex paniculata L.;;+;88753
+T1867_2;Mentha aquatica L.;;+;108027
+T1867_2;Equisetum fluviatile L.;;+;96519
+T1867_2;Rumex hydrolapathum Hudson;;+;771868
+T1867_2;Carex riparia Curtis;;+;88833
+T1867_2;Typha angustifolia L.;;+;128062
+T1867_2;Apium nodiflorum (L.) Lag.;;+;83205
+T1867_2;Lycopus europaeus L.;;+;107038
+T1867_2;Oenanthe fistulosa L.;;+;109869
+T1867_2;Galium palustre L.;;+;99494
+T1867_2;Menyanthes trifoliata L.;;+;108345
+T1867_3;Apium nodiflorum (L.) Lag.;;+;83205
+T1867_3;Juncus effusus L.;;+;104173
+T1867_3;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1867_3;Geranium robertianum L.;;+;100142
+T1867_3;Nymphaea alba L.;;+;109750
+T1867_3;Rumex hydrolapathum Hudson;;+;771868
+T1867_3;Symphytum officinale L.;;+;125355
+T1867_3;Lemna minor L.;;+;105431
+T1867_3;Carex elata All.;;+;88491
+T1867_3;Wolffia arrhiza (L.) Horkel ex Wimmer;;+;130119
+T1867_3;Urtica dioica L.;;+;128268
+T1867_3;Calystegia sepium (L.) R. Br.;;+;87560
+T1867_3;Galium aparine L.;;+;99373
+T1867_3;Epilobium hirsutum L.;;+;96180
+T1867_3;Lythrum salicaria L.;;+;107117
+T1867_3;Solanum dulcamara L.;;+;124034
+T1867_3;Carex paniculata L.;;+;88753
+T1867_3;Carex riparia Curtis;;+;88833
+T1867_3;Hydrocharis morsus Ranae;;+;103120
+T1867_3;Aegopodium podagraria L.;;+;80322
+T1867_3;Glechoma hederaceum;;+;100310
+T1867_4;Equisetum palustre L.;;+;96534
+T1867_4;Carex paniculata L.;;+;88753
+T1867_4;Myriophyllum verticillatum L.;;+;109151
+T1867_4;Rumex hydrolapathum Hudson;;+;771868
+T1867_4;Alnus glutinosa (L.) Gaertner;;+;81569
+T1867_4;Spirodela polyrrhiza;;+;124707
+T1867_4;Valeriana officinalis L.;;+;128419
+T1867_4;Epilobium hirsutum L.;;+;96180
+T1867_4;Apium nodiflorum (L.) Lag.;;+;83205
+T1867_4;Lysimachia nummularia L.;;+;107073
+T1867_4;Lemna minor L.;;+;105431
+T1867_4;Lythrum salicaria L.;;+;107117
+T1867_4;Scrophularia aquatica;;+;197537
+T1867_4;Cirsium oleraceum (L.) Scop.;;+;91378
+T1867_4;Ranunculus repens L.;;+;117201
+T1867_4;Fraxinus excelsior L.;;+;98921
+T1867_4;Hydrocharis morsus Ranae;;+;103120
+T1867_4;Phalaris arundinacea L.;;+;112975
+T1867_4;Carex riparia Curtis;;+;88833
+T1867_4;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1867_4;Equisetum fluviatile L.;;+;96519
+T1867_4;Lemna trisulca L.;;+;105441
+T1867_4;Mentha aquatica L.;;+;108027
+T1867_4;Galium palustre L.;;+;99494
+T1867_4;Calystegia sepium (L.) R. Br.;;+;87560
+T1867_4;Urtica dioica L.;;+;128268
+T1867_4;Solanum dulcamara L.;;+;124034
+T1867_4;Typha latifolia L.;;+;128077
+T1867_4;Symphytum officinale L.;;+;125355
+T1867_4;Iris pseudacorus L.;;+;103772
+T1867_4;Angelica sylvestris L.;;+;82738
+T1867_5;Equisetum fluviatile L.;;+;96519
+T1867_5;Carex riparia Curtis;;+;88833
+T1867_5;Carex paniculata L.;;+;88753
+T1867_5;Phalaris arundinacea L.;;+;112975
+T1867_5;Solanum dulcamara L.;;+;124034
+T1867_5;Apium nodiflorum (L.) Lag.;;+;83205
+T1867_5;Lemna minor L.;;+;105431
+T1867_5;Lycopus europaeus L.;;+;107038
+T1867_5;Calystegia sepium (L.) R. Br.;;+;87560
+T1867_5;Alnus glutinosa (L.) Gaertner;;+;81569
+T1867_5;Symphytum officinale L.;;+;125355
+T1867_5;Iris pseudacorus L.;;+;103772
+T1867_5;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1867_5;Caltha palustris L.;;+;87540
+T1867_5;Ribes nigrum L.;;+;117766
+T1867_6;Caltha palustris L.;;+;87540
+T1867_6;Galium palustre L.;;+;99494
+T1867_6;Mentha aquatica L.;;+;108027
+T1867_6;Salix aurita L.;;+;119952
+T1867_6;Rumex hydrolapathum Hudson;;+;771868
+T1867_6;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1867_6;Lysimachia nummularia L.;;+;107073
+T1867_6;Calystegia sepium (L.) R. Br.;;+;87560
+T1867_6;Solanum dulcamara L.;;+;124034
+T1867_6;Galium aparine L.;;+;99373
+T1867_6;Lemna minor L.;;+;105431
+T1867_6;Apium nodiflorum (L.) Lag.;;+;83205
+T1867_6;Phalaris arundinacea L.;;+;112975
+T1867_6;Equisetum fluviatile L.;;+;96519
+T1867_6;Alnus glutinosa (L.) Gaertner;;+;81569
+T1867_6;Ribes nigrum L.;;+;117766
+T1867_6;Carex paniculata L.;;+;88753
+T1867_6;Symphytum officinale L.;;+;125355
+T1867_6;Urtica dioica L.;;+;128268
+T1867_6;Carex riparia Curtis;;+;88833
+T1867_7;Solanum dulcamara L.;;+;124034
+T1867_7;Equisetum fluviatile L.;;+;96519
+T1867_7;Carex riparia Curtis;;+;88833
+T1867_7;Carex paniculata L.;;+;88753
+T1867_7;Lemna trisulca L.;;+;105441
+T1867_7;Ribes nigrum L.;;+;117766
+T1867_7;Alnus glutinosa (L.) Gaertner;;+;81569
+T1867_7;Salix alba L.;;+;119915
+T1867_7;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1867_7;Fraxinus excelsior L.;;+;98921
+T1867_7;Phalaris arundinacea L.;;+;112975
+T1867_7;Iris pseudacorus L.;;+;103772
+T1867_7;Lemna minor L.;;+;105431
+T1868_1;Elodea canadensis Michx;;+;95980
+T1868_1;Equisetum fluviatile L.;;+;96519
+T1868_1;Lemna minor L.;;+;105431
+T1868_1;Lemna trisulca L.;;+;105441
+T1868_1;Carex riparia Curtis;;+;88833
+T1868_1;Hydrocharis morsus Ranae;;+;103120
+T1868_1;Carex elata All.;;+;88491
+T1868_1;Epilobium hirsutum L.;;+;96180
+T1868_1;Ranunculus trichophyllus Chaix;;+;117255
+T1868_1;Potamogeton coloratus Hornem.;;+;115237
+T1868_1;Galium palustre L.;;+;99494
+T1868_1;Hydrocotyle vulgaris L.;;+;103142
+T1868_1;Lysimachia nummularia L.;;+;107073
+T1868_1;Rumex hydrolapathum Hudson;;+;771868
+T1868_2;Epilobium hirsutum L.;;+;96180
+T1868_2;Equisetum fluviatile L.;;+;96519
+T1868_2;Carex riparia Curtis;;+;88833
+T1868_2;Hydrocotyle vulgaris L.;;+;103142
+T1868_2;Carex elata All.;;+;88491
+T1868_2;Lemna trisulca L.;;+;105441
+T1868_2;Lemna minor L.;;+;105431
+T1868_2;Rumex hydrolapathum Hudson;;+;771868
+T1868_2;Potamogeton coloratus Hornem.;;+;115237
+T1868_2;Lysimachia nummularia L.;;+;107073
+T1868_2;Hydrocharis morsus Ranae;;+;103120
+T1868_3;Rumex hydrolapathum Hudson;;+;771868
+T1868_3;Epilobium hirsutum L.;;+;96180
+T1868_3;Rosa canina L.;;+;118073
+T1868_3;Lemna minor L.;;+;105431
+T1868_3;Iris pseudacorus L.;;+;103772
+T1868_3;Glyceria fluitans (L.) R. Br.;;+;100387
+T1868_3;Sparganium ramosum;;+;124417
+T1868_3;Lemna trisulca L.;;+;105441
+T1868_3;Oenanthe fistulosa L.;;+;109869
+T1868_3;Juncus glaucus;;+;104200
+T1868_3;Carex riparia Curtis;;+;88833
+T1868_3;Salix aurita L.;;+;119952
+T1868_3;Phalaris arundinacea L.;;+;112975
+T1868_3;Carex elata All.;;+;88491
+T1868_3;Lysimachia nummularia L.;;+;107073
+T1868_3;Carex vulpina L.;;+;88952
+T1868_3;Cardamine pratensis L.;;+;87964
+T1868_4;Caltha palustris L.;;+;87540
+T1868_4;Oenanthe fistulosa L.;;+;109869
+T1868_4;Lysimachia nummularia L.;;+;107073
+T1868_4;Myosotis scorpioides L.;;+;109091
+T1868_4;Potentilla anserina L.;;+;115402
+T1868_4;Lychnis flos-cuculi L.;;+;106918
+T1868_4;Lemna minor L.;;+;105431
+T1868_4;Carex riparia Curtis;;+;88833
+T1868_4;Ranunculus repens L.;;+;117201
+T1868_4;Phalaris arundinacea L.;;+;112975
+T1868_4;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1868_4;Glyceria altissima;;+;100372
+T1868_4;Galium palustre L.;;+;99494
+T1868_4;Juncus glaucus;;+;104200
+T1868_4;Mentha aquatica L.;;+;108027
+T1868_4;Carex disticha Hudson;;+;88478
+T1868_4;Equisetum fluviatile L.;;+;96519
+T1868_4;Trifolium pratense L.;;+;127439
+T1868_4;Carex elata All.;;+;88491
+T1868_4;Rumex hydrolapathum Hudson;;+;771868
+T1868_4;Solanum dulcamara L.;;+;124034
+T1868_4;Apium nodiflorum (L.) Lag.;;+;83205
+T1868_5;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1868_5;Equisetum fluviatile L.;;+;96519
+T1868_5;Ranunculus sceleratus L.;;+;117224
+T1868_5;Carex elata All.;;+;88491
+T1868_5;Juncus glaucus;;+;104200
+T1868_5;Caltha palustris L.;;+;87540
+T1868_5;Mentha aquatica L.;;+;108027
+T1868_5;Veronica beccabunga L.;;+;128808
+T1868_5;Myosotis scorpioides L.;;+;109091
+T1868_5;Galium palustre L.;;+;99494
+T1868_5;Carex riparia Curtis;;+;88833
+T1868_5;Lysimachia nummularia L.;;+;107073
+T1868_5;Epilobium hirsutum L.;;+;96180
+T1868_5;Lemna minor L.;;+;105431
+T1868_5;Lychnis flos-cuculi L.;;+;106918
+T1868_5;Rumex obtusifolius L.;;+;119550
+T1869_1;Clematis flammula L.;;+;91867
+T1869_1;Lavandula latifolia Medicus;;+;105312
+T1869_1;Juniperus oxycedrus L.;;1;104409
+T1869_1;Teucrium chamaedrys L.;;+;125981
+T1869_1;Rubia peregrina L.;;+;118916
+T1869_1;Cistus salvifolius L.;;+;91715
+T1869_1;Brachypodium phoenicoides (L.) Roemer & Schultes;;1;86288
+T1869_1;Osyris alba L.;;+;111840
+T1869_1;Fumana coridifolia;;+;99014
+T1869_1;Staehelina dubia L.;;1;124842
+T1869_1;Phillyrea latifolia L.;;+;113148
+T1869_1;Rosmarinus officinalis L.;;4;118865
+T1869_1;Ruscus aculeatus L.;;+;119698
+T1869_1;Orchis purpurea Hudson;;1;110966
+T1869_1;Euphorbia characias L.;;+;97478
+T1869_1;Spartium junceum L.;;+;124453
+T1869_1;Ulex parviflorus Pourret;;+;128127
+T1869_1;Ononis minutissima L.;;+;110205
+T1869_1;Pinus halepensis Miller;;1;113665
+T1869_1;Cistus albidus L.;;+;91630
+T1869_1;Quercus ilex L.;;2;116704
+T1869_2;Viburnum tinus L.;;+;129092
+T1869_2;Silene italica (L.) Pers.;;+;123512
+T1869_2;Viola alba Besser;;+;129492
+T1869_2;Smilax aspera L.;;+;123987
+T1869_2;Lonicera etrusca G. Santi;;2;106565
+T1869_2;Lonicera implexa Aiton;;+;106570
+T1869_2;Juniperus oxycedrus L.;;+;104409
+T1869_2;Amelanchier ovalis Medicus;;+;82103
+T1869_2;Cistus salvifolius L.;;+;91715
+T1869_2;Clematis flammula L.;;+;91867
+T1869_2;Asparagus acutifolius L.;;+;84264
+T1869_2;Teucrium chamaedrys L.;;2;125981
+T1869_2;Phillyrea latifolia L.;;+;113148
+T1869_2;Ononis minutissima L.;;+;110205
+T1869_2;Carex distachya Desf.;;+;88476
+T1869_2;Ruscus aculeatus L.;;+;119698
+T1869_2;Euphorbia characias L.;;+;97478
+T1869_2;Rosmarinus officinalis L.;;+;118865
+T1869_2;Osyris alba L.;;+;111840
+T1869_2;Rubia peregrina L.;;+;118916
+T1869_2;Quercus ilex L.;;5;116704
+T1869_2;Pinus halepensis Miller;;2;113665
+T1870_1;Juniperus oxycedrus L.;;1;104409
+T1870_1;Thymus vulgaris L.;;3;126582
+T1870_1;Hieracium pilosella L.;;+;102352
+T1870_1;Lavandula latifolia Medicus;;3;105312
+T1870_1;Quercus ilex L.;;+;116704
+T1870_1;Fumana coridifolia;;+;99014
+T1870_1;Olea europaea L.;;+;110002
+T1870_1;Staehelina dubia L.;;+;124842
+T1870_1;Medicago minima (L.) Bartal.;;+;107658
+T1870_1;Euphorbia serrata L.;;+;97667
+T1870_1;Brachypodium retusum (Pers.) Beauv.;;+;86297
+T1870_1;Ruta chalepensis L.;;+;119710
+T1870_1;Cistus albidus L.;;1;91630
+T1870_2;Lavandula latifolia Medicus;;2;105312
+T1870_2;Hieracium pilosella L.;;+;102352
+T1870_2;Medicago minima (L.) Bartal.;;+;107658
+T1870_2;Juniperus oxycedrus L.;;1;104409
+T1870_2;Helichrysum staechas;;+;101101
+T1870_2;Cistus albidus L.;;+;91630
+T1870_2;Dorycnium pentaphyllum Scop. =suffruticosum;;+;95284
+T1870_2;Thymus vulgaris L.;;4;126582
+T1870_2;Brachypodium phoenicoides (L.) Roemer & Schultes;;+;86288
+T1870_2;Rubia peregrina L.;;+;118916
+T1870_2;Festuca ovina L.;;+;98425
+T1870_2;Euphorbia serrata L.;;+;97667
+T1870_2;Vicia sativa L.;;+;129298
+T1870_2;Prunus amygdalus;;+;116035
+T1870_2;Quercus ilex L.;;1;116704
+T1870_3;Helichrysum staechas;;+;101101
+T1870_3;Lavandula latifolia Medicus;;2;105312
+T1870_3;Olea europaea L.;;+;110002
+T1870_3;Juniperus oxycedrus L.;;2;104409
+T1870_3;Festuca ovina L.;;+;98425
+T1870_3;Euphorbia serrata L.;;+;97667
+T1870_3;Staehelina dubia L.;;1;124842
+T1870_3;Fumana thymifolia (L.) Spach ex Webb;;+;99032
+T1870_3;Thymus vulgaris L.;;5;126582
+T1870_3;Cerastium pumilum Curtis;;+;90076
+T1870_3;Hieracium pilosella L.;;+;102352
+T1870_3;Brachypodium retusum (Pers.) Beauv.;;1;86297
+T1871_1;Ulex parviflorus Pourret;;+;128127
+T1871_1;Cistus albidus L.;;+;91630
+T1871_1;Brachypodium phoenicoides (L.) Roemer & Schultes;;+;86288
+T1871_1;Lavandula latifolia Medicus;;3;105312
+T1871_1;Pistacia terebinthus L.;;+;113748
+T1871_1;Staehelina dubia L.;;+;124842
+T1871_1;Juniperus oxycedrus L.;;3;104409
+T1871_1;Quercus lanuginosa;;+;116712
+T1871_1;Brachypodium retusum (Pers.) Beauv.;;2;86297
+T1871_1;Thymus vulgaris L.;;2;126582
+T1871_1;Orchis purpurea Hudson;;+;110966
+T1871_1;Medicago disciformis Dc.;;+;107605
+T1871_1;Vicia sativa L.;;+;129298
+T1871_1;Olea europaea L.;;1;110002
+T1871_1;Helichrysum staechas;;+;101101
+T1871_1;Dorycnium pentaphyllum Scop. =suffruticosum;;1;95284
+T1871_1;Quercus ilex L.;;1;116704
+T1871_2;Juniperus oxycedrus L.;;3;104409
+T1871_2;Helichrysum staechas;;+;101101
+T1871_2;Cerastium pumilum Curtis;;1;90076
+T1871_2;Ruta chalepensis L.;;+;119710
+T1871_2;Lavandula latifolia Medicus;;2;105312
+T1871_2;Clematis flammula L.;;+;91867
+T1871_2;Helianthemum salicifolium (L.) Miller;;+;100983
+T1871_2;Thymus vulgaris L.;;3;126582
+T1871_2;Hieracium pilosella L.;;+;102352
+T1871_2;Quercus ilex L.;;+;116704
+T1871_2;Dorycnium pentaphyllum Scop. =suffruticosum;;+;95284
+T1871_2;Quercus coccifera L.;;+;116672
+T1871_2;Euphorbia serrata L.;;+;97667
+T1871_2;Festuca ovina L.;;+;98425
+T1871_2;Pinus halepensis Miller;;3;113665
+T1871_2;Cistus albidus L.;;2;91630
+T1872_1;Orchis purpurea Hudson;;+;110966
+T1872_1;Lavandula latifolia Medicus;;1;105312
+T1872_1;Thymus vulgaris L.;;1;126582
+T1872_1;Medicago minima (L.) Bartal.;;+;107658
+T1872_1;Rubia peregrina L.;;+;118916
+T1872_1;Quercus ilex L.;;+;116704
+T1872_1;Hieracium pilosella L.;;+;102352
+T1872_1;Olea europaea L.;;+;110002
+T1872_1;Juniperus oxycedrus L.;;4;104409
+T1872_1;Ulex parviflorus Pourret;;+;128127
+T1872_1;Cerastium pumilum Curtis;;+;90076
+T1872_1;Cistus albidus L.;;1;91630
+T1872_2;Lavandula latifolia Medicus;;+;105312
+T1872_2;Quercus ilex L.;;+;116704
+T1872_2;Festuca ovina L.;;+;98425
+T1872_2;Euphorbia serrata L.;;+;97667
+T1872_2;Quercus coccifera L.;;+;116672
+T1872_2;Quercus lanuginosa;;+;116712
+T1872_2;Juniperus oxycedrus L.;;4;104409
+T1872_2;Orchis purpurea Hudson;;+;110966
+T1872_2;Thymus vulgaris L.;;2;126582
+T1872_2;Pistacia terebinthus L.;;+;113748
+T1872_2;Helichrysum staechas;;+;101101
+T1873_1;Quercus ilex L.;;+;116704
+T1873_1;Thymus vulgaris L.;;2;126582
+T1873_1;Clematis flammula L.;;+;91867
+T1873_1;Medicago disciformis Dc.;;+;107605
+T1873_1;Juniperus oxycedrus L.;;5;104409
+T1873_1;Brachypodium retusum (Pers.) Beauv.;;+;86297
+T1873_1;Lavandula latifolia Medicus;;1;105312
+T1873_1;Helianthemum salicifolium (L.) Miller;;+;100983
+T1873_1;Cistus albidus L.;;1;91630
+T1874_1;Osyris alba L.;;+;111840
+T1874_1;Silene italica (L.) Pers.;;+;123512
+T1874_1;Euphorbia characias L.;;+;97478
+T1874_1;Cistus albidus L.;;1;91630
+T1874_1;Thymus vulgaris L.;;+;126582
+T1874_1;Juniperus oxycedrus L.;;4;104409
+T1874_1;Asparagus acutifolius L.;;1;84264
+T1874_1;Pistacia terebinthus L.;;+;113748
+T1874_1;Quercus ilex L.;;4;116704
+T1874_1;Lavandula latifolia Medicus;;+;105312
+T1874_1;Buxus sempervirens L.;;+;87143
+T1874_1;Clematis flammula L.;;+;91867
+T1874_1;Teucrium chamaedrys L.;;1;125981
+T1874_1;Ononis minutissima L.;;+;110205
+T1874_1;Rubia peregrina L.;;1;118916
+T1874_1;Dorycnium pentaphyllum Scop. =suffruticosum;;+;95284
+T1875_1;Vicia cracca L.;;+;129147
+T1875_1;Viburnum lantana L.;;+;129083
+T1875_1;Acer opalus Miller;;+;79770
+T1875_1;Juniperus communis L.;;2;104397
+T1875_1;Tanacetum corymbosum (L.) Schultz Bip.;;+;125460
+T1875_1;Hedera helix L.;;+;100787
+T1875_1;Hepatica triloba;;+;101255
+T1875_1;Rubus ulmifolius Schott;;+;119373
+T1875_1;Lonicera etrusca G. Santi;;1;106565
+T1875_1;Lavandula officinalis;;1;105313
+T1875_1;Helleborus foetidus L.;;+;101188
+T1875_1;Stachys officinalis (L.) Trevisan;;+;124797
+T1875_1;Acer monspessulanum L.;;+;79763
+T1875_1;Clematis vitalba L.;;+;91886
+T1875_1;Lonicera xylosteum L.;;1;106595
+T1875_1;Melica uniflora Retz.;;+;107880
+T1875_1;Solidago virga Aurea;;+;124205
+T1875_1;Cytisus sessilifolius L.;;+;94166
+T1875_1;Daphne laureola L.;;1;94432
+T1875_1;Genista hispanica L.;;+;99761
+T1875_1;Prunus spinosa L.;;+;116142
+T1875_1;Melittis melissophyllum L.;;+;108003
+T1875_1;Campanula trachelium L.;;1;87742
+T1875_1;Quercus lanuginosa;;4;116712
+T1875_1;Buxus sempervirens L.;;1;87143
+T1875_1;Digitalis lutea L.;;+;94945
+T1876_1;Potamogeton perfoliatus L.;;+;115296
+T1876_1;Nuphar luteum;;2;109732
+T1876_1;Ranunculus fluitans Lam.;;4;117027
+T1876_1;Potamogeton lucens L.;;+;115270
+T1876_2;Nuphar luteum;;1;109732
+T1876_2;Sagittaria sagittifolia L.;;+;119860
+T1876_2;Elodea canadensis Michx;;1;95980
+T1876_2;Sparganium simplex;;1;124418
+T1876_2;Scirpus lacustris L.;;+;121735
+T1876_2;Ranunculus fluitans Lam.;;4;117027
+T1876_2;Sparganium ramosum;;+;124417
+T1876_3;Nuphar luteum;;+;109732
+T1876_3;Glyceria altissima;;+;100372
+T1876_3;Sagittaria sagittifolia L.;;+;119860
+T1876_3;Elodea canadensis Michx;;+;95980
+T1876_3;Ranunculus fluitans Lam.;;3;117027
+T1876_4;Potamogeton lucens L.;;2;115270
+T1876_4;Ranunculus fluitans Lam.;;3;117027
+T1876_4;Sagittaria sagittifolia L.;;+;119860
+T1876_4;Rorippa amphibia (L.) Besser;;+;117933
+T1876_4;Epilobium hirsutum L.;;+;96180
+T1876_5;Sparganium simplex;;+;124418
+T1876_5;Potamogeton natans L.;;+;115280
+T1876_5;Ranunculus fluitans Lam.;;4;117027
+T1876_5;Elodea canadensis Michx;;3;95980
+T1876_5;Sagittaria sagittifolia L.;;+;119860
+T1876_5;Glyceria altissima;;+;100372
+T1876_5;Nuphar luteum;;+;109732
+T1876_6;Scirpus lacustris L.;;+;121735
+T1876_6;Nuphar luteum;;+;109732
+T1876_6;Elodea canadensis Michx;;1;95980
+T1876_6;Ranunculus fluitans Lam.;;5;117027
+T1876_6;Epilobium hirsutum L.;;+;96180
+T1876_6;Sparganium ramosum;;+;124417
+T1876_6;Potamogeton perfoliatus L.;;+;115296
+T1876_7;Rorippa amphibia (L.) Besser;;+;117933
+T1876_7;Ranunculus aquatilis L.;;3;116928
+T1876_7;Sparganium simplex;;+;124418
+T1876_7;Glyceria fluitans (L.) R. Br.;;1;100387
+T1877_1;Lemna trisulca L.;;1;105441
+T1877_1;Galium palustre L.;;+;99494
+T1877_1;Ranunculus aquatilis L.;;+;116928
+T1877_1;Sparganium ramosum;;+;124417
+T1877_1;Equisetum fluviatile L.;;1;96519
+T1877_1;Glyceria altissima;;+;100372
+T1877_1;Hottonia palustris L.;;3;103027
+T1877_1;Lemna minor L.;;1;105431
+T1877_1;Oenanthe phellandrium;;+;109892
+T1877_1;Rumex hydrolapathum Hudson;;+;771868
+T1877_10;Hottonia palustris L.;;1;103027
+T1877_10;Potamogeton natans L.;;1;115280
+T1877_10;Ranunculus aquatilis L.;;+;116928
+T1877_10;Oenanthe phellandrium;;+;109892
+T1877_10;Sagittaria sagittifolia L.;;3;119860
+T1877_10;Elodea canadensis Michx;;2;95980
+T1877_10;Glyceria altissima;;+;100372
+T1877_10;Lemna trisulca L.;;2;105441
+T1877_2;Equisetum fluviatile L.;;1;96519
+T1877_2;Hottonia palustris L.;;1;103027
+T1877_2;Glyceria altissima;;1;100372
+T1877_2;Ranunculus flammula L.;;+;117025
+T1877_2;Ranunculus aquatilis L.;;+;116928
+T1877_2;Lemna minor L.;;1;105431
+T1877_2;Galium palustre L.;;+;99494
+T1877_2;Sparganium ramosum;;+;124417
+T1877_2;Myosotis scorpioides L.;;+;109091
+T1877_3;Glyceria fluitans (L.) R. Br.;;1;100387
+T1877_3;Glyceria altissima;;2;100372
+T1877_3;Rumex hydrolapathum Hudson;;+;771868
+T1877_3;Lemna trisulca L.;;1;105441
+T1877_3;Ranunculus repens L.;;1;117201
+T1877_3;Iris pseudacorus L.;;+;103772
+T1877_3;Hottonia palustris L.;;1;103027
+T1877_4;Glyceria fluitans (L.) R. Br.;;1;100387
+T1877_4;Spirodela polyrrhiza;;1;124707
+T1877_4;Ceratophyllum demersum L.;;2;90208
+T1877_4;Utricularia vulgaris L.;;2;128322
+T1877_4;Lemna minor L.;;1;105431
+T1877_4;Rorippa amphibia (L.) Besser;;+;117933
+T1877_4;Equisetum fluviatile L.;;1;96519
+T1877_4;Glyceria altissima;;1;100372
+T1877_4;Alisma plantago-aquatica L.;;1;81272
+T1877_4;Oenanthe fistulosa L.;;+;109869
+T1877_4;Lemna trisulca L.;;2;105441
+T1877_4;Hottonia palustris L.;;2;103027
+T1877_5;Menyanthes trifoliata L.;;1;108345
+T1877_5;Potamogeton natans L.;;2;115280
+T1877_5;Lemna minor L.;;1;105431
+T1877_5;Rumex hydrolapathum Hudson;;+;771868
+T1877_5;Lemna trisulca L.;;2;105441
+T1877_5;Ranunculus aquatilis L.;;+;116928
+T1877_5;Oenanthe fistulosa L.;;1;109869
+T1877_5;Hottonia palustris L.;;3;103027
+T1877_5;Elodea canadensis Michx;;1;95980
+T1877_5;Oenanthe phellandrium;;+;109892
+T1877_5;Glyceria altissima;;+;100372
+T1877_5;Equisetum fluviatile L.;;2;96519
+T1877_6;Hydrocharis morsus Ranae;;2;103120
+T1877_6;Ceratophyllum demersum L.;;+;90208
+T1877_6;Lemna minor L.;;1;105431
+T1877_6;Spirodela polyrrhiza;;+;124707
+T1877_6;Hottonia palustris L.;;1;103027
+T1877_6;Nuphar luteum;;2;109732
+T1877_6;Equisetum fluviatile L.;;1;96519
+T1877_6;Glyceria altissima;;1;100372
+T1877_6;Lemna trisulca L.;;2;105441
+T1877_6;Oenanthe fistulosa L.;;+;109869
+T1877_7;Lemna trisulca L.;;2;105441
+T1877_7;Spirodela polyrrhiza;;+;124707
+T1877_7;Utricularia vulgaris L.;;1;128322
+T1877_7;Elodea canadensis Michx;;1;95980
+T1877_7;Lemna minor L.;;1;105431
+T1877_7;Glyceria altissima;;1;100372
+T1877_7;Equisetum fluviatile L.;;1;96519
+T1877_7;Potamogeton natans L.;;+;115280
+T1877_7;Hydrocharis morsus Ranae;;+;103120
+T1877_7;Ranunculus aquatilis L.;;+;116928
+T1877_7;Nuphar luteum;;+;109732
+T1877_7;Hottonia palustris L.;;3;103027
+T1877_8;Ranunculus aquatilis L.;;1;116928
+T1877_8;Lemna trisulca L.;;1;105441
+T1877_8;Equisetum fluviatile L.;;1;96519
+T1877_8;Myosotis scorpioides L.;;+;109091
+T1877_8;Hottonia palustris L.;;1;103027
+T1877_8;Utricularia vulgaris L.;;1;128322
+T1877_8;Potamogeton natans L.;;1;115280
+T1877_8;Lemna minor L.;;1;105431
+T1877_8;Glyceria altissima;;+;100372
+T1877_8;Glyceria fluitans (L.) R. Br.;;+;100387
+T1877_8;Oenanthe fistulosa L.;;+;109869
+T1877_9;Hydrocharis morsus Ranae;;+;103120
+T1877_9;Oenanthe fistulosa L.;;+;109869
+T1877_9;Nuphar luteum;;+;109732
+T1877_9;Myosotis scorpioides L.;;+;109091
+T1877_9;Potamogeton natans L.;;2;115280
+T1877_9;Oenanthe phellandrium;;1;109892
+T1877_9;Sagittaria sagittifolia L.;;2;119860
+T1877_9;Elodea canadensis Michx;;2;95980
+T1877_9;Ranunculus aquatilis L.;;+;116928
+T1877_9;Hottonia palustris L.;;+;103027
+T1877_9;Lemna minor L.;;1;105431
+T1878_1;Potamogeton natans L.;;+;115280
+T1878_1;Glyceria fluitans (L.) R. Br.;;1;100387
+T1878_1;Ranunculus aquatilis L.;;4;116928
+T1878_1;Elodea canadensis Michx;;1;95980
+T1878_1;Potamogeton densus;;+;115249
+T1878_1;Lemna minor L.;;1;105431
+T1878_10;Elodea canadensis Michx;;1;95980
+T1878_10;Glyceria fluitans (L.) R. Br.;;2;100387
+T1878_10;Lemna minor L.;;2;105431
+T1878_10;Ranunculus aquatilis L.;;3;116928
+T1878_11;Glyceria fluitans (L.) R. Br.;;+;100387
+T1878_11;Lemna minor L.;;+;105431
+T1878_11;Potamogeton natans L.;;2;115280
+T1878_11;Ranunculus aquatilis L.;;3;116928
+T1878_11;Lemna trisulca L.;;1;105441
+T1878_11;Elodea canadensis Michx;;3;95980
+T1878_2;Lemna minor L.;;2;105431
+T1878_2;Ranunculus aquatilis L.;;3;116928
+T1878_2;Glyceria fluitans (L.) R. Br.;;2;100387
+T1878_2;Myosotis scorpioides L.;;+;109091
+T1878_2;Elodea canadensis Michx;;2;95980
+T1878_3;Potamogeton densus;;+;115249
+T1878_3;Lemna minor L.;;1;105431
+T1878_3;Potamogeton natans L.;;1;115280
+T1878_3;Ranunculus aquatilis L.;;3;116928
+T1878_3;Lemna trisulca L.;;3;105441
+T1878_3;Glyceria fluitans (L.) R. Br.;;1;100387
+T1878_4;Lemna trisulca L.;;1;105441
+T1878_4;Glyceria fluitans (L.) R. Br.;;1;100387
+T1878_4;Lemna minor L.;;1;105431
+T1878_4;Glyceria altissima;;+;100372
+T1878_4;Ranunculus aquatilis L.;;4;116928
+T1878_5;Nasturtium officinale R. Br.;;+;773798
+T1878_5;Glyceria fluitans (L.) R. Br.;;2;100387
+T1878_5;Lemna trisulca L.;;2;105441
+T1878_5;Elodea canadensis Michx;;1;95980
+T1878_5;Myosotis scorpioides L.;;+;109091
+T1878_5;Ranunculus aquatilis L.;;4;116928
+T1878_5;Lemna minor L.;;1;105431
+T1878_6;Lemna minor L.;;2;105431
+T1878_6;Glyceria fluitans (L.) R. Br.;;1;100387
+T1878_6;Potamogeton natans L.;;+;115280
+T1878_6;Ranunculus aquatilis L.;;4;116928
+T1878_7;Ranunculus aquatilis L.;;3;116928
+T1878_7;Lemna minor L.;;2;105431
+T1878_7;Glyceria fluitans (L.) R. Br.;;2;100387
+T1878_8;Lemna minor L.;;+;105431
+T1878_8;Elodea canadensis Michx;;+;95980
+T1878_8;Glyceria altissima;;+;100372
+T1878_8;Ranunculus aquatilis L.;;4;116928
+T1878_9;Ranunculus aquatilis L.;;2;116928
+T1878_9;Lemna minor L.;;2;105431
+T1878_9;Elodea canadensis Michx;;+;95980
+T1878_9;Glyceria fluitans (L.) R. Br.;;2;100387
+T1878_9;Potamogeton densus;;+;115249
+T1878_9;Lemna trisulca L.;;1;105441
+T1878_9;Nasturtium officinale R. Br.;;1;773798
+T1878_9;Potamogeton pusillus L.;;+;115305
+T1879_1;Sparganium ramosum;;1;124417
+T1879_1;Mentha aquatica L.;;+;108027
+T1879_1;Rorippa amphibia (L.) Besser;;+;117933
+T1879_1;Sparganium simplex;;3;124418
+T1879_1;Epilobium hirsutum L.;;+;96180
+T1879_1;Sagittaria sagittifolia L.;;1;119860
+T1879_1;Phalaris arundinacea L.;;+;112975
+T1879_1;Iris pseudacorus L.;;+;103772
+T1879_2;Sium latifolium L.;;+;123960
+T1879_2;Rorippa amphibia (L.) Besser;;+;117933
+T1879_2;Sagittaria sagittifolia L.;;3;119860
+T1879_2;Iris pseudacorus L.;;+;103772
+T1879_2;Potamogeton densus;;+;115249
+T1879_2;Sparganium simplex;;2;124418
+T1879_2;Alisma plantago-aquatica L.;;1;81272
+T1879_2;Butomus umbellatus L.;;+;87136
+T1879_2;Hydrocharis morsus Ranae;;+;103120
+T1879_3;Lemna minor L.;;+;105431
+T1879_3;Sagittaria sagittifolia L.;;3;119860
+T1879_3;Alisma plantago-aquatica L.;;3;81272
+T1879_3;Glyceria altissima;;+;100372
+T1879_3;Sparganium ramosum;;+;124417
+T1879_3;Potamogeton densus;;+;115249
+T1879_3;Sparganium simplex;;3;124418
+T1879_3;Equisetum fluviatile L.;;2;96519
+T1879_4;Alisma plantago-aquatica L.;;+;81272
+T1879_4;Equisetum fluviatile L.;;3;96519
+T1879_4;Glyceria altissima;;2;100372
+T1879_4;Sagittaria sagittifolia L.;;2;119860
+T1879_4;Sparganium simplex;;2;124418
+T1879_4;Nuphar luteum;;1;109732
+T1879_4;Hydrocharis morsus Ranae;;+;103120
+T1879_4;Sparganium ramosum;;+;124417
+T1879_4;Rumex hydrolapathum Hudson;;+;771868
+T1879_4;Oenanthe fistulosa L.;;+;109869
+T1879_4;Sium latifolium L.;;+;123960
+T1879_4;Lemna trisulca L.;;1;105441
+T1879_4;Myosotis scorpioides L.;;+;109091
+T1879_5;Lemna minor L.;;2;105431
+T1879_5;Sagittaria sagittifolia L.;;1;119860
+T1879_5;Glyceria altissima;;1;100372
+T1879_5;Alisma plantago-aquatica L.;;1;81272
+T1879_5;Veronica anagallis;;+;128792
+T1880_1;Solanum dulcamara L.;;+;124034
+T1880_1;Iris pseudacorus L.;;2;103772
+T1880_1;Glyceria fluitans (L.) R. Br.;;1;100387
+T1880_1;Sium erectum;;1;123949
+T1880_1;Mentha aquatica L.;;1;108027
+T1880_1;Scrophularia aquatica;;1;197537
+T1880_1;Oenanthe phellandrium;;+;109892
+T1880_1;Sparganium ramosum;;2;124417
+T1880_1;Myosotis scorpioides L.;;+;109091
+T1880_1;Veronica beccabunga L.;;+;128808
+T1880_1;Nasturtium officinale R. Br.;;2;773798
+T1880_1;Veronica anagallis;;1;128792
+T1880_1;Apium nodiflorum (L.) Lag.;;2;83205
+T1880_1;Epilobium hirsutum L.;;3;96180
+T1880_10;Myosotis scorpioides L.;;+;109091
+T1880_10;Ranunculus aquatilis L.;;1;116928
+T1880_10;Lemna minor L.;;1;105431
+T1880_10;Alisma plantago-aquatica L.;;1;81272
+T1880_10;Glyceria fluitans (L.) R. Br.;;3;100387
+T1880_11;Rumex crispus L.;;+;119473
+T1880_11;Juncus effusus L.;;+;104173
+T1880_11;Lemna minor L.;;1;105431
+T1880_11;Glyceria fluitans (L.) R. Br.;;3;100387
+T1880_11;Alopecurus geniculatus L.;;+;81637
+T1880_11;Ranunculus aquatilis L.;;1;116928
+T1880_12;Myosotis scorpioides L.;;+;109091
+T1880_12;Lemna minor L.;;1;105431
+T1880_12;Nasturtium officinale R. Br.;;1;773798
+T1880_12;Ranunculus aquatilis L.;;1;116928
+T1880_12;Solanum dulcamara L.;;1;124034
+T1880_12;Glyceria fluitans (L.) R. Br.;;3;100387
+T1880_13;Lemna minor L.;;1;105431
+T1880_13;Ranunculus aquatilis L.;;1;116928
+T1880_13;Glyceria fluitans (L.) R. Br.;;3;100387
+T1880_13;Ranunculus repens L.;;+;117201
+T1880_13;Scirpus palustris;;+;121759
+T1880_2;Mentha aquatica L.;;+;108027
+T1880_2;Glyceria fluitans (L.) R. Br.;;+;100387
+T1880_2;Epilobium hirsutum L.;;+;96180
+T1880_2;Apium nodiflorum (L.) Lag.;;2;83205
+T1880_2;Glyceria altissima;;+;100372
+T1880_2;Veronica anagallis;;+;128792
+T1880_2;Sium erectum;;2;123949
+T1880_2;Iris pseudacorus L.;;+;103772
+T1880_3;Epilobium hirsutum L.;;+;96180
+T1880_3;Juncus effusus L.;;+;104173
+T1880_3;Mentha aquatica L.;;+;108027
+T1880_3;Veronica beccabunga L.;;+;128808
+T1880_3;Sium erectum;;1;123949
+T1880_3;Apium nodiflorum (L.) Lag.;;3;83205
+T1880_3;Hypericum hirsutum L.;;+;103287
+T1880_3;Oenanthe fistulosa L.;;+;109869
+T1880_3;Glyceria fluitans (L.) R. Br.;;1;100387
+T1880_4;Mentha aquatica L.;;+;108027
+T1880_4;Sium erectum;;3;123949
+T1880_4;Scrophularia aquatica;;1;197537
+T1880_4;Glyceria altissima;;1;100372
+T1880_4;Oenanthe fistulosa L.;;1;109869
+T1880_4;Glyceria fluitans (L.) R. Br.;;1;100387
+T1880_4;Sparganium ramosum;;1;124417
+T1880_4;Apium nodiflorum (L.) Lag.;;2;83205
+T1880_4;Juncus effusus L.;;+;104173
+T1880_5;Veronica beccabunga L.;;+;128808
+T1880_5;Apium nodiflorum (L.) Lag.;;3;83205
+T1880_5;Nasturtium officinale R. Br.;;1;773798
+T1880_5;Epilobium hirsutum L.;;+;96180
+T1880_5;Galium palustre L.;;+;99494
+T1880_5;Glyceria fluitans (L.) R. Br.;;2;100387
+T1880_5;Hypericum hirsutum L.;;+;103287
+T1880_6;Sium erectum;;1;123949
+T1880_6;Cardamine pratensis L.;;+;87964
+T1880_6;Equisetum palustre L.;;1;96534
+T1880_6;Juncus glaucus;;1;104200
+T1880_6;Mentha aquatica L.;;1;108027
+T1880_6;Myosotis scorpioides L.;;1;109091
+T1880_6;Epilobium hirsutum L.;;1;96180
+T1880_6;Veronica beccabunga L.;;1;128808
+T1880_6;Ranunculus repens L.;;1;117201
+T1880_6;Lycopus europaeus L.;;1;107038
+T1880_6;Glyceria altissima;;1;100372
+T1880_7;Alisma plantago-aquatica L.;;+;81272
+T1880_7;Ranunculus repens L.;;1;117201
+T1880_7;Ranunculus aquatilis L.;;1;116928
+T1880_7;Lemna minor L.;;1;105431
+T1880_7;Juncus lamprocarpus;;1;104229
+T1880_7;Glyceria fluitans (L.) R. Br.;;3;100387
+T1880_7;Glyceria altissima;;+;100372
+T1880_8;Alisma plantago-aquatica L.;;+;81272
+T1880_8;Glyceria fluitans (L.) R. Br.;;3;100387
+T1880_8;Ranunculus repens L.;;1;117201
+T1880_8;Solanum dulcamara L.;;+;124034
+T1880_8;Juncus lamprocarpus;;1;104229
+T1880_8;Myosotis scorpioides L.;;+;109091
+T1880_9;Alisma plantago-aquatica L.;;+;81272
+T1880_9;Alopecurus geniculatus L.;;+;81637
+T1880_9;Lemna minor L.;;1;105431
+T1880_9;Ranunculus aquatilis L.;;1;116928
+T1880_9;Glyceria altissima;;1;100372
+T1880_9;Glyceria fluitans (L.) R. Br.;;2;100387
+T1880_9;Rumex conglomeratus Murray;;+;119471
+T1881_1;Potamogeton natans L.;;1;115280
+T1881_1;Potamogeton crispus L.;;+;115245
+T1881_1;Potamogeton lucens L.;;+;115270
+T1881_1;Sagittaria sagittifolia L.;;2;119860
+T1881_1;Nuphar luteum;;1;109732
+T1881_1;Spirodela polyrrhiza;;+;124707
+T1881_1;Ceratophyllum demersum L.;;+;90208
+T1881_1;Lemna minor L.;;1;105431
+T1881_10;Myriophyllum spicatum L.;;+;109150
+T1881_10;Potamogeton natans L.;;1;115280
+T1881_10;Polygonum amphibium L.;;+;114641
+T1881_10;Elodea canadensis Michx;;1;95980
+T1881_10;Potamogeton lucens L.;;+;115270
+T1881_10;Nymphaea alba L.;;+;109750
+T1881_10;Lemna minor L.;;1;105431
+T1881_10;Nuphar luteum;;1;109732
+T1881_11;Spirodela polyrrhiza;;1;124707
+T1881_11;Potamogeton natans L.;;1;115280
+T1881_11;Sagittaria sagittifolia L.;;+;119860
+T1881_11;Polygonum amphibium L.;;1;114641
+T1881_11;Myriophyllum spicatum L.;;1;109150
+T1881_11;Nuphar luteum;;2;109732
+T1881_11;Potamogeton lucens L.;;3;115270
+T1881_11;Utricularia vulgaris L.;;+;128322
+T1881_11;Ceratophyllum demersum L.;;+;90208
+T1881_11;Nymphaea alba L.;;1;109750
+T1881_12;Lemna minor L.;;2;105431
+T1881_12;Myriophyllum spicatum L.;;+;109150
+T1881_12;Nuphar luteum;;2;109732
+T1881_12;Lemna trisulca L.;;3;105441
+T1881_12;Ceratophyllum demersum L.;;+;90208
+T1881_12;Potamogeton natans L.;;2;115280
+T1881_12;Hydrocharis morsus Ranae;;3;103120
+T1881_13;Myriophyllum spicatum L.;;2;109150
+T1881_13;Elodea canadensis Michx;;2;95980
+T1881_13;Ceratophyllum demersum L.;;+;90208
+T1881_13;Sagittaria sagittifolia L.;;+;119860
+T1881_13;Utricularia vulgaris L.;;+;128322
+T1881_13;Lemna trisulca L.;;3;105441
+T1881_13;Potamogeton natans L.;;1;115280
+T1881_13;Hydrocharis morsus Ranae;;3;103120
+T1881_13;Lemna minor L.;;1;105431
+T1881_13;Glyceria fluitans (L.) R. Br.;;+;100387
+T1881_14;Potamogeton natans L.;;2;115280
+T1881_14;Myriophyllum spicatum L.;;+;109150
+T1881_14;Nuphar luteum;;1;109732
+T1881_14;Elodea canadensis Michx;;1;95980
+T1881_14;Polygonum amphibium L.;;1;114641
+T1881_14;Potamogeton lucens L.;;1;115270
+T1881_14;Ceratophyllum demersum L.;;+;90208
+T1881_14;Lemna trisulca L.;;1;105441
+T1881_14;Lemna minor L.;;1;105431
+T1881_14;Hydrocharis morsus Ranae;;1;103120
+T1881_15;Polygonum amphibium L.;;1;114641
+T1881_15;Rorippa amphibia (L.) Besser;;+;117933
+T1881_15;Potamogeton natans L.;;2;115280
+T1881_15;Sagittaria sagittifolia L.;;+;119860
+T1881_15;Ceratophyllum demersum L.;;+;90208
+T1881_15;Lemna trisulca L.;;2;105441
+T1881_15;Potamogeton crispus L.;;+;115245
+T1881_15;Potamogeton lucens L.;;+;115270
+T1881_15;Hydrocharis morsus Ranae;;3;103120
+T1881_15;Nuphar luteum;;2;109732
+T1881_15;Lemna minor L.;;2;105431
+T1881_15;Myriophyllum verticillatum L.;;+;109151
+T1881_15;Utricularia vulgaris L.;;+;128322
+T1881_15;Myriophyllum spicatum L.;;1;109150
+T1881_16;Elodea canadensis Michx;;4;95980
+T1881_16;Nuphar luteum;;+;109732
+T1881_16;Equisetum fluviatile L.;;+;96519
+T1881_16;Potamogeton densus;;+;115249
+T1881_16;Hydrocharis morsus Ranae;;3;103120
+T1881_16;Lemna minor L.;;1;105431
+T1881_16;Potamogeton natans L.;;1;115280
+T1881_16;Lemna trisulca L.;;3;105441
+T1881_16;Potamogeton crispus L.;;+;115245
+T1881_16;Sparganium ramosum;;+;124417
+T1881_16;Spirodela polyrrhiza;;1;124707
+T1881_16;Glyceria fluitans (L.) R. Br.;;1;100387
+T1881_17;Lemna minor L.;;1;105431
+T1881_17;Glyceria altissima;;1;100372
+T1881_17;Equisetum fluviatile L.;;1;96519
+T1881_17;Spirodela polyrrhiza;;+;124707
+T1881_17;Nuphar luteum;;1;109732
+T1881_17;Elodea canadensis Michx;;2;95980
+T1881_17;Butomus umbellatus L.;;+;87136
+T1881_17;Alisma plantago-aquatica L.;;+;81272
+T1881_17;Potamogeton crispus L.;;1;115245
+T1881_17;Potamogeton densus;;2;115249
+T1881_17;Hydrocharis morsus Ranae;;2;103120
+T1881_17;Lemna trisulca L.;;1;105441
+T1881_17;Sagittaria sagittifolia L.;;+;119860
+T1881_18;Nuphar luteum;;+;109732
+T1881_18;Sparganium ramosum;;+;124417
+T1881_18;Glyceria altissima;;+;100372
+T1881_18;Elodea canadensis Michx;;3;95980
+T1881_18;Hydrocharis morsus Ranae;;1;103120
+T1881_18;Sagittaria sagittifolia L.;;1;119860
+T1881_18;Equisetum fluviatile L.;;1;96519
+T1881_18;Rorippa amphibia (L.) Besser;;+;117933
+T1881_18;Potamogeton crispus L.;;+;115245
+T1881_19;Elodea canadensis Michx;;4;95980
+T1881_19;Alisma plantago-aquatica L.;;+;81272
+T1881_19;Lemna minor L.;;1;105431
+T1881_19;Polygonum amphibium L.;;+;114641
+T1881_19;Equisetum fluviatile L.;;1;96519
+T1881_19;Ceratophyllum demersum L.;;1;90208
+T1881_19;Potamogeton natans L.;;2;115280
+T1881_19;Hydrocharis morsus Ranae;;2;103120
+T1881_19;Lemna trisulca L.;;2;105441
+T1881_19;Glyceria altissima;;1;100372
+T1881_19;Spirodela polyrrhiza;;+;124707
+T1881_2;Nuphar luteum;;3;109732
+T1881_2;Spirodela polyrrhiza;;+;124707
+T1881_2;Potamogeton natans L.;;3;115280
+T1881_2;Potamogeton lucens L.;;+;115270
+T1881_2;Lemna minor L.;;1;105431
+T1881_2;Glyceria fluitans (L.) R. Br.;;1;100387
+T1881_2;Myriophyllum spicatum L.;;+;109150
+T1881_2;Sagittaria sagittifolia L.;;2;119860
+T1881_20;Equisetum fluviatile L.;;1;96519
+T1881_20;Alisma plantago-aquatica L.;;+;81272
+T1881_20;Hydrocharis morsus Ranae;;2;103120
+T1881_20;Elodea canadensis Michx;;2;95980
+T1881_20;Sparganium ramosum;;1;124417
+T1881_20;Ceratophyllum demersum L.;;1;90208
+T1881_20;Potamogeton crispus L.;;1;115245
+T1881_20;Potamogeton densus;;1;115249
+T1881_20;Sagittaria sagittifolia L.;;2;119860
+T1881_20;Nuphar luteum;;1;109732
+T1881_21;Hydrocharis morsus Ranae;;2;103120
+T1881_21;Equisetum fluviatile L.;;1;96519
+T1881_21;Nuphar luteum;;1;109732
+T1881_21;Elodea canadensis Michx;;2;95980
+T1881_21;Ceratophyllum demersum L.;;+;90208
+T1881_22;Myriophyllum spicatum L.;;+;109150
+T1881_22;Oenanthe phellandrium;;+;109892
+T1881_22;Nuphar luteum;;+;109732
+T1881_22;Elodea canadensis Michx;;1;95980
+T1881_22;Glyceria fluitans (L.) R. Br.;;+;100387
+T1881_22;Equisetum fluviatile L.;;1;96519
+T1881_22;Lemna trisulca L.;;1;105441
+T1881_22;Hydrocharis morsus Ranae;;2;103120
+T1881_23;Potamogeton natans L.;;1;115280
+T1881_23;Nuphar luteum;;1;109732
+T1881_23;Spirodela polyrrhiza;;2;124707
+T1881_23;Glyceria altissima;;+;100372
+T1881_23;Lemna trisulca L.;;2;105441
+T1881_23;Elodea canadensis Michx;;2;95980
+T1881_23;Hydrocharis morsus Ranae;;+;103120
+T1881_23;Equisetum fluviatile L.;;+;96519
+T1881_23;Potamogeton crispus L.;;+;115245
+T1881_23;Lemna minor L.;;1;105431
+T1881_24;Elodea canadensis Michx;;3;95980
+T1881_24;Potamogeton natans L.;;2;115280
+T1881_24;Spirodela polyrrhiza;;1;124707
+T1881_24;Lemna minor L.;;2;105431
+T1881_24;Lemna trisulca L.;;2;105441
+T1881_25;Elodea canadensis Michx;;1;95980
+T1881_25;Ranunculus aquatilis L.;;+;116928
+T1881_25;Glyceria fluitans (L.) R. Br.;;+;100387
+T1881_25;Potamogeton densus;;1;115249
+T1881_25;Potamogeton natans L.;;4;115280
+T1881_25;Potamogeton crispus L.;;+;115245
+T1881_25;Lemna trisulca L.;;1;105441
+T1881_25;Glyceria altissima;;+;100372
+T1881_25;Spirodela polyrrhiza;;+;124707
+T1881_26;Spirodela polyrrhiza;;1;124707
+T1881_26;Potamogeton crispus L.;;+;115245
+T1881_26;Lemna minor L.;;2;105431
+T1881_26;Potamogeton densus;;+;115249
+T1881_26;Lemna trisulca L.;;+;105441
+T1881_26;Potamogeton natans L.;;2;115280
+T1881_26;Elodea canadensis Michx;;4;95980
+T1881_27;Ranunculus aquatilis L.;;+;116928
+T1881_27;Lemna minor L.;;1;105431
+T1881_27;Potamogeton natans L.;;2;115280
+T1881_27;Lemna trisulca L.;;4;105441
+T1881_27;Elodea canadensis Michx;;1;95980
+T1881_28;Lemna trisulca L.;;1;105441
+T1881_28;Spirodela polyrrhiza;;1;124707
+T1881_28;Lemna minor L.;;4;105431
+T1881_28;Potamogeton natans L.;;3;115280
+T1881_28;Ceratophyllum demersum L.;;1;90208
+T1881_28;Elodea canadensis Michx;;2;95980
+T1881_3;Sagittaria sagittifolia L.;;1;119860
+T1881_3;Potamogeton perfoliatus L.;;+;115296
+T1881_3;Myriophyllum spicatum L.;;+;109150
+T1881_3;Potamogeton pectinatus L.;;+;115295
+T1881_3;Elodea canadensis Michx;;2;95980
+T1881_3;Ceratophyllum demersum L.;;+;90208
+T1881_3;Potamogeton natans L.;;1;115280
+T1881_3;Nuphar luteum;;2;109732
+T1881_3;Potamogeton lucens L.;;2;115270
+T1881_3;Potamogeton densus;;+;115249
+T1881_3;Potamogeton crispus L.;;+;115245
+T1881_4;Ceratophyllum demersum L.;;+;90208
+T1881_4;Rorippa amphibia (L.) Besser;;+;117933
+T1881_4;Polygonum amphibium L.;;1;114641
+T1881_4;Potamogeton natans L.;;3;115280
+T1881_4;Elodea canadensis Michx;;1;95980
+T1881_4;Sagittaria sagittifolia L.;;1;119860
+T1881_4;Nuphar luteum;;1;109732
+T1881_5;Elodea canadensis Michx;;2;95980
+T1881_5;Lemna minor L.;;1;105431
+T1881_5;Nuphar luteum;;1;109732
+T1881_5;Ceratophyllum demersum L.;;1;90208
+T1881_5;Utricularia vulgaris L.;;+;128322
+T1881_5;Nymphaea alba L.;;1;109750
+T1881_5;Myriophyllum spicatum L.;;+;109150
+T1881_5;Potamogeton natans L.;;1;115280
+T1881_6;Nuphar luteum;;2;109732
+T1881_6;Nymphaea alba L.;;+;109750
+T1881_6;Potamogeton natans L.;;2;115280
+T1881_6;Polygonum amphibium L.;;+;114641
+T1881_6;Ranunculus aquatilis L.;;+;116928
+T1881_6;Myriophyllum spicatum L.;;1;109150
+T1881_6;Ceratophyllum demersum L.;;+;90208
+T1881_6;Potamogeton lucens L.;;+;115270
+T1881_6;Myriophyllum verticillatum L.;;+;109151
+T1881_6;Elodea canadensis Michx;;2;95980
+T1881_7;Lemna minor L.;;1;105431
+T1881_7;Potamogeton natans L.;;1;115280
+T1881_7;Myriophyllum spicatum L.;;1;109150
+T1881_7;Ceratophyllum demersum L.;;2;90208
+T1881_7;Nuphar luteum;;2;109732
+T1881_7;Spirodela polyrrhiza;;+;124707
+T1881_8;Myriophyllum verticillatum L.;;+;109151
+T1881_8;Ceratophyllum demersum L.;;1;90208
+T1881_8;Potamogeton crispus L.;;1;115245
+T1881_8;Potamogeton densus;;+;115249
+T1881_8;Lemna minor L.;;1;105431
+T1881_8;Potamogeton natans L.;;3;115280
+T1881_8;Polygonum amphibium L.;;1;114641
+T1881_8;Nuphar luteum;;3;109732
+T1881_9;Potamogeton lucens L.;;1;115270
+T1881_9;Elodea canadensis Michx;;2;95980
+T1881_9;Potamogeton crispus L.;;+;115245
+T1881_9;Potamogeton natans L.;;3;115280
+T1881_9;Polygonum amphibium L.;;2;114641
+T1881_9;Nuphar luteum;;1;109732
+T1881_9;Myriophyllum spicatum L.;;+;109150
+T1882_1;Hydrocharis morsus Ranae;;2;103120
+T1882_1;Lemna trisulca L.;;1;105441
+T1882_1;Equisetum fluviatile L.;;4;96519
+T1882_1;Lemna minor L.;;1;105431
+T1882_1;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1882_1;Myriophyllum spicatum L.;;+;109150
+T1882_10;Lemna trisulca L.;;1;105441
+T1882_10;Rumex hydrolapathum Hudson;;+;771868
+T1882_10;Lemna minor L.;;+;105431
+T1882_10;Nuphar luteum;;+;109732
+T1882_10;Potamogeton natans L.;;1;115280
+T1882_10;Typha latifolia L.;;3;128077
+T1882_10;Hydrocharis morsus Ranae;;1;103120
+T1882_11;Typha latifolia L.;;4;128077
+T1882_11;Lycopus europaeus L.;;+;107038
+T1882_11;Alisma plantago-aquatica L.;;+;81272
+T1882_11;Hydrocharis morsus Ranae;;+;103120
+T1882_11;Sparganium ramosum;;1;124417
+T1882_11;Lemna trisulca L.;;1;105441
+T1882_11;Carex riparia Curtis;;1;88833
+T1882_11;Glyceria altissima;;1;100372
+T1882_11;Rumex hydrolapathum Hudson;;+;771868
+T1882_11;Scirpus lacustris L.;;+;121735
+T1882_12;Equisetum fluviatile L.;;2;96519
+T1882_12;Lythrum salicaria L.;;+;107117
+T1882_12;Alisma plantago-aquatica L.;;1;81272
+T1882_12;Sparganium ramosum;;2;124417
+T1882_12;Carex riparia Curtis;;1;88833
+T1882_12;Ranunculus lingua L.;;1;117096
+T1882_12;Rorippa amphibia (L.) Besser;;+;117933
+T1882_12;Salix cinerea L.;;+;119991
+T1882_12;Carex acuta L.;;+;88314
+T1882_12;Juncus effusus L.;;1;104173
+T1882_12;Typha latifolia L.;;3;128077
+T1882_13;Myosotis scorpioides L.;;1;109091
+T1882_13;Equisetum fluviatile L.;;3;96519
+T1882_13;Lycopus europaeus L.;;+;107038
+T1882_13;Typha latifolia L.;;2;128077
+T1882_13;Sparganium ramosum;;1;124417
+T1882_13;Carex riparia Curtis;;+;88833
+T1882_13;Mentha aquatica L.;;1;108027
+T1882_13;Galium uliginosum L.;;+;99570
+T1882_13;Iris pseudacorus L.;;+;103772
+T1882_14;Typha latifolia L.;;+;128077
+T1882_14;Glyceria altissima;;1;100372
+T1882_14;Sium latifolium L.;;1;123960
+T1882_14;Equisetum fluviatile L.;;3;96519
+T1882_14;Phragmites australis (Cav.) Trin. ex Steudel;;3;113260
+T1882_14;Solanum dulcamara L.;;+;124034
+T1882_15;Phragmites australis (Cav.) Trin. ex Steudel;;4;113260
+T1882_15;Equisetum fluviatile L.;;1;96519
+T1882_15;Galium palustre L.;;1;99494
+T1882_15;Salix cinerea L.;;+;119991
+T1882_15;Carex acuta L.;;+;88314
+T1882_15;Rumex hydrolapathum Hudson;;1;771868
+T1882_15;Glyceria altissima;;1;100372
+T1882_15;Solanum dulcamara L.;;+;124034
+T1882_15;Ranunculus repens L.;;+;117201
+T1882_15;Equisetum palustre L.;;+;96534
+T1882_15;Caltha palustris L.;;+;87540
+T1882_15;Galium uliginosum L.;;+;99570
+T1882_15;Juncus effusus L.;;+;104173
+T1882_15;Carex riparia Curtis;;1;88833
+T1882_15;Iris pseudacorus L.;;1;103772
+T1882_15;Mentha aquatica L.;;+;108027
+T1882_15;Lythrum salicaria L.;;+;107117
+T1882_15;Lysimachia vulgaris L.;;+;107090
+T1882_16;Carex riparia Curtis;;+;88833
+T1882_16;Phragmites australis (Cav.) Trin. ex Steudel;;5;113260
+T1882_16;Salix cinerea L.;;+;119991
+T1882_16;Carex acutiformis Ehrh.;;+;88318
+T1882_16;Equisetum palustre L.;;+;96534
+T1882_16;Equisetum fluviatile L.;;+;96519
+T1882_16;Glyceria altissima;;+;100372
+T1882_17;Equisetum fluviatile L.;;1;96519
+T1882_17;Rumex hydrolapathum Hudson;;+;771868
+T1882_17;Iris pseudacorus L.;;+;103772
+T1882_17;Caltha palustris L.;;+;87540
+T1882_17;Sparganium ramosum;;1;124417
+T1882_17;Lysimachia vulgaris L.;;+;107090
+T1882_17;Phragmites australis (Cav.) Trin. ex Steudel;;4;113260
+T1882_18;Solanum dulcamara L.;;+;124034
+T1882_18;Glyceria altissima;;+;100372
+T1882_18;Iris pseudacorus L.;;1;103772
+T1882_18;Carex riparia Curtis;;1;88833
+T1882_18;Carex acuta L.;;1;88314
+T1882_18;Cirsium arvense (L.) Scop.;;+;91289
+T1882_18;Phragmites australis (Cav.) Trin. ex Steudel;;3;113260
+T1882_18;Filipendula ulmaria (L.) Maxim.;;1;98717
+T1882_18;Calystegia sepium (L.) R. Br.;;+;87560
+T1882_19;Carex riparia Curtis;;2;88833
+T1882_19;Carex versicaria L.;;1;88942
+T1882_19;Scirpus lacustris L.;;+;121735
+T1882_19;Scirpus maritimus L.;;+;121746
+T1882_19;Ranunculus lingua L.;;+;117096
+T1882_19;Phragmites australis (Cav.) Trin. ex Steudel;;4;113260
+T1882_19;Mentha aquatica L.;;1;108027
+T1882_19;Iris pseudacorus L.;;1;103772
+T1882_2;Lemna minor L.;;+;105431
+T1882_2;Potamogeton lucens L.;;+;115270
+T1882_2;Potamogeton natans L.;;1;115280
+T1882_2;Elodea canadensis Michx;;1;95980
+T1882_2;Myriophyllum spicatum L.;;+;109150
+T1882_2;Equisetum fluviatile L.;;3;96519
+T1882_20;Iris pseudacorus L.;;+;103772
+T1882_20;Caltha palustris L.;;1;87540
+T1882_20;Solanum dulcamara L.;;+;124034
+T1882_20;Lysimachia vulgaris L.;;1;107090
+T1882_20;Phragmites australis (Cav.) Trin. ex Steudel;;5;113260
+T1882_21;Carex versicaria L.;;1;88942
+T1882_21;Polygonum hydropiper L.;;+;114745
+T1882_21;Iris pseudacorus L.;;2;103772
+T1882_21;Mentha aquatica L.;;2;108027
+T1882_21;Lythrum salicaria L.;;+;107117
+T1882_21;Galium palustre L.;;+;99494
+T1882_21;Lycopus europaeus L.;;+;107038
+T1882_21;Epilobium hirsutum L.;;+;96180
+T1882_21;Cardamine pratensis L.;;1;87964
+T1882_21;Caltha palustris L.;;+;87540
+T1882_21;Achillea ptarmica L.;;+;79921
+T1882_21;Galium uliginosum L.;;+;99570
+T1882_21;Filipendula ulmaria (L.) Maxim.;;2;98717
+T1882_21;Scirpus silvaticus;;1;121792
+T1882_21;Phalaris arundinacea L.;;3;112975
+T1882_21;Sparganium ramosum;;2;124417
+T1882_22;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1882_22;Phalaris arundinacea L.;;3;112975
+T1882_22;Calystegia sepium (L.) R. Br.;;1;87560
+T1882_22;Phragmites australis (Cav.) Trin. ex Steudel;;2;113260
+T1882_22;Carex riparia Curtis;;+;88833
+T1882_22;Iris pseudacorus L.;;+;103772
+T1882_22;Carex acuta L.;;1;88314
+T1882_22;Polygonum hydropiper L.;;1;114745
+T1882_22;Caltha palustris L.;;+;87540
+T1882_22;Lysimachia vulgaris L.;;+;107090
+T1882_23;Solanum dulcamara L.;;+;124034
+T1882_23;Glyceria altissima;;1;100372
+T1882_23;Poa trivialis L.;;1;114416
+T1882_23;Phalaris arundinacea L.;;4;112975
+T1882_23;Sparganium ramosum;;1;124417
+T1882_23;Carex versicaria L.;;+;88942
+T1882_23;Juncus effusus L.;;+;104173
+T1882_24;Phalaris arundinacea L.;;4;112975
+T1882_24;Rorippa amphibia (L.) Besser;;+;117933
+T1882_24;Iris pseudacorus L.;;+;103772
+T1882_24;Epilobium hirsutum L.;;+;96180
+T1882_24;Polygonum hydropiper L.;;1;114745
+T1882_24;Lythrum salicaria L.;;+;107117
+T1882_24;Sparganium ramosum;;2;124417
+T1882_24;Equisetum fluviatile L.;;+;96519
+T1882_24;Typha latifolia L.;;+;128077
+T1882_25;Phalaris arundinacea L.;;5;112975
+T1882_25;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1882_25;Ranunculus repens L.;;+;117201
+T1882_25;Calystegia sepium (L.) R. Br.;;+;87560
+T1882_25;Polygonum hydropiper L.;;+;114745
+T1882_25;Scirpus palustris;;+;121759
+T1882_25;Poa trivialis L.;;+;114416
+T1882_25;Glyceria altissima;;1;100372
+T1882_26;Iris pseudacorus L.;;1;103772
+T1882_26;Ranunculus repens L.;;1;117201
+T1882_26;Carex acuta L.;;1;88314
+T1882_26;Rumex conglomeratus Murray;;+;119471
+T1882_26;Carex versicaria L.;;+;88942
+T1882_26;Alopecurus pratensis L.;;+;81656
+T1882_26;Lysimachia nummularia L.;;+;107073
+T1882_26;Galium palustre L.;;2;99494
+T1882_26;Lysimachia vulgaris L.;;+;107090
+T1882_26;Phalaris arundinacea L.;;4;112975
+T1882_26;Carex disticha Hudson;;+;88478
+T1882_27;Sparganium ramosum;;+;124417
+T1882_27;Solanum dulcamara L.;;1;124034
+T1882_27;Epilobium hirsutum L.;;+;96180
+T1882_27;Equisetum fluviatile L.;;1;96519
+T1882_27;Phalaris arundinacea L.;;5;112975
+T1882_27;Filipendula ulmaria (L.) Maxim.;;1;98717
+T1882_27;Calystegia sepium (L.) R. Br.;;1;87560
+T1882_28;Phalaris arundinacea L.;;4;112975
+T1882_28;Galium palustre L.;;2;99494
+T1882_28;Iris pseudacorus L.;;+;103772
+T1882_28;Sparganium ramosum;;+;124417
+T1882_28;Polygonum hydropiper L.;;2;114745
+T1882_28;Glyceria altissima;;1;100372
+T1882_28;Calystegia sepium (L.) R. Br.;;2;87560
+T1882_28;Lythrum salicaria L.;;1;107117
+T1882_3;Ranunculus aquatilis L.;;+;116928
+T1882_3;Potamogeton natans L.;;+;115280
+T1882_3;Ranunculus confusus;;+;116987
+T1882_3;Equisetum fluviatile L.;;4;96519
+T1882_3;Lemna minor L.;;1;105431
+T1882_3;Lemna trisulca L.;;2;105441
+T1882_3;Elodea canadensis Michx;;1;95980
+T1882_4;Typha latifolia L.;;+;128077
+T1882_4;Lemna trisulca L.;;1;105441
+T1882_4;Solanum dulcamara L.;;+;124034
+T1882_4;Sparganium ramosum;;4;124417
+T1882_4;Rumex hydrolapathum Hudson;;+;771868
+T1882_4;Scirpus lacustris L.;;+;121735
+T1882_4;Hydrocharis morsus Ranae;;2;103120
+T1882_4;Carex riparia Curtis;;+;88833
+T1882_5;Rorippa amphibia (L.) Besser;;+;117933
+T1882_5;Scirpus lacustris L.;;3;121735
+T1882_5;Butomus umbellatus L.;;1;87136
+T1882_5;Polygonum hydropiper L.;;+;114745
+T1882_5;Iris pseudacorus L.;;+;103772
+T1882_5;Lemna minor L.;;+;105431
+T1882_5;Myosotis scorpioides L.;;+;109091
+T1882_5;Sagittaria sagittifolia L.;;+;119860
+T1882_5;Carex riparia Curtis;;+;88833
+T1882_5;Hydrocharis morsus Ranae;;+;103120
+T1882_5;Equisetum fluviatile L.;;1;96519
+T1882_5;Glyceria altissima;;+;100372
+T1882_5;Sparganium ramosum;;2;124417
+T1882_6;Glyceria altissima;;+;100372
+T1882_6;Rorippa amphibia (L.) Besser;;+;117933
+T1882_6;Potamogeton lucens L.;;+;115270
+T1882_6;Scirpus lacustris L.;;4;121735
+T1882_6;Sagittaria sagittifolia L.;;+;119860
+T1882_6;Nuphar luteum;;+;109732
+T1882_7;Scirpus lacustris L.;;4;121735
+T1882_7;Nuphar luteum;;+;109732
+T1882_7;Glyceria altissima;;+;100372
+T1882_7;Sparganium ramosum;;1;124417
+T1882_7;Solanum dulcamara L.;;+;124034
+T1882_7;Rorippa amphibia (L.) Besser;;+;117933
+T1882_7;Butomus umbellatus L.;;+;87136
+T1882_7;Polygonum hydropiper L.;;1;114745
+T1882_7;Sagittaria sagittifolia L.;;+;119860
+T1882_7;Myosotis scorpioides L.;;+;109091
+T1882_8;Sium latifolium L.;;+;123960
+T1882_8;Rumex hydrolapathum Hudson;;+;771868
+T1882_8;Lemna minor L.;;1;105431
+T1882_8;Typha angustifolia L.;;3;128062
+T1882_8;Lemna trisulca L.;;+;105441
+T1882_8;Equisetum fluviatile L.;;1;96519
+T1882_8;Glyceria altissima;;+;100372
+T1882_8;Phragmites australis (Cav.) Trin. ex Steudel;;1;113260
+T1882_9;Nuphar luteum;;+;109732
+T1882_9;Phragmites australis (Cav.) Trin. ex Steudel;;+;113260
+T1882_9;Hydrocharis morsus Ranae;;2;103120
+T1882_9;Lemna minor L.;;1;105431
+T1882_9;Lemna trisulca L.;;2;105441
+T1882_9;Myriophyllum spicatum L.;;+;109150
+T1882_9;Typha angustifolia L.;;4;128062
+T1883_1;Carex acuta L.;;2;88314
+T1883_1;Solanum dulcamara L.;;1;124034
+T1883_1;Salix cinerea L.;;1;119991
+T1883_1;Alnus glutinosa (L.) Gaertner;;+;81569
+T1883_1;Galium palustre L.;;1;99494
+T1883_1;Carex versicaria L.;;4;88942
+T1883_1;Juncus effusus L.;;1;104173
+T1883_1;Rumex sanguineus L.;;+;119585
+T1883_1;Lythrum salicaria L.;;+;107117
+T1883_1;Scirpus silvaticus;;1;121792
+T1883_1;Rumex hydrolapathum Hudson;;1;771868
+T1883_1;Carex elongata L.;;1;88493
+T1883_1;Lycopus europaeus L.;;+;107038
+T1883_1;Stellaria uliginosa;;+;125044
+T1883_1;Scrophularia aquatica;;+;197537
+T1883_1;Impatiens noli Tangere;;1;103553
+T1883_1;Equisetum fluviatile L.;;+;96519
+T1883_1;Cardamine amara L.;;1;87892
+T1883_1;Lysimachia vulgaris L.;;1;107090
+T1883_2;Carex acuta L.;;1;88314
+T1883_2;Menyanthes trifoliata L.;;2;108345
+T1883_2;Galium palustre L.;;+;99494
+T1883_2;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1883_2;Equisetum fluviatile L.;;1;96519
+T1883_2;Carex versicaria L.;;1;88942
+T1883_2;Lysimachia vulgaris L.;;+;107090
+T1883_2;Lythrum salicaria L.;;+;107117
+T1883_2;Glyceria fluitans (L.) R. Br.;;+;100387
+T1883_2;Carex riparia Curtis;;1;88833
+T1883_2;Iris pseudacorus L.;;+;103772
+T1883_2;Carex pseudocyperus L.;;1;88794
+T1883_2;Rumex hydrolapathum Hudson;;+;771868
+T1883_2;Carex rostrata Stokes;;3;88840
+T1884_1;Sparganium ramosum;;+;124417
+T1884_1;Glyceria altissima;;3;100372
+T1884_1;Lemna trisulca L.;;1;105441
+T1884_1;Acorus calamus L.;;3;80086
+T1884_1;Typha latifolia L.;;+;128077
+T1884_1;Butomus umbellatus L.;;+;87136
+T1884_1;Carex versicaria L.;;1;88942
+T1884_1;Sium latifolium L.;;+;123960
+T1884_1;Hydrocharis morsus Ranae;;1;103120
+T1884_10;Oenanthe fistulosa L.;;1;109869
+T1884_10;Alisma plantago-aquatica L.;;1;81272
+T1884_10;Glyceria altissima;;3;100372
+T1884_10;Equisetum fluviatile L.;;3;96519
+T1884_10;Galium palustre L.;;+;99494
+T1884_10;Myosotis scorpioides L.;;+;109091
+T1884_10;Lythrum salicaria L.;;1;107117
+T1884_11;Polygonum amphibium L.;;+;114641
+T1884_11;Equisetum fluviatile L.;;3;96519
+T1884_11;Oenanthe phellandrium;;+;109892
+T1884_11;Scirpus palustris;;1;121759
+T1884_11;Carex versicaria L.;;1;88942
+T1884_11;Oenanthe fistulosa L.;;1;109869
+T1884_11;Glyceria altissima;;3;100372
+T1884_11;Carex acuta L.;;1;88314
+T1884_11;Rumex hydrolapathum Hudson;;+;771868
+T1884_11;Glyceria fluitans (L.) R. Br.;;1;100387
+T1884_11;Galium palustre L.;;+;99494
+T1884_12;Phalaris arundinacea L.;;+;112975
+T1884_12;Stachys palustris L.;;+;124798
+T1884_12;Ranunculus repens L.;;+;117201
+T1884_12;Glyceria altissima;;5;100372
+T1884_12;Glyceria fluitans (L.) R. Br.;;1;100387
+T1884_12;Carex riparia Curtis;;+;88833
+T1884_12;Alopecurus geniculatus L.;;+;81637
+T1884_12;Carex versicaria L.;;+;88942
+T1884_12;Polygonum amphibium L.;;1;114641
+T1884_13;Hydrocharis morsus Ranae;;+;103120
+T1884_13;Glyceria altissima;;4;100372
+T1884_13;Iris pseudacorus L.;;+;103772
+T1884_13;Lemna minor L.;;+;105431
+T1884_13;Carex acuta L.;;+;88314
+T1884_13;Equisetum fluviatile L.;;1;96519
+T1884_13;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1884_13;Polygonum amphibium L.;;+;114641
+T1884_13;Rumex hydrolapathum Hudson;;+;771868
+T1884_13;Carex riparia Curtis;;+;88833
+T1884_14;Rumex hydrolapathum Hudson;;+;771868
+T1884_14;Solanum dulcamara L.;;+;124034
+T1884_14;Sparganium ramosum;;+;124417
+T1884_14;Glyceria altissima;;5;100372
+T1884_14;Equisetum fluviatile L.;;1;96519
+T1884_15;Carex riparia Curtis;;1;88833
+T1884_15;Rumex hydrolapathum Hudson;;1;771868
+T1884_15;Solanum dulcamara L.;;+;124034
+T1884_15;Iris pseudacorus L.;;1;103772
+T1884_15;Glyceria altissima;;4;100372
+T1884_15;Caltha palustris L.;;+;87540
+T1884_15;Lemna minor L.;;+;105431
+T1884_16;Polygonum amphibium L.;;+;114641
+T1884_16;Glyceria altissima;;5;100372
+T1884_16;Iris pseudacorus L.;;1;103772
+T1884_16;Caltha palustris L.;;+;87540
+T1884_16;Glyceria fluitans (L.) R. Br.;;+;100387
+T1884_16;Valeriana officinalis L.;;+;128419
+T1884_16;Rumex hydrolapathum Hudson;;+;771868
+T1884_17;Rumex hydrolapathum Hudson;;1;771868
+T1884_17;Solanum dulcamara L.;;1;124034
+T1884_17;Glyceria altissima;;5;100372
+T1884_17;Equisetum fluviatile L.;;+;96519
+T1884_17;Alisma plantago-aquatica L.;;1;81272
+T1884_17;Lemna minor L.;;+;105431
+T1884_17;Juncus effusus L.;;+;104173
+T1884_17;Iris pseudacorus L.;;+;103772
+T1884_18;Typha latifolia L.;;+;128077
+T1884_18;Eupatorium cannabinum L.;;+;97434
+T1884_18;Valeriana officinalis L.;;+;128419
+T1884_18;Angelica sylvestris L.;;+;82738
+T1884_18;Hydrocharis morsus Ranae;;+;103120
+T1884_18;Stachys palustris L.;;+;124798
+T1884_18;Solanum dulcamara L.;;+;124034
+T1884_18;Carex acuta L.;;+;88314
+T1884_18;Glyceria altissima;;5;100372
+T1884_18;Lythrum salicaria L.;;+;107117
+T1884_19;Phalaris arundinacea L.;;1;112975
+T1884_19;Eupatorium cannabinum L.;;+;97434
+T1884_19;Salix cinerea L.;;+;119991
+T1884_19;Equisetum fluviatile L.;;1;96519
+T1884_19;Lythrum salicaria L.;;1;107117
+T1884_19;Rumex hydrolapathum Hudson;;+;771868
+T1884_19;Typha latifolia L.;;+;128077
+T1884_19;Iris pseudacorus L.;;+;103772
+T1884_19;Glyceria altissima;;4;100372
+T1884_2;Rumex hydrolapathum Hudson;;+;771868
+T1884_2;Hydrocharis morsus Ranae;;1;103120
+T1884_2;Sium erectum;;1;123949
+T1884_2;Juncus effusus L.;;+;104173
+T1884_2;Glyceria altissima;;3;100372
+T1884_2;Lycopus europaeus L.;;+;107038
+T1884_2;Polygonum amphibium L.;;+;114641
+T1884_2;Lythrum salicaria L.;;+;107117
+T1884_2;Rorippa amphibia (L.) Besser;;+;117933
+T1884_2;Glyceria fluitans (L.) R. Br.;;+;100387
+T1884_2;Lemna trisulca L.;;2;105441
+T1884_2;Alisma plantago-aquatica L.;;+;81272
+T1884_2;Acorus calamus L.;;3;80086
+T1884_2;Solanum dulcamara L.;;1;124034
+T1884_3;Lemna trisulca L.;;1;105441
+T1884_3;Lycopus europaeus L.;;+;107038
+T1884_3;Polygonum amphibium L.;;+;114641
+T1884_3;Hydrocharis morsus Ranae;;1;103120
+T1884_3;Rumex hydrolapathum Hudson;;+;771868
+T1884_3;Rorippa amphibia (L.) Besser;;+;117933
+T1884_3;Juncus effusus L.;;1;104173
+T1884_3;Phalaris arundinacea L.;;+;112975
+T1884_3;Mentha aquatica L.;;1;108027
+T1884_3;Glyceria altissima;;3;100372
+T1884_3;Oenanthe fistulosa L.;;+;109869
+T1884_3;Alopecurus geniculatus L.;;+;81637
+T1884_3;Glyceria fluitans (L.) R. Br.;;1;100387
+T1884_3;Sium latifolium L.;;+;123960
+T1884_3;Acorus calamus L.;;2;80086
+T1884_3;Veronica beccabunga L.;;+;128808
+T1884_4;Myosotis scorpioides L.;;+;109091
+T1884_4;Glyceria altissima;;3;100372
+T1884_4;Equisetum fluviatile L.;;1;96519
+T1884_4;Rumex hydrolapathum Hudson;;+;771868
+T1884_4;Acorus calamus L.;;2;80086
+T1884_4;Lycopus europaeus L.;;+;107038
+T1884_4;Solanum dulcamara L.;;1;124034
+T1884_4;Carex riparia Curtis;;1;88833
+T1884_4;Alisma plantago-aquatica L.;;+;81272
+T1884_4;Iris pseudacorus L.;;+;103772
+T1884_4;Butomus umbellatus L.;;+;87136
+T1884_4;Hydrocharis morsus Ranae;;1;103120
+T1884_5;Hydrocharis morsus Ranae;;+;103120
+T1884_5;Alnus glutinosa (L.) Gaertner;;+;81569
+T1884_5;Iris pseudacorus L.;;+;103772
+T1884_5;Carex versicaria L.;;+;88942
+T1884_5;Glyceria fluitans (L.) R. Br.;;+;100387
+T1884_5;Filipendula ulmaria (L.) Maxim.;;+;98717
+T1884_5;Carex acuta L.;;+;88314
+T1884_5;Oenanthe fistulosa L.;;+;109869
+T1884_5;Carex riparia Curtis;;1;88833
+T1884_5;Mentha aquatica L.;;+;108027
+T1884_5;Phalaris arundinacea L.;;1;112975
+T1884_5;Acorus calamus L.;;2;80086
+T1884_5;Valeriana officinalis L.;;1;128419
+T1884_5;Rumex hydrolapathum Hudson;;1;771868
+T1884_5;Glyceria altissima;;3;100372
+T1884_5;Butomus umbellatus L.;;+;87136
+T1884_5;Lycopus europaeus L.;;1;107038
+T1884_5;Lythrum salicaria L.;;+;107117
+T1884_6;Ranunculus repens L.;;+;117201
+T1884_6;Solanum dulcamara L.;;+;124034
+T1884_6;Sparganium ramosum;;1;124417
+T1884_6;Carex riparia Curtis;;+;88833
+T1884_6;Juncus effusus L.;;+;104173
+T1884_6;Glyceria altissima;;4;100372
+T1884_6;Lycopus europaeus L.;;+;107038
+T1884_6;Acorus calamus L.;;1;80086
+T1884_7;Sagittaria sagittifolia L.;;+;119860
+T1884_7;Lycopus europaeus L.;;+;107038
+T1884_7;Angelica sylvestris L.;;+;82738
+T1884_7;Glyceria altissima;;4;100372
+T1884_7;Carex riparia Curtis;;+;88833
+T1884_7;Solanum dulcamara L.;;1;124034
+T1884_7;Acorus calamus L.;;2;80086
+T1884_7;Iris pseudacorus L.;;+;103772
+T1884_7;Butomus umbellatus L.;;+;87136
+T1884_7;Rumex hydrolapathum Hudson;;+;771868
+T1884_8;Veronica scutellata L.;;+;129000
+T1884_8;Myosotis scorpioides L.;;1;109091
+T1884_8;Veronica anagallis;;+;128792
+T1884_8;Hydrocharis morsus Ranae;;+;103120
+T1884_8;Rorippa amphibia (L.) Besser;;1;117933
+T1884_8;Rumex hydrolapathum Hudson;;+;771868
+T1884_8;Sium latifolium L.;;+;123960
+T1884_8;Alisma plantago-aquatica L.;;+;81272
+T1884_8;Glyceria fluitans (L.) R. Br.;;+;100387
+T1884_8;Iris pseudacorus L.;;+;103772
+T1884_8;Sparganium ramosum;;1;124417
+T1884_8;Glyceria altissima;;3;100372
+T1884_8;Carex riparia Curtis;;+;88833
+T1884_8;Phalaris arundinacea L.;;+;112975
+T1884_8;Lemna minor L.;;1;105431
+T1884_8;Oenanthe fistulosa L.;;+;109869
+T1884_8;Equisetum fluviatile L.;;2;96519
+T1884_8;Scirpus palustris;;+;121759
+T1884_9;Lemna minor L.;;2;105431
+T1884_9;Sium erectum;;+;123949
+T1884_9;Carex acuta L.;;+;88314
+T1884_9;Iris pseudacorus L.;;+;103772
+T1884_9;Carex versicaria L.;;+;88942
+T1884_9;Lemna trisulca L.;;+;105441
+T1884_9;Juncus lamprocarpus;;1;104229
+T1884_9;Juncus effusus L.;;+;104173
+T1884_9;Stellaria palustris Retz.;;+;125025
+T1884_9;Oenanthe fistulosa L.;;+;109869
+T1884_9;Equisetum fluviatile L.;;3;96519
+T1884_9;Glyceria altissima;;3;100372

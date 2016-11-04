@@ -1,4 +1,5 @@
 <?php
+// Lance le téléchargement du fichier contenant le tableau d'insertion des données conçu pour la base de données VegFrance
 $fichier = '../../doc/20160526_Tableau_insertion_relevés.xlsx';
 $fichier_taille = filesize($fichier);
 header("Content-disposition: attachment; filename=Tableau d'insertion.xlsx");

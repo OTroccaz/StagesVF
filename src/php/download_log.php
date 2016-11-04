@@ -1,4 +1,5 @@
 <?php
+// Lance le télécargement du fichier d'erreur lorsqu'une importation de fichier se passe mal
 $fichier = 'check_import/log.txt';
 $fichier_taille = filesize($fichier);
 header("Content-disposition: attachment; filename=erreurs_importation_vegfrance.txt");

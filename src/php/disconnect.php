@@ -1,6 +1,7 @@
 <?php
 session_start();
-session_destroy();
+session_destroy(); // On détruit toutes les variables de SESSION, ce qui fait qu'on est plus connecté
+// HTML qui suit indique qu'on est déconnecté
 ?>
 <!DOCTYPE html>
 <html>
@@ -37,7 +38,7 @@ session_destroy();
    <p style="text-align:center;margin-top:10%">Vous êtes à présent déconnecté(e) <br />
       Cliquez <a href="sign_in.php">ici</a> pour revenir à la page de connexion</p>
       <?php
-      header("refresh:2; url=sign_in.php");
+      header("refresh:2; url=sign_in.php"); // redirection vers l'identification dans deux secondes si l'utilisateur ne fait rien
       ?>
    </body>
    </html>
